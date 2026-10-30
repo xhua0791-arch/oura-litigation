@@ -70,3 +70,10 @@ h2{font-size:17px;font-weight:700}h2 span{color:#56616a}
 .stage-cell{min-width:155px;max-width:235px;white-space:normal}.stage-cell strong{font-size:13px}.stage-label{display:block;font-size:12px;color:var(--muted);margin-bottom:4px}.case-panel table{min-width:1120px}#stage-start-heading,#stage-hearing-heading{white-space:normal;min-width:155px}
 
 .case-panel.without-itc-stages table{min-width:850px}#stage-start-heading[hidden],#stage-hearing-heading[hidden]{display:none}
+
+/* Allocate the full table width separately for six- and eight-column views. */
+.case-panel table{width:100%;table-layout:fixed}
+.case-panel th:nth-child(1){width:4%}.case-panel th:nth-child(2){width:19%}.case-panel th:nth-child(3){width:11%}.case-panel th:nth-child(4){width:12%}.case-panel th:nth-child(5){width:20%}.case-panel th:nth-child(6){width:15%}.case-panel th:nth-child(7){width:13%}.case-panel th:nth-child(8){width:6%}
+.case-panel.without-itc-stages table{width:100%;min-width:740px}
+.case-panel.without-itc-stages th:nth-child(1){width:6%}.case-panel.without-itc-stages th:nth-child(2){width:26%}.case-panel.without-itc-stages th:nth-child(3){width:14%}.case-panel.without-itc-stages th:nth-child(6){width:27%}.case-panel.without-itc-stages th:nth-child(7){width:20%}.case-panel.without-itc-stages th:nth-child(8){width:7%}
+.case-panel.without-itc-stages .case-outcome{min-width:0;max-width:none}.case-panel .case-title{max-width:100%}.case-panel .status{align-items:flex-start}.case-panel .status:before{flex-shrink:0;margin-top:8px}
