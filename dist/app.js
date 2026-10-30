@@ -58,7 +58,6 @@ function init(){
  $('.topbar>div').innerHTML='知识产权情报 <span>/</span> 美国专利 <span>/</span> <b>Oura</b>';
  $('.top-status').innerHTML='<i></i> 案卷研究快照 · 2026.10.30';
  $('.profile small').textContent='本地案卷 + 公开来源';
- $('.demo-note').innerHTML=`<span>覆盖说明</span> ${data.cases.length}份案卷 / ${programCount(data.cases)}项程序。ITC：6份案卷、3项正式调查；IPR 16、PGR 7、EPR 13已与工作簿逐号对齐。另列3条关联线索。<button id="about">数据说明 ↗</button>`;
  $('.section-sub').textContent='来源所载未来日期 · 基准日 2026.10.30';
  $('.calendar-note').textContent='◷ 期限以最新命令为准；待核实不表示没有期限';
  $('footer span').textContent='美国专利争议 / 公开记录研究快照';
@@ -72,7 +71,7 @@ function init(){
  document.addEventListener('click',e=>{const t=e.target.closest('[data-type],[data-case],[data-patent]');if(t?.dataset.type){state.type=t.dataset.type;state.page=1;render()}else if(t?.dataset.case)openDetail(t.dataset.case);else if(t?.dataset.patent){state.patent=state.patent===t.dataset.patent?'':t.dataset.patent;state.page=1;render()}if(e.target.closest('#prev-page')){state.page--;render()}if(e.target.closest('#next-page')){state.page++;render()}});
  document.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.matches('g[role=button]')){e.preventDefault();e.target.dispatchEvent(new MouseEvent('click',{bubbles:true}))}});
  $('#reset').onclick=reset;$('#clear-patent').onclick=()=>{state.patent='';state.page=1;render()};$('#export').onclick=download;
- $('#about').onclick=()=>$('#info').showModal();$('#close-info').onclick=()=>$('#info').close();$('#close-detail').onclick=()=>$('#detail').close();$('#detail').addEventListener('close',()=>returnFocus?.isConnected&&returnFocus.focus());
+ $('#close-info').onclick=()=>$('#info').close();$('#close-detail').onclick=()=>$('#detail').close();$('#detail').addEventListener('close',()=>returnFocus?.isConnected&&returnFocus.focus());
  for(const d of document.querySelectorAll('dialog'))d.addEventListener('click',e=>{if(e.target===d){const r=d.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)d.close()}});
  document.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>{document.querySelectorAll('nav a').forEach(x=>x.classList.toggle('active',x===a))}));
 }
