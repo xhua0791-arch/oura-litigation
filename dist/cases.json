@@ -26,6 +26,10 @@
         {
           "label": "官方文件 / 案卷材料",
           "url": "https://www.usitc.gov/secretary/fed_reg_notices/337/337_1398_notice12152025sgl.pdf"
+        },
+        {
+          "label": "USITC：投诉编号与正式调查对应关系",
+          "url": "https://ids.usitc.gov/case/8183/investigation/8536"
         }
       ],
       "risk": "待评估",
@@ -37,7 +41,8 @@
       "related": [
         "26-1083",
         "2:23-cv-00396",
-        "1:24-cv-01020"
+        "1:24-cv-01020",
+        "337-TA-3731"
       ],
       "events": [
         [
@@ -59,7 +64,10 @@
           "pages": 85,
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
-      ]
+      ],
+      "recordKind": "正式调查",
+      "docketNumber": "3731",
+      "investigationId": "337-TA-1398"
     },
     {
       "id": "337-TA-1468",
@@ -88,6 +96,10 @@
         {
           "label": "官方文件 / 案卷材料",
           "url": "https://www.usitc.gov/secretary/fed_reg_notices/337/337_1468_notice04282026sgl.pdf"
+        },
+        {
+          "label": "USITC：投诉编号与正式调查对应关系",
+          "url": "https://www.usitc.gov/fed_reg_notices/section_337_notices/certain_smart_wearable_devices_systems_and_121825.htm"
         }
       ],
       "risk": "待评估",
@@ -100,7 +112,8 @@
         "2:25-cv-01064",
         "2:25-cv-01126",
         "2:25-cv-01127",
-        "2:25-cv-01129"
+        "2:25-cv-01129",
+        "337-TA-3858"
       ],
       "events": [
         [
@@ -118,7 +131,10 @@
           "pages": 46,
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
-      ]
+      ],
+      "recordKind": "正式调查",
+      "docketNumber": "3858",
+      "investigationId": "337-TA-1468"
     },
     {
       "id": "337-TA-1478",
@@ -148,6 +164,10 @@
         {
           "label": "官方文件 / 案卷材料",
           "url": "https://www.usitc.gov/sites/default/files/secretary/fed_reg_notices/337/337_1478_notice01142026sgl.pdf"
+        },
+        {
+          "label": "USITC：投诉编号与正式调查对应关系",
+          "url": "https://www.usitc.gov/fed_reg_notices/section_337_notices/certain_wearable_devices_011426.htm"
         }
       ],
       "risk": "待评估",
@@ -157,7 +177,8 @@
       "nextLabel": "待核实下一关键日期",
       "verified": "案号已收录",
       "related": [
-        "2:25-cv-01181"
+        "2:25-cv-01181",
+        "337-TA-3866"
       ],
       "events": [
         [
@@ -171,7 +192,10 @@
           "pages": 35,
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
-      ]
+      ],
+      "recordKind": "正式调查",
+      "docketNumber": "3866",
+      "investigationId": "337-TA-1478"
     },
     {
       "id": "6:22-cv-00478",
@@ -1109,9 +1133,9 @@
         "9582034"
       ],
       "filed": "2024-05-31",
-      "status": "最终书面决定",
-      "asOf": "2025-12-02",
-      "conclusion": "Paper 36认定被挑战权利要求1–5、11–13、16–18不可专利；后续证书及上诉仍需核对。",
+      "status": "已出最终书面决定；上诉状态未核实",
+      "asOf": "2026-10-25",
+      "conclusion": "全部被挑战权利要求被认定不可专利；FWD 的不可专利认定不应直接等同已颁撤销证书。",
       "sources": [
         {
           "label": "PTAB决定全文（公开镜像）",
@@ -1124,16 +1148,47 @@
         {
           "label": "USPTO托管：法定放弃范围引用",
           "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556908/download-documents?artifactId=nm4eAwV5xyxFE7rci4cGosJLZcNL0HmailCMGyCxi4NYK_wohvW2IYg"
+        },
+        {
+          "label": "工作簿 S002 · 交叉 / 补充来源 · 二级案卷索引",
+          "url": "https://ipverse.greyb.com/ptab-web/cases/case-details/IPR2024-00928"
         }
       ],
       "risk": "待评估",
       "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
-      "claimChange": "未核实获准替代文本及证书；需要核对该案Motion to Amend与最终命令。",
+      "claimChange": "未查得修改动议或替代权项。2025-12-02 FWD仅认定原权项1–5、11–13、16–18不可专利，不是删除或缩窄修改；未核实后续撤销证书。依据：S001（裁决全文）。",
       "nextDate": null,
       "nextLabel": "待核实下一关键日期",
       "verified": "案号已收录",
       "related": [],
-      "events": []
+      "events": [
+        [
+          "2025-12-02",
+          "工作簿所列关键事件（详情见核对记录）"
+        ]
+      ],
+      "workbook": {
+        "file": "IPR/Oura_US_IPR_PGR_EPR_2026-10-25.xlsx",
+        "sheet": "案件总表",
+        "row": 6,
+        "asOf": "2026-10-25",
+        "role": "Patent Owner",
+        "ouraEntity": "Ouraring, Inc.",
+        "counterparty": "Samsung Electronics Co., Ltd.; Samsung Electronics America, Inc.",
+        "patentTitle": "Wearable computing device",
+        "institution": "是",
+        "institutionDate": "2024-12-06",
+        "status": "已出最终书面决定；上诉状态未核实",
+        "conclusion": "全部被挑战权利要求被认定不可专利",
+        "claims": "1–5, 11–13, 16–18",
+        "eventDate": "2025-12-02",
+        "appeal": "未查得（不等于无）",
+        "appealNumber": "未核实",
+        "litigation": "337-TA-1398（同族关联；非本专利直接主张）",
+        "notes": "FWD 的不可专利认定不应直接等同已颁撤销证书。",
+        "verification": "已确认案号；字段按所列来源核验",
+        "sourceIds": "S001, S002"
+      }
     },
     {
       "id": "IPR2024-00929",
@@ -1149,9 +1204,9 @@
         "10893833"
       ],
       "filed": "2024-05-31",
-      "status": "放弃被挑战权利要求 / 不立案",
-      "asOf": null,
-      "conclusion": "官方案卷所载关联决定确认：因放弃全部被挑战权利要求而不立案，不应计为专利有效性胜诉。",
+      "status": "未立案；无实体FWD",
+      "asOf": "2026-10-25",
+      "conclusion": "Statutory disclaimer 后拒绝立案；不是实体有效性胜诉",
       "sources": [
         {
           "label": "USPTO托管：关联程序与决定",
@@ -1160,16 +1215,59 @@
         {
           "label": "USPTO托管：法定放弃范围引用",
           "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556908/download-documents?artifactId=nm4eAwV5xyxFE7rci4cGosJLZcNL0HmailCMGyCxi4NYK_wohvW2IYg"
+        },
+        {
+          "label": "工作簿 S003 · 主要来源 · USPTO官方（见逐案访问限制）",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556085/download-documents?artifactId=pC2O-N1wt4Ia-i-rQBW3U6DsLPBC6gpHr_8q5bOwWvxfANCNJocoN34"
+        },
+        {
+          "label": "工作簿 S004 · 交叉 / 补充来源 · 二级案卷索引",
+          "url": "https://ipverse.greyb.com/ptab-web/cases/case-details/IPR2024-00929"
+        },
+        {
+          "label": "工作簿 A002 · 拒绝立案决定：放弃1–12，未作adverse judgment。 · 官方决定；搜索索引正文",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556085/download-documents?artifactId=FZGwQU7rA3D5_tyP0SSsjcK8bMHz1R4KQje6w5odewFmbhQJSHULTsQ"
+        },
+        {
+          "label": "工作簿 A001 · 2024-12-10 USPTO公报Disclaimer栏目：833的1–12；953的16–18、20、21、23、24、30–35、37；429的1–6及提交日期。953日期与原表相差一天。",
+          "url": "https://www.uspto.gov/web/offices/com/sol/og/2024/week50/TOC.htm"
         }
       ],
       "risk": "待评估",
       "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
-      "claimChange": "法定放弃权利要求 1–12。详见所链申请书对Ex.2001的引用；不属于以替代文本修改。",
+      "claimChange": "已法定放弃（statutory disclaimer）：整项放弃1–12，无新增替代权项。USPTO公报记载2024-09-12提交；2024-12-09因此拒绝立案，未作不利判决。依据：A001、A002。",
       "nextDate": null,
       "nextLabel": "待核实下一关键日期",
       "verified": "案号已收录",
       "related": [],
-      "events": []
+      "events": [
+        [
+          "2024-12-09",
+          "工作簿所列关键事件（详情见核对记录）"
+        ]
+      ],
+      "workbook": {
+        "file": "IPR/Oura_US_IPR_PGR_EPR_2026-10-25.xlsx",
+        "sheet": "案件总表",
+        "row": 7,
+        "asOf": "2026-10-25",
+        "role": "Patent Owner",
+        "ouraEntity": "Oura Health Oy",
+        "counterparty": "Samsung Electronics Co., Ltd.; Samsung Electronics America, Inc.",
+        "patentTitle": "Wearable electronic device and method for manufacturing thereof",
+        "institution": "否—全部被挑战权利要求被放弃",
+        "institutionDate": "2024-12-09",
+        "status": "未立案；无实体FWD",
+        "conclusion": "Statutory disclaimer 后拒绝立案；不是实体有效性胜诉",
+        "claims": "1–12",
+        "eventDate": "2024-12-09",
+        "appeal": "未查得（不等于无）",
+        "appealNumber": "未核实",
+        "litigation": "E.D. Tex. 2:23-cv-00396; W.D. Tex. 6:22-cv-00478; N.D. Cal. 3:24-cv-03245",
+        "notes": "",
+        "verification": "已确认案号；字段按所列来源核验",
+        "sourceIds": "S003, S004, S005"
+      }
     },
     {
       "id": "IPR2024-00930",
@@ -1185,9 +1283,9 @@
         "11599147"
       ],
       "filed": "2024-05-31",
-      "status": "放弃被挑战权利要求 / 不立案",
-      "asOf": null,
-      "conclusion": "官方案卷所载关联决定确认：因放弃全部被挑战权利要求而不立案，不应计为专利有效性胜诉。",
+      "status": "未立案；无实体FWD",
+      "asOf": "2026-10-25",
+      "conclusion": "Statutory disclaimer 后拒绝立案",
       "sources": [
         {
           "label": "USPTO托管：关联程序与决定",
@@ -1196,16 +1294,47 @@
         {
           "label": "USPTO托管：法定放弃范围引用",
           "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556908/download-documents?artifactId=nm4eAwV5xyxFE7rci4cGosJLZcNL0HmailCMGyCxi4NYK_wohvW2IYg"
+        },
+        {
+          "label": "工作簿 S006 · 主要来源 · 二级案卷索引",
+          "url": "https://ipverse.greyb.com/ptab-web/cases/case-details/IPR2024-00930"
         }
       ],
       "risk": "待评估",
       "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
-      "claimChange": "法定放弃权利要求 1–22。详见所链申请书对Ex.2001的引用；不属于以替代文本修改。",
+      "claimChange": "已法定放弃：整项放弃1–22，非缩窄文字或新增替代权项；不宜写成整件专利全部权项放弃。2024-12-09拒绝立案；放弃提交日未取得原件核实。依据：A003、S006。",
       "nextDate": null,
       "nextLabel": "待核实下一关键日期",
       "verified": "案号已收录",
       "related": [],
-      "events": []
+      "events": [
+        [
+          "2024-12-09",
+          "工作簿所列关键事件（详情见核对记录）"
+        ]
+      ],
+      "workbook": {
+        "file": "IPR/Oura_US_IPR_PGR_EPR_2026-10-25.xlsx",
+        "sheet": "案件总表",
+        "row": 8,
+        "asOf": "2026-10-25",
+        "role": "Patent Owner",
+        "ouraEntity": "Ouraring, Inc.",
+        "counterparty": "Samsung Electronics Co., Ltd.; Samsung Electronics America, Inc.",
+        "patentTitle": "Wearable computing device",
+        "institution": "否—全部被挑战权利要求被放弃",
+        "institutionDate": "2024-12-09",
+        "status": "未立案；无实体FWD",
+        "conclusion": "Statutory disclaimer 后拒绝立案",
+        "claims": "1–22",
+        "eventDate": "2024-12-09",
+        "appeal": "未查得（不等于无）",
+        "appealNumber": "未核实",
+        "litigation": "未核实直接关联案",
+        "notes": "",
+        "verification": "已确认案号；字段按所列来源核验",
+        "sourceIds": "S006, S007"
+      }
     },
     {
       "id": "PGR2024-00030",
@@ -1221,9 +1350,9 @@
         "11868178"
       ],
       "filed": "2024-05-31",
-      "status": "终局决定 / 已上诉",
-      "asOf": "2025-12-11",
-      "conclusion": "2025年11月25日Paper 57：权利要求17、18因不当从属形式被认定不可专利；1–10、12–16未被证明不可专利。12月11日提交上诉通知。",
+      "status": "已出FWD；已上诉，未查得终局上诉结果",
+      "asOf": "2026-10-25",
+      "conclusion": "17、18不可专利；1–10、12–16未被证明不可专利；11事先放弃；CAFC于2025-12-17登记；17、18涉及不当从属（§112）；同专利EPR并非该上诉的被诉决定。",
       "sources": [
         {
           "label": "PTAB决定全文（公开镜像）",
@@ -1236,11 +1365,23 @@
         {
           "label": "公开程序索引",
           "url": "https://ai-lab.exparte.com/case/ptab/PGR2024-00030/samsung-electronics-co-ltd-v-ouraring-inc"
+        },
+        {
+          "label": "工作簿 S009 · 交叉 / 补充来源 · 二级交叉来源",
+          "url": "https://ai-lab.exparte.com/case/cafc/26-1258/samsung-electronics-corp-ltd-v-ouraring-inc"
+        },
+        {
+          "label": "工作簿 S010 · 交叉 / 补充来源 · 二级案卷索引",
+          "url": "https://ipverse.greyb.com/ptab-web/cases/case-details/PGR2024-00030"
+        },
+        {
+          "label": "工作簿 A004 · Ultrahuman合并动议第6页：2024-09-10放弃178第11项，并引Ex.2015第5页；与178 FWD交叉核对。",
+          "url": "https://ai-lab.exparte.com/documents/ptab/ptacts-uspto/1557213/Z_Zo7HtXNunwSgoI8hUD-7BImMK4RDIAD7TRl9snSqgviUvsfgvuMDA/2222492298/IPR2025-00411_doc_3_exparte.pdf"
         }
       ],
       "risk": "待评估",
       "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
-      "claimChange": "权利要求11已法定放弃；17、18终局认定不可专利。未核实替代文本获准或最终取消证书；上诉仍须独立追踪。",
+      "claimChange": "已法定放弃：2024-09-10放弃第11项（Ex.2015）。未查得实际修改动议或替代权项。2025-11-25 FWD认定17、18不可专利，属于裁决而非修改。排期所列MTA期限不代表已提交。依据：A004、S008。",
       "nextDate": null,
       "nextLabel": "待核实下一关键日期",
       "verified": "案号已收录",
@@ -1264,7 +1405,29 @@
           "pages": 69,
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
-      ]
+      ],
+      "workbook": {
+        "file": "IPR/Oura_US_IPR_PGR_EPR_2026-10-25.xlsx",
+        "sheet": "案件总表",
+        "row": 9,
+        "asOf": "2026-10-25",
+        "role": "Patent Owner",
+        "ouraEntity": "Ouraring, Inc.",
+        "counterparty": "Samsung Electronics Co., Ltd.; Samsung Electronics America, Inc.",
+        "patentTitle": "Wearable computing device",
+        "institution": "是",
+        "institutionDate": "2024-12-06",
+        "status": "已出FWD；已上诉，未查得终局上诉结果",
+        "conclusion": "17、18不可专利；1–10、12–16未被证明不可专利；11事先放弃",
+        "claims": "原请求1–18；FWD不含已放弃11",
+        "eventDate": "2025-11-25",
+        "appeal": "是",
+        "appealNumber": "2026-1258；与2026-1413合并",
+        "litigation": "337-TA-1398; D. Del. 1:24-cv-01020; E.D. Tex. 2:23-cv-00396; N.D. Cal. 3:24-cv-03245",
+        "notes": "CAFC于2025-12-17登记；17、18涉及不当从属（§112）；同专利EPR并非该上诉的被诉决定。",
+        "verification": "已确认案号；字段按所列来源核验",
+        "sourceIds": "S008, S009, S010"
+      }
     },
     {
       "id": "PGR2024-00031",
@@ -1280,9 +1443,9 @@
         "11868179"
       ],
       "filed": "2024-05-31",
-      "status": "放弃被挑战权利要求 / 不立案",
-      "asOf": null,
-      "conclusion": "官方案卷所载关联决定确认：因放弃全部被挑战权利要求而不立案，不应计为专利有效性胜诉。",
+      "status": "未立案；无实体FWD",
+      "asOf": "2026-10-25",
+      "conclusion": "Statutory disclaimer 后拒绝立案；放弃文件2024-10-31提交。",
       "sources": [
         {
           "label": "USPTO托管：关联程序与决定",
@@ -1291,16 +1454,51 @@
         {
           "label": "USPTO托管：法定放弃范围引用",
           "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556908/download-documents?artifactId=nm4eAwV5xyxFE7rci4cGosJLZcNL0HmailCMGyCxi4NYK_wohvW2IYg"
+        },
+        {
+          "label": "工作簿 S011 · 主要来源 · 二级案卷索引",
+          "url": "https://ipverse.greyb.com/ptab-web/cases/case-details/PGR2024-00031"
+        },
+        {
+          "label": "工作簿 S013 · 交叉 / 补充来源 · USPTO官方（见逐案访问限制）",
+          "url": "https://www.uspto.gov/web/offices/com/sol/og/2025/week19/TOC.htm"
         }
       ],
       "risk": "待评估",
       "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
-      "claimChange": "法定放弃权利要求 1–16。详见所链申请书对Ex.2001的引用；不属于以替代文本修改。",
+      "claimChange": "已法定放弃：整项放弃1–16，无新增替代权项；2024-12-10因此拒绝立案。原表所列2024-10-31提交日，本次未取得放弃原件复核。依据：A003、S011–S013。",
       "nextDate": null,
       "nextLabel": "待核实下一关键日期",
       "verified": "案号已收录",
       "related": [],
-      "events": []
+      "events": [
+        [
+          "2024-12-10",
+          "工作簿所列关键事件（详情见核对记录）"
+        ]
+      ],
+      "workbook": {
+        "file": "IPR/Oura_US_IPR_PGR_EPR_2026-10-25.xlsx",
+        "sheet": "案件总表",
+        "row": 10,
+        "asOf": "2026-10-25",
+        "role": "Patent Owner",
+        "ouraEntity": "Ouraring, Inc.",
+        "counterparty": "Samsung Electronics Co., Ltd.; Samsung Electronics America, Inc.",
+        "patentTitle": "Wearable computing device",
+        "institution": "否—全部被挑战权利要求被放弃",
+        "institutionDate": "2024-12-10",
+        "status": "未立案；无实体FWD",
+        "conclusion": "Statutory disclaimer 后拒绝立案",
+        "claims": "1–16",
+        "eventDate": "2024-12-10",
+        "appeal": "未查得（不等于无）",
+        "appealNumber": "未核实",
+        "litigation": "337-TA-1398; N.D. Cal. 3:24-cv-03245",
+        "notes": "放弃文件2024-10-31提交。",
+        "verification": "已确认案号；字段按所列来源核验",
+        "sourceIds": "S011, S012, S013"
+      }
     },
     {
       "id": "IPR2024-01077",
@@ -1316,9 +1514,9 @@
         "10139859"
       ],
       "filed": "2024-06-28",
-      "status": "最终书面决定 / 后续上诉待核",
-      "asOf": "2025-12-17",
-      "conclusion": "12月15日作出、17日公开的Paper 47未认定被挑战权利要求1、11、13–20不可专利。",
+      "status": "已出FWD；上诉链已发现，逐案映射待核对",
+      "asOf": "2026-10-25",
+      "conclusion": "全部被挑战权利要求均未被证明不可专利；FWD签发12-15，公开版12-17。26-1410与26-1411合并；前者与本IPR对应关系尚未从原始通知确认。",
       "sources": [
         {
           "label": "PTAB决定全文（公开镜像）",
@@ -1331,16 +1529,51 @@
         {
           "label": "USPTO托管：法定放弃范围引用",
           "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556908/download-documents?artifactId=nm4eAwV5xyxFE7rci4cGosJLZcNL0HmailCMGyCxi4NYK_wohvW2IYg"
+        },
+        {
+          "label": "工作簿 S015 · 交叉 / 补充来源 · 二级案卷索引",
+          "url": "https://ipverse.greyb.com/ptab-web/cases/case-details/IPR2024-01077"
+        },
+        {
+          "label": "工作簿 S016 · 交叉 / 补充来源 · 二级交叉来源",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1410"
         }
       ],
       "risk": "待评估",
       "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
-      "claimChange": "未核实获准替代文本及证书；需要核对该案Motion to Amend与最终命令。",
+      "claimChange": "未查得修改动议或替代权项。2025-12-15 FWD审理原权项1、11、13–20，并认定未被证明不可专利；该结果不构成权项修改。依据：S014（裁决全文）。",
       "nextDate": null,
       "nextLabel": "待核实下一关键日期",
       "verified": "案号已收录",
       "related": [],
-      "events": []
+      "events": [
+        [
+          "2025-12-15",
+          "工作簿所列关键事件（详情见核对记录）"
+        ]
+      ],
+      "workbook": {
+        "file": "IPR/Oura_US_IPR_PGR_EPR_2026-10-25.xlsx",
+        "sheet": "案件总表",
+        "row": 11,
+        "asOf": "2026-10-25",
+        "role": "Patent Owner",
+        "ouraEntity": "Ouraring, Inc.",
+        "counterparty": "Samsung Electronics Co., Ltd.; Samsung Electronics America, Inc.",
+        "patentTitle": "Wearable computing device",
+        "institution": "是",
+        "institutionDate": "2025-01-28",
+        "status": "已出FWD；上诉链已发现，逐案映射待核对",
+        "conclusion": "全部被挑战权利要求均未被证明不可专利",
+        "claims": "1, 11, 13–20",
+        "eventDate": "2025-12-15",
+        "appeal": "有上诉线索；案号映射待核对",
+        "appealNumber": "2026-1410（待核对原始上诉通知）",
+        "litigation": "FWD称本专利未被直接主张；相关同族诉讼另见178记录",
+        "notes": "FWD签发12-15，公开版12-17。26-1410与26-1411合并；前者与本IPR对应关系尚未从原始通知确认。",
+        "verification": "已确认案号；字段按所列来源核验",
+        "sourceIds": "S014, S015, S016"
+      }
     },
     {
       "id": "IPR2024-01078",
@@ -1356,9 +1589,9 @@
         "10281953"
       ],
       "filed": "2024-06-28",
-      "status": "终局及上诉线索 / 原文待核",
-      "asOf": null,
-      "conclusion": "官方关联案件记录确认本程序存在；完整终局、上诉及证书状态须按本案原始记录复核。",
+      "status": "已出FWD；已上诉，未查得终局结果",
+      "asOf": "2026-10-25",
+      "conclusion": "全部被挑战权利要求均未被证明不可专利；公开FWD版本2026-01-30；上诉登记2026-02-05，02-26合并。",
       "sources": [
         {
           "label": "USPTO：涉及替代权利要求的程序文件",
@@ -1371,16 +1604,63 @@
         {
           "label": "代理律所：终局结果线索（非裁判原件）",
           "url": "https://www.afslaw.com/attorneys/ehsun-forghany"
+        },
+        {
+          "label": "工作簿 S017 · 主要来源 · USPTO官方（见逐案访问限制）",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556250/download-documents?artifactId=kUcyRBwST9SxxYudNMj7Zt90hD7yHsPlq2S2uVJn7ndoe78N17H8Ysk"
+        },
+        {
+          "label": "工作簿 S018 · 交叉 / 补充来源 · 二级交叉来源",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1411"
+        },
+        {
+          "label": "工作簿 S019 · 交叉 / 补充来源 · 二级交叉来源",
+          "url": "https://patents.glgoo.top/patent/US10281953B2/en"
+        },
+        {
+          "label": "工作簿 A001 · 2024-12-10 USPTO公报Disclaimer栏目：833的1–12；953的16–18、20、21、23、24、30–35、37；429的1–6及提交日期。953日期与原表相差一天。",
+          "url": "https://www.uspto.gov/web/offices/com/sol/og/2024/week50/TOC.htm"
+        },
+        {
+          "label": "工作簿 A003 · IPR2025-00147请求书第1页脚注2逐案列明六件程序的放弃权项，指向各案Ex.2001。系申请人文件，已与702 FWD脚注1交叉核对。",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556908/download-documents?artifactId=nm4eAwV5xyxFE7rci4cGosJLZcNL0HmailCMGyCxi4NYK_wohvW2IYg"
         }
       ],
       "risk": "待评估",
       "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
-      "claimChange": "排期命令列出拟议替代权利要求的通用程序；该记载不能证明实际提出修改，更不能证明获准。最终文本及证书待核。",
+      "claimChange": "本案被挑战权项1–6、11–15、38–43未查得实际修改/替代权项。另案IPR2024-01079已放弃同专利16–18、20–21、23–24、30–35、37；公报记载2024-10-31提交，不属本案修改。依据：A001、A003；本案完整案卷未取得。",
       "nextDate": null,
       "nextLabel": "待核实下一关键日期",
       "verified": "案号已收录",
       "related": [],
-      "events": []
+      "events": [
+        [
+          "2026-01-27",
+          "工作簿所列关键事件（详情见核对记录）"
+        ]
+      ],
+      "workbook": {
+        "file": "IPR/Oura_US_IPR_PGR_EPR_2026-10-25.xlsx",
+        "sheet": "案件总表",
+        "row": 12,
+        "asOf": "2026-10-25",
+        "role": "Patent Owner",
+        "ouraEntity": "Ouraring, Inc.",
+        "counterparty": "Samsung Electronics Co., Ltd.; Samsung Electronics America, Inc.",
+        "patentTitle": "Wearable device and data transmission method",
+        "institution": "是",
+        "institutionDate": "2025-01-28",
+        "status": "已出FWD；已上诉，未查得终局结果",
+        "conclusion": "全部被挑战权利要求均未被证明不可专利",
+        "claims": "1–6, 11–15, 38–43",
+        "eventDate": "2026-01-27",
+        "appeal": "是",
+        "appealNumber": "2026-1411；并入2026-1410",
+        "litigation": "FWD称本专利未被直接主张；相关同族诉讼",
+        "notes": "公开FWD版本2026-01-30；上诉登记2026-02-05，02-26合并。",
+        "verification": "已确认案号；字段按所列来源核验",
+        "sourceIds": "S017, S018, S019"
+      }
     },
     {
       "id": "IPR2024-01079",
@@ -1396,9 +1676,9 @@
         "10281953"
       ],
       "filed": "2024-06-28",
-      "status": "放弃被挑战权利要求 / 不立案",
-      "asOf": null,
-      "conclusion": "官方案卷所载关联决定确认：因放弃全部被挑战权利要求而不立案，不应计为专利有效性胜诉。",
+      "status": "未立案；无实体FWD",
+      "asOf": "2026-10-25",
+      "conclusion": "Statutory disclaimer 后拒绝立案；放弃文件2024-10-30提交；拒绝日期据后续PTAB决定引用。",
       "sources": [
         {
           "label": "USPTO托管：关联程序与决定",
@@ -1407,16 +1687,51 @@
         {
           "label": "USPTO托管：法定放弃范围引用",
           "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556908/download-documents?artifactId=nm4eAwV5xyxFE7rci4cGosJLZcNL0HmailCMGyCxi4NYK_wohvW2IYg"
+        },
+        {
+          "label": "工作簿 S021 · 交叉 / 补充来源 · 裁决全文镜像",
+          "url": "https://www.casemine.com/judgement/us/681c5ca3252256bda4aa4a5b"
+        },
+        {
+          "label": "工作簿 S022 · 交叉 / 补充来源 · USPTO官方（见逐案访问限制）",
+          "url": "https://www.uspto.gov/web/offices/com/sol/og/2024/week50/TOC.htm"
         }
       ],
       "risk": "待评估",
       "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
-      "claimChange": "法定放弃权利要求 16–18、20–21、23–24、30–35、37。详见所链申请书对Ex.2001的引用；不属于以替代文本修改。",
+      "claimChange": "已法定放弃：整项放弃16–18、20–21、23–24、30–35、37，无新增替代权项；2025-01-07拒绝立案。公报记载提交日2024-10-31，与原表备注10-30有差异，待放弃收据复核。依据：A001、A003。",
       "nextDate": null,
       "nextLabel": "待核实下一关键日期",
       "verified": "案号已收录",
       "related": [],
-      "events": []
+      "events": [
+        [
+          "2025-01-07",
+          "工作簿所列关键事件（详情见核对记录）"
+        ]
+      ],
+      "workbook": {
+        "file": "IPR/Oura_US_IPR_PGR_EPR_2026-10-25.xlsx",
+        "sheet": "案件总表",
+        "row": 13,
+        "asOf": "2026-10-25",
+        "role": "Patent Owner",
+        "ouraEntity": "Ouraring, Inc.",
+        "counterparty": "Samsung Electronics Co., Ltd.; Samsung Electronics America, Inc.",
+        "patentTitle": "Wearable device and data transmission method",
+        "institution": "否—全部被挑战权利要求被放弃",
+        "institutionDate": "2025-01-07",
+        "status": "未立案；无实体FWD",
+        "conclusion": "Statutory disclaimer 后拒绝立案",
+        "claims": "16–18, 20–21, 23–24, 30–35, 37",
+        "eventDate": "2025-01-07",
+        "appeal": "未查得（不等于无）",
+        "appealNumber": "未核实",
+        "litigation": "未核实直接关联案",
+        "notes": "放弃文件2024-10-30提交；拒绝日期据后续PTAB决定引用。",
+        "verification": "已确认案号；字段按所列来源核验",
+        "sourceIds": "S020, S021, S022"
+      }
     },
     {
       "id": "IPR2024-01080",
@@ -1432,9 +1747,9 @@
         "10842429"
       ],
       "filed": "2024-06-28",
-      "status": "放弃被挑战权利要求 / 不立案",
-      "asOf": null,
-      "conclusion": "官方案卷所载关联决定确认：因放弃全部被挑战权利要求而不立案，不应计为专利有效性胜诉。",
+      "status": "未立案；无实体FWD",
+      "asOf": "2026-10-25",
+      "conclusion": "Statutory disclaimer 后拒绝立案；放弃文件2024-10-30提交；再颁申请18/991,020不属于EPR，未计入。",
       "sources": [
         {
           "label": "USPTO托管：关联程序与决定",
@@ -1443,23 +1758,62 @@
         {
           "label": "USPTO托管：法定放弃范围引用",
           "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556908/download-documents?artifactId=nm4eAwV5xyxFE7rci4cGosJLZcNL0HmailCMGyCxi4NYK_wohvW2IYg"
+        },
+        {
+          "label": "工作簿 S023 · 主要来源 · 二级案卷索引",
+          "url": "https://ipverse.greyb.com/ptab-web/cases/case-details/IPR2024-01080"
+        },
+        {
+          "label": "工作簿 S025 · 交叉 / 补充来源 · USPTO官方（见逐案访问限制）",
+          "url": "https://www.uspto.gov/web/offices/com/sol/og/2024/week50/TOC.htm"
+        },
+        {
+          "label": "工作簿 A005 · Paper 8，2025-01-03：因全部被挑战权项放弃拒绝立案。 · 官方决定镜像",
+          "url": "https://ai-lab.exparte.com/documents/ptab/ptacts-uspto/1556252/Z_lvhhSwaX5tzCQSVX-S6gvLFuroEZVYzsDM2-hHeiFXi7BoPPNDeEA/2222473708/IPR2024-01080_doc_8_exparte.pdf"
         }
       ],
       "risk": "待评估",
       "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
-      "claimChange": "法定放弃权利要求 1–6。详见所链申请书对Ex.2001的引用；不属于以替代文本修改。",
+      "claimChange": "已法定放弃：2024-10-30整项放弃1–6；2025-01-03拒绝立案，非实体无效裁决。未见本IPR缩窄或新增替代权项。再颁申请不等同本IPR修改。依据：A001、A005。",
       "nextDate": null,
       "nextLabel": "待核实下一关键日期",
       "verified": "案号已收录",
       "related": [],
-      "events": [],
+      "events": [
+        [
+          "2025-01-03",
+          "工作簿所列关键事件（详情见核对记录）"
+        ]
+      ],
       "localEvidence": [
         {
           "file": "IPR\\IPR2024-01080_ Samsung Electronics Co._ Ltd. et al. Vs. Oura Health Oy et al\\Samsung Electronics Co., Ltd. et al. Vs. Oura Health Oy et al.pdf",
           "pages": 6,
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
-      ]
+      ],
+      "workbook": {
+        "file": "IPR/Oura_US_IPR_PGR_EPR_2026-10-25.xlsx",
+        "sheet": "案件总表",
+        "row": 14,
+        "asOf": "2026-10-25",
+        "role": "Patent Owner",
+        "ouraEntity": "Oura Health Oy",
+        "counterparty": "Samsung Electronics Co., Ltd.; Samsung Electronics America, Inc.",
+        "patentTitle": "Method and system for assessing a readiness score of a user",
+        "institution": "否—全部被挑战权利要求被放弃",
+        "institutionDate": "2025-01-03",
+        "status": "未立案；无实体FWD",
+        "conclusion": "Statutory disclaimer 后拒绝立案",
+        "claims": "1–6",
+        "eventDate": "2025-01-03",
+        "appeal": "未查得（不等于无）",
+        "appealNumber": "未核实",
+        "litigation": "337-TA-1398（初始主张专利）",
+        "notes": "放弃文件2024-10-30提交；再颁申请18/991,020不属于EPR，未计入。",
+        "verification": "已确认案号；字段按所列来源核验",
+        "sourceIds": "S023, S024, S025"
+      }
     },
     {
       "id": "PGR2024-00038",
@@ -1475,9 +1829,9 @@
         "11874701"
       ],
       "filed": "2024-06-28",
-      "status": "放弃被挑战权利要求 / 不立案",
-      "asOf": null,
-      "conclusion": "官方案卷所载关联决定确认：因放弃全部被挑战权利要求而不立案，不应计为专利有效性胜诉。",
+      "status": "未立案；无实体FWD",
+      "asOf": "2026-10-25",
+      "conclusion": "Statutory disclaimer 后拒绝立案；放弃文件2024-10-30提交。",
       "sources": [
         {
           "label": "USPTO托管：关联程序与决定",
@@ -1486,16 +1840,59 @@
         {
           "label": "USPTO托管：法定放弃范围引用",
           "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556908/download-documents?artifactId=nm4eAwV5xyxFE7rci4cGosJLZcNL0HmailCMGyCxi4NYK_wohvW2IYg"
+        },
+        {
+          "label": "工作簿 S026 · 主要来源 · 二级案卷索引",
+          "url": "https://ipverse.greyb.com/ptab-web/cases/case-details/PGR2024-00038"
+        },
+        {
+          "label": "工作簿 S028 · 交叉 / 补充来源 · USPTO官方（见逐案访问限制）",
+          "url": "https://www.uspto.gov/web/offices/com/sol/og/2025/week19/TOC.htm"
+        },
+        {
+          "label": "工作簿 A006 · 放弃表勾选完整权项1–20；非terminal disclaimer。 · 官方放弃文件；搜索索引正文",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556253/download-documents?artifactId=JsbU3_w2pqPkEyQqM4z-6D2pt9r-vJZKs1hxMpHlHtVN5GRHLJ1fX4I"
+        },
+        {
+          "label": "工作簿 A007 · 拒绝立案决定第2页区分被挑战1–7、11、13–20与全部权项放弃；未作adverse judgment。 · 官方决定；搜索索引正文",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556253/download-documents?artifactId=qWLSBDP9mfPWbDTRgPiwVZnNQ9HMg2t8QYl6jNuXAwKCDaDiyxOMy_g"
         }
       ],
       "risk": "待评估",
       "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
-      "claimChange": "法定放弃权利要求 1–20。详见所链申请书对Ex.2001的引用；不属于以替代文本修改。",
+      "claimChange": "已法定放弃：整项放弃全部1–20；2025-01-03拒绝立案，无新增替代权项。决定列被挑战权项为1–7、11、13–20，放弃范围更大。原表10-30提交日未据收据复核。依据：A006、A007。",
       "nextDate": null,
       "nextLabel": "待核实下一关键日期",
       "verified": "案号已收录",
       "related": [],
-      "events": []
+      "events": [
+        [
+          "2025-01-03",
+          "工作簿所列关键事件（详情见核对记录）"
+        ]
+      ],
+      "workbook": {
+        "file": "IPR/Oura_US_IPR_PGR_EPR_2026-10-25.xlsx",
+        "sheet": "案件总表",
+        "row": 15,
+        "asOf": "2026-10-25",
+        "role": "Patent Owner",
+        "ouraEntity": "Ouraring, Inc.",
+        "counterparty": "Samsung Electronics Co., Ltd.; Samsung Electronics America, Inc.",
+        "patentTitle": "Wearable computing device",
+        "institution": "否—全部被挑战权利要求被放弃",
+        "institutionDate": "2025-01-03",
+        "status": "未立案；无实体FWD",
+        "conclusion": "Statutory disclaimer 后拒绝立案",
+        "claims": "1–20",
+        "eventDate": "2025-01-03",
+        "appeal": "未查得（不等于无）",
+        "appealNumber": "未核实",
+        "litigation": "未核实直接关联案",
+        "notes": "放弃文件2024-10-30提交。",
+        "verification": "已确认案号；字段按所列来源核验",
+        "sourceIds": "S026, S027, S028"
+      }
     },
     {
       "id": "PGR2024-00039",
@@ -1511,9 +1908,9 @@
         "11874702"
       ],
       "filed": "2024-06-28",
-      "status": "终局决定 / 已上诉",
-      "asOf": "2025-12-05",
-      "conclusion": "最终书面决定：未证明被挑战权利要求1–17不可专利。公开版本登记于12月10日；上诉另案记录。",
+      "status": "已出FWD；已上诉，未查得终局结果",
+      "asOf": "2026-10-25",
+      "conclusion": "1–17均未被证明不可专利；FWD公开版2025-12-10；CAFC登记2026-02-05。",
       "sources": [
         {
           "label": "USPTO托管：关联程序与决定",
@@ -1522,11 +1919,27 @@
         {
           "label": "USPTO托管：法定放弃范围引用",
           "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556908/download-documents?artifactId=nm4eAwV5xyxFE7rci4cGosJLZcNL0HmailCMGyCxi4NYK_wohvW2IYg"
+        },
+        {
+          "label": "工作簿 S029 · 主要来源 · 二级案卷索引",
+          "url": "https://ipverse.greyb.com/ptab-web/cases/case-details/PGR2024-00039"
+        },
+        {
+          "label": "工作簿 S030 · 交叉 / 补充来源 · USPTO官方（见逐案访问限制）",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556254/download-documents?artifactId=dhijEvDR37OsQL8qfgRsxaZ3oae8s4zPT8m7w0XOpRsLM6FESB-8SBY"
+        },
+        {
+          "label": "工作簿 S031 · 交叉 / 补充来源 · 二级交叉来源",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1413"
+        },
+        {
+          "label": "工作簿 A008 · Paper 54，2025-12-05 FWD全文：审理1–17；全文未查得amend字样或替代权项裁决。 · 官方决定全文镜像",
+          "url": "https://bannerwitcoff.com/wp-content/uploads/2025/12/PGR2024-00039.pdf"
         }
       ],
       "risk": "待评估",
       "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
-      "claimChange": "未核实获准替代文本及证书；需要核对该案Motion to Amend与最终命令。",
+      "claimChange": "未查得实际修改动议或替代权项。2025-12-05 FWD对原权项1–17认定未被证明不可专利；排期中列出的MTA期限不代表实际修改。依据：A008（Paper 54全文）。",
       "nextDate": null,
       "nextLabel": "待核实下一关键日期",
       "verified": "案号已收录",
@@ -1545,7 +1958,29 @@
           "pages": 72,
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
-      ]
+      ],
+      "workbook": {
+        "file": "IPR/Oura_US_IPR_PGR_EPR_2026-10-25.xlsx",
+        "sheet": "案件总表",
+        "row": 16,
+        "asOf": "2026-10-25",
+        "role": "Patent Owner",
+        "ouraEntity": "Ouraring, Inc.",
+        "counterparty": "Samsung Electronics Co., Ltd.; Samsung Electronics America, Inc.",
+        "patentTitle": "Wearable computing device",
+        "institution": "是",
+        "institutionDate": "2024-12-12",
+        "status": "已出FWD；已上诉，未查得终局结果",
+        "conclusion": "1–17均未被证明不可专利",
+        "claims": "1–17",
+        "eventDate": "2025-12-05",
+        "appeal": "是",
+        "appealNumber": "2026-1413；并入2026-1258",
+        "litigation": "本专利直接诉讼未核实；同族关联案件",
+        "notes": "FWD公开版2025-12-10；CAFC登记2026-02-05。",
+        "verification": "已确认案号；字段按所列来源核验",
+        "sourceIds": "S029, S030, S031"
+      }
     },
     {
       "id": "IPR2025-00147",
@@ -1561,9 +1996,9 @@
         "11188124"
       ],
       "filed": "2025-01-23",
-      "status": "最终书面决定 / 已提起上诉",
-      "asOf": "2026-07-22",
-      "conclusion": "7月10日最终书面决定：未证明被挑战权利要求1–6、8–20不可专利。7月22日提交上诉通知。",
+      "status": "已出FWD；已上诉，未查得终局结果",
+      "asOf": "2026-10-25",
+      "conclusion": "全部被挑战权利要求均未被证明不可专利；申请日期依据原表与IPverse；CAFC登记2026-07-27。",
       "sources": [
         {
           "label": "PTAB决定全文（公开镜像）",
@@ -1576,11 +2011,27 @@
         {
           "label": "USPTO托管：法定放弃范围引用",
           "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556908/download-documents?artifactId=nm4eAwV5xyxFE7rci4cGosJLZcNL0HmailCMGyCxi4NYK_wohvW2IYg"
+        },
+        {
+          "label": "工作簿 S032 · 主要来源 · USPTO官方（见逐案访问限制）",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556908/download-documents?artifactId=--ERAXYLxcJ-LS3OLEaSeFKXaNYenDmQotz8q307J0nKLxI_SFqdnkY"
+        },
+        {
+          "label": "工作簿 S034 · 交叉 / 补充来源 · 二级交叉来源",
+          "url": "https://ai-lab.exparte.com/case/cafc/26-2079/samsung-electronics-co-ltd-v-ouraring-inc"
+        },
+        {
+          "label": "工作簿 S035 · 交叉 / 补充来源 · 二级案卷索引",
+          "url": "https://ipverse.greyb.com/ptab-web/cases/case-details/IPR2025-00147"
+        },
+        {
+          "label": "工作簿 A009 · 第二次排期协议第1页明确Patent Owner does not intend to file a motion to amend；不把排期附录中的期限当成实际动议。 · 官方案卷文件；搜索索引正文",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556908/download-documents?artifactId=6x_nLRi78fZEd0rhEYPajB6CBsi1GkO1qJqergznFTOkgMlX43FJzGI"
         }
       ],
       "risk": "待评估",
       "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
-      "claimChange": "未核实获准替代文本及证书；需要核对该案Motion to Amend与最终命令。",
+      "claimChange": "未查得实际修改/替代权项。专利权人在第二次排期协议中明确表示不拟提交修改动议；2026-07-10 FWD仍审理原权项1–6、8–20。未查得法定放弃。依据：A009、S032。",
       "nextDate": null,
       "nextLabel": "待核实下一关键日期",
       "verified": "案号已收录",
@@ -1588,14 +2039,41 @@
         "26-2079",
         "1:24-cv-01020"
       ],
-      "events": [],
+      "events": [
+        [
+          "2026-07-10",
+          "工作簿所列关键事件（详情见核对记录）"
+        ]
+      ],
       "localEvidence": [
         {
           "file": "IPR\\IPR2025-00147_ Samsung Electronics Co._ Ltd. et al. Vs. Ouraring_ Inc. et al\\Samsung Electronics Co., Ltd. et al. Vs. Ouraring, Inc. et al.pdf",
           "pages": 75,
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
-      ]
+      ],
+      "workbook": {
+        "file": "IPR/Oura_US_IPR_PGR_EPR_2026-10-25.xlsx",
+        "sheet": "案件总表",
+        "row": 17,
+        "asOf": "2026-10-25",
+        "role": "Patent Owner",
+        "ouraEntity": "Ouraring, Inc.",
+        "counterparty": "Samsung Electronics Co., Ltd.; Samsung Electronics America, Inc.",
+        "patentTitle": "Wearable computing device",
+        "institution": "是",
+        "institutionDate": "2025-08-13",
+        "status": "已出FWD；已上诉，未查得终局结果",
+        "conclusion": "全部被挑战权利要求均未被证明不可专利",
+        "claims": "1–6, 8–20",
+        "eventDate": "2026-07-10",
+        "appeal": "是",
+        "appealNumber": "2026-2079",
+        "litigation": "D. Del. 1:24-cv-01020",
+        "notes": "申请日期依据原表与IPverse；CAFC登记2026-07-27。",
+        "verification": "已确认案号；字段按所列来源核验",
+        "sourceIds": "S032, S033, S034, S035"
+      }
     },
     {
       "id": "IPR2025-00411",
@@ -1611,18 +2089,34 @@
         "11868178"
       ],
       "filed": "2025-01-06",
-      "status": "酌情拒绝立案",
-      "asOf": "2025-06-25",
-      "conclusion": "关联终局决定记载三项请求于2025年6月25日被酌情拒绝。并非对全部专利有效性的实体判决。",
+      "status": "未立案；无实体FWD",
+      "asOf": "2026-10-25",
+      "conclusion": "裁量拒绝立案；未作实体不可专利认定；请求与PGR2024-00030合并；不能将裁量拒绝记为实体有效性胜诉。",
       "sources": [
         {
           "label": "官方文件 / 案卷材料",
           "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556908/download-documents?artifactId=NG_2u6-1BrWAo_P2G5IA9mBAtVmvDn6LhqxtIZyLJhqrrCj7H6dTMTg"
+        },
+        {
+          "label": "工作簿 S036 · 主要来源 · USPTO官方（见逐案访问限制）",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556908/download-documents?artifactId=--ERAXYLxcJ-LS3OLEaSeFKXaNYenDmQotz8q307J0nKLxI_SFqdnkY"
+        },
+        {
+          "label": "工作簿 S037 · 交叉 / 补充来源 · 二级案卷索引",
+          "url": "https://ipverse.greyb.com/ptab-web/cases/case-details/IPR2025-00411"
+        },
+        {
+          "label": "工作簿 S038 · 交叉 / 补充来源 · 裁决全文镜像",
+          "url": "https://www.casemine.com/judgement/us/6862515a46f0106439f5056c"
+        },
+        {
+          "label": "工作簿 A004 · Ultrahuman合并动议第6页：2024-09-10放弃178第11项，并引Ex.2015第5页；与178 FWD交叉核对。",
+          "url": "https://ai-lab.exparte.com/documents/ptab/ptacts-uspto/1557213/Z_Zo7HtXNunwSgoI8hUD-7BImMK4RDIAD7TRl9snSqgviUvsfgvuMDA/2222492298/IPR2025-00411_doc_3_exparte.pdf"
         }
       ],
       "risk": "待评估",
       "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
-      "claimChange": "未核实修改申请、获准替代权利要求或再审证书；不等同于没有变化。",
+      "claimChange": "本程序未查得修改或替代权项。关联PGR中已于2024-09-10法定放弃同专利第11项；本案挑战1–10、12–18，2025-06-25裁量拒绝，不构成新修改。依据：A004、S036–S038。",
       "nextDate": null,
       "nextLabel": "待核实下一关键日期",
       "verified": "案号已收录",
@@ -1642,7 +2136,29 @@
           "pages": 14,
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
-      ]
+      ],
+      "workbook": {
+        "file": "IPR/Oura_US_IPR_PGR_EPR_2026-10-25.xlsx",
+        "sheet": "案件总表",
+        "row": 18,
+        "asOf": "2026-10-25",
+        "role": "Patent Owner",
+        "ouraEntity": "Ouraring, Inc.",
+        "counterparty": "Ultrahuman Healthcare Pvt. Ltd.; Ultrahuman Healthcare SP LLC; Ultrahuman Healthcare Ltd.",
+        "patentTitle": "Wearable computing device",
+        "institution": "否—裁量拒绝",
+        "institutionDate": "2025-06-25",
+        "status": "未立案；无实体FWD",
+        "conclusion": "裁量拒绝立案；未作实体不可专利认定",
+        "claims": "1–10, 12–18",
+        "eventDate": "2025-06-25",
+        "appeal": "未查得（不等于无）",
+        "appealNumber": "未核实",
+        "litigation": "337-TA-1398; D. Del. 1:24-cv-01020（关联专利争议）",
+        "notes": "请求与PGR2024-00030合并；不能将裁量拒绝记为实体有效性胜诉。",
+        "verification": "已确认案号；字段按所列来源核验",
+        "sourceIds": "S036, S037, S038"
+      }
     },
     {
       "id": "IPR2025-00412",
@@ -1658,18 +2174,34 @@
         "11868178"
       ],
       "filed": "2025-01-06",
-      "status": "酌情拒绝立案",
-      "asOf": "2025-06-25",
-      "conclusion": "关联终局决定记载三项请求于2025年6月25日被酌情拒绝。并非对全部专利有效性的实体判决。",
+      "status": "未立案；无实体FWD",
+      "asOf": "2026-10-25",
+      "conclusion": "裁量拒绝立案；未作实体不可专利认定；请求与PGR2024-00030合并；不能将裁量拒绝记为实体有效性胜诉。",
       "sources": [
         {
           "label": "官方文件 / 案卷材料",
           "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556908/download-documents?artifactId=NG_2u6-1BrWAo_P2G5IA9mBAtVmvDn6LhqxtIZyLJhqrrCj7H6dTMTg"
+        },
+        {
+          "label": "工作簿 S039 · 主要来源 · USPTO官方（见逐案访问限制）",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556908/download-documents?artifactId=--ERAXYLxcJ-LS3OLEaSeFKXaNYenDmQotz8q307J0nKLxI_SFqdnkY"
+        },
+        {
+          "label": "工作簿 S040 · 交叉 / 补充来源 · 二级案卷索引",
+          "url": "https://ipverse.greyb.com/ptab-web/cases/case-details/IPR2025-00412"
+        },
+        {
+          "label": "工作簿 S041 · 交叉 / 补充来源 · 裁决全文镜像",
+          "url": "https://www.casemine.com/judgement/us/6862515a46f0106439f5056c"
+        },
+        {
+          "label": "工作簿 A010 · 合并动议第2页脚注1承认178第11项此前法定放弃。 · 原始案卷文件镜像",
+          "url": "https://ai-lab.exparte.com/documents/ptab/ptacts-uspto/1557214/yEEJRjFqwEDnp9c7nWMpFFi1cjuhnIAE9-VFPEmG7T0wo7xlwWANITA/2222489750/IPR2025-00412_doc_2_exparte.pdf"
         }
       ],
       "risk": "待评估",
       "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
-      "claimChange": "未核实修改申请、获准替代权利要求或再审证书；不等同于没有变化。",
+      "claimChange": "本程序未查得修改或替代权项。关联PGR已法定放弃同专利第11项；本案合并动议承认该放弃。2025-06-25裁量拒绝不构成新修改。依据：A010、S039–S041。",
       "nextDate": null,
       "nextLabel": "待核实下一关键日期",
       "verified": "案号已收录",
@@ -1689,7 +2221,29 @@
           "pages": 13,
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
-      ]
+      ],
+      "workbook": {
+        "file": "IPR/Oura_US_IPR_PGR_EPR_2026-10-25.xlsx",
+        "sheet": "案件总表",
+        "row": 19,
+        "asOf": "2026-10-25",
+        "role": "Patent Owner",
+        "ouraEntity": "Ouraring, Inc.",
+        "counterparty": "RingConn LLC",
+        "patentTitle": "Wearable computing device",
+        "institution": "否—裁量拒绝",
+        "institutionDate": "2025-06-25",
+        "status": "未立案；无实体FWD",
+        "conclusion": "裁量拒绝立案；未作实体不可专利认定",
+        "claims": "1–10, 12–18",
+        "eventDate": "2025-06-25",
+        "appeal": "未查得（不等于无）",
+        "appealNumber": "未核实",
+        "litigation": "337-TA-1398; D. Del. 1:24-cv-01020（关联专利争议）",
+        "notes": "请求与PGR2024-00030合并；不能将裁量拒绝记为实体有效性胜诉。",
+        "verification": "已确认案号；字段按所列来源核验",
+        "sourceIds": "S039, S040, S041"
+      }
     },
     {
       "id": "PGR2025-00018",
@@ -1705,18 +2259,34 @@
         "11868178"
       ],
       "filed": "2025-01-03",
-      "status": "酌情拒绝立案",
-      "asOf": "2025-06-25",
-      "conclusion": "关联终局决定记载三项请求于2025年6月25日被酌情拒绝。并非对全部专利有效性的实体判决。",
+      "status": "未立案；无实体FWD",
+      "asOf": "2026-10-25",
+      "conclusion": "裁量拒绝立案；未作实体不可专利认定；请求与PGR2024-00030合并；不能将裁量拒绝记为实体有效性胜诉。",
       "sources": [
         {
           "label": "官方文件 / 案卷材料",
           "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556908/download-documents?artifactId=NG_2u6-1BrWAo_P2G5IA9mBAtVmvDn6LhqxtIZyLJhqrrCj7H6dTMTg"
+        },
+        {
+          "label": "工作簿 S042 · 主要来源 · USPTO官方（见逐案访问限制）",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556908/download-documents?artifactId=--ERAXYLxcJ-LS3OLEaSeFKXaNYenDmQotz8q307J0nKLxI_SFqdnkY"
+        },
+        {
+          "label": "工作簿 S043 · 交叉 / 补充来源 · 二级案卷索引",
+          "url": "https://ipverse.greyb.com/ptab-web/cases/case-details/PGR2025-00018"
+        },
+        {
+          "label": "工作簿 S044 · 交叉 / 补充来源 · 裁决全文镜像",
+          "url": "https://www.casemine.com/judgement/us/6862515a46f0106439f5056c"
+        },
+        {
+          "label": "工作簿 A011 · 请求书脚注1：第11项已在先案放弃，条件性保留不代表恢复权项。 · 原始案卷文件镜像",
+          "url": "https://ai-lab.exparte.com/documents/ptab/ptacts-uspto/1557202/UvWlg31QC7Tm61SOl4nVLxKU4Iwzc1X8OO39QcBybGf1KfrHuMIbTWg/2222469704/PGR2025-00018_doc_2_exparte.pdf"
         }
       ],
       "risk": "待评估",
       "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
-      "claimChange": "未核实修改申请、获准替代权利要求或再审证书；不等同于没有变化。",
+      "claimChange": "本程序未查得修改或替代权项。申请书保留第11项挑战仅为与先案对应，同时承认有效放弃时不挑战该项；该项已在先案放弃。2025-06-25裁量拒绝不构成新修改。依据：A011、S042–S044。",
       "nextDate": null,
       "nextLabel": "待核实下一关键日期",
       "verified": "案号已收录",
@@ -1736,7 +2306,29 @@
           "pages": 13,
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
-      ]
+      ],
+      "workbook": {
+        "file": "IPR/Oura_US_IPR_PGR_EPR_2026-10-25.xlsx",
+        "sheet": "案件总表",
+        "row": 20,
+        "asOf": "2026-10-25",
+        "role": "Patent Owner",
+        "ouraEntity": "Ouraring, Inc.",
+        "counterparty": "RingConn LLC",
+        "patentTitle": "Wearable computing device",
+        "institution": "否—裁量拒绝",
+        "institutionDate": "2025-06-25",
+        "status": "未立案；无实体FWD",
+        "conclusion": "裁量拒绝立案；未作实体不可专利认定",
+        "claims": "原请求1–18；11已另行放弃",
+        "eventDate": "2025-06-25",
+        "appeal": "未查得（不等于无）",
+        "appealNumber": "未核实",
+        "litigation": "337-TA-1398; D. Del. 1:24-cv-01020（关联专利争议）",
+        "notes": "请求与PGR2024-00030合并；不能将裁量拒绝记为实体有效性胜诉。",
+        "verification": "已确认案号；字段按所列来源核验",
+        "sourceIds": "S042, S043, S044"
+      }
     },
     {
       "id": "IPR2025-01249",
@@ -1754,19 +2346,35 @@
       "patents": [
         "9055868"
       ],
-      "filed": null,
-      "status": "请求已核实 / 最新决定待核",
-      "asOf": null,
-      "conclusion": "Oura为联合申请人。已核实申请人、案号与专利；不据申请书推定立案或最终结论。",
+      "filed": "2025-08-05",
+      "status": "未立案；无实体FWD",
+      "asOf": "2026-10-25",
+      "conclusion": "裁量拒绝；未作实体决定；共同申请人还包括Samsung Electronics Co., Ltd.、Samsung Electronics America, Inc.、Fossil Group, Inc.、Fossil Stores I, Inc.、Fossil Partners, L.P.及OnePlus Technology (Shenzhen) Co., Ltd.；Ouraring/OPPO在部分文件为RPI，未混同为具名申请人。",
       "sources": [
         {
           "label": "官方文件 / 案卷材料",
           "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1558164/download-documents?artifactId=fd5c4TTmUwfDE6trruLeONNA8Wcplm0YUiLAZcLkWT5Ol9gSBFC6Ksg"
+        },
+        {
+          "label": "工作簿 S045 · 主要来源 · USPTO官方（见逐案访问限制）",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1558163/download-documents?artifactId=iQG7Zxa1VzBYx5M8uNbHS_D8Jll5ltQzhm35KX4g5NBWbaio6uKhPEQ"
+        },
+        {
+          "label": "工作簿 S046 · 交叉 / 补充来源 · 法院文书公开副本",
+          "url": "https://cases.justia.com/federal/district-courts/delaware/dedce/1:2025cv00140/88127/101/0.pdf"
+        },
+        {
+          "label": "工作簿 S047 · 交叉 / 补充来源 · 二级案卷索引",
+          "url": "https://ipverse.greyb.com/ptab-web/cases/case-details/IPR2025-01249"
+        },
+        {
+          "label": "工作簿 S048 · 交叉 / 补充来源 · 二级交叉来源",
+          "url": "https://patents.google.com/patent/US9055868B2/en"
         }
       ],
       "risk": "待评估",
       "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
-      "claimChange": "未核实修改申请、获准替代权利要求或再审证书；不等同于没有变化。",
+      "claimChange": "未查得本案claim amendment、修改动议、替代权项或法定放弃。2025-12-01裁量拒绝不改变权项文字。尚未取得完整案卷，不能确认绝无修改。专利权人为Omni MedSci。依据：原表S045–S048及本次案号检索。",
       "nextDate": null,
       "nextLabel": "待核实下一关键日期",
       "verified": "案号已收录",
@@ -1774,7 +2382,34 @@
         "2:24-cv-01070",
         "2:26-cv-00289"
       ],
-      "events": []
+      "events": [
+        [
+          "2025-12-01",
+          "工作簿所列关键事件（详情见核对记录）"
+        ]
+      ],
+      "workbook": {
+        "file": "IPR/Oura_US_IPR_PGR_EPR_2026-10-25.xlsx",
+        "sheet": "案件总表",
+        "row": 21,
+        "asOf": "2026-10-25",
+        "role": "Petitioner（共同）",
+        "ouraEntity": "Oura Health Oy",
+        "counterparty": "Omni MedSci, Inc.",
+        "patentTitle": "System and method for voice control of medical devices",
+        "institution": "否—裁量拒绝",
+        "institutionDate": "2025-12-01",
+        "status": "未立案；无实体FWD",
+        "conclusion": "裁量拒绝；未作实体决定",
+        "claims": "7–11, 13–14",
+        "eventDate": "2025-12-01",
+        "appeal": "未查得（不等于无）",
+        "appealNumber": "未核实",
+        "litigation": "E.D. Tex. 2:24-cv-01070；Oura分拆案2:26-cv-00289；D. Del. 1:25-cv-00140为WHOOP平行案",
+        "notes": "共同申请人还包括Samsung Electronics Co., Ltd.、Samsung Electronics America, Inc.、Fossil Group, Inc.、Fossil Stores I, Inc.、Fossil Partners, L.P.及OnePlus Technology (Shenzhen) Co., Ltd.；Ouraring/OPPO在部分文件为RPI，未混同为具名申请人。",
+        "verification": "已确认案号；字段按所列来源核验",
+        "sourceIds": "S045, S046, S047, S048"
+      }
     },
     {
       "id": "IPR2025-01250",
@@ -1792,19 +2427,35 @@
       "patents": [
         "9651533"
       ],
-      "filed": null,
-      "status": "请求已核实 / 最新决定待核",
-      "asOf": null,
-      "conclusion": "Oura为联合申请人。已核实申请人、案号与专利；不据申请书推定立案或最终结论。",
+      "filed": "2025-08-05",
+      "status": "已立案；未查得FWD",
+      "asOf": "2026-10-25",
+      "conclusion": "尚未查得最终书面决定；共同申请人还包括Samsung Electronics Co., Ltd.、Samsung Electronics America, Inc.、Fossil Group, Inc.、Fossil Stores I, Inc.、Fossil Partners, L.P.及OnePlus Technology (Shenzhen) Co., Ltd.；Ouraring/OPPO在部分文件为RPI，未混同为具名申请人。",
       "sources": [
         {
           "label": "官方文件 / 案卷材料",
           "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1558163/download-documents?artifactId=QRIRNyvxKjWB_GXDzD3-B2KPWlNQnLrkzT14VHaXiEFXcm55LoxtcDg"
+        },
+        {
+          "label": "工作簿 S049 · 主要来源 · USPTO官方（见逐案访问限制）",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1558164/download-documents?artifactId=SNUb0isDNa33Zy997a9SD791-08ysYtSRiBA1S9csCKjaOr9UMW9Hu4"
+        },
+        {
+          "label": "工作簿 S050 · 交叉 / 补充来源 · 法院文书公开副本",
+          "url": "https://cases.justia.com/federal/district-courts/delaware/dedce/1:2025cv00140/88127/101/0.pdf"
+        },
+        {
+          "label": "工作簿 S051 · 交叉 / 补充来源 · 二级案卷索引",
+          "url": "https://ipverse.greyb.com/ptab-web/cases/case-details/IPR2025-01250"
+        },
+        {
+          "label": "工作簿 S052 · 交叉 / 补充来源 · 二级交叉来源",
+          "url": "https://patents.google.com/patent/US9651533B2/en"
         }
       ],
       "risk": "待评估",
       "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
-      "claimChange": "未核实修改申请、获准替代权利要求或再审证书；不等同于没有变化。",
+      "claimChange": "待核实：本次未找到本案实际修改动议、替代权项或法定放弃文件；未取得立案后完整案卷，不能写成未修改。原表列2026-02-03立案。其他IPR的无效裁决不计为本案修改。专利权人为Omni MedSci。依据：S049–S052（原表）。",
       "nextDate": null,
       "nextLabel": "待核实下一关键日期",
       "verified": "案号已收录",
@@ -1812,7 +2463,34 @@
         "2:24-cv-01070",
         "2:26-cv-00289"
       ],
-      "events": []
+      "events": [
+        [
+          "2026-02-03",
+          "工作簿所列关键事件（详情见核对记录）"
+        ]
+      ],
+      "workbook": {
+        "file": "IPR/Oura_US_IPR_PGR_EPR_2026-10-25.xlsx",
+        "sheet": "案件总表",
+        "row": 22,
+        "asOf": "2026-10-25",
+        "role": "Petitioner（共同）",
+        "ouraEntity": "Oura Health Oy",
+        "counterparty": "Omni MedSci, Inc.",
+        "patentTitle": "Short-wave infrared super-continuum lasers for detecting counterfeit or illicit drugs and pharmaceutical process control",
+        "institution": "是",
+        "institutionDate": "2026-02-03",
+        "status": "已立案；未查得FWD",
+        "conclusion": "尚未查得最终书面决定",
+        "claims": "6, 11–12, 14, 18",
+        "eventDate": "2026-02-03",
+        "appeal": "未查得（不等于无）",
+        "appealNumber": "未核实",
+        "litigation": "E.D. Tex. 2:24-cv-01070；Oura分拆案2:26-cv-00289；D. Del. 1:25-cv-00140为WHOOP平行案",
+        "notes": "共同申请人还包括Samsung Electronics Co., Ltd.、Samsung Electronics America, Inc.、Fossil Group, Inc.、Fossil Stores I, Inc.、Fossil Partners, L.P.及OnePlus Technology (Shenzhen) Co., Ltd.；Ouraring/OPPO在部分文件为RPI，未混同为具名申请人。",
+        "verification": "已确认案号；字段按所列来源核验",
+        "sourceIds": "S049, S050, S051, S052"
+      }
     },
     {
       "id": "IPR2025-01251",
@@ -1830,19 +2508,35 @@
       "patents": [
         "10874304"
       ],
-      "filed": null,
-      "status": "请求已核实 / 最新决定待核",
-      "asOf": null,
-      "conclusion": "Oura为联合申请人。已核实申请人、案号与专利；不据申请书推定立案或最终结论。",
+      "filed": "2025-08-05",
+      "status": "已立案；未查得FWD",
+      "asOf": "2026-10-25",
+      "conclusion": "尚未查得最终书面决定；共同申请人还包括Samsung Electronics Co., Ltd.、Samsung Electronics America, Inc.、Fossil Group, Inc.、Fossil Stores I, Inc.、Fossil Partners, L.P.及OnePlus Technology (Shenzhen) Co., Ltd.；Ouraring/OPPO在部分文件为RPI，未混同为具名申请人。",
       "sources": [
         {
           "label": "官方文件 / 案卷材料",
           "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1558165/download-documents?artifactId=tGRybMNISdT7Lh7JODsfvHM-XpTUq8kQe-ameHNTLLlyaPAxwhE2kys"
+        },
+        {
+          "label": "工作簿 S053 · 主要来源 · USPTO官方（见逐案访问限制）",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1558165/download-documents?artifactId=r0frhh2-CkcGQ2GD_fiSFPUonMH3HA1f59w6Pis_7SCWVgf-MncQZGA"
+        },
+        {
+          "label": "工作簿 S054 · 交叉 / 补充来源 · 法院文书公开副本",
+          "url": "https://cases.justia.com/federal/district-courts/delaware/dedce/1:2025cv00140/88127/101/0.pdf"
+        },
+        {
+          "label": "工作簿 S055 · 交叉 / 补充来源 · 二级案卷索引",
+          "url": "https://ipverse.greyb.com/ptab-web/cases/case-details/IPR2025-01251"
+        },
+        {
+          "label": "工作簿 S056 · 交叉 / 补充来源 · 二级交叉来源",
+          "url": "https://patents.google.com/patent/US10874304B2/en"
         }
       ],
       "risk": "待评估",
       "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
-      "claimChange": "未核实修改申请、获准替代权利要求或再审证书；不等同于没有变化。",
+      "claimChange": "待核实：本次未找到本案实际修改动议、替代权项或法定放弃文件；未取得立案后完整案卷。检索到的amended docket control order属于法院排期修改，不是权项修改。原表列2026-02-03立案。专利权人为Omni MedSci。依据：S053–S056（原表）。",
       "nextDate": null,
       "nextLabel": "待核实下一关键日期",
       "verified": "案号已收录",
@@ -1850,7 +2544,34 @@
         "2:24-cv-01070",
         "2:26-cv-00289"
       ],
-      "events": []
+      "events": [
+        [
+          "2026-02-03",
+          "工作簿所列关键事件（详情见核对记录）"
+        ]
+      ],
+      "workbook": {
+        "file": "IPR/Oura_US_IPR_PGR_EPR_2026-10-25.xlsx",
+        "sheet": "案件总表",
+        "row": 23,
+        "asOf": "2026-10-25",
+        "role": "Petitioner（共同）",
+        "ouraEntity": "Oura Health Oy",
+        "counterparty": "Omni MedSci, Inc.",
+        "patentTitle": "Semiconductor source based near infrared measurement device with improved signal-to-noise ratio",
+        "institution": "是",
+        "institutionDate": "2026-02-03",
+        "status": "已立案；未查得FWD",
+        "conclusion": "尚未查得最终书面决定",
+        "claims": "1–6, 11–16, 19–22, 26–27",
+        "eventDate": "2026-02-03",
+        "appeal": "未查得（不等于无）",
+        "appealNumber": "未核实",
+        "litigation": "E.D. Tex. 2:24-cv-01070；Oura分拆案2:26-cv-00289；D. Del. 1:25-cv-00140为WHOOP平行案",
+        "notes": "共同申请人还包括Samsung Electronics Co., Ltd.、Samsung Electronics America, Inc.、Fossil Group, Inc.、Fossil Stores I, Inc.、Fossil Partners, L.P.及OnePlus Technology (Shenzhen) Co., Ltd.；Ouraring/OPPO在部分文件为RPI，未混同为具名申请人。",
+        "verification": "已确认案号；字段按所列来源核验",
+        "sourceIds": "S053, S054, S055, S056"
+      }
     },
     {
       "id": "IPR2025-01252",
@@ -1868,19 +2589,35 @@
       "patents": [
         "11160455"
       ],
-      "filed": null,
-      "status": "请求已核实 / 最新决定待核",
-      "asOf": null,
-      "conclusion": "Oura为联合申请人。已核实申请人、案号与专利；不据申请书推定立案或最终结论。",
+      "filed": "2025-08-05",
+      "status": "已立案；未查得FWD",
+      "asOf": "2026-10-25",
+      "conclusion": "尚未查得最终书面决定；共同申请人还包括Samsung Electronics Co., Ltd.、Samsung Electronics America, Inc.、Fossil Group, Inc.、Fossil Stores I, Inc.、Fossil Partners, L.P.及OnePlus Technology (Shenzhen) Co., Ltd.；Ouraring/OPPO在部分文件为RPI，未混同为具名申请人。",
       "sources": [
         {
           "label": "官方文件 / 案卷材料",
           "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1558166/download-documents?artifactId=osFIeyxY6cwn7av98HcbRvoXwKKjxXsadICWjmEL2Hx-M_1nQF0v48A"
+        },
+        {
+          "label": "工作簿 S057 · 主要来源 · USPTO官方（见逐案访问限制）",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1558166/download-documents?artifactId=tJ9_458EYJRrTRaDX0qeD_ZUVSBrD2VfUKCM3qx9bvKWaP9CbDQxtZk"
+        },
+        {
+          "label": "工作簿 S058 · 交叉 / 补充来源 · 法院文书公开副本",
+          "url": "https://cases.justia.com/federal/district-courts/delaware/dedce/1:2025cv00140/88127/101/0.pdf"
+        },
+        {
+          "label": "工作簿 S059 · 交叉 / 补充来源 · 二级案卷索引",
+          "url": "https://ipverse.greyb.com/ptab-web/cases/case-details/IPR2025-01252"
+        },
+        {
+          "label": "工作簿 S060 · 交叉 / 补充来源 · 二级交叉来源",
+          "url": "https://patents.google.com/patent/US11160455B2/en"
         }
       ],
       "risk": "待评估",
       "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
-      "claimChange": "未核实修改申请、获准替代权利要求或再审证书；不等同于没有变化。",
+      "claimChange": "待核实：本次未找到本案实际修改动议、替代权项或法定放弃文件；未取得立案后完整案卷。2026-02-03立案本身不改变权项。专利审查历史中的terminal disclaimer不等同本IPR删除权项。专利权人为Omni MedSci。依据：A012、原表S057–S060。",
       "nextDate": null,
       "nextLabel": "待核实下一关键日期",
       "verified": "案号已收录",
@@ -1888,7 +2625,34 @@
         "2:24-cv-01070",
         "2:26-cv-00289"
       ],
-      "events": []
+      "events": [
+        [
+          "2026-02-03",
+          "工作簿所列关键事件（详情见核对记录）"
+        ]
+      ],
+      "workbook": {
+        "file": "IPR/Oura_US_IPR_PGR_EPR_2026-10-25.xlsx",
+        "sheet": "案件总表",
+        "row": 24,
+        "asOf": "2026-10-25",
+        "role": "Petitioner（共同）",
+        "ouraEntity": "Oura Health Oy",
+        "counterparty": "Omni MedSci, Inc.",
+        "patentTitle": "Multi-wavelength wearable device for non-invasive blood measurements in tissue",
+        "institution": "是",
+        "institutionDate": "2026-02-03",
+        "status": "已立案；未查得FWD",
+        "conclusion": "尚未查得最终书面决定",
+        "claims": "1–20",
+        "eventDate": "2026-02-03",
+        "appeal": "未查得（不等于无）",
+        "appealNumber": "未核实",
+        "litigation": "E.D. Tex. 2:24-cv-01070；Oura分拆案2:26-cv-00289；D. Del. 1:25-cv-00140为WHOOP平行案",
+        "notes": "共同申请人还包括Samsung Electronics Co., Ltd.、Samsung Electronics America, Inc.、Fossil Group, Inc.、Fossil Stores I, Inc.、Fossil Partners, L.P.及OnePlus Technology (Shenzhen) Co., Ltd.；Ouraring/OPPO在部分文件为RPI，未混同为具名申请人。",
+        "verification": "已确认案号；字段按所列来源核验",
+        "sourceIds": "S057, S058, S059, S060"
+      }
     },
     {
       "id": "IPR2025-01254",
@@ -1906,19 +2670,31 @@
       "patents": [
         "12268475"
       ],
-      "filed": null,
-      "status": "请求已核实 / 最新决定待核",
-      "asOf": null,
-      "conclusion": "Oura为联合申请人。已核实申请人、案号与专利；不据申请书推定立案或最终结论。",
+      "filed": "2025-08-05",
+      "status": "已立案；未查得FWD",
+      "asOf": "2026-10-25",
+      "conclusion": "尚未查得最终书面决定；共同申请人还包括Samsung Electronics Co., Ltd.、Samsung Electronics America, Inc.、Fossil Group, Inc.、Fossil Stores I, Inc.、Fossil Partners, L.P.及OnePlus Technology (Shenzhen) Co., Ltd.；Ouraring/OPPO在部分文件为RPI，未混同为具名申请人。",
       "sources": [
         {
           "label": "官方文件 / 案卷材料",
           "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1558166/download-documents?artifactId=HBXQOfJ1wME-IttA0hZzDdjjIgFVSfZTy3lLwjuswTR7NNpYF-cH5Ug"
+        },
+        {
+          "label": "工作簿 S065 · 主要来源 · 法院文书公开副本",
+          "url": "https://cases.justia.com/federal/district-courts/delaware/dedce/1:2025cv00140/88127/101/0.pdf"
+        },
+        {
+          "label": "工作簿 S066 · 交叉 / 补充来源 · 二级案卷索引",
+          "url": "https://ipverse.greyb.com/ptab-web/cases/case-details/IPR2025-01254"
+        },
+        {
+          "label": "工作簿 S067 · 交叉 / 补充来源 · 二级交叉来源",
+          "url": "https://patents.google.com/patent/US12268475B2/en"
         }
       ],
       "risk": "待评估",
       "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
-      "claimChange": "未核实修改申请、获准替代权利要求或再审证书；不等同于没有变化。",
+      "claimChange": "待核实：本次未找到本案实际修改动议、替代权项或法定放弃文件；未取得立案后完整案卷，不能确认未修改。原表列2026-02-03立案。专利权人为Omni MedSci。依据：原表S065–S067及本次案号检索。",
       "nextDate": null,
       "nextLabel": "待核实下一关键日期",
       "verified": "案号已收录",
@@ -1926,7 +2702,34 @@
         "2:24-cv-01070",
         "2:26-cv-00289"
       ],
-      "events": []
+      "events": [
+        [
+          "2026-02-03",
+          "工作簿所列关键事件（详情见核对记录）"
+        ]
+      ],
+      "workbook": {
+        "file": "IPR/Oura_US_IPR_PGR_EPR_2026-10-25.xlsx",
+        "sheet": "案件总表",
+        "row": 26,
+        "asOf": "2026-10-25",
+        "role": "Petitioner（共同）",
+        "ouraEntity": "Oura Health Oy",
+        "counterparty": "Omni MedSci, Inc.",
+        "patentTitle": "Wearable device for differential measurement on pulse rate and blood flow",
+        "institution": "是",
+        "institutionDate": "2026-02-03",
+        "status": "已立案；未查得FWD",
+        "conclusion": "尚未查得最终书面决定",
+        "claims": "1, 5–8, 11–13",
+        "eventDate": "2026-02-03",
+        "appeal": "未查得（不等于无）",
+        "appealNumber": "未核实",
+        "litigation": "E.D. Tex. 2:24-cv-01070；Oura分拆案2:26-cv-00289；D. Del. 1:25-cv-00140为WHOOP平行案",
+        "notes": "共同申请人还包括Samsung Electronics Co., Ltd.、Samsung Electronics America, Inc.、Fossil Group, Inc.、Fossil Stores I, Inc.、Fossil Partners, L.P.及OnePlus Technology (Shenzhen) Co., Ltd.；Ouraring/OPPO在部分文件为RPI，未混同为具名申请人。",
+        "verification": "已确认案号；字段按所列来源核验",
+        "sourceIds": "S065, S066, S067"
+      }
     },
     {
       "id": "PGR2025-00063",
@@ -1944,19 +2747,31 @@
       "patents": [
         "12268475"
       ],
-      "filed": null,
-      "status": "请求已核实 / 最新决定待核",
-      "asOf": null,
-      "conclusion": "Oura为联合申请人。已核实申请人、案号与专利；不据申请书推定立案或最终结论。",
+      "filed": "2025-08-05",
+      "status": "未立案；无实体FWD",
+      "asOf": "2026-10-25",
+      "conclusion": "裁量拒绝；未作实体决定；共同申请人还包括Samsung Electronics Co., Ltd.、Samsung Electronics America, Inc.、Fossil Group, Inc.、Fossil Stores I, Inc.、Fossil Partners, L.P.及OnePlus Technology (Shenzhen) Co., Ltd.；Ouraring/OPPO在部分文件为RPI，未混同为具名申请人。",
       "sources": [
         {
           "label": "官方文件 / 案卷材料",
           "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1558191/download-documents?artifactId=Ir-cZXQlmajCJrgPOcF-QL-mdlqix9OehSfeKyLCXTK6iaKzsllcKC4"
+        },
+        {
+          "label": "工作簿 S068 · 主要来源 · 法院文书公开副本",
+          "url": "https://cases.justia.com/federal/district-courts/delaware/dedce/1:2025cv00140/88127/101/0.pdf"
+        },
+        {
+          "label": "工作簿 S069 · 交叉 / 补充来源 · 二级案卷索引",
+          "url": "https://ipverse.greyb.com/ptab-web/cases/case-details/PGR2025-00063"
+        },
+        {
+          "label": "工作簿 S070 · 交叉 / 补充来源 · 二级交叉来源",
+          "url": "https://patents.google.com/patent/US12268475B2/en"
         }
       ],
       "risk": "待评估",
       "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
-      "claimChange": "未核实修改申请、获准替代权利要求或再审证书；不等同于没有变化。",
+      "claimChange": "未查得本PGR实际修改动议、替代权项或法定放弃；原表列2025-12-01裁量拒绝，该结果不构成修改。完整案卷未取得；同专利IPR2025-01254须另核。专利权人为Omni MedSci。依据：原表S068–S070及本次案号检索。",
       "nextDate": null,
       "nextLabel": "待核实下一关键日期",
       "verified": "案号已收录",
@@ -1964,7 +2779,34 @@
         "2:24-cv-01070",
         "2:26-cv-00289"
       ],
-      "events": []
+      "events": [
+        [
+          "2025-12-01",
+          "工作簿所列关键事件（详情见核对记录）"
+        ]
+      ],
+      "workbook": {
+        "file": "IPR/Oura_US_IPR_PGR_EPR_2026-10-25.xlsx",
+        "sheet": "案件总表",
+        "row": 27,
+        "asOf": "2026-10-25",
+        "role": "Petitioner（共同）",
+        "ouraEntity": "Oura Health Oy",
+        "counterparty": "Omni MedSci, Inc.",
+        "patentTitle": "Wearable device for differential measurement on pulse rate and blood flow",
+        "institution": "否—裁量拒绝",
+        "institutionDate": "2025-12-01",
+        "status": "未立案；无实体FWD",
+        "conclusion": "裁量拒绝；未作实体决定",
+        "claims": "1, 5–8, 11–13",
+        "eventDate": "2025-12-01",
+        "appeal": "未查得（不等于无）",
+        "appealNumber": "未核实",
+        "litigation": "E.D. Tex. 2:24-cv-01070；Oura分拆案2:26-cv-00289；D. Del. 1:25-cv-00140为WHOOP平行案",
+        "notes": "共同申请人还包括Samsung Electronics Co., Ltd.、Samsung Electronics America, Inc.、Fossil Group, Inc.、Fossil Stores I, Inc.、Fossil Partners, L.P.及OnePlus Technology (Shenzhen) Co., Ltd.；Ouraring/OPPO在部分文件为RPI，未混同为具名申请人。",
+        "verification": "已确认案号；字段按所列来源核验",
+        "sourceIds": "S068, S069, S070"
+      }
     },
     {
       "id": "IPR2025-01253",
@@ -1982,19 +2824,31 @@
       "patents": [
         "12193790"
       ],
-      "filed": null,
-      "status": "撤销立案 / 拒绝请求",
-      "asOf": "2026-05-14",
-      "conclusion": "Director因涉案专利具备PGR适格性撤销IPR立案并拒绝请求；与另一申请人的PGR2026-00003有关，后者不作为Oura当事方案件计数。",
+      "filed": "2025-08-05",
+      "status": "立案决定撤销，拒绝立案",
+      "asOf": "2026-10-25",
+      "conclusion": "Director撤销立案并拒绝IPR：专利适用PGR窗口；共同申请人还包括Samsung Electronics Co., Ltd.、Samsung Electronics America, Inc.、Fossil Group, Inc.、Fossil Stores I, Inc.、Fossil Partners, L.P.及OnePlus Technology (Shenzhen) Co., Ltd.；Ouraring/OPPO在部分文件为RPI，未混同为具名申请人。 2026-05-06为启动Director Review/暂停；05-14才是撤销决定。WHOOP的PGR2026-00003不计作Oura程序。",
       "sources": [
         {
           "label": "官方文件 / 案卷材料",
           "url": "https://www.uspto.gov/sites/default/files/documents/IPR2025-01253_Samsung_v_Omni_MedSci_DR_Decision.pdf"
+        },
+        {
+          "label": "工作簿 S061 · 主要来源 · 法院文书公开副本",
+          "url": "https://cases.justia.com/federal/district-courts/delaware/dedce/1:2025cv00140/88127/101/0.pdf"
+        },
+        {
+          "label": "工作簿 S062 · 交叉 / 补充来源 · 二级案卷索引",
+          "url": "https://ipverse.greyb.com/ptab-web/cases/case-details/IPR2025-01253"
+        },
+        {
+          "label": "工作簿 S063 · 交叉 / 补充来源 · 二级交叉来源",
+          "url": "https://patents.google.com/patent/US12193790B2/en"
         }
       ],
       "risk": "待评估",
       "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
-      "claimChange": "未核实修改申请、获准替代权利要求或再审证书；不等同于没有变化。",
+      "claimChange": "未查得本案实际修改/替代权项或法定放弃。2026-05-14撤销立案并拒绝IPR是程序适格性处理，不是修改第7项。未取得完整案卷，修改情况仍有限制。专利权人为Omni MedSci。依据：S062（Director决定）、原表S061–S064。",
       "nextDate": null,
       "nextLabel": "待核实下一关键日期",
       "verified": "案号已收录",
@@ -2007,7 +2861,29 @@
           "2026-05-14",
           "Director撤销IPR立案并拒绝请求"
         ]
-      ]
+      ],
+      "workbook": {
+        "file": "IPR/Oura_US_IPR_PGR_EPR_2026-10-25.xlsx",
+        "sheet": "案件总表",
+        "row": 25,
+        "asOf": "2026-10-25",
+        "role": "Petitioner（共同）",
+        "ouraEntity": "Oura Health Oy",
+        "counterparty": "Omni MedSci, Inc.",
+        "patentTitle": "Wearable devices comprising semiconductor diode light sources with improved signal-to-noise ratio",
+        "institution": "曾立案，后被撤销",
+        "institutionDate": "2026-02-03",
+        "status": "立案决定撤销，拒绝立案",
+        "conclusion": "Director撤销立案并拒绝IPR：专利适用PGR窗口",
+        "claims": "7",
+        "eventDate": "2026-05-14",
+        "appeal": "未查得（不等于无）",
+        "appealNumber": "未核实",
+        "litigation": "E.D. Tex. 2:24-cv-01070；Oura分拆案2:26-cv-00289；D. Del. 1:25-cv-00140为WHOOP平行案",
+        "notes": "共同申请人还包括Samsung Electronics Co., Ltd.、Samsung Electronics America, Inc.、Fossil Group, Inc.、Fossil Stores I, Inc.、Fossil Partners, L.P.及OnePlus Technology (Shenzhen) Co., Ltd.；Ouraring/OPPO在部分文件为RPI，未混同为具名申请人。 2026-05-06为启动Director Review/暂停；05-14才是撤销决定。WHOOP的PGR2026-00003不计作Oura程序。",
+        "verification": "已确认案号；字段按所列来源核验",
+        "sourceIds": "S061, S062, S063, S064"
+      }
     },
     {
       "id": "PGR2025-00064",
@@ -2025,26 +2901,65 @@
       "patents": [
         "12193790"
       ],
-      "filed": null,
-      "status": "拒绝立案",
-      "asOf": "2026-05-14",
-      "conclusion": "Director文件记载此前按申请人排序准许IPR、拒绝平行PGR；IPR后被撤销并不意味着本PGR自动恢复。",
+      "filed": "2025-08-05",
+      "status": "未立案；无实体FWD",
+      "asOf": "2026-10-25",
+      "conclusion": "裁量拒绝；未作实体决定；共同申请人还包括Samsung Electronics Co., Ltd.、Samsung Electronics America, Inc.、Fossil Group, Inc.、Fossil Stores I, Inc.、Fossil Partners, L.P.及OnePlus Technology (Shenzhen) Co., Ltd.；Ouraring/OPPO在部分文件为RPI，未混同为具名申请人。",
       "sources": [
         {
           "label": "官方文件 / 案卷材料",
           "url": "https://www.uspto.gov/sites/default/files/documents/IPR2025-01253_Samsung_v_Omni_MedSci_DR_Decision.pdf"
+        },
+        {
+          "label": "工作簿 S071 · 主要来源 · 法院文书公开副本",
+          "url": "https://cases.justia.com/federal/district-courts/delaware/dedce/1:2025cv00140/88127/101/0.pdf"
+        },
+        {
+          "label": "工作簿 S072 · 交叉 / 补充来源 · 二级案卷索引",
+          "url": "https://ipverse.greyb.com/ptab-web/cases/case-details/PGR2025-00064"
+        },
+        {
+          "label": "工作簿 S073 · 交叉 / 补充来源 · 二级交叉来源",
+          "url": "https://patents.google.com/patent/US12193790B2/en"
         }
       ],
       "risk": "待评估",
       "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
-      "claimChange": "未核实修改申请、获准替代权利要求或再审证书；不等同于没有变化。",
+      "claimChange": "未查得本PGR实际修改动议、替代权项或法定放弃；原表列2025-12-01裁量拒绝，该结果不构成修改。完整案卷未取得；同专利其他程序不能混记。专利权人为Omni MedSci。依据：原表S071–S073及本次案号检索。",
       "nextDate": null,
       "nextLabel": "待核实下一关键日期",
       "verified": "案号已收录",
       "related": [
         "IPR2025-01253"
       ],
-      "events": []
+      "events": [
+        [
+          "2025-12-01",
+          "工作簿所列关键事件（详情见核对记录）"
+        ]
+      ],
+      "workbook": {
+        "file": "IPR/Oura_US_IPR_PGR_EPR_2026-10-25.xlsx",
+        "sheet": "案件总表",
+        "row": 28,
+        "asOf": "2026-10-25",
+        "role": "Petitioner（共同）",
+        "ouraEntity": "Oura Health Oy",
+        "counterparty": "Omni MedSci, Inc.",
+        "patentTitle": "Wearable devices comprising semiconductor diode light sources with improved signal-to-noise ratio",
+        "institution": "否—裁量拒绝",
+        "institutionDate": "2025-12-01",
+        "status": "未立案；无实体FWD",
+        "conclusion": "裁量拒绝；未作实体决定",
+        "claims": "7",
+        "eventDate": "2025-12-01",
+        "appeal": "未查得（不等于无）",
+        "appealNumber": "未核实",
+        "litigation": "E.D. Tex. 2:24-cv-01070；Oura分拆案2:26-cv-00289；D. Del. 1:25-cv-00140为WHOOP平行案",
+        "notes": "共同申请人还包括Samsung Electronics Co., Ltd.、Samsung Electronics America, Inc.、Fossil Group, Inc.、Fossil Stores I, Inc.、Fossil Partners, L.P.及OnePlus Technology (Shenzhen) Co., Ltd.；Ouraring/OPPO在部分文件为RPI，未混同为具名申请人。",
+        "verification": "已确认案号；字段按所列来源核验",
+        "sourceIds": "S071, S072, S073"
+      }
     },
     {
       "id": "25-1871",
@@ -2284,9 +3199,9 @@
         "12393229"
       ],
       "filed": "2026-09-15",
-      "status": "再审索引收录 / 原件待核",
-      "asOf": null,
-      "conclusion": "公开索引所列单方再审；属于USPTO审查程序，不等同PTAB的IPR/PGR。尚未核实官方最新审查意见、修改答复及再审证书。",
+      "status": "已分配审查员决定是否启动；未查得批准",
+      "asOf": "2026-10-25",
+      "conclusion": "未查得最终再审查证书/终局结果；请求人后缀据ExamPat为Inc.，不自动改为LLC。 EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
       "sources": [
         {
           "label": "ExamPat：再审案号与请求人索引",
@@ -2295,16 +3210,55 @@
         {
           "label": "USPTO Patent Center：按控制号复核",
           "url": "https://patentcenter.uspto.gov/"
+        },
+        {
+          "label": "工作簿 S127 · 主要来源 · 二级案卷索引",
+          "url": "https://exampat.com/reexams/90016588"
+        },
+        {
+          "label": "工作簿 S129 · 交叉 / 补充来源 · 二级案卷索引",
+          "url": "https://portal.unifiedpatents.com/company/Samsung%20Electronics%20Co%20Ltd"
+        },
+        {
+          "label": "工作簿 S130 · 交叉 / 补充来源 · USPTO官方（见逐案访问限制）",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/90016588/documents"
         }
       ],
       "risk": "待评估",
       "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
-      "claimChange": "未核实修改申请、获准替代权利要求或再审证书；不等同于没有变化。",
+      "claimChange": "待核实：公开索引截至可见的2026-10-01分配审查员事件，未见修改或再审查证书条目。未取得完整案卷，不能确认未修改；无法列出删除/缩窄/新增权项。依据：S127、S128。",
       "nextDate": null,
       "nextLabel": "待核实下一关键日期",
       "verified": "二级索引线索",
       "related": [],
-      "events": []
+      "events": [
+        [
+          "2026-10-01",
+          "工作簿所列关键事件（详情见核对记录）"
+        ]
+      ],
+      "workbook": {
+        "file": "IPR/Oura_US_IPR_PGR_EPR_2026-10-25.xlsx",
+        "sheet": "案件总表",
+        "row": 41,
+        "asOf": "2026-10-25",
+        "role": "Patent Owner",
+        "ouraEntity": "Ouraring, Inc.",
+        "counterparty": "Ultrahuman Healthcare Inc.",
+        "patentTitle": "Wearable computing device",
+        "institution": "是否批准尚未核实",
+        "institutionDate": null,
+        "status": "已分配审查员决定是否启动；未查得批准",
+        "conclusion": "未查得最终再审查证书/终局结果",
+        "claims": "未核实—需读取请求书及后续权利要求文本",
+        "eventDate": "2026-10-01",
+        "appeal": "未查得（不等于无）",
+        "appealNumber": "未核实",
+        "litigation": "具体District Court/ITC案号待逐项核实",
+        "notes": "请求人后缀据ExamPat为Inc.，不自动改为LLC。 EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
+        "verification": "案号已确认；EPR进展主要据二级案卷索引；缺项明确保留",
+        "sourceIds": "S127, S128, S129, S130"
+      }
     },
     {
       "id": "90/016,561",
@@ -2320,9 +3274,9 @@
         "12399530"
       ],
       "filed": "2026-09-03",
-      "status": "再审索引收录 / 原件待核",
-      "asOf": null,
-      "conclusion": "公开索引所列单方再审；属于USPTO审查程序，不等同PTAB的IPR/PGR。尚未核实官方最新审查意见、修改答复及再审证书。",
+      "status": "已分配审查员决定是否启动；未查得批准",
+      "asOf": "2026-10-25",
+      "conclusion": "未查得最终再审查证书/终局结果；09-29为分配事件，不是批准日期。 EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
       "sources": [
         {
           "label": "ExamPat：再审案号与请求人索引",
@@ -2331,16 +3285,55 @@
         {
           "label": "USPTO Patent Center：按控制号复核",
           "url": "https://patentcenter.uspto.gov/"
+        },
+        {
+          "label": "工作簿 S123 · 主要来源 · 二级案卷索引",
+          "url": "https://exampat.com/reexams/90016561"
+        },
+        {
+          "label": "工作簿 S125 · 交叉 / 补充来源 · 二级案卷索引",
+          "url": "https://portal.unifiedpatents.com/company/Samsung%20Electronics%20Co%20Ltd"
+        },
+        {
+          "label": "工作簿 S126 · 交叉 / 补充来源 · USPTO官方（见逐案访问限制）",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/90016561/documents"
         }
       ],
       "risk": "待评估",
       "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
-      "claimChange": "未核实修改申请、获准替代权利要求或再审证书；不等同于没有变化。",
+      "claimChange": "待核实：公开索引截至可见的2026-09-29分配审查员事件，未见修改或再审查证书条目。未取得完整案卷，不能确认未修改；无法列出删除/缩窄/新增权项。依据：S123、S124。",
       "nextDate": null,
       "nextLabel": "待核实下一关键日期",
       "verified": "二级索引线索",
       "related": [],
-      "events": []
+      "events": [
+        [
+          "2026-09-29",
+          "工作簿所列关键事件（详情见核对记录）"
+        ]
+      ],
+      "workbook": {
+        "file": "IPR/Oura_US_IPR_PGR_EPR_2026-10-25.xlsx",
+        "sheet": "案件总表",
+        "row": 40,
+        "asOf": "2026-10-25",
+        "role": "Patent Owner",
+        "ouraEntity": "Ouraring, Inc.",
+        "counterparty": "Ultrahuman Healthcare LLC",
+        "patentTitle": "Wearable computing device",
+        "institution": "是否批准尚未核实",
+        "institutionDate": null,
+        "status": "已分配审查员决定是否启动；未查得批准",
+        "conclusion": "未查得最终再审查证书/终局结果",
+        "claims": "未核实—需读取请求书及后续权利要求文本",
+        "eventDate": "2026-09-29",
+        "appeal": "未查得（不等于无）",
+        "appealNumber": "未核实",
+        "litigation": "具体District Court/ITC案号待逐项核实",
+        "notes": "09-29为分配事件，不是批准日期。 EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
+        "verification": "案号已确认；EPR进展主要据二级案卷索引；缺项明确保留",
+        "sourceIds": "S123, S124, S125, S126"
+      }
     },
     {
       "id": "90/016,560",
@@ -2356,9 +3349,9 @@
         "12399531"
       ],
       "filed": "2026-09-02",
-      "status": "再审索引收录 / 原件待核",
-      "asOf": null,
-      "conclusion": "公开索引所列单方再审；属于USPTO审查程序，不等同PTAB的IPR/PGR。尚未核实官方最新审查意见、修改答复及再审证书。",
+      "status": "已分配审查员决定是否启动；未查得批准",
+      "asOf": "2026-10-25",
+      "conclusion": "未查得最终再审查证书/终局结果；09-14为分配事件，不是批准日期。 EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
       "sources": [
         {
           "label": "ExamPat：再审案号与请求人索引",
@@ -2367,16 +3360,55 @@
         {
           "label": "USPTO Patent Center：按控制号复核",
           "url": "https://patentcenter.uspto.gov/"
+        },
+        {
+          "label": "工作簿 S119 · 主要来源 · 二级案卷索引",
+          "url": "https://exampat.com/reexams/90016560"
+        },
+        {
+          "label": "工作簿 S121 · 交叉 / 补充来源 · 二级案卷索引",
+          "url": "https://portal.unifiedpatents.com/company/Samsung%20Electronics%20Co%20Ltd"
+        },
+        {
+          "label": "工作簿 S122 · 交叉 / 补充来源 · USPTO官方（见逐案访问限制）",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/90016560/documents"
         }
       ],
       "risk": "待评估",
       "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
-      "claimChange": "未核实修改申请、获准替代权利要求或再审证书；不等同于没有变化。",
+      "claimChange": "待核实：公开索引截至可见的2026-09-14分配审查员事件，未见修改或再审查证书条目。未取得完整案卷，不能确认未修改；分配审查员不等于修改或证书签发。依据：S119、S120。",
       "nextDate": null,
       "nextLabel": "待核实下一关键日期",
       "verified": "二级索引线索",
       "related": [],
-      "events": []
+      "events": [
+        [
+          "2026-09-14",
+          "工作簿所列关键事件（详情见核对记录）"
+        ]
+      ],
+      "workbook": {
+        "file": "IPR/Oura_US_IPR_PGR_EPR_2026-10-25.xlsx",
+        "sheet": "案件总表",
+        "row": 39,
+        "asOf": "2026-10-25",
+        "role": "Patent Owner",
+        "ouraEntity": "Ouraring, Inc.",
+        "counterparty": "Ultrahuman Healthcare LLC",
+        "patentTitle": "Wearable computing device",
+        "institution": "是否批准尚未核实",
+        "institutionDate": null,
+        "status": "已分配审查员决定是否启动；未查得批准",
+        "conclusion": "未查得最终再审查证书/终局结果",
+        "claims": "未核实—需读取请求书及后续权利要求文本",
+        "eventDate": "2026-09-14",
+        "appeal": "未查得（不等于无）",
+        "appealNumber": "未核实",
+        "litigation": "具体District Court/ITC案号待逐项核实",
+        "notes": "09-14为分配事件，不是批准日期。 EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
+        "verification": "案号已确认；EPR进展主要据二级案卷索引；缺项明确保留",
+        "sourceIds": "S119, S120, S121, S122"
+      }
     },
     {
       "id": "90/016,519",
@@ -2392,9 +3424,9 @@
         "12429909"
       ],
       "filed": "2026-08-10",
-      "status": "再审索引收录 / 原件待核",
-      "asOf": null,
-      "conclusion": "公开索引所列单方再审；属于USPTO审查程序，不等同PTAB的IPR/PGR。尚未核实官方最新审查意见、修改答复及再审证书。",
+      "status": "已批准（据Unified）；批准日期待核实",
+      "asOf": "2026-10-25",
+      "conclusion": "未查得最终再审查证书/终局结果；Unified仍列Motiv, Inc.；官方请求公告列Ouraring。权属历史差异保留。 EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
       "sources": [
         {
           "label": "ExamPat：再审案号与请求人索引",
@@ -2403,16 +3435,54 @@
         {
           "label": "USPTO Patent Center：按控制号复核",
           "url": "https://patentcenter.uspto.gov/"
+        },
+        {
+          "label": "工作簿 S114 · 主要来源 · 二级案卷索引",
+          "url": "https://exampat.com/reexams/90016519"
+        },
+        {
+          "label": "工作簿 S116 · 交叉 / 补充来源 · 二级案卷索引",
+          "url": "https://portal.unifiedpatents.com/company/Samsung%20Electronics%20Co%20Ltd"
+        },
+        {
+          "label": "工作簿 S117 · 交叉 / 补充来源 · USPTO官方（见逐案访问限制）",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/90016519/documents"
+        },
+        {
+          "label": "工作簿 S118 · 交叉 / 补充来源 · USPTO官方（见逐案访问限制）",
+          "url": "https://www.uspto.gov/web/offices/com/sol/og/2026/week41/TOC.htm"
         }
       ],
       "risk": "待评估",
       "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
-      "claimChange": "未核实修改申请、获准替代权利要求或再审证书；不等同于没有变化。",
+      "claimChange": "待核实：本次未能读取完整索引或官方案卷，未取得修改答复、权项对照或再审查证书。无法确认删除/缩窄/新增的权项及日期；不以原表批准状态推断修改。复核入口：S114、S115。",
       "nextDate": null,
       "nextLabel": "待核实下一关键日期",
       "verified": "二级索引线索",
       "related": [],
-      "events": []
+      "events": [],
+      "workbook": {
+        "file": "IPR/Oura_US_IPR_PGR_EPR_2026-10-25.xlsx",
+        "sheet": "案件总表",
+        "row": 38,
+        "asOf": "2026-10-25",
+        "role": "Patent Owner",
+        "ouraEntity": "Ouraring, Inc.",
+        "counterparty": "Samsung Electronics Co., Ltd.; Samsung Electronics America, Inc.",
+        "patentTitle": "Wearable computing device",
+        "institution": "已批准；日期待核实",
+        "institutionDate": null,
+        "status": "已批准（据Unified）；批准日期待核实",
+        "conclusion": "未查得最终再审查证书/终局结果",
+        "claims": "未核实—需读取请求书及后续权利要求文本",
+        "eventDate": null,
+        "appeal": "未查得（不等于无）",
+        "appealNumber": "未核实",
+        "litigation": "具体District Court/ITC案号待逐项核实",
+        "notes": "Unified仍列Motiv, Inc.；官方请求公告列Ouraring。权属历史差异保留。 EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
+        "verification": "案号已确认；EPR进展主要据二级案卷索引；缺项明确保留",
+        "sourceIds": "S114, S115, S116, S117, S118"
+      }
     },
     {
       "id": "90/016,517",
@@ -2428,9 +3498,9 @@
         "12393227"
       ],
       "filed": "2026-08-10",
-      "status": "再审索引收录 / 原件待核",
-      "asOf": null,
-      "conclusion": "公开索引所列单方再审；属于USPTO审查程序，不等同PTAB的IPR/PGR。尚未核实官方最新审查意见、修改答复及再审证书。",
+      "status": "已批准；未查得后续终局决定",
+      "asOf": "2026-10-25",
+      "conclusion": "未查得最终再审查证书/终局结果； EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
       "sources": [
         {
           "label": "ExamPat：再审案号与请求人索引",
@@ -2439,16 +3509,59 @@
         {
           "label": "USPTO Patent Center：按控制号复核",
           "url": "https://patentcenter.uspto.gov/"
+        },
+        {
+          "label": "工作簿 S104 · 主要来源 · 二级案卷索引",
+          "url": "https://exampat.com/reexams/90016517"
+        },
+        {
+          "label": "工作簿 S106 · 交叉 / 补充来源 · 二级案卷索引",
+          "url": "https://portal.unifiedpatents.com/company/Samsung%20Electronics%20Co%20Ltd"
+        },
+        {
+          "label": "工作簿 S107 · 交叉 / 补充来源 · USPTO官方（见逐案访问限制）",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/90016517/documents"
+        },
+        {
+          "label": "工作簿 S108 · 交叉 / 补充来源 · USPTO官方（见逐案访问限制）",
+          "url": "https://www.uspto.gov/web/offices/com/sol/og/2026/week41/TOC.htm"
         }
       ],
       "risk": "待评估",
       "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
-      "claimChange": "未核实修改申请、获准替代权利要求或再审证书；不等同于没有变化。",
+      "claimChange": "待核实：本次仅检索到案件索引，未取得修改答复、权项对照或再审查证书。原表列2026-10-01批准再审查，不能据此认定已修改；涉及权项及修改日期尚不明。复核入口：S104、S105。",
       "nextDate": null,
       "nextLabel": "待核实下一关键日期",
       "verified": "二级索引线索",
       "related": [],
-      "events": []
+      "events": [
+        [
+          "2026-10-01",
+          "工作簿所列关键事件（详情见核对记录）"
+        ]
+      ],
+      "workbook": {
+        "file": "IPR/Oura_US_IPR_PGR_EPR_2026-10-25.xlsx",
+        "sheet": "案件总表",
+        "row": 36,
+        "asOf": "2026-10-25",
+        "role": "Patent Owner",
+        "ouraEntity": "Ouraring, Inc.",
+        "counterparty": "Samsung Electronics Co., Ltd.",
+        "patentTitle": "Wearable computing device",
+        "institution": "已批准再审查",
+        "institutionDate": "2026-10-01",
+        "status": "已批准；未查得后续终局决定",
+        "conclusion": "未查得最终再审查证书/终局结果",
+        "claims": "未核实—需读取请求书及后续权利要求文本",
+        "eventDate": "2026-10-01",
+        "appeal": "未查得（不等于无）",
+        "appealNumber": "未核实",
+        "litigation": "具体District Court/ITC案号待逐项核实",
+        "notes": " EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
+        "verification": "案号已确认；EPR进展主要据二级案卷索引；缺项明确保留",
+        "sourceIds": "S104, S105, S106, S107, S108"
+      }
     },
     {
       "id": "90/016,518",
@@ -2464,9 +3577,9 @@
         "12422889"
       ],
       "filed": "2026-08-10",
-      "status": "再审索引收录 / 原件待核",
-      "asOf": null,
-      "conclusion": "公开索引所列单方再审；属于USPTO审查程序，不等同PTAB的IPR/PGR。尚未核实官方最新审查意见、修改答复及再审证书。",
+      "status": "已批准（据Unified）；批准日期待核实",
+      "asOf": "2026-10-25",
+      "conclusion": "未查得最终再审查证书/终局结果；Unified仍列Motiv, Inc.；官方请求公告列Ouraring。权属历史差异保留。 EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
       "sources": [
         {
           "label": "ExamPat：再审案号与请求人索引",
@@ -2475,16 +3588,54 @@
         {
           "label": "USPTO Patent Center：按控制号复核",
           "url": "https://patentcenter.uspto.gov/"
+        },
+        {
+          "label": "工作簿 S109 · 主要来源 · 二级案卷索引",
+          "url": "https://exampat.com/reexams/90016518"
+        },
+        {
+          "label": "工作簿 S111 · 交叉 / 补充来源 · 二级案卷索引",
+          "url": "https://portal.unifiedpatents.com/company/Samsung%20Electronics%20Co%20Ltd"
+        },
+        {
+          "label": "工作簿 S112 · 交叉 / 补充来源 · USPTO官方（见逐案访问限制）",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/90016518/documents"
+        },
+        {
+          "label": "工作簿 S113 · 交叉 / 补充来源 · USPTO官方（见逐案访问限制）",
+          "url": "https://www.uspto.gov/web/offices/com/sol/og/2026/week41/TOC.htm"
         }
       ],
       "risk": "待评估",
       "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
-      "claimChange": "未核实修改申请、获准替代权利要求或再审证书；不等同于没有变化。",
+      "claimChange": "待核实：本次未能读取完整索引或官方案卷，未取得修改答复、权项对照或再审查证书。无法确认删除/缩窄/新增的权项及日期；不以原表批准状态推断修改。复核入口：S109、S110。",
       "nextDate": null,
       "nextLabel": "待核实下一关键日期",
       "verified": "二级索引线索",
       "related": [],
-      "events": []
+      "events": [],
+      "workbook": {
+        "file": "IPR/Oura_US_IPR_PGR_EPR_2026-10-25.xlsx",
+        "sheet": "案件总表",
+        "row": 37,
+        "asOf": "2026-10-25",
+        "role": "Patent Owner",
+        "ouraEntity": "Ouraring, Inc.",
+        "counterparty": "Samsung Electronics Co., Ltd.",
+        "patentTitle": "Wearable computing device",
+        "institution": "已批准；日期待核实",
+        "institutionDate": null,
+        "status": "已批准（据Unified）；批准日期待核实",
+        "conclusion": "未查得最终再审查证书/终局结果",
+        "claims": "未核实—需读取请求书及后续权利要求文本",
+        "eventDate": null,
+        "appeal": "未查得（不等于无）",
+        "appealNumber": "未核实",
+        "litigation": "具体District Court/ITC案号待逐项核实",
+        "notes": "Unified仍列Motiv, Inc.；官方请求公告列Ouraring。权属历史差异保留。 EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
+        "verification": "案号已确认；EPR进展主要据二级案卷索引；缺项明确保留",
+        "sourceIds": "S109, S110, S111, S112, S113"
+      }
     },
     {
       "id": "90/016,516",
@@ -2500,9 +3651,9 @@
         "12346160"
       ],
       "filed": "2026-08-10",
-      "status": "再审索引收录 / 原件待核",
-      "asOf": null,
-      "conclusion": "公开索引所列单方再审；属于USPTO审查程序，不等同PTAB的IPR/PGR。尚未核实官方最新审查意见、修改答复及再审证书。",
+      "status": "已批准（据Unified）；批准日期待核实",
+      "asOf": "2026-10-25",
+      "conclusion": "未查得最终再审查证书/终局结果；单案ExamPat页面未成功读取；状态按Unified及owner聚合页，不推定具体批准日。 EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
       "sources": [
         {
           "label": "ExamPat：再审案号与请求人索引",
@@ -2511,16 +3662,50 @@
         {
           "label": "USPTO Patent Center：按控制号复核",
           "url": "https://patentcenter.uspto.gov/"
+        },
+        {
+          "label": "工作簿 S100 · 主要来源 · 二级案卷索引",
+          "url": "https://exampat.com/reexams/90016516"
+        },
+        {
+          "label": "工作簿 S102 · 交叉 / 补充来源 · 二级案卷索引",
+          "url": "https://portal.unifiedpatents.com/company/Samsung%20Electronics%20Co%20Ltd"
+        },
+        {
+          "label": "工作簿 S103 · 交叉 / 补充来源 · USPTO官方（见逐案访问限制）",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/90016516/documents"
         }
       ],
       "risk": "待评估",
       "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
-      "claimChange": "未核实修改申请、获准替代权利要求或再审证书；不等同于没有变化。",
+      "claimChange": "待核实：本次未能读取完整索引或官方案卷，未取得修改答复、权项对照或再审查证书。无法确认是否删除、缩窄或新增，以及相关日期/结果；原表批准状态不构成修改证据。复核入口：S100、S101。",
       "nextDate": null,
       "nextLabel": "待核实下一关键日期",
       "verified": "二级索引线索",
       "related": [],
-      "events": []
+      "events": [],
+      "workbook": {
+        "file": "IPR/Oura_US_IPR_PGR_EPR_2026-10-25.xlsx",
+        "sheet": "案件总表",
+        "row": 35,
+        "asOf": "2026-10-25",
+        "role": "Patent Owner",
+        "ouraEntity": "Ouraring, Inc.",
+        "counterparty": "Samsung Electronics Co., Ltd.; Samsung Electronics America, Inc.",
+        "patentTitle": "Wearable computing device",
+        "institution": "已批准；日期待核实",
+        "institutionDate": null,
+        "status": "已批准（据Unified）；批准日期待核实",
+        "conclusion": "未查得最终再审查证书/终局结果",
+        "claims": "未核实—需读取请求书及后续权利要求文本",
+        "eventDate": null,
+        "appeal": "未查得（不等于无）",
+        "appealNumber": "未核实",
+        "litigation": "具体District Court/ITC案号待逐项核实",
+        "notes": "单案ExamPat页面未成功读取；状态按Unified及owner聚合页，不推定具体批准日。 EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
+        "verification": "案号已确认；EPR进展主要据二级案卷索引；缺项明确保留",
+        "sourceIds": "S100, S101, S102, S103"
+      }
     },
     {
       "id": "90/016,512",
@@ -2536,9 +3721,9 @@
         "12393228"
       ],
       "filed": "2026-08-06",
-      "status": "再审索引收录 / 原件待核",
-      "asOf": null,
-      "conclusion": "公开索引所列单方再审；属于USPTO审查程序，不等同PTAB的IPR/PGR。尚未核实官方最新审查意见、修改答复及再审证书。",
+      "status": "已批准；未查得后续终局决定",
+      "asOf": "2026-10-25",
+      "conclusion": "未查得最终再审查证书/终局结果； EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
       "sources": [
         {
           "label": "ExamPat：再审案号与请求人索引",
@@ -2547,16 +3732,59 @@
         {
           "label": "USPTO Patent Center：按控制号复核",
           "url": "https://patentcenter.uspto.gov/"
+        },
+        {
+          "label": "工作簿 S095 · 主要来源 · 二级案卷索引",
+          "url": "https://exampat.com/reexams/90016512"
+        },
+        {
+          "label": "工作簿 S097 · 交叉 / 补充来源 · 二级案卷索引",
+          "url": "https://portal.unifiedpatents.com/company/Samsung%20Electronics%20Co%20Ltd"
+        },
+        {
+          "label": "工作簿 S098 · 交叉 / 补充来源 · USPTO官方（见逐案访问限制）",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/90016512/documents"
+        },
+        {
+          "label": "工作簿 S099 · 交叉 / 补充来源 · USPTO官方（见逐案访问限制）",
+          "url": "https://www.uspto.gov/web/offices/com/sol/og/2026/week41/TOC.htm"
         }
       ],
       "risk": "待评估",
       "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
-      "claimChange": "未核实修改申请、获准替代权利要求或再审证书；不等同于没有变化。",
+      "claimChange": "待核实：本次索引仅可见2026-08-12分配审查员等早期事件，未见修改/再审查证书条目；原表09-30批准记录本次页面未显示。未取得完整案卷，不能判定未修改。依据：S095、S096。",
       "nextDate": null,
       "nextLabel": "待核实下一关键日期",
       "verified": "二级索引线索",
       "related": [],
-      "events": []
+      "events": [
+        [
+          "2026-09-30",
+          "工作簿所列关键事件（详情见核对记录）"
+        ]
+      ],
+      "workbook": {
+        "file": "IPR/Oura_US_IPR_PGR_EPR_2026-10-25.xlsx",
+        "sheet": "案件总表",
+        "row": 34,
+        "asOf": "2026-10-25",
+        "role": "Patent Owner",
+        "ouraEntity": "Ouraring, Inc.",
+        "counterparty": "Ultrahuman Healthcare LLC",
+        "patentTitle": "Wearable computing device",
+        "institution": "已批准再审查",
+        "institutionDate": "2026-09-30",
+        "status": "已批准；未查得后续终局决定",
+        "conclusion": "未查得最终再审查证书/终局结果",
+        "claims": "未核实—需读取请求书及后续权利要求文本",
+        "eventDate": "2026-09-30",
+        "appeal": "未查得（不等于无）",
+        "appealNumber": "未核实",
+        "litigation": "具体District Court/ITC案号待逐项核实",
+        "notes": " EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
+        "verification": "案号已确认；EPR进展主要据二级案卷索引；缺项明确保留",
+        "sourceIds": "S095, S096, S097, S098, S099"
+      }
     },
     {
       "id": "90/016,380",
@@ -2572,9 +3800,9 @@
         "12222759"
       ],
       "filed": "2026-06-05",
-      "status": "再审索引收录 / 原件待核",
-      "asOf": null,
-      "conclusion": "公开索引所列单方再审；属于USPTO审查程序，不等同PTAB的IPR/PGR。尚未核实官方最新审查意见、修改答复及再审证书。",
+      "status": "已批准；有合并程序通知",
+      "asOf": "2026-10-25",
+      "conclusion": "未查得最终再审查证书/终局结果；09-28合并通知具体合并对象未核实，不推定已与16261合并。 EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
       "sources": [
         {
           "label": "ExamPat：再审案号与请求人索引",
@@ -2583,16 +3811,55 @@
         {
           "label": "USPTO Patent Center：按控制号复核",
           "url": "https://patentcenter.uspto.gov/"
+        },
+        {
+          "label": "工作簿 S091 · 主要来源 · 二级案卷索引",
+          "url": "https://exampat.com/reexams/90016380"
+        },
+        {
+          "label": "工作簿 S093 · 交叉 / 补充来源 · 二级案卷索引",
+          "url": "https://portal.unifiedpatents.com/company/Samsung%20Electronics%20Co%20Ltd"
+        },
+        {
+          "label": "工作簿 S094 · 交叉 / 补充来源 · USPTO官方（见逐案访问限制）",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/90016380/documents"
         }
       ],
       "risk": "待评估",
       "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
-      "claimChange": "未核实修改申请、获准替代权利要求或再审证书；不等同于没有变化。",
+      "claimChange": "待核实：本次索引可见2026-07-23批准再审查，未取得修改答复、权项对照或证书。原表记有09-28合并通知，本次页面未显示，亦不能据该通知推定已修改。依据：S091、S092。",
       "nextDate": null,
       "nextLabel": "待核实下一关键日期",
       "verified": "二级索引线索",
       "related": [],
-      "events": []
+      "events": [
+        [
+          "2026-09-28",
+          "工作簿所列关键事件（详情见核对记录）"
+        ]
+      ],
+      "workbook": {
+        "file": "IPR/Oura_US_IPR_PGR_EPR_2026-10-25.xlsx",
+        "sheet": "案件总表",
+        "row": 33,
+        "asOf": "2026-10-25",
+        "role": "Patent Owner",
+        "ouraEntity": "Ouraring, Inc.",
+        "counterparty": "Ultrahuman Healthcare LLC",
+        "patentTitle": "Wearable computing device",
+        "institution": "已批准再审查",
+        "institutionDate": "2026-07-23",
+        "status": "已批准；有合并程序通知",
+        "conclusion": "未查得最终再审查证书/终局结果",
+        "claims": "未核实—需读取请求书及后续权利要求文本",
+        "eventDate": "2026-09-28",
+        "appeal": "未查得（不等于无）",
+        "appealNumber": "未核实",
+        "litigation": "具体District Court/ITC案号待逐项核实",
+        "notes": "09-28合并通知具体合并对象未核实，不推定已与16261合并。 EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
+        "verification": "案号已确认；EPR进展主要据二级案卷索引；缺项明确保留",
+        "sourceIds": "S091, S092, S093, S094"
+      }
     },
     {
       "id": "90/016,261",
@@ -2608,9 +3875,9 @@
         "12222759"
       ],
       "filed": "2026-05-08",
-      "status": "再审索引收录 / 原件待核",
-      "asOf": null,
-      "conclusion": "公开索引所列单方再审；属于USPTO审查程序，不等同PTAB的IPR/PGR。尚未核实官方最新审查意见、修改答复及再审证书。",
+      "status": "已批准；有合并程序通知",
+      "asOf": "2026-10-25",
+      "conclusion": "未查得最终再审查证书/终局结果；聚合页/Unified列Samsung；单案页请求人未知。09-28合并通知具体合并对象未核实。 EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
       "sources": [
         {
           "label": "ExamPat：再审案号与请求人索引",
@@ -2619,16 +3886,55 @@
         {
           "label": "USPTO Patent Center：按控制号复核",
           "url": "https://patentcenter.uspto.gov/"
+        },
+        {
+          "label": "工作簿 S087 · 主要来源 · 二级案卷索引",
+          "url": "https://exampat.com/reexams/90016261"
+        },
+        {
+          "label": "工作簿 S089 · 交叉 / 补充来源 · 二级案卷索引",
+          "url": "https://portal.unifiedpatents.com/company/Samsung%20Electronics%20Co%20Ltd"
+        },
+        {
+          "label": "工作簿 S090 · 交叉 / 补充来源 · USPTO官方（见逐案访问限制）",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/90016261/documents"
         }
       ],
       "risk": "待评估",
       "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
-      "claimChange": "未核实修改申请、获准替代权利要求或再审证书；不等同于没有变化。",
+      "claimChange": "待核实：索引可见2026-09-28合并程序通知，未见明确修改或再审查证书条目；未取得通知与权项文本。合并通知不是权项修改，不能据此认定删除/缩窄/新增。依据：S087、S088。",
       "nextDate": null,
       "nextLabel": "待核实下一关键日期",
       "verified": "二级索引线索",
       "related": [],
-      "events": []
+      "events": [
+        [
+          "2026-09-28",
+          "工作簿所列关键事件（详情见核对记录）"
+        ]
+      ],
+      "workbook": {
+        "file": "IPR/Oura_US_IPR_PGR_EPR_2026-10-25.xlsx",
+        "sheet": "案件总表",
+        "row": 32,
+        "asOf": "2026-10-25",
+        "role": "Patent Owner",
+        "ouraEntity": "Ouraring, Inc.",
+        "counterparty": "Samsung（具体请求人主体待请求书核对）",
+        "patentTitle": "Wearable computing device",
+        "institution": "已批准再审查",
+        "institutionDate": "2026-06-24",
+        "status": "已批准；有合并程序通知",
+        "conclusion": "未查得最终再审查证书/终局结果",
+        "claims": "未核实—需读取请求书及后续权利要求文本",
+        "eventDate": "2026-09-28",
+        "appeal": "未查得（不等于无）",
+        "appealNumber": "未核实",
+        "litigation": "具体District Court/ITC案号待逐项核实",
+        "notes": "聚合页/Unified列Samsung；单案页请求人未知。09-28合并通知具体合并对象未核实。 EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
+        "verification": "案号已确认；EPR进展主要据二级案卷索引；缺项明确保留",
+        "sourceIds": "S087, S088, S089, S090"
+      }
     },
     {
       "id": "90/016,260",
@@ -2644,9 +3950,9 @@
         "12346159"
       ],
       "filed": "2026-05-08",
-      "status": "再审索引收录 / 原件待核",
-      "asOf": null,
-      "conclusion": "公开索引所列单方再审；属于USPTO审查程序，不等同PTAB的IPR/PGR。尚未核实官方最新审查意见、修改答复及再审证书。",
+      "status": "已发非终局审查意见",
+      "asOf": "2026-10-25",
+      "conclusion": "未查得最终再审查证书/终局结果；请求人其他共同主体待原请求书确认。 EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
       "sources": [
         {
           "label": "ExamPat：再审案号与请求人索引",
@@ -2655,16 +3961,55 @@
         {
           "label": "USPTO Patent Center：按控制号复核",
           "url": "https://patentcenter.uspto.gov/"
+        },
+        {
+          "label": "工作簿 S083 · 主要来源 · 二级案卷索引",
+          "url": "https://exampat.com/reexams/90016260"
+        },
+        {
+          "label": "工作簿 S085 · 交叉 / 补充来源 · 二级案卷索引",
+          "url": "https://portal.unifiedpatents.com/company/Samsung%20Electronics%20Co%20Ltd"
+        },
+        {
+          "label": "工作簿 S086 · 交叉 / 补充来源 · USPTO官方（见逐案访问限制）",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/90016260/documents"
         }
       ],
       "risk": "待评估",
       "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
-      "claimChange": "未核实修改申请、获准替代权利要求或再审证书；不等同于没有变化。",
+      "claimChange": "待核实：索引可见2026-10-15非终局意见及此前IDS/杂项来函，未见明确修改或再审查证书条目；未取得正文，不能排除修改。索引另载2025年授权前terminal disclaimer，非本EPR权项修改。依据：S083、S084。",
       "nextDate": null,
       "nextLabel": "待核实下一关键日期",
       "verified": "二级索引线索",
       "related": [],
-      "events": []
+      "events": [
+        [
+          "2026-10-15",
+          "工作簿所列关键事件（详情见核对记录）"
+        ]
+      ],
+      "workbook": {
+        "file": "IPR/Oura_US_IPR_PGR_EPR_2026-10-25.xlsx",
+        "sheet": "案件总表",
+        "row": 31,
+        "asOf": "2026-10-25",
+        "role": "Patent Owner",
+        "ouraEntity": "Ouraring, Inc.",
+        "counterparty": "Samsung Electronics Co., Ltd.",
+        "patentTitle": "Wearable computing device",
+        "institution": "已批准再审查",
+        "institutionDate": "2026-06-24",
+        "status": "已发非终局审查意见",
+        "conclusion": "未查得最终再审查证书/终局结果",
+        "claims": "未核实—需读取请求书及后续权利要求文本",
+        "eventDate": "2026-10-15",
+        "appeal": "未查得（不等于无）",
+        "appealNumber": "未核实",
+        "litigation": "具体District Court/ITC案号待逐项核实",
+        "notes": "请求人其他共同主体待原请求书确认。 EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
+        "verification": "案号已确认；EPR进展主要据二级案卷索引；缺项明确保留",
+        "sourceIds": "S083, S084, S085, S086"
+      }
     },
     {
       "id": "90/016,231",
@@ -2680,9 +4025,9 @@
         "12353244"
       ],
       "filed": "2026-05-01",
-      "status": "再审索引收录 / 原件待核",
-      "asOf": null,
-      "conclusion": "公开索引所列单方再审；属于USPTO审查程序，不等同PTAB的IPR/PGR。尚未核实官方最新审查意见、修改答复及再审证书。",
+      "status": "已发非终局审查意见",
+      "asOf": "2026-10-25",
+      "conclusion": "未查得最终再审查证书/终局结果；请求人双主体据原表及Unified交叉；ExamPat显示Samsung Co., Ltd.。 EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
       "sources": [
         {
           "label": "ExamPat：再审案号与请求人索引",
@@ -2691,16 +4036,55 @@
         {
           "label": "USPTO Patent Center：按控制号复核",
           "url": "https://patentcenter.uspto.gov/"
+        },
+        {
+          "label": "工作簿 S079 · 主要来源 · 二级案卷索引",
+          "url": "https://exampat.com/reexams/90016231"
+        },
+        {
+          "label": "工作簿 S081 · 交叉 / 补充来源 · 二级案卷索引",
+          "url": "https://portal.unifiedpatents.com/company/Samsung%20Electronics%20Co%20Ltd"
+        },
+        {
+          "label": "工作簿 S082 · 交叉 / 补充来源 · USPTO官方（见逐案访问限制）",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/90016231/documents"
         }
       ],
       "risk": "待评估",
       "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
-      "claimChange": "未核实修改申请、获准替代权利要求或再审证书；不等同于没有变化。",
+      "claimChange": "待核实：未取得本案修改答复、权项对照或再审查证书。原表列2026-09-23非终局意见，但审查意见不等于已修改。本次索引正文读取失败，不能确认是否删除/缩窄/新增。依据：S079–S082（原表）；官方入口S080。",
       "nextDate": null,
       "nextLabel": "待核实下一关键日期",
       "verified": "二级索引线索",
       "related": [],
-      "events": []
+      "events": [
+        [
+          "2026-09-23",
+          "工作簿所列关键事件（详情见核对记录）"
+        ]
+      ],
+      "workbook": {
+        "file": "IPR/Oura_US_IPR_PGR_EPR_2026-10-25.xlsx",
+        "sheet": "案件总表",
+        "row": 30,
+        "asOf": "2026-10-25",
+        "role": "Patent Owner",
+        "ouraEntity": "Ouraring, Inc.",
+        "counterparty": "Samsung Electronics Co., Ltd.; Samsung Electronics America, Inc.",
+        "patentTitle": "Wearable computing device",
+        "institution": "已批准再审查",
+        "institutionDate": "2026-06-24",
+        "status": "已发非终局审查意见",
+        "conclusion": "未查得最终再审查证书/终局结果",
+        "claims": "未核实—需读取请求书及后续权利要求文本",
+        "eventDate": "2026-09-23",
+        "appeal": "未查得（不等于无）",
+        "appealNumber": "未核实",
+        "litigation": "具体District Court/ITC案号待逐项核实",
+        "notes": "请求人双主体据原表及Unified交叉；ExamPat显示Samsung Co., Ltd.。 EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
+        "verification": "案号已确认；EPR进展主要据二级案卷索引；缺项明确保留",
+        "sourceIds": "S079, S080, S081, S082"
+      }
     },
     {
       "id": "90/015,985",
@@ -2716,9 +4100,9 @@
         "11868178"
       ],
       "filed": "2026-02-23",
-      "status": "再审索引收录 / 原件待核",
-      "asOf": null,
-      "conclusion": "公开索引所列单方再审；属于USPTO审查程序，不等同PTAB的IPR/PGR。尚未核实官方最新审查意见、修改答复及再审证书。",
+      "status": "非终局审查意见；2026-10-07仍有案卷活动",
+      "asOf": "2026-10-25",
+      "conclusion": "未查得最终再审查证书/终局结果；请求/批准已确认；2026-09-15有延期记录。 EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
       "sources": [
         {
           "label": "ExamPat：再审案号与请求人索引",
@@ -2727,16 +4111,63 @@
         {
           "label": "USPTO Patent Center：按控制号复核",
           "url": "https://patentcenter.uspto.gov/"
+        },
+        {
+          "label": "工作簿 S074 · 主要来源 · 二级案卷索引",
+          "url": "https://exampat.com/reexams/90015985"
+        },
+        {
+          "label": "工作簿 S076 · 交叉 / 补充来源 · 二级案卷索引",
+          "url": "https://portal.unifiedpatents.com/company/Samsung%20Electronics%20Co%20Ltd"
+        },
+        {
+          "label": "工作簿 S077 · 交叉 / 补充来源 · USPTO官方（见逐案访问限制）",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/90015985/documents"
+        },
+        {
+          "label": "工作簿 S078 · 交叉 / 补充来源 · USPTO官方（见逐案访问限制）",
+          "url": "https://www.uspto.gov/web/offices/com/sol/og/2026/week17/TOC.htm"
+        },
+        {
+          "label": "工作簿 A004 · Ultrahuman合并动议第6页：2024-09-10放弃178第11项，并引Ex.2015第5页；与178 FWD交叉核对。",
+          "url": "https://ai-lab.exparte.com/documents/ptab/ptacts-uspto/1557213/Z_Zo7HtXNunwSgoI8hUD-7BImMK4RDIAD7TRl9snSqgviUvsfgvuMDA/2222492298/IPR2025-00411_doc_3_exparte.pdf"
         }
       ],
       "risk": "待评估",
       "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
-      "claimChange": "未核实修改申请、获准替代权利要求或再审证书；不等同于没有变化。",
+      "claimChange": "本EPR修改待核实：公开索引可见2026-07-28非终局意见、09-15延期及10-07杂项来函，未见明确修改/再审查证书条目；未取得文件正文，无法确认删除、缩窄或新增权项。第11项在2024年已另行法定放弃，非本EPR修改。依据：S074、A004。",
       "nextDate": null,
       "nextLabel": "待核实下一关键日期",
       "verified": "二级索引线索",
       "related": [],
-      "events": []
+      "events": [
+        [
+          "2026-07-28",
+          "工作簿所列关键事件（详情见核对记录）"
+        ]
+      ],
+      "workbook": {
+        "file": "IPR/Oura_US_IPR_PGR_EPR_2026-10-25.xlsx",
+        "sheet": "案件总表",
+        "row": 29,
+        "asOf": "2026-10-25",
+        "role": "Patent Owner",
+        "ouraEntity": "Ouraring, Inc.",
+        "counterparty": "Ultrahuman Healthcare LLC",
+        "patentTitle": "Wearable computing device",
+        "institution": "已批准再审查",
+        "institutionDate": "2026-04-14",
+        "status": "非终局审查意见；2026-10-07仍有案卷活动",
+        "conclusion": "未查得最终再审查证书/终局结果",
+        "claims": "未核实—需读取请求书及后续权利要求文本",
+        "eventDate": "2026-07-28",
+        "appeal": "未查得（不等于无）",
+        "appealNumber": "未核实",
+        "litigation": "337-TA-1398；同专利PGR2024-00030（不等同EPR上诉）",
+        "notes": "请求/批准已确认；2026-09-15有延期记录。 EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
+        "verification": "案号已确认；EPR进展主要据二级案卷索引；缺项明确保留",
+        "sourceIds": "S074, S075, S076, S077, S078"
+      }
     },
     {
       "id": "6:22-cv-00868",
@@ -2895,16 +4326,234 @@
         "IPR2025-00147"
       ],
       "events": []
+    },
+    {
+      "id": "337-TA-3731",
+      "type": "ITC",
+      "plaintiff": [
+        "Oura"
+      ],
+      "defendant": [
+        "Ultrahuman",
+        "RingConn",
+        "Circular"
+      ],
+      "intervenor": [],
+      "patents": [],
+      "filed": "2024-03-13",
+      "asOf": "2024-04-01",
+      "status": "投诉阶段档案 / 已转正式调查",
+      "conclusion": "本地目录标注 337-TA-3731；USITC官方编号为 DN 3731，对应正式调查 337-TA-1398。此行保留立案前案卷，后续进展见关联调查；不作为另一项独立调查。",
+      "sources": [
+        {
+          "label": "USITC：投诉编号与正式调查对应关系",
+          "url": "https://ids.usitc.gov/case/8183/investigation/8536"
+        }
+      ],
+      "risk": "待评估",
+      "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
+      "claimChange": "已记录修正投诉，但未据此认定授权专利权利要求文字发生修改。",
+      "nextDate": null,
+      "nextLabel": "后续见正式调查",
+      "verified": "本地案卷及官方编号映射已核对",
+      "related": [
+        "337-TA-1398"
+      ],
+      "events": [
+        [
+          "2024-03-22",
+          "首次公开修正投诉"
+        ],
+        [
+          "2024-04-01",
+          "回复公共利益意见"
+        ]
+      ],
+      "recordKind": "立案前投诉",
+      "docketNumber": "3731",
+      "investigationId": "337-TA-1398",
+      "localEvidence": [
+        {
+          "file": "ITC\\337-TA-3731_ Certain Smart Wearable Devices_ Systems_ and Components Thereof\\Certain Smart Wearable Devices, Systems, and Components Thereof.pdf",
+          "pages": 4,
+          "note": "立案前CourtLink案卷；目录编号沿用原文件，官方编号为DN。未上传原始PDF。"
+        }
+      ]
+    },
+    {
+      "id": "337-TA-3858",
+      "type": "ITC",
+      "plaintiff": [
+        "Oura"
+      ],
+      "defendant": [
+        "Samsung",
+        "Zepp / Amazfit",
+        "Reebok",
+        "Noise / Nexxbase"
+      ],
+      "intervenor": [],
+      "patents": [],
+      "filed": "2025-11-18",
+      "asOf": "2025-12-09",
+      "status": "投诉阶段档案 / 已转正式调查",
+      "conclusion": "本地目录标注 337-TA-3858；USITC官方编号为 DN 3858，对应正式调查 337-TA-1468。此行保留立案前案卷，后续进展见关联调查；不作为另一项独立调查。",
+      "sources": [
+        {
+          "label": "USITC：投诉编号与正式调查对应关系",
+          "url": "https://www.usitc.gov/fed_reg_notices/section_337_notices/certain_smart_wearable_devices_systems_and_121825.htm"
+        }
+      ],
+      "risk": "待评估",
+      "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
+      "claimChange": "已记录修正投诉，但未据此认定授权专利权利要求文字发生修改。",
+      "nextDate": null,
+      "nextLabel": "后续见正式调查",
+      "verified": "本地案卷及官方编号映射已核对",
+      "related": [
+        "337-TA-1468"
+      ],
+      "events": [
+        [
+          "2025-12-09",
+          "首次公开修正投诉及附件"
+        ]
+      ],
+      "recordKind": "立案前投诉",
+      "docketNumber": "3858",
+      "investigationId": "337-TA-1468",
+      "localEvidence": [
+        {
+          "file": "ITC\\337-TA-3858_ Certain Smart Wearable Devices_ Systems_ and Components Thereof\\337-TA-3858, Certain Smart Wearable Devices, Systems, and Components Thereof.pdf",
+          "pages": 6,
+          "note": "立案前CourtLink案卷；目录编号沿用原文件，官方编号为DN。未上传原始PDF。"
+        }
+      ]
+    },
+    {
+      "id": "337-TA-3866",
+      "type": "ITC",
+      "plaintiff": [
+        "Samsung"
+      ],
+      "defendant": [
+        "Oura"
+      ],
+      "intervenor": [],
+      "patents": [
+        "10945677",
+        "10231675",
+        "10978789"
+      ],
+      "filed": "2025-12-15",
+      "asOf": "2026-01-07",
+      "status": "投诉阶段档案 / 已转正式调查",
+      "conclusion": "本地目录标注 337-TA-3866；USITC官方编号为 DN 3866，对应正式调查 337-TA-1478。此行保留立案前案卷，后续进展见关联调查；不作为另一项独立调查。",
+      "sources": [
+        {
+          "label": "USITC：投诉编号与正式调查对应关系",
+          "url": "https://www.usitc.gov/fed_reg_notices/section_337_notices/certain_wearable_devices_011426.htm"
+        }
+      ],
+      "risk": "待评估",
+      "riskReason": "尚未进行逐项侵权、有效性与救济评估。程序状态不自动转换为风险等级。",
+      "claimChange": "已记录修正投诉，但未据此认定授权专利权利要求文字发生修改。",
+      "nextDate": null,
+      "nextLabel": "后续见正式调查",
+      "verified": "本地案卷及官方编号映射已核对",
+      "related": [
+        "337-TA-1478"
+      ],
+      "events": [
+        [
+          "2025-12-31",
+          "投诉补充文件"
+        ],
+        [
+          "2026-01-05",
+          "首次修正公开投诉"
+        ],
+        [
+          "2026-01-07",
+          "拒绝逾期提交请求的函件"
+        ]
+      ],
+      "recordKind": "立案前投诉",
+      "docketNumber": "3866",
+      "investigationId": "337-TA-1478",
+      "localEvidence": [
+        {
+          "file": "ITC\\337-TA-3866_ Certain Wearable Devices\\Certain Wearable Devices.pdf",
+          "pages": 5,
+          "note": "立案前CourtLink案卷；目录编号沿用原文件，官方编号为DN。未上传原始PDF。"
+        }
+      ]
     }
   ],
   "scope": "Oura Health Oy / Ouraring Inc. 美国专利争议；含原告、被告、申请人、专利权人及介入人。",
   "limitations": [
+    "ITC完整展示6份本地案卷：3份立案前投诉（DN 3731、3858、3866）分别对应3项正式调查（1398、1468、1478），不是6项独立调查。",
+    "IPR/PGR/EPR已逐号对齐2026-10-25工作簿主表36项（16/7/13）。详情保留工作簿字段及来源；本次未逐一重查全部在线案卷。另列3条关联线索，不计入直接角色程序。",
     "本地目录含2528份文件；本次读取主要案卷及选定证据，并非逐页审阅全部附件。5个上诉ZIP内的10份文件带非标准TSD文件头，未成功解析；以公开索引补核。",
     "已结合公开检索与本地案卷目录核对，补录独立案号并合并重复目录。尚未完成PACER、EDIS与USPTO全库穷尽检索，不能保证绝无遗漏。",
-    "独立案号计数；合并、分案、上诉不去掉原案号，因此不等同独立商业争议数量。",
+    "程序按独立案号计数；ITC立案前投诉另作案卷记录，与正式调查合并计算程序数。",
     "当事方筛选按公司集团归一，正式法人名称与全部共同当事方以所链案卷为准。",
     "部分专利列表只含已核实项目；缺项不代表无涉诉专利。",
     "EPR部分来自二级索引，需按控制号逐一核对原始文件；未将其当作PTAB审判。",
     "排除商标、消费者集体诉讼、印度等非美国案件，以及仅具技术关联但Oura不是当事方的案件。"
+  ],
+  "relatedLeads": [
+    {
+      "type": "EPR",
+      "id": "90/015,821",
+      "patent": "US9055868B2",
+      "role": "Oura直接Requester身份未确认",
+      "requester": "Samsung请求；官方公告列James L. Davis Jr.（代理人）",
+      "filed": "2025-12-23",
+      "status": "已批准（截至2026-05-18法院意见）；准确批准日未核实",
+      "claims": "7–9",
+      "litigation": "E.D. Tex. 2:26-cv-00289；D. Del. 1:25-cv-00140",
+      "reason": "Oura于2026-05-28申请因IPR/EPR暂停诉讼，只证明关联，不证明其提出EPR。未计入36件。",
+      "sources": [
+        "https://patentsgazette.uspto.gov/week10/OG/TOC.htm",
+        "https://cases.justia.com/federal/district-courts/delaware/dedce/1:2025cv00140/88127/101/0.pdf"
+      ],
+      "sheet": "关联待核实",
+      "row": 7
+    },
+    {
+      "type": "PGR",
+      "id": "PGR2026-00003",
+      "patent": "US12193790B2",
+      "role": "未确认Oura为申请人",
+      "requester": "WHOOP, Inc.",
+      "filed": "未核实",
+      "status": "与IPR2025-01253的Director Review有关",
+      "claims": "未核实",
+      "litigation": "Omni相关平行争议",
+      "reason": "该案为WHOOP程序；不因为挑战同一专利而计作Oura申请。",
+      "sources": [
+        "https://www.uspto.gov/sites/default/files/documents/IPR2025-01253_Samsung_v_Omni_MedSci_DR_Decision.pdf"
+      ],
+      "sheet": "关联待核实",
+      "row": 8
+    },
+    {
+      "type": "Reissue（非本次范围）",
+      "id": "18/991,020",
+      "patent": "US10842429B2",
+      "role": "Oura专利关联",
+      "requester": "不适用",
+      "filed": "2024-12-20",
+      "status": "再颁申请；不是Ex Parte Reexamination",
+      "claims": "未核实",
+      "litigation": "IPR2024-01080同专利",
+      "reason": "不计入EPR总数。",
+      "sources": [
+        "https://www.uspto.gov/web/offices/com/sol/og/2025/week15/TOC.htm"
+      ],
+      "sheet": "关联待核实",
+      "row": 9
+    }
   ]
 }
