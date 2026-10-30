@@ -66,3 +66,5 @@ h2{font-size:17px;font-weight:700}h2 span{color:#56616a}
 #timeline .events{padding:0 24px 24px 38px;overflow-x:hidden;max-height:none}#timeline .event{min-width:0;overflow-wrap:anywhere}#timeline .event:before{left:-19px}.key-timeline,.case-docket{padding-left:20px;padding-right:8px}.timeline-controls select{position:relative;z-index:1;color:var(--ink);background:#fff}#timeline .event time{display:block}#timeline .event button{max-width:100%}
 
 .case-outcome{white-space:normal;min-width:175px;max-width:240px}.case-outcome strong{font-size:13px;font-weight:600}#timeline .event:before{left:-4px}
+
+.stage-cell{min-width:155px;max-width:235px;white-space:normal}.stage-cell strong{font-size:13px}.stage-label{display:block;font-size:12px;color:var(--muted);margin-bottom:4px}.case-panel table{min-width:1120px}#stage-start-heading,#stage-hearing-heading{white-space:normal;min-width:155px}
