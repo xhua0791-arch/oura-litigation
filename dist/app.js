@@ -1,0 +1,76 @@
+'use strict';
+const data=window.RINGWATCH_DATA;
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fmt=d=>d?d.replaceAll('-','.'): '未核实';
+const number=p=>'US '+(p.startsWith('D')?'D'+p.slice(1).replace(/\B(?=(\d{3})+(?!\d))/g,','):p.replace(/\B(?=(\d{3})+(?!\d))/g,','));
+const state={type:'全部',company:'',role:'any',risk:'',search:'',patent:'',page:1,sort:'date'};
+const groups=['全部','ITC','CAFC','District Court','PTAB','IPR','PGR','EPR'];
+const labels={'全部':'全部案件','ITC':'ITC / 337','CAFC':'上诉 / CAFC','District Court':'地区法院','PTAB':'PTAB 全部','IPR':'IPR','PGR':'PGR','EPR':'EPR'};
+const pageSize=8;
+const isClosed=c=>/撤诉|拒绝|不立案|撤回上诉|被驳回/.test(c.status);
+function filtered(ignorePatent=false){return data.cases.filter(c=>{
+ const roles=state.role==='plaintiff'?c.plaintiff:state.role==='defendant'?c.defendant:state.role==='intervenor'?c.intervenor:[...c.plaintiff,...c.defendant,...c.intervenor];
+ return(state.type==='全部'||c.type===state.type||(state.type==='PTAB'&&['IPR','PGR'].includes(c.type)))&&(!state.company||roles.includes(state.company))&&(!state.risk||state.risk===c.risk)&&(!state.patent||ignorePatent||c.patents.includes(state.patent))&&(!state.search||[c.id,...c.plaintiff,...c.defendant,...c.intervenor,...c.patents,...c.patents.map(number),c.status].join(' ').toLowerCase().includes(state.search.toLowerCase()));
+ }).sort((a,b)=>state.sort==='risk'?({高:0,中:1,低:2,待评估:3}[a.risk]-{高:0,中:1,低:2,待评估:3}[b.risk]||a.id.localeCompare(b.id)):(a.nextDate||'9999').localeCompare(b.nextDate||'9999')||(b.filed||'').localeCompare(a.filed||''));}
+function caseButton(c,label){return `<button class="case-title" data-case="${esc(c.id)}">${esc(label||[c.plaintiff[0],c.defendant[0]].join(' v. '))}${c.plaintiff.length+c.defendant.length>2&&!label?' 等':''}</button>`}
+function render(){const rows=filtered();const patents=[...new Set(rows.flatMap(c=>c.patents))];const counts=groups.map(t=>data.cases.filter(c=>t==='全部'||t===c.type||t==='PTAB'&&['IPR','PGR'].includes(c.type)).length);
+ $('#type-filters').innerHTML=groups.map((t,i)=>`<button data-type="${t}" class="${state.type===t?'selected':''}" aria-pressed="${state.type===t}">${labels[t]} <small>${counts[i]}</small></button>`).join('');
+ $('#result-count').textContent=`${rows.length} 个程序`;
+ $('#kpis').innerHTML=[['已收录程序',rows.length,'独立案号 · 非穷尽清单','◫'],['涉诉 / 被挑战专利',patents.length,'已识别专利去重 · 含部分列表','▧'],['PTAB 审查程序',rows.filter(c=>['IPR','PGR'].includes(c.type)).length,'IPR + PGR · EPR单列','⌘'],['已记录未来节点',rows.filter(c=>c.nextDate&&c.nextDate>=data.asOf).length,'来源所载排期 · 使用前复核','◷']].map(([t,v,n,i])=>`<article class="kpi"><span class="kpi-label">${t}</span><span class="kpi-icon">${i}</span><strong>${String(v).padStart(2,'0')}</strong><small>${n}</small></article>`).join('');
+ const pages=Math.max(1,Math.ceil(rows.length/pageSize));state.page=Math.min(state.page,pages);
+ $('#case-rows').innerHTML=rows.slice((state.page-1)*pageSize,state.page*pageSize).map(c=>`<tr><td>${caseButton(c)}<div class="case-meta"><span class="type-tag">${c.type==='District Court'?'DC':c.type}</span>${esc(c.id)}</div></td><td><span class="status ${isClosed(c)?'done':''}">${esc(c.status)}</span><div class="date-sub">记录截至 ${fmt(c.asOf)}</div></td><td><span class="date">${c.nextDate?fmt(c.nextDate):'待核实'}</span><div class="date-sub">${c.nextDate?'来源排期 · 可能调整':'无已核实未来排期'}</div></td><td><span class="badge">${c.risk}</span></td><td><button class="row-arrow" data-case="${esc(c.id)}" aria-label="查看 ${esc(c.id)} 详情">↗</button></td></tr>`).join('')||'<tr><td colspan="5"><div class="empty">没有匹配的案件。请调整筛选或点击重置。</div></td></tr>';
+ $('#table-total').innerHTML=`共 ${rows.length} 项 <button id="prev-page" ${state.page===1?'disabled':''} aria-label="上一页">‹</button> ${state.page} / ${pages} <button id="next-page" ${state.page===pages?'disabled':''} aria-label="下一页">›</button>`;
+ const upcoming=rows.filter(c=>c.nextDate&&c.nextDate>=data.asOf).sort((a,b)=>a.nextDate.localeCompare(b.nextDate)).slice(0,3);
+ $('#upcoming').innerHTML=upcoming.map(c=>`<div class="up-item"><div class="date-box">${c.nextDate.slice(5,7)}月<strong>${c.nextDate.slice(8)}</strong></div><div><button data-case="${esc(c.id)}"><h3>${esc(c.nextLabel)}</h3><p>${esc(c.id)}</p></button><small>${Math.ceil((Date.parse(c.nextDate)-Date.parse(data.asOf))/86400000)} 天后 · 以快照日计算</small></div></div>`).join('')||'<div class="empty">当前筛选下没有已核实的未来排期。</div>';
+ const events=rows.flatMap(c=>[...(c.filed?[[c.filed,c.type==='ITC'?'提交337投诉':c.type==='EPR'?'请求再审（索引日期）':c.type==='CAFC'?'上诉登记':'立案 / 提交申请']]:[]),...c.events].map(([date,text])=>({date,text,c}))).sort((a,b)=>b.date.localeCompare(a.date));
+ $('#events').innerHTML=events.slice(0,12).map(e=>`<article class="event"><time>${fmt(e.date)}</time><button data-case="${esc(e.c.id)}"><h3>${esc(e.text)}</h3></button><p>${esc(e.c.id)} · ${esc(e.c.plaintiff[0])} / ${esc(e.c.defendant[0])}</p></article>`).join('')||'<div class="empty">没有已核实日期的事件。</div>';
+ renderGraph(rows);
+ $('#patent-list').innerHTML=patents.sort((a,b)=>rows.filter(c=>c.patents.includes(b)).length-rows.filter(c=>c.patents.includes(a)).length).map(p=>{const related=rows.filter(c=>c.patents.includes(p));return `<article class="patent-card"><div class="patent-id">${number(p)}</div><h3>${p==='10842429'?'准备度评分':p==='10893833'?'可穿戴电子设备':p==='11868178'?'戒指结构与组件布置':'专利 / 技术主题待逐项核实'}</h3><p>${related.length} 个关联程序 · ${[...new Set(related.map(c=>c.type))].join(' / ')}</p><p>权利要求变化以各程序详情及原件为准</p>${related.map(c=>`<button data-case="${esc(c.id)}">${esc(c.id)} ↗</button>`).join('')}</article>`}).join('')||'<div class="empty">当前案件暂无已核实专利号。</div>';
+ $('#clear-patent').hidden=!state.patent;
+ $('#clear-patent').textContent=state.patent?`${number(state.patent)} ×`:'清除选择 ×';
+ history.replaceState(null,'',location.pathname+queryString()+location.hash);
+}
+function queryString(){const p=new URLSearchParams();for(const [k,v] of Object.entries(state))if(v&&v!==({type:'全部',role:'any',page:1,sort:'date'}[k]))p.set(k,String(v));return p.size?'?'+p:''}
+function renderGraph(rows){const p=[...new Set(rows.flatMap(c=>c.patents))].sort((a,b)=>rows.filter(c=>c.patents.includes(b)).length-rows.filter(c=>c.patents.includes(a)).length).slice(0,5);const cs=rows.filter(c=>c.patents.some(x=>p.includes(x))).slice(0,7);if(!p.length){$('#graph').innerHTML='<div class="empty">暂无可绘制的专利关联。未核实的关联不会自动补齐。</div>';return}
+ const py=i=>35+i*47,cy=i=>23+i*34;let svg='<svg viewBox="0 0 530 266" role="group" aria-label="专利与案件关系图">';
+ cs.forEach((c,j)=>p.forEach((pat,i)=>{if(c.patents.includes(pat))svg+=`<path d="M155 ${py(i)} C255 ${py(i)},255 ${cy(j)},345 ${cy(j)}" fill="none" stroke="#d8c9ac" stroke-width="1.2"/>`}));
+ p.forEach((pat,i)=>{svg+=`<g class="graph-node" tabindex="0" role="button" data-patent="${pat}" aria-label="筛选 ${number(pat)}"><rect x="14" y="${py(i)-14}" width="141" height="29" rx="4" fill="${state.patent===pat?'#e5d5b5':'#faf7ef'}" stroke="#c6ae80"/><circle cx="28" cy="${py(i)}" r="3" fill="#b59860"/><text x="40" y="${py(i)+4}" fill="#8c7346" font-size="10">${number(pat)}</text></g>`});
+ cs.forEach((c,i)=>{svg+=`<g class="graph-node" tabindex="0" role="button" data-case="${esc(c.id)}" aria-label="打开 ${esc(c.id)}"><rect x="345" y="${cy(i)-13}" width="170" height="27" rx="4" fill="#f2f4f5" stroke="#ccd3d6"/><text x="356" y="${cy(i)+4}" fill="#657780" font-size="10">${esc(c.id)}</text></g>`});
+ svg+='</svg>';$('#graph').innerHTML=svg+`<div class="graph-caption">显示关联最多的 ${p.length} 项专利及 ${cs.length} 个程序；完整关联见下方专利库。</div>`;
+}
+let returnFocus=null;
+function openDetail(id){const c=data.cases.find(c=>c.id===id);if(!c)return;const title=[c.plaintiff.join(' / '),c.defendant.join(' / ')].join(' v. ');const samePat=data.cases.filter(x=>x.id!==c.id&&x.patents.some(p=>c.patents.includes(p)));const related=[...new Set([...c.related,...samePat.map(x=>x.id)])];
+ $('#detail-content').innerHTML=`<span class="type-tag">${c.type}</span><span class="subtle"> ${esc(c.court||(['IPR','PGR'].includes(c.type)?'USPTO · PTAB':c.type==='EPR'?'USPTO · 单方再审':c.type==='CAFC'?'Federal Circuit':'USITC'))}</span><h2 id="detail-title">${esc(title)}</h2><div class="case-meta">${esc(c.id)}</div><dl class="detail-grid"><div><dt>原告 / 申请人 / 上诉人</dt><dd>${esc(c.plaintiff.join('、'))}</dd></div><div><dt>被告 / 权利人 / 被上诉人</dt><dd>${esc(c.defendant.join('、'))}</dd></div>${c.intervenor.length?`<div><dt>介入人</dt><dd>${esc(c.intervenor.join('、'))}</dd></div>`:''}<div><dt>提交 / 立案日期</dt><dd>${fmt(c.filed)}</dd></div><div><dt>最近已核实记录</dt><dd>${fmt(c.asOf)}</dd></div><div><dt>来源所载程序状态</dt><dd>${esc(c.status)}</dd></div><div><dt>风险等级</dt><dd>${c.risk}</dd></div></dl><h3>下一关键日期</h3><div class="detail-block">${c.nextDate?fmt(c.nextDate)+' · '+esc(c.nextLabel):'未取得可确认的未来排期。请核对最新案卷，不能根据通常期限自动推算。'}</div><h3>裁判 / 机构结论</h3><div class="detail-block">${esc(c.conclusion)}</div><h3>权利要求修改与主张变化</h3><div class="detail-block">${esc(c.claimChange)}</div><h3>风险评估依据</h3><p class="detail-copy">${esc(c.riskReason)}</p><h3>涉诉专利 <span class="subtle">已识别部分</span></h3>${c.patents.map(p=>`<div class="drawer-patent">${number(p)} <a class="patent-source" href="https://patents.google.com/patent/US${p}/en" target="_blank" rel="noopener noreferrer">专利文本 ↗</a></div>`).join('')||'<p class="detail-copy">尚未逐项核实专利清单。</p>'}<h3>关联程序</h3><div class="related-buttons">${related.map(id=>`<button data-case="${esc(id)}">${esc(id)} ↗</button>`).join('')||'<span class="subtle">暂无已记录关联</span>'}</div><p class="subtle">含明确程序关联与共享专利；共享专利不代表案件已合并。</p><h3>本地证据索引</h3>${(c.localEvidence||[]).map(e=>`<div class="detail-block local-source">${esc(e.file)}<small>共 ${e.pages} 页 · ${esc(e.note)}</small></div>`).join('')||'<p class="subtle">本案未匹配已读取的本地案卷。</p>'}<h3>在线证据 / 复核入口</h3>${c.sources.map(s=>`<a class="source-link" href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.label)} ↗<small>${esc(new URL(s.url).hostname)}</small></a>`).join('')}<p class="detail-copy">检索日：${data.asOf}。记录截至日期与检索日期不同；公开索引可能滞后。公司名按集团归一，正式名称以原件为准。</p>`;
+ if(!$('#detail').open){returnFocus=document.activeElement;$('#detail').showModal();}$('#detail').scrollTop=0;$('#close-detail').focus();
+}
+function reset(){Object.assign(state,{type:'全部',company:'',role:'any',risk:'',search:'',patent:'',page:1,sort:'date'});syncControls();render()}
+function syncControls(){['search','company','role','risk','sort'].forEach(k=>$('#'+k).value=state[k]);}
+function toast(text){$('#toast').textContent=text;$('#toast').style.display='block';setTimeout(()=>$('#toast').style.display='none',2800)}
+function download(){const rows=filtered();const payload={...data,cases:rows,filters:{...state},exportedAt:new Date().toISOString()};const url=URL.createObjectURL(new Blob([JSON.stringify(payload,null,2)],{type:'application/json;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='oura-us-patent-cases-'+data.asOf+'.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);toast(`已导出 ${rows.length} 项程序，包含来源与核验限制`)}
+function init(){
+ document.title='Oura 美国专利诉讼 · RINGWATCH';
+ $('.eyebrow').textContent='OURA · U.S. PATENT LITIGATION';
+ $('h1').innerHTML='Oura 美国专利诉讼<span>研究看板</span>';
+ $('.page-heading p').textContent='连接 PTAB、337、地区法院与上诉，追踪每一项专利争议。';
+ $('.topbar>div').innerHTML='知识产权情报 <span>/</span> 美国专利 <span>/</span> <b>Oura</b>';
+ $('.top-status').innerHTML='<i></i> 案卷研究快照 · 2026.10.30';
+ $('.profile small').textContent='本地案卷 + 公开来源';
+ $('.demo-note').innerHTML='<span>覆盖说明</span> 已结合本地案卷与公开检索收录 67 项程序；未完成全库穷尽核对。每案显示来源及记录日期，未知字段不推定。<button id="about">数据说明 ↗</button>';
+ $('.section-sub').textContent='来源所载未来日期 · 基准日 2026.10.30';
+ $('.calendar-note').textContent='◷ 期限以最新命令为准；待核实不表示没有期限';
+ $('footer span').textContent='美国专利争议 / 公开记录研究快照';
+ $('#info').innerHTML=`<h2 id="info-title">检索范围与数据边界</h2><p>${esc(data.scope)}</p>${data.limitations.map(t=>`<p>• ${esc(t)}</p>`).join('')}<p>风险均为待评估，未用案件胜负自动打分。页面无需登录即可在本机运行；本站没有自动抓取或后台更新服务。</p><button class="primary" id="close-info">关闭说明</button>`;
+ $('#role').insertAdjacentHTML('beforeend','<option value="intervenor">介入人</option>');
+ const companies=[...new Set(data.cases.flatMap(c=>[...c.plaintiff,...c.defendant,...c.intervenor]))].sort();$('#company').innerHTML='<option value="">全部公司</option>'+companies.map(c=>`<option>${esc(c)}</option>`).join('');
+ const params=new URLSearchParams(location.search);for(const k of ['type','company','role','risk','search','patent','sort'])if(params.has(k))state[k]=params.get(k);if(!groups.includes(state.type))state.type='全部';if(!companies.includes(state.company))state.company='';if(!['any','plaintiff','defendant','intervenor'].includes(state.role))state.role='any';if(!['date','risk'].includes(state.sort))state.sort='date';if(!['','高','中','低','待评估'].includes(state.risk))state.risk='';
+ syncControls();render();
+ ['search','company','role','risk','sort'].forEach(k=>$('#'+k).addEventListener(k==='search'?'input':'change',e=>{state[k]=e.target.value;state.page=1;render()}));
+ document.addEventListener('click',e=>{const t=e.target.closest('[data-type],[data-case],[data-patent]');if(t?.dataset.type){state.type=t.dataset.type;state.page=1;render()}else if(t?.dataset.case)openDetail(t.dataset.case);else if(t?.dataset.patent){state.patent=state.patent===t.dataset.patent?'':t.dataset.patent;state.page=1;render()}if(e.target.closest('#prev-page')){state.page--;render()}if(e.target.closest('#next-page')){state.page++;render()}});
+ document.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.matches('g[role=button]')){e.preventDefault();e.target.dispatchEvent(new MouseEvent('click',{bubbles:true}))}});
+ $('#reset').onclick=reset;$('#clear-patent').onclick=()=>{state.patent='';state.page=1;render()};$('#export').onclick=download;
+ $('#about').onclick=()=>$('#info').showModal();$('#close-info').onclick=()=>$('#info').close();$('#close-detail').onclick=()=>$('#detail').close();$('#detail').addEventListener('close',()=>returnFocus?.isConnected&&returnFocus.focus());
+ for(const d of document.querySelectorAll('dialog'))d.addEventListener('click',e=>{if(e.target===d){const r=d.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)d.close()}});
+ document.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>{document.querySelectorAll('nav a').forEach(x=>x.classList.toggle('active',x===a))}));
+}
+init();
