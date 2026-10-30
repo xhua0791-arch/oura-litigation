@@ -3035,7 +3035,12 @@ window.RINGWATCH_DATA={
       "related": [
         "3:24-cv-03245"
       ],
-      "events": [],
+      "events": [
+        [
+          "2025-08-15",
+          "法院同意撤回上诉，上诉程序结束"
+        ]
+      ],
       "localEvidence": [
         {
           "file": "samsung\\25-1871_ Samsung Electronics Corporation_ Ltd. v. Oura Health Oy\\Samsung Electronics Corporation, Ltd. v. Oura Health Oy.pdf",
@@ -4624,6 +4629,57 @@ window.RINGWATCH_DATA={
       ],
       "sheet": "关联待核实",
       "row": 9
+    }
+  ],
+  "appealLinks": [
+    {
+      "from": "3:24-cv-03245",
+      "to": "25-1871",
+      "label": "地区法院案件的上诉",
+      "evidence": "已核对本地上诉案卷第3页：Appeal From及原案号。",
+      "pending": false
+    },
+    {
+      "from": "337-TA-1398",
+      "to": "26-1083",
+      "label": "贸易委员会决定的上诉",
+      "evidence": "本地上诉案卷及已收录的上诉来源。",
+      "pending": false
+    },
+    {
+      "from": "PGR2024-00030",
+      "to": "26-1258",
+      "label": "专利局决定的上诉",
+      "evidence": "工作簿案件总表第9行。",
+      "pending": false
+    },
+    {
+      "from": "PGR2024-00039",
+      "to": "26-1413",
+      "label": "专利局决定的上诉",
+      "evidence": "工作簿案件总表第16行。",
+      "pending": false
+    },
+    {
+      "from": "IPR2024-01078",
+      "to": "26-1411",
+      "label": "专利局决定的上诉",
+      "evidence": "工作簿案件总表第12行。",
+      "pending": false
+    },
+    {
+      "from": "IPR2025-00147",
+      "to": "26-2079",
+      "label": "专利局决定的上诉",
+      "evidence": "工作簿案件总表第17行。",
+      "pending": false
+    },
+    {
+      "from": "IPR2024-01077",
+      "to": "26-1410",
+      "label": "可能对应的专利局上诉",
+      "evidence": "工作簿案件总表第11行：原始上诉通知尚未核实，不能视为已确认对应。",
+      "pending": true
     }
   ]
 };
