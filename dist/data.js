@@ -67,7 +67,8 @@ window.RINGWATCH_DATA={
       ],
       "recordKind": "正式调查",
       "docketNumber": "3731",
-      "investigationId": "337-TA-1398"
+      "investigationId": "337-TA-1398",
+      "displayStatus": "已作最终裁决，正在处理进口限制等后续事项"
     },
     {
       "id": "337-TA-1468",
@@ -134,7 +135,8 @@ window.RINGWATCH_DATA={
       ],
       "recordKind": "正式调查",
       "docketNumber": "3858",
-      "investigationId": "337-TA-1468"
+      "investigationId": "337-TA-1468",
+      "displayStatus": "听证已结束，双方正在提交书面意见"
     },
     {
       "id": "337-TA-1478",
@@ -195,7 +197,8 @@ window.RINGWATCH_DATA={
       ],
       "recordKind": "正式调查",
       "docketNumber": "3866",
-      "investigationId": "337-TA-1478"
+      "investigationId": "337-TA-1478",
+      "displayStatus": "听证已结束，部分专利已不再审理"
     },
     {
       "id": "6:22-cv-00478",
@@ -243,7 +246,8 @@ window.RINGWATCH_DATA={
           "pages": 11,
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
-      ]
+      ],
+      "displayStatus": "案件已结束"
     },
     {
       "id": "6:23-cv-00421",
@@ -286,7 +290,8 @@ window.RINGWATCH_DATA={
           "pages": 10,
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
-      ]
+      ],
+      "displayStatus": "双方和解并撤诉，案件已结束"
     },
     {
       "id": "6:23-cv-00422",
@@ -327,7 +332,8 @@ window.RINGWATCH_DATA={
           "pages": 10,
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
-      ]
+      ],
+      "displayStatus": "双方和解并撤诉，案件已结束"
     },
     {
       "id": "2:23-cv-00396",
@@ -370,7 +376,8 @@ window.RINGWATCH_DATA={
           "pages": 26,
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
-      ]
+      ],
+      "displayStatus": "案件暂停审理，原定听证和陪审团安排已调整"
     },
     {
       "id": "3:24-cv-03245",
@@ -421,7 +428,8 @@ window.RINGWATCH_DATA={
           "pages": 11,
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
-      ]
+      ],
+      "displayStatus": "请求法院确认权利的起诉被驳回"
     },
     {
       "id": "1:24-cv-01020",
@@ -470,7 +478,8 @@ window.RINGWATCH_DATA={
           "pages": 3,
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
-      ]
+      ],
+      "displayStatus": "起诉方主动撤诉，案件已结束"
     },
     {
       "id": "2:24-cv-01070",
@@ -522,7 +531,8 @@ window.RINGWATCH_DATA={
           "pages": 61,
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
-      ]
+      ],
+      "displayStatus": "涉及Oura的部分已拆成单独案件"
     },
     {
       "id": "2:25-cv-00483",
@@ -567,7 +577,8 @@ window.RINGWATCH_DATA={
           "pages": 2,
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
-      ]
+      ],
+      "displayStatus": "已撤诉，仍可能再次起诉"
     },
     {
       "id": "2:25-cv-00928",
@@ -623,7 +634,8 @@ window.RINGWATCH_DATA={
           "pages": 31,
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
-      ]
+      ],
+      "displayStatus": "双方正在交换证据，获准调整争议主张"
     },
     {
       "id": "2:25-cv-01064",
@@ -687,7 +699,8 @@ window.RINGWATCH_DATA={
           "pages": 83,
           "note": "起诉状原件：仅据各项COUNT核对原始涉诉专利；不是侵权认定。"
         }
-      ]
+      ],
+      "displayStatus": "双方提出的侵权争议都已暂停审理"
     },
     {
       "id": "2:25-cv-01107",
@@ -730,7 +743,8 @@ window.RINGWATCH_DATA={
           "pages": 2,
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
-      ]
+      ],
+      "displayStatus": "已撤诉，仍可能再次起诉"
     },
     {
       "id": "2:25-cv-01126",
@@ -790,7 +804,8 @@ window.RINGWATCH_DATA={
           "pages": 88,
           "note": "起诉状原件：仅据各项COUNT核对原始涉诉专利；不是侵权认定。"
         }
-      ]
+      ],
+      "displayStatus": "已撤诉，仍可能再次起诉"
     },
     {
       "id": "2:25-cv-01127",
@@ -844,7 +859,8 @@ window.RINGWATCH_DATA={
           "pages": 86,
           "note": "起诉状原件：仅据各项COUNT核对原始涉诉专利；不是侵权认定。"
         }
-      ]
+      ],
+      "displayStatus": "已提起侵权诉讼，后续进展待核实"
     },
     {
       "id": "2:25-cv-01129",
@@ -903,7 +919,8 @@ window.RINGWATCH_DATA={
           "pages": 143,
           "note": "起诉状原件：仅据各项COUNT核对原始涉诉专利；不是侵权认定。"
         }
-      ]
+      ],
+      "displayStatus": "已撤诉，仍可能再次起诉"
     },
     {
       "id": "2:25-cv-01181",
@@ -956,7 +973,8 @@ window.RINGWATCH_DATA={
           "pages": 29,
           "note": "2025-12-01起诉状第1页列出六件专利；历史主张清单。"
         }
-      ]
+      ],
+      "displayStatus": "正在交换证据，法院尚未决定是否驳回部分请求"
     },
     {
       "id": "2:26-cv-00289",
@@ -1007,7 +1025,8 @@ window.RINGWATCH_DATA={
           "pages": 25,
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
-      ]
+      ],
+      "displayStatus": "正在进行正式审判前的准备"
     },
     {
       "id": "2:26-cv-00316",
@@ -1059,7 +1078,8 @@ window.RINGWATCH_DATA={
           "pages": 6,
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
-      ]
+      ],
+      "displayStatus": "起诉已撤回"
     },
     {
       "id": "2:26-cv-00953",
@@ -1117,7 +1137,8 @@ window.RINGWATCH_DATA={
           "pages": 29,
           "note": "起诉状原件：仅据各项COUNT核对原始涉诉专利；不是侵权认定。"
         }
-      ]
+      ],
+      "displayStatus": "刚提起诉讼，尚未对争议作出裁判"
     },
     {
       "id": "IPR2024-00928",
@@ -1188,7 +1209,8 @@ window.RINGWATCH_DATA={
         "notes": "FWD 的不可专利认定不应直接等同已颁撤销证书。",
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S001, S002"
-      }
+      },
+      "displayStatus": "专利审查已有最终决定，是否上诉待核实"
     },
     {
       "id": "IPR2024-00929",
@@ -1267,7 +1289,8 @@ window.RINGWATCH_DATA={
         "notes": "",
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S003, S004, S005"
-      }
+      },
+      "displayStatus": "未进入正式审理，未对专利有效性作出裁决"
     },
     {
       "id": "IPR2024-00930",
@@ -1334,7 +1357,8 @@ window.RINGWATCH_DATA={
         "notes": "",
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S006, S007"
-      }
+      },
+      "displayStatus": "未进入正式审理，未对专利有效性作出裁决"
     },
     {
       "id": "PGR2024-00030",
@@ -1427,7 +1451,8 @@ window.RINGWATCH_DATA={
         "notes": "CAFC于2025-12-17登记；17、18涉及不当从属（§112）；同专利EPR并非该上诉的被诉决定。",
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S008, S009, S010"
-      }
+      },
+      "displayStatus": "专利审查已有最终决定，已上诉；上诉结果待核实"
     },
     {
       "id": "PGR2024-00031",
@@ -1498,7 +1523,8 @@ window.RINGWATCH_DATA={
         "notes": "放弃文件2024-10-31提交。",
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S011, S012, S013"
-      }
+      },
+      "displayStatus": "未进入正式审理，未对专利有效性作出裁决"
     },
     {
       "id": "IPR2024-01077",
@@ -1573,7 +1599,8 @@ window.RINGWATCH_DATA={
         "notes": "FWD签发12-15，公开版12-17。26-1410与26-1411合并；前者与本IPR对应关系尚未从原始通知确认。",
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S014, S015, S016"
-      }
+      },
+      "displayStatus": "专利审查已有最终决定，相关上诉案号待核对"
     },
     {
       "id": "IPR2024-01078",
@@ -1660,7 +1687,8 @@ window.RINGWATCH_DATA={
         "notes": "公开FWD版本2026-01-30；上诉登记2026-02-05，02-26合并。",
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S017, S018, S019"
-      }
+      },
+      "displayStatus": "专利审查已有最终决定，已上诉；上诉结果待核实"
     },
     {
       "id": "IPR2024-01079",
@@ -1731,7 +1759,8 @@ window.RINGWATCH_DATA={
         "notes": "放弃文件2024-10-30提交；拒绝日期据后续PTAB决定引用。",
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S020, S021, S022"
-      }
+      },
+      "displayStatus": "未进入正式审理，未对专利有效性作出裁决"
     },
     {
       "id": "IPR2024-01080",
@@ -1813,7 +1842,8 @@ window.RINGWATCH_DATA={
         "notes": "放弃文件2024-10-30提交；再颁申请18/991,020不属于EPR，未计入。",
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S023, S024, S025"
-      }
+      },
+      "displayStatus": "未进入正式审理，未对专利有效性作出裁决"
     },
     {
       "id": "PGR2024-00038",
@@ -1892,7 +1922,8 @@ window.RINGWATCH_DATA={
         "notes": "放弃文件2024-10-30提交。",
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S026, S027, S028"
-      }
+      },
+      "displayStatus": "未进入正式审理，未对专利有效性作出裁决"
     },
     {
       "id": "PGR2024-00039",
@@ -1980,7 +2011,8 @@ window.RINGWATCH_DATA={
         "notes": "FWD公开版2025-12-10；CAFC登记2026-02-05。",
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S029, S030, S031"
-      }
+      },
+      "displayStatus": "专利审查已有最终决定，已上诉；上诉结果待核实"
     },
     {
       "id": "IPR2025-00147",
@@ -2073,7 +2105,8 @@ window.RINGWATCH_DATA={
         "notes": "申请日期依据原表与IPverse；CAFC登记2026-07-27。",
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S032, S033, S034, S035"
-      }
+      },
+      "displayStatus": "专利审查已有最终决定，已上诉；上诉结果待核实"
     },
     {
       "id": "IPR2025-00411",
@@ -2158,7 +2191,8 @@ window.RINGWATCH_DATA={
         "notes": "请求与PGR2024-00030合并；不能将裁量拒绝记为实体有效性胜诉。",
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S036, S037, S038"
-      }
+      },
+      "displayStatus": "未进入正式审理，未对专利有效性作出裁决"
     },
     {
       "id": "IPR2025-00412",
@@ -2243,7 +2277,8 @@ window.RINGWATCH_DATA={
         "notes": "请求与PGR2024-00030合并；不能将裁量拒绝记为实体有效性胜诉。",
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S039, S040, S041"
-      }
+      },
+      "displayStatus": "未进入正式审理，未对专利有效性作出裁决"
     },
     {
       "id": "PGR2025-00018",
@@ -2328,7 +2363,8 @@ window.RINGWATCH_DATA={
         "notes": "请求与PGR2024-00030合并；不能将裁量拒绝记为实体有效性胜诉。",
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S042, S043, S044"
-      }
+      },
+      "displayStatus": "未进入正式审理，未对专利有效性作出裁决"
     },
     {
       "id": "IPR2025-01249",
@@ -2409,7 +2445,8 @@ window.RINGWATCH_DATA={
         "notes": "共同申请人还包括Samsung Electronics Co., Ltd.、Samsung Electronics America, Inc.、Fossil Group, Inc.、Fossil Stores I, Inc.、Fossil Partners, L.P.及OnePlus Technology (Shenzhen) Co., Ltd.；Ouraring/OPPO在部分文件为RPI，未混同为具名申请人。",
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S045, S046, S047, S048"
-      }
+      },
+      "displayStatus": "未进入正式审理，未对专利有效性作出裁决"
     },
     {
       "id": "IPR2025-01250",
@@ -2490,7 +2527,8 @@ window.RINGWATCH_DATA={
         "notes": "共同申请人还包括Samsung Electronics Co., Ltd.、Samsung Electronics America, Inc.、Fossil Group, Inc.、Fossil Stores I, Inc.、Fossil Partners, L.P.及OnePlus Technology (Shenzhen) Co., Ltd.；Ouraring/OPPO在部分文件为RPI，未混同为具名申请人。",
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S049, S050, S051, S052"
-      }
+      },
+      "displayStatus": "已进入正式审理，最终决定待核实"
     },
     {
       "id": "IPR2025-01251",
@@ -2571,7 +2609,8 @@ window.RINGWATCH_DATA={
         "notes": "共同申请人还包括Samsung Electronics Co., Ltd.、Samsung Electronics America, Inc.、Fossil Group, Inc.、Fossil Stores I, Inc.、Fossil Partners, L.P.及OnePlus Technology (Shenzhen) Co., Ltd.；Ouraring/OPPO在部分文件为RPI，未混同为具名申请人。",
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S053, S054, S055, S056"
-      }
+      },
+      "displayStatus": "已进入正式审理，最终决定待核实"
     },
     {
       "id": "IPR2025-01252",
@@ -2652,7 +2691,8 @@ window.RINGWATCH_DATA={
         "notes": "共同申请人还包括Samsung Electronics Co., Ltd.、Samsung Electronics America, Inc.、Fossil Group, Inc.、Fossil Stores I, Inc.、Fossil Partners, L.P.及OnePlus Technology (Shenzhen) Co., Ltd.；Ouraring/OPPO在部分文件为RPI，未混同为具名申请人。",
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S057, S058, S059, S060"
-      }
+      },
+      "displayStatus": "已进入正式审理，最终决定待核实"
     },
     {
       "id": "IPR2025-01254",
@@ -2729,7 +2769,8 @@ window.RINGWATCH_DATA={
         "notes": "共同申请人还包括Samsung Electronics Co., Ltd.、Samsung Electronics America, Inc.、Fossil Group, Inc.、Fossil Stores I, Inc.、Fossil Partners, L.P.及OnePlus Technology (Shenzhen) Co., Ltd.；Ouraring/OPPO在部分文件为RPI，未混同为具名申请人。",
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S065, S066, S067"
-      }
+      },
+      "displayStatus": "已进入正式审理，最终决定待核实"
     },
     {
       "id": "PGR2025-00063",
@@ -2806,7 +2847,8 @@ window.RINGWATCH_DATA={
         "notes": "共同申请人还包括Samsung Electronics Co., Ltd.、Samsung Electronics America, Inc.、Fossil Group, Inc.、Fossil Stores I, Inc.、Fossil Partners, L.P.及OnePlus Technology (Shenzhen) Co., Ltd.；Ouraring/OPPO在部分文件为RPI，未混同为具名申请人。",
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S068, S069, S070"
-      }
+      },
+      "displayStatus": "未进入正式审理，未对专利有效性作出裁决"
     },
     {
       "id": "IPR2025-01253",
@@ -2883,7 +2925,8 @@ window.RINGWATCH_DATA={
         "notes": "共同申请人还包括Samsung Electronics Co., Ltd.、Samsung Electronics America, Inc.、Fossil Group, Inc.、Fossil Stores I, Inc.、Fossil Partners, L.P.及OnePlus Technology (Shenzhen) Co., Ltd.；Ouraring/OPPO在部分文件为RPI，未混同为具名申请人。 2026-05-06为启动Director Review/暂停；05-14才是撤销决定。WHOOP的PGR2026-00003不计作Oura程序。",
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S061, S062, S063, S064"
-      }
+      },
+      "displayStatus": "原先同意审理的决定被撤销，不再进入正式审理"
     },
     {
       "id": "PGR2025-00064",
@@ -2959,7 +3002,8 @@ window.RINGWATCH_DATA={
         "notes": "共同申请人还包括Samsung Electronics Co., Ltd.、Samsung Electronics America, Inc.、Fossil Group, Inc.、Fossil Stores I, Inc.、Fossil Partners, L.P.及OnePlus Technology (Shenzhen) Co., Ltd.；Ouraring/OPPO在部分文件为RPI，未混同为具名申请人。",
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S071, S072, S073"
-      }
+      },
+      "displayStatus": "未进入正式审理，未对专利有效性作出裁决"
     },
     {
       "id": "25-1871",
@@ -2998,7 +3042,8 @@ window.RINGWATCH_DATA={
           "pages": 5,
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
-      ]
+      ],
+      "displayStatus": "上诉方主动撤回上诉"
     },
     {
       "id": "26-1258",
@@ -3031,7 +3076,8 @@ window.RINGWATCH_DATA={
         "PGR2024-00030",
         "26-1413"
       ],
-      "events": []
+      "events": [],
+      "displayStatus": "正在审阅双方书面材料，后续进展待核实"
     },
     {
       "id": "26-1410",
@@ -3064,7 +3110,8 @@ window.RINGWATCH_DATA={
         "26-1411",
         "26-1083"
       ],
-      "events": []
+      "events": [],
+      "displayStatus": "相关上诉合在一起审理，后续进展待核实"
     },
     {
       "id": "26-1411",
@@ -3096,7 +3143,8 @@ window.RINGWATCH_DATA={
       "related": [
         "26-1410"
       ],
-      "events": []
+      "events": [],
+      "displayStatus": "与上诉案26-1410合并审理"
     },
     {
       "id": "26-1413",
@@ -3129,7 +3177,8 @@ window.RINGWATCH_DATA={
         "26-1258",
         "PGR2024-00039"
       ],
-      "events": []
+      "events": [],
+      "displayStatus": "与上诉案26-1258合并审理"
     },
     {
       "id": "26-1083",
@@ -3183,7 +3232,8 @@ window.RINGWATCH_DATA={
           "pages": 14,
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
-      ]
+      ],
+      "displayStatus": "已提出上诉，暂停执行原决定的请求被拒绝"
     },
     {
       "id": "90/016,588",
@@ -3258,7 +3308,8 @@ window.RINGWATCH_DATA={
         "notes": "请求人后缀据ExamPat为Inc.，不自动改为LLC。 EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
         "verification": "案号已确认；EPR进展主要据二级案卷索引；缺项明确保留",
         "sourceIds": "S127, S128, S129, S130"
-      }
+      },
+      "displayStatus": "已安排审查员，是否启动重新审查待核实"
     },
     {
       "id": "90/016,561",
@@ -3333,7 +3384,8 @@ window.RINGWATCH_DATA={
         "notes": "09-29为分配事件，不是批准日期。 EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
         "verification": "案号已确认；EPR进展主要据二级案卷索引；缺项明确保留",
         "sourceIds": "S123, S124, S125, S126"
-      }
+      },
+      "displayStatus": "已安排审查员，是否启动重新审查待核实"
     },
     {
       "id": "90/016,560",
@@ -3408,7 +3460,8 @@ window.RINGWATCH_DATA={
         "notes": "09-14为分配事件，不是批准日期。 EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
         "verification": "案号已确认；EPR进展主要据二级案卷索引；缺项明确保留",
         "sourceIds": "S119, S120, S121, S122"
-      }
+      },
+      "displayStatus": "已安排审查员，是否启动重新审查待核实"
     },
     {
       "id": "90/016,519",
@@ -3482,7 +3535,8 @@ window.RINGWATCH_DATA={
         "notes": "Unified仍列Motiv, Inc.；官方请求公告列Ouraring。权属历史差异保留。 EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
         "verification": "案号已确认；EPR进展主要据二级案卷索引；缺项明确保留",
         "sourceIds": "S114, S115, S116, S117, S118"
-      }
+      },
+      "displayStatus": "索引显示已同意重新审查，批准日期待核实"
     },
     {
       "id": "90/016,517",
@@ -3561,7 +3615,8 @@ window.RINGWATCH_DATA={
         "notes": " EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
         "verification": "案号已确认；EPR进展主要据二级案卷索引；缺项明确保留",
         "sourceIds": "S104, S105, S106, S107, S108"
-      }
+      },
+      "displayStatus": "已同意重新审查专利，最终结果待核实"
     },
     {
       "id": "90/016,518",
@@ -3635,7 +3690,8 @@ window.RINGWATCH_DATA={
         "notes": "Unified仍列Motiv, Inc.；官方请求公告列Ouraring。权属历史差异保留。 EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
         "verification": "案号已确认；EPR进展主要据二级案卷索引；缺项明确保留",
         "sourceIds": "S109, S110, S111, S112, S113"
-      }
+      },
+      "displayStatus": "索引显示已同意重新审查，批准日期待核实"
     },
     {
       "id": "90/016,516",
@@ -3705,7 +3761,8 @@ window.RINGWATCH_DATA={
         "notes": "单案ExamPat页面未成功读取；状态按Unified及owner聚合页，不推定具体批准日。 EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
         "verification": "案号已确认；EPR进展主要据二级案卷索引；缺项明确保留",
         "sourceIds": "S100, S101, S102, S103"
-      }
+      },
+      "displayStatus": "索引显示已同意重新审查，批准日期待核实"
     },
     {
       "id": "90/016,512",
@@ -3784,7 +3841,8 @@ window.RINGWATCH_DATA={
         "notes": " EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
         "verification": "案号已确认；EPR进展主要据二级案卷索引；缺项明确保留",
         "sourceIds": "S095, S096, S097, S098, S099"
-      }
+      },
+      "displayStatus": "已同意重新审查专利，最终结果待核实"
     },
     {
       "id": "90/016,380",
@@ -3859,7 +3917,8 @@ window.RINGWATCH_DATA={
         "notes": "09-28合并通知具体合并对象未核实，不推定已与16261合并。 EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
         "verification": "案号已确认；EPR进展主要据二级案卷索引；缺项明确保留",
         "sourceIds": "S091, S092, S093, S094"
-      }
+      },
+      "displayStatus": "已同意重新审查，并发出合并审查通知"
     },
     {
       "id": "90/016,261",
@@ -3934,7 +3993,8 @@ window.RINGWATCH_DATA={
         "notes": "聚合页/Unified列Samsung；单案页请求人未知。09-28合并通知具体合并对象未核实。 EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
         "verification": "案号已确认；EPR进展主要据二级案卷索引；缺项明确保留",
         "sourceIds": "S087, S088, S089, S090"
-      }
+      },
+      "displayStatus": "已同意重新审查，并发出合并审查通知"
     },
     {
       "id": "90/016,260",
@@ -4009,7 +4069,8 @@ window.RINGWATCH_DATA={
         "notes": "请求人其他共同主体待原请求书确认。 EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
         "verification": "案号已确认；EPR进展主要据二级案卷索引；缺项明确保留",
         "sourceIds": "S083, S084, S085, S086"
-      }
+      },
+      "displayStatus": "已发出初步审查意见，尚非最终决定"
     },
     {
       "id": "90/016,231",
@@ -4084,7 +4145,8 @@ window.RINGWATCH_DATA={
         "notes": "请求人双主体据原表及Unified交叉；ExamPat显示Samsung Co., Ltd.。 EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
         "verification": "案号已确认；EPR进展主要据二级案卷索引；缺项明确保留",
         "sourceIds": "S079, S080, S081, S082"
-      }
+      },
+      "displayStatus": "已发出初步审查意见，尚非最终决定"
     },
     {
       "id": "90/015,985",
@@ -4167,7 +4229,8 @@ window.RINGWATCH_DATA={
         "notes": "请求/批准已确认；2026-09-15有延期记录。 EPR用Ordered/Granted，不使用PTAB Instituted口径；Patent Center链接为复核入口，未取得完整案卷。",
         "verification": "案号已确认；EPR进展主要据二级案卷索引；缺项明确保留",
         "sourceIds": "S074, S075, S076, S077, S078"
-      }
+      },
+      "displayStatus": "已发出初步审查意见，10月7日仍有文件提交记录"
     },
     {
       "id": "6:22-cv-00868",
@@ -4208,7 +4271,8 @@ window.RINGWATCH_DATA={
           "pages": 2,
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
-      ]
+      ],
+      "displayStatus": "已撤回起诉，案件已结束"
     },
     {
       "id": "2:23-cv-00598",
@@ -4248,7 +4312,8 @@ window.RINGWATCH_DATA={
           "pages": 2,
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
-      ]
+      ],
+      "displayStatus": "已撤诉，仍可能再次起诉"
     },
     {
       "id": "6:23-cv-00423",
@@ -4291,7 +4356,8 @@ window.RINGWATCH_DATA={
           "pages": 10,
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
-      ]
+      ],
+      "displayStatus": "双方和解并撤诉，案件已结束"
     },
     {
       "id": "26-2079",
@@ -4325,7 +4391,8 @@ window.RINGWATCH_DATA={
       "related": [
         "IPR2025-00147"
       ],
-      "events": []
+      "events": [],
+      "displayStatus": "上诉中，正在提交和审阅书面材料"
     },
     {
       "id": "337-TA-3731",
@@ -4378,7 +4445,8 @@ window.RINGWATCH_DATA={
           "pages": 4,
           "note": "立案前CourtLink案卷；目录编号沿用原文件，官方编号为DN。未上传原始PDF。"
         }
-      ]
+      ],
+      "displayStatus": "投诉已进入正式调查，此处保留早期记录"
     },
     {
       "id": "337-TA-3858",
@@ -4428,7 +4496,8 @@ window.RINGWATCH_DATA={
           "pages": 6,
           "note": "立案前CourtLink案卷；目录编号沿用原文件，官方编号为DN。未上传原始PDF。"
         }
-      ]
+      ],
+      "displayStatus": "投诉已进入正式调查，此处保留早期记录"
     },
     {
       "id": "337-TA-3866",
@@ -4487,7 +4556,8 @@ window.RINGWATCH_DATA={
           "pages": 5,
           "note": "立案前CourtLink案卷；目录编号沿用原文件，官方编号为DN。未上传原始PDF。"
         }
-      ]
+      ],
+      "displayStatus": "投诉已进入正式调查，此处保留早期记录"
     }
   ],
   "scope": "Oura Health Oy / Ouraring Inc. 美国专利争议；含原告、被告、申请人、专利权人及介入人。",
