@@ -68,7 +68,39 @@
       "recordKind": "正式调查",
       "docketNumber": "3731",
       "investigationId": "337-TA-1398",
-      "displayStatus": "已作最终裁决，正在处理进口限制等后续事项"
+      "displayStatus": "已作最终裁决，正在处理进口限制等后续事项",
+      "verifiedMilestones": [
+        {
+          "date": "2024-03-13",
+          "kind": "开始日期",
+          "text": "Oura提交337投诉（本案开始）",
+          "source": 0,
+          "number": "325",
+          "original": "Public Complaint and Exhibits",
+          "dateBasis": "投诉提交日；本地案卷第325项"
+        },
+        {
+          "date": "2024-04-17",
+          "kind": "立案 / 是否受理",
+          "text": "贸易委员会正式启动调查",
+          "url": "https://www.usitc.gov/secretary/fed_reg_notices/337/337_1398_notice12152025sgl.pdf",
+          "dateBasis": "官方通知记载的调查启动日"
+        },
+        {
+          "date": "2025-04-18",
+          "kind": "337实体初裁",
+          "text": "法官作出实体初裁：认定侵犯178号专利相关权利要求，构成337违规；仍待委员会审查",
+          "url": "https://www.usitc.gov/press_room/documents/notice_of_issuance_final_idrd_1398.pdf",
+          "dateBasis": "初裁作出日；不是4月25日案卷登记日"
+        },
+        {
+          "date": "2025-08-21",
+          "kind": "337终裁 / 委员会复审",
+          "text": "委员会作出终裁：认定RingConn和Ultrahuman违反337，并发出进口限制等命令",
+          "url": "https://www.usitc.gov/secretary/fed_reg_notices/337/337_1398_notice12152025sgl.pdf",
+          "dateBasis": "官方通知记载的终裁日"
+        }
+      ]
     },
     {
       "id": "337-TA-1468",
