@@ -279,7 +279,235 @@
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
       ],
-      "displayStatus": "案件已结束"
+      "displayStatus": "案件已结束",
+      "courtMilestones": [
+        {
+          "date": "2022-05-11",
+          "number": "1",
+          "kind": "开始日期",
+          "text": "Oura向地区法院起诉Circular",
+          "original": "COMPLAINT FOR PATENT INFRINGEMENT ( Filing fee $ 402 receipt number 0542-16022032). No Summons requested at this time, filed by Oura Health Oy.",
+          "source": 3,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2022-06-22",
+          "number": "6",
+          "kind": "送达与应诉",
+          "text": "登记起诉材料送达或免除正式送达手续的记录，进入应诉阶段",
+          "original": "SUMMONS Returned Executed by Oura Health Oy. Circular SAS served on 5/20/2022, answer due 6/10/2022. (Yates, John) (Clerk's note: Service was received by TX Secretary of State on 5/20/22 and forwarded to Circular SAS on 6/15/22 via CM/RRR) (lad).",
+          "source": 3,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2022-09-09",
+          "number": "9",
+          "kind": "重要动议申请",
+          "text": "请求“作出缺席判决”；是否获准另见法院决定",
+          "original": "MOTION for Default Judgment and Permanent Injunction against Circular SAS by Oura Health Oy.",
+          "source": 3,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2022-09-23",
+          "number": "13",
+          "kind": "重要动议书面意见",
+          "text": "就“作出缺席判决”提交答复或反对意见；不是法院决定",
+          "original": "Response in Opposition to Motion, filed by Circular SAS, re 9 MOTION for Default Judgment and Permanent Injunction against Circular SAS filed by Plaintiff Oura Health Oy",
+          "source": 3,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2022-09-30",
+          "number": "15",
+          "kind": "重要动议书面意见",
+          "text": "就“作出缺席判决”提交回复意见；不是法院决定",
+          "original": "REPLY to Response to Motion, filed by Oura Health Oy, re 9 MOTION for Default Judgment and Permanent Injunction against Circular SAS filed by Plaintiff Oura Health Oy (Yates, John)",
+          "source": 3,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2023-06-01",
+          "number": "17",
+          "kind": "送达与缺席判决决定",
+          "text": "法院拒绝作出缺席判决，但允许使用另一种方式送达起诉材料",
+          "original": "ORDER DENYING 9 Motion for Default Judgment. Oura's Motion for Alternative Service on Circular's Counsel is GRANTED. Signed by Judge Alan D Albright. (sm3)",
+          "source": 3,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2023-06-13",
+          "number": "18",
+          "kind": "送达与应诉",
+          "text": "登记起诉材料送达或免除正式送达手续的记录，进入应诉阶段",
+          "original": "SUMMONS Returned Executed by Oura Health Oy. Oura Health Oy served on 6/11/2023, answer due 7/3/2023. (Yates, John)",
+          "source": 3,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2023-06-14",
+          "number": "19",
+          "kind": "送达与应诉",
+          "text": "登记起诉材料送达或免除正式送达手续的记录，进入应诉阶段",
+          "original": "SUMMONS Returned Executed by Oura Health Oy. Circular SAS served on 6/12/2023, answer due 7/3/2023. (Yates, John)",
+          "source": 3,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2023-07-03",
+          "number": "20",
+          "kind": "答辩并提出反诉",
+          "text": "回应对方诉讼主张，并提出反诉请求",
+          "original": "ANSWER to 1 Complaint, with Jury Demand . Attorney Caroline N. Small added to party Circular SAS(pty:dft), COUNTERCLAIM against Oura Health Oy by Circular SAS.(Small, Caroline)",
+          "source": 3,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2023-07-17",
+          "number": "33",
+          "kind": "提交答辩",
+          "text": "提交答辩，回应起诉或反诉主张",
+          "original": "ANSWER to 20 Answer to Complaint, Counterclaim by Oura Health Oy.(Hassett, Shaun)",
+          "source": 3,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2023-08-01",
+          "number": "36",
+          "kind": "审理排期",
+          "text": "法院发布案件审理日程；其中所列日期是安排，不代表程序已完成；该文件安排的Markman听证日期为2/2/2024，以后续变更为准",
+          "original": "SCHEDULING ORDER: Markman Hearing set for 2/2/2024 09:00 AM before Judge Alan D Albright. Joinder of Parties due by 3/19/2024. Amended Pleadings due by 5/28/2024. Dispositive Motions due by 11/12/2024. Final Pretrial Conference set for 1/28/2025 before Judge Alan D Albright. Jury Selection set for 2/17/2025 before Judge Derek T. Gilliland. Jury Trial set for 2/17/2025 before Judge Alan D Albright. Motions terminated:…",
+          "source": 3,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2023-10-31",
+          "number": "37",
+          "kind": "权利要求解释书面意见",
+          "text": "提交权利要求解释意见，说明专利用语应如何理解",
+          "original": "Opening Claim Construction Brief by Circular SAS.",
+          "source": 3,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2023-11-21",
+          "number": "39",
+          "kind": "重要动议决定",
+          "text": "法院批准“确定证据保密或电子证据交换规则”的请求",
+          "original": "ORDER GRANTING 38 Motion for Entry of Confidentiality and Protective Order. Signed by Judge Alan D Albright. (zv)",
+          "source": 3,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2023-11-28",
+          "number": "40",
+          "kind": "权利要求解释书面意见",
+          "text": "提交权利要求解释意见，说明专利用语应如何理解",
+          "original": "Opening Claim Construction Brief regarding 37 Claim Construction Brief by Oura Health Oy.",
+          "source": 3,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2023-12-19",
+          "number": "41",
+          "kind": "权利要求解释书面意见",
+          "text": "提交回复意见，回应对方对权利要求含义的解释",
+          "original": "Reply Claim Construction Brief regarding 37 Claim Construction Brief by Circular SAS. (Rammer, Tom)",
+          "source": 3,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-01-10",
+          "number": "42",
+          "kind": "权利要求解释书面意见",
+          "text": "提交回复意见，回应对方对权利要求含义的解释",
+          "original": "Reply Claim Construction Brief regarding 37 Claim Construction Brief by Oura Health Oy. (Hassett, Shaun)",
+          "source": 3,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-01-16",
+          "number": "43",
+          "kind": "权利要求解释书面意见",
+          "text": "提交双方共同整理的权利要求解释意见或争议清单",
+          "original": "Joint Claim Construction Brief or Statement by Oura Health Oy.",
+          "source": 3,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-02-02",
+          "number": "44",
+          "kind": "Markman听证举行",
+          "text": "举行Markman听证，听取双方对专利权利要求含义的解释",
+          "original": "Minute Entry for proceedings held before Judge Alan D Albright: Markman Hearing (ZOOM MARKMAN HEARING) held on 2/2/2024. PARTIES ANNOUNCE READY. STATEMENTS AND ARGUMENTS OF COUNSEL HEARD. WRITTEN ORDER FORTHCOMING. (Minute entry documents are not available electronically.) (Court Reporter Kristie Davis.)(zv)",
+          "source": 3,
+          "dateBasis": "会议记录明确记载的实际举行日；案卷登记日为2024-02-02"
+        },
+        {
+          "date": "2024-02-02",
+          "number": "45",
+          "kind": "权利要求解释决定",
+          "text": "法院对专利权利要求的含义作出解释",
+          "original": "FINAL CLAIM CONSTRUCTIONS OF THE COURT. Signed by Judge Alan D Albright. (zv)",
+          "source": 3,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-02-04",
+          "number": "46",
+          "kind": "听证或会议笔录",
+          "text": "登记Markman听证笔录；登记日期不等于实际举行日期",
+          "original": "Transcript filed of Proceedings held on 2-2-24, Proceedings Transcribed: Markman Hearing. Court Reporter/Transcriber: Kristie Davis (kmdaviscsr@yahoo.com), Telephone number: 12546660904. Parties are notified of their duty to review the transcript to ensure compliance with the FRCP 5.2(a)/FRCrP 49.1(a). A copy may be purchased from the court reporter or viewed at the clerk's office public terminal. If redaction is nec…",
+          "source": 3,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-04-22",
+          "number": "47",
+          "kind": "重要动议申请",
+          "text": "请求“暂停审理”；是否获准另见法院决定",
+          "original": "Joint MOTION to Stay Case Pending Resolution of ITC Proceedings by Circular SAS.",
+          "source": 3,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-04-23",
+          "number": "",
+          "kind": "暂停审理决定",
+          "text": "法院批准“暂停审理”的请求",
+          "original": "Text Order GRANTING 47 Motion to Stay Case entered by Judge Alan D Albright. This Court, having considered the parties' Joint Motion to Stay Action Pending ITC Determination (the \"Motion\"), hereby GRANTS the Motion and ORDERS the following: IT IS HEREBY ORDERED that this action is hereby stayed and administratively closed until the determination of the 337-TA-1398 Investigation becomes final, including any appeals an…",
+          "source": 3,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-06-26",
+          "number": "48",
+          "kind": "重要动议申请",
+          "text": "请求“恢复审理”；是否获准另见法院决定",
+          "original": "Joint MOTION to Lift Stay by Oura Health Oy.",
+          "source": 3,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-06-26",
+          "number": "49",
+          "kind": "撤诉或和解通知",
+          "text": "当事人提交撤诉通知或共同撤诉文件；撤诉范围和效果见原文",
+          "original": "STIPULATION of Dismissal - Joint by Oura Health Oy. (Hassett, Shaun)",
+          "source": 3,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-06-28",
+          "number": "50",
+          "kind": "撤诉或驳回决定",
+          "text": "法院先解除暂停，再结束双方请求：Oura的请求不得就相同事项再次起诉；Circular的请求保留依法重新起诉的可能",
+          "original": "ORDER GRANTING 48 Joint MOTION to Lift Stay ; GRANTING 49 STIPULATION of Dismissal - Joint. IT IS FURTHER ORDERED that all of Plaintiffs claims against Defendant are DISMISSED WITH PREJUDICE and that all of Defendants claims against Plaintiff are DISMISSED WITHOUT PREJUDICE, each side to bear its own co sts, expenses, and attorneys fees. IT IS FINALLY ORDERED that the Clerk of Court is respectfully directed to close …",
+          "source": 3,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        }
+      ],
+      "courtNote": "按现有案卷展开重要步骤；排期、申请、法院决定与实际举行分别标注。未核实的程序不补写日期。"
     },
     {
       "id": "6:23-cv-00421",
@@ -323,7 +551,118 @@
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
       ],
-      "displayStatus": "双方和解并撤诉，案件已结束"
+      "displayStatus": "双方和解并撤诉，案件已结束",
+      "courtMilestones": [
+        {
+          "date": "2023-06-06",
+          "number": "1",
+          "kind": "开始日期",
+          "text": "ConnectQuest向地区法院起诉Oura",
+          "original": "COMPLAINT ( Filing fee $ 402 receipt number ATXWDC- 17523832), filed by ConnectQuest LLC.",
+          "source": 4,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2023-12-08",
+          "number": "15",
+          "kind": "重要动议申请",
+          "text": "请求“驳回请求或结束诉讼”；是否获准另见法院决定",
+          "original": "Motion to Dismiss for Failure to State a Claim by Oura Health Oy.",
+          "source": 4,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2023-12-08",
+          "number": "16",
+          "kind": "答辩并提出反诉",
+          "text": "回应对方诉讼主张，并提出反诉请求",
+          "original": "ANSWER to 1 Complaint with Jury Demand Affirmative Defenses and, COUNTERCLAIM against ConnectQuest LLC by Oura Health Oy.(Chakkalakal, Noel)",
+          "source": 4,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-01-19",
+          "number": "34",
+          "kind": "重要动议书面意见",
+          "text": "就“驳回请求或结束诉讼”提交答复或反对意见；不是法院决定",
+          "original": "RESPONSE to Motion, filed by ConnectQuest LLC, re 15 Motion to Dismiss for Failure to State a Claim filed by Defendant Oura Health Oy (Ellis, Zachary)",
+          "source": 4,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-01-19",
+          "number": "35",
+          "kind": "提交答辩",
+          "text": "提交答辩，回应起诉或反诉主张",
+          "original": "ANSWER to 16 Answer to Complaint, Counterclaim by ConnectQuest LLC.(Ellis, Zachary)",
+          "source": 4,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-01-23",
+          "number": "",
+          "kind": "动议无需再处理",
+          "text": "法院认为有关“驳回请求或结束诉讼”的请求已无须处理；不据此判定实体胜败",
+          "original": "Text Order MOOTING 15 Motion to Dismiss for Failure to State a Claim entered by Judge Xavier Rodriguez. In light of Plaintiff's 37 First Amended Complaint, Defendant's 15 Motion to Dismiss in now MOOT. (This is a text-only entry generated by the court. There is no document associated with this entry.) (dllc)",
+          "source": 4,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-01-23",
+          "number": "37",
+          "kind": "修改起诉内容",
+          "text": "提交修改后的起诉书，调整或补充诉讼主张",
+          "original": "AMENDED COMPLAINT against Oura Health Oy amending 1 Complaint., filed by ConnectQuest LLC.",
+          "source": 4,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-02-06",
+          "number": "43",
+          "kind": "审理排期",
+          "text": "法院发布案件审理日程；其中所列日期是安排，不代表程序已完成；该文件安排的Markman听证日期为10/3/2024，以后续变更为准",
+          "original": "SCHEDULING ORDER: Amended Pleadings for Plaintiff's due by 07/19/2024, Joinder of Parties for Plaintiff's due by 07/19/2024, Markman Hearing set for 10/3/2024 before Judge Xavier Rodriguez, Amended Pleadings for Defendant's due by 11/8/2024, Joinder of Parties for Defendant's due by 11/8/2024, Motions due by 10/10/2025, Pretrial Conference set for 1/29/2026 10:30 AM before Judge Xavier Rodriguez, Jury Selection set f…",
+          "source": 4,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-03-21",
+          "number": "55",
+          "kind": "重要动议申请",
+          "text": "请求“暂停审理”；是否获准另见法院决定",
+          "original": "Joint MOTION to Stay Case and Notice of Settlement by Oura Health Oy.",
+          "source": 4,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-04-23",
+          "number": "",
+          "kind": "撤诉或驳回决定",
+          "text": "法院批准驳回或结束相关请求，具体范围和能否重新起诉见依据",
+          "original": "Text Order GRANTING 57 Motion for Extension of Time to File entered by Judge Xavier Rodriguez. The parties' deadline to finalize their settlement negotiations and file appropriate dismissal documents with the Court is hereby extended to April 29, 2024. (This is a text-only entry generated by the court. There is no document associated with this entry.) (cb)",
+          "source": 4,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-04-29",
+          "number": "58",
+          "kind": "重要动议申请",
+          "text": "请求“驳回请求或结束诉讼”；是否获准另见法院决定",
+          "original": "Joint MOTION to Dismiss by ConnectQuest LLC.",
+          "source": 4,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-04-30",
+          "number": "59",
+          "kind": "撤诉或驳回决定",
+          "text": "法院批准驳回或结束相关请求，具体范围和能否重新起诉见依据",
+          "original": "ORDER GRANTING 58 Motion to Dismiss Signed by Judge Xavier Rodriguez. (cav)",
+          "source": 4,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        }
+      ],
+      "courtNote": "按现有案卷展开重要步骤；排期、申请、法院决定与实际举行分别标注。未核实的程序不补写日期。"
     },
     {
       "id": "6:23-cv-00422",
@@ -365,7 +704,118 @@
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
       ],
-      "displayStatus": "双方和解并撤诉，案件已结束"
+      "displayStatus": "双方和解并撤诉，案件已结束",
+      "courtMilestones": [
+        {
+          "date": "2023-06-06",
+          "number": "1",
+          "kind": "开始日期",
+          "text": "ConnectQuest向地区法院起诉Oura",
+          "original": "COMPLAINT ( Filing fee $ 402 receipt number ATXWDC- 17523914), filed by ConnectQuest LLC.",
+          "source": 5,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2023-12-08",
+          "number": "14",
+          "kind": "重要动议申请",
+          "text": "请求“驳回请求或结束诉讼”；是否获准另见法院决定",
+          "original": "Motion to Dismiss for Failure to State a Claim by Oura Health Oy.",
+          "source": 5,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2023-12-08",
+          "number": "15",
+          "kind": "答辩并提出反诉",
+          "text": "回应对方诉讼主张，并提出反诉请求",
+          "original": "ANSWER to 1 Complaint with Jury Demand Affirmative Defenses and, COUNTERCLAIM against ConnectQuest LLC by Oura Health Oy.(Chakkalakal, Noel)",
+          "source": 5,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-01-19",
+          "number": "30",
+          "kind": "重要动议书面意见",
+          "text": "就“驳回请求或结束诉讼”提交答复或反对意见；不是法院决定",
+          "original": "RESPONSE to Motion, filed by ConnectQuest LLC, re 14 Motion to Dismiss for Failure to State a Claim filed by Defendant Oura Health Oy (Ellis, Zachary)",
+          "source": 5,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-01-19",
+          "number": "31",
+          "kind": "提交答辩",
+          "text": "提交答辩，回应起诉或反诉主张",
+          "original": "ANSWER to 15 Answer to Complaint, Counterclaim by ConnectQuest LLC.(Ellis, Zachary)",
+          "source": 5,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-01-22",
+          "number": "33",
+          "kind": "修改起诉内容",
+          "text": "提交修改后的起诉书，调整或补充诉讼主张",
+          "original": "FIRST AMENDED COMPLAINT against Oura Health Oy amending 1 Complaint, filed by ConnectQuest LLC.",
+          "source": 5,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-01-23",
+          "number": "",
+          "kind": "动议无需再处理",
+          "text": "法院认为有关“驳回请求或结束诉讼”的请求已无须处理；不据此判定实体胜败",
+          "original": "Text Order MOOTING 14 Motion to Dismiss for Failure to State a Claim entered by Judge Xavier Rodriguez. In light of Plaintiff's 33 First Amended Complaint, Defendant's 14 Motion to Dismiss is now MOOT. (This is a text-only entry generated by the court. There is no document associated with this entry.) (dllc)",
+          "source": 5,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-02-06",
+          "number": "39",
+          "kind": "审理排期",
+          "text": "法院发布案件审理日程；其中所列日期是安排，不代表程序已完成；该文件安排的Markman听证日期为10/3/2024，以后续变更为准",
+          "original": "SCHEDULING ORDER: Pretrial Conference set for 1/29/2026 10:30 AM before Judge Xavier Rodriguez. Jury Selection set for 2/13/2026 09:00AM before Judge Xavier Rodriguez. Jury Trial set for 2/13/2026 09:00 AM before Judge Xavier Rodriguez. Markman Hearing set for 10/3/2024 before Judge Xavier Rodriguez. Plaintiff(s) Amended Pleadings due by 7/19/2024. Defendant(s) Amended Pleadings due by 11/8/2024. Plaintiff(s) Joinder…",
+          "source": 5,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-03-21",
+          "number": "51",
+          "kind": "重要动议申请",
+          "text": "请求“暂停审理”；是否获准另见法院决定",
+          "original": "Joint MOTION to Stay Case and Notice of Settlement by Oura Health Oy.",
+          "source": 5,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-04-23",
+          "number": "",
+          "kind": "撤诉或驳回决定",
+          "text": "法院批准驳回或结束相关请求，具体范围和能否重新起诉见依据",
+          "original": "Text Order GRANTING 53 Motion for Extension of Time to File entered by Judge Xavier Rodriguez. The parties' deadline to finalize their settlement negotiations and file appropriate dismissal documents with the Court is hereby extended to April 29, 2024. (This is a text-only entry generated by the court. There is no document associated with this entry.) (cb)",
+          "source": 5,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-04-29",
+          "number": "54",
+          "kind": "重要动议申请",
+          "text": "请求“驳回请求或结束诉讼”；是否获准另见法院决定",
+          "original": "Joint MOTION to Dismiss by ConnectQuest LLC.",
+          "source": 5,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-04-30",
+          "number": "55",
+          "kind": "撤诉或驳回决定",
+          "text": "法院批准驳回或结束相关请求，具体范围和能否重新起诉见依据",
+          "original": "ORDER GRANTING 54 Motion to Dismiss Signed by Judge Xavier Rodriguez. (cav)",
+          "source": 5,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        }
+      ],
+      "courtNote": "按现有案卷展开重要步骤；排期、申请、法院决定与实际举行分别标注。未核实的程序不补写日期。"
     },
     {
       "id": "2:23-cv-00396",
@@ -409,7 +859,217 @@
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
       ],
-      "displayStatus": "案件暂停审理，原定听证和陪审团安排已调整"
+      "displayStatus": "案件暂停审理，原定听证和陪审团安排已调整",
+      "courtMilestones": [
+        {
+          "date": "2023-09-01",
+          "number": "1",
+          "kind": "开始日期",
+          "text": "Oura向地区法院起诉Ultrahuman",
+          "original": "COMPLAINT for Patent and Copyright Infringement against Ultrahuman Healthcare Ltd., Ultrahuman Healthcare Pvt., Ltd. ( Filing fee $ 402 receipt number ATXEDC-9684383.), filed by Oura Health Oy, Ouraring Inc..",
+          "source": 6,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-01-16",
+          "number": "5、6",
+          "kind": "送达与应诉",
+          "text": "登记起诉材料送达或免除正式送达手续的记录，进入应诉阶段",
+          "original": "WAIVER OF SERVICE Returned Executed by Oura Health Oy, Ouraring Inc.. Ultrahuman Healthcare Ltd. waiver sent on 1/16/2024, answer due 4/15/2024. (Hassett, Shaun)\n\nWAIVER OF SERVICE Returned Executed by Oura Health Oy, Ouraring Inc.. Ultrahuman Healthcare Pvt., Ltd. waiver sent on 1/16/2024, answer due 4/15/2024. (Hassett, Shaun)",
+          "source": 6,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-03-14",
+          "number": "9",
+          "kind": "修改起诉内容",
+          "text": "提交修改后的起诉书，调整或补充诉讼主张",
+          "original": "AMENDED COMPLAINT against Ultrahuman Healthcare Ltd., Ultrahuman Healthcare Pvt., Ltd., filed by Oura Health Oy, Ouraring Inc..",
+          "source": 6,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-04-17",
+          "number": "13",
+          "kind": "听证或会议排期",
+          "text": "提出或处理听证、会议时间安排；是否批准及具体日期见依据",
+          "original": "ORDER - Scheduling/Case Management Conference set for 5/29/2024 at 10:00 AM before District Judge Rodney Gilstrap. Signed by Magistrate Judge Roy S. Payne on 4/17/2024. (NKL)",
+          "source": 6,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-05-12",
+          "number": "17",
+          "kind": "重要动议申请",
+          "text": "请求“暂停审理”；是否获准另见法院决定",
+          "original": "MOTION to Stay PENDING FINAL RESOLUTION OF ITC INVESTIGATION by Ultrahuman Healthcare Ltd., Ultrahuman Healthcare Pvt., Ltd..",
+          "source": 6,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-05-15",
+          "number": "20",
+          "kind": "重要动议申请",
+          "text": "请求“驳回请求或结束诉讼”；是否获准另见法院决定",
+          "original": "MOTION to Dismiss DEFENDANTS MOTION FOR PARTIAL DISMISSAL OF THE FIRST AMENDED COMPLAINT FOR FAILURE TO STATE A CLAIM by Ultrahuman Healthcare Ltd., Ultrahuman Healthcare Pvt., Ltd..",
+          "source": 6,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-05-28",
+          "number": "22",
+          "kind": "重要动议书面意见",
+          "text": "就“暂停审理”提交答复或反对意见；不是法院决定",
+          "original": "RESPONSE in Opposition re 17 MOTION to Stay PENDING FINAL RESOLUTION OF ITC INVESTIGATION filed by Oura Health Oy, Ouraring Inc..",
+          "source": 6,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-05-29",
+          "number": "",
+          "kind": "案件管理会议举行",
+          "text": "召开案件管理会议，讨论审理安排",
+          "original": "Minute Entry for proceedings held before District Judge Rodney Gilstrap: Scheduling Conference/Case Management Conference held on 5/29/2024. Counsel for the parties appeared. Court asked whether the parties consented to trial before the U.S. Magistrate Judge. Court proceeded to provide counsel Claim Construction and Jury Selection/Trial dates. (Court Reporter Shelly Holmes) (aeb)",
+          "source": 6,
+          "dateBasis": "会议记录明确记载的实际举行日；案卷登记日为2024-05-29"
+        },
+        {
+          "date": "2024-05-29",
+          "number": "24",
+          "kind": "重要动议书面意见",
+          "text": "就“驳回请求或结束诉讼”提交答复或反对意见；不是法院决定",
+          "original": "RESPONSE in Opposition re 20 MOTION to Dismiss DEFENDANTS MOTION FOR PARTIAL DISMISSAL OF THE FIRST AMENDED COMPLAINT FOR FAILURE TO STATE A CLAIM filed by Oura Health Oy, Ouraring Inc..",
+          "source": 6,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-06-04",
+          "number": "25",
+          "kind": "重要动议书面意见",
+          "text": "就“暂停审理”提交回复意见；不是法院决定",
+          "original": "REPLY to Response to Motion re 17 MOTION to Stay PENDING FINAL RESOLUTION OF ITC INVESTIGATION filed by Ultrahuman Healthcare Ltd., Ultrahuman Healthcare Pvt., Ltd..",
+          "source": 6,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-06-05",
+          "number": "26",
+          "kind": "重要动议书面意见",
+          "text": "就“驳回请求或结束诉讼”提交回复意见；不是法院决定",
+          "original": "REPLY to Response to Motion re 20 MOTION to Dismiss DEFENDANTS MOTION FOR PARTIAL DISMISSAL OF THE FIRST AMENDED COMPLAINT FOR FAILURE TO STATE A CLAIM filed by Ultrahuman Healthcare Ltd., Ultrahuman Healthcare Pvt., Ltd..",
+          "source": 6,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-06-11",
+          "number": "27",
+          "kind": "重要动议书面意见",
+          "text": "就“暂停审理”提交再次回复；不是法院决定",
+          "original": "SUR-REPLY to Reply to Response to Motion re 17 MOTION to Stay PENDING FINAL RESOLUTION OF ITC INVESTIGATION filed by Oura Health Oy, Ouraring Inc..",
+          "source": 6,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-06-12",
+          "number": "28",
+          "kind": "重要动议书面意见",
+          "text": "就“驳回请求或结束诉讼”提交再次回复；不是法院决定",
+          "original": "SUR-REPLY to Reply to Response to Motion re 20 MOTION to Dismiss DEFENDANTS MOTION FOR PARTIAL DISMISSAL OF THE FIRST AMENDED COMPLAINT FOR FAILURE TO STATE A CLAIM filed by Oura Health Oy, Ouraring Inc..",
+          "source": 6,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-06-13",
+          "number": "31",
+          "kind": "证据交换安排",
+          "text": "法院规定证据披露与交换的要求；不据此推定实际开始日期",
+          "original": "DISCOVERY ORDER granting 30 JOINT MOTION to Enter Agreed Discovery Order. Signed by Magistrate Judge Roy S. Payne on 6/13/2024. (CH)",
+          "source": 6,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-06-13",
+          "number": "32",
+          "kind": "审理排期",
+          "text": "法院发布案件审理日程；其中所列日期是安排，不代表程序已完成；该文件安排的Markman听证日期为5/8/2025，以后续变更为准",
+          "original": "DOCKET CONTROL ORDER granting 29 JOINT MOTION to Enter Agreed Docket Control Order. Pretrial Conference set for 9/29/2025 at 09:00 AM before Magistrate Judge Roy S. Payne., Jury Selection set for 11/3/2025 at 09:00AM before District Judge Rodney Gilstrap., Markman Hearing set for 5/8/2025 at 09:00 AM before Magistrate Judge Roy S. Payne (Motion(s) 29 terminated). Signed by Magistrate Judge Roy S. Payne on 6/13/2024. …",
+          "source": 6,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-06-19",
+          "number": "35",
+          "kind": "证据披露",
+          "text": "提交已完成相应证据披露或文件交换的通知；不表示全部取证结束",
+          "original": "NOTICE OF COMPLIANCE by Oura Health Oy, Ouraring Inc. regarding Initial and Additional Disclosures (Hassett, Shaun)",
+          "source": 6,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-06-20",
+          "number": "36",
+          "kind": "证据保密安排",
+          "text": "法院规定保密证据的使用及披露方式",
+          "original": "PROTECTIVE ORDER (Motion(s) 34 terminated). Signed by Magistrate Judge Roy S. Payne on 6/20/2024. (NKL)",
+          "source": 6,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-08-02",
+          "number": "37",
+          "kind": "暂停审理决定",
+          "text": "法院就“暂停审理”作出处理，具体范围见依据",
+          "original": "MEMORANDUM ORDER re 17 Motion to Stay Pending Final resolution of ITC Investigation (Motion(s) 17 terminated). Signed by Magistrate Judge Roy S. Payne on 8/1/2024. (NKL)",
+          "source": 6,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-01-10",
+          "number": "",
+          "kind": "听证或会议排期",
+          "text": "提出或处理听证、会议时间安排；是否批准及具体日期见依据；该文件安排的Markman听证日期为5/8/2025，以后续变更为准",
+          "original": "NOTICE of Hearing:Markman Hearing RESET for 5/8/2025 at 01:30 PM before Magistrate Judge Roy S. Payne. *Note that only the TIME has changed*(bga)",
+          "source": 6,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-02-24",
+          "number": "40",
+          "kind": "审理排期",
+          "text": "法院更新案件审理日程；其中所列日期是安排，不代表程序已完成",
+          "original": "FIRST AMENDED DOCKET CONTROL ORDER re 39 Motion to Amend/Correct the Docket Control Order. Signed by Magistrate Judge Roy S. Payne on 2/21/2025. (NKL)",
+          "source": 6,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-02-27",
+          "number": "42",
+          "kind": "重要动议申请",
+          "text": "请求“暂停著作权请求的审理”；是否获准另见法院决定",
+          "original": "JOINT MOTION to Stay Copyright Claims by Oura Health Oy, Ouraring Inc., Ultrahuman Healthcare Pvt., Ltd., Ultrahuman Healthcare Ltd..",
+          "source": 6,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-03-03",
+          "number": "43",
+          "kind": "暂停审理决定",
+          "text": "法院批准“暂停著作权请求的审理”的请求",
+          "original": "ORDER granting 42 Motion to Stay Copyright Claims. Signed by Magistrate Judge Roy S. Payne on 3/2/2025. (NKL)",
+          "source": 6,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-05-07",
+          "number": "",
+          "kind": "听证或会议取消",
+          "text": "法院取消此前安排的听证或会议；不表示该程序已举行",
+          "original": "**Markman Hearing Scheduled for 5/8/2025 has been cancelled due to Order #43 (KLC)",
+          "source": 6,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        }
+      ],
+      "courtNote": "按现有案卷展开重要步骤；排期、申请、法院决定与实际举行分别标注。未核实的程序不补写日期。"
     },
     {
       "id": "3:24-cv-03245",
@@ -461,7 +1121,201 @@
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
       ],
-      "displayStatus": "请求法院确认权利的起诉被驳回"
+      "displayStatus": "请求法院确认权利的起诉被驳回",
+      "courtMilestones": [
+        {
+          "date": "2024-05-30",
+          "number": "1",
+          "kind": "开始日期",
+          "text": "Samsung向地区法院起诉Oura",
+          "original": "COMPLAINT for Declaratory Judgment and Demand for Jury Trial against Ouraring Inc., ura Health Oy, (Filing Fee: $405.00, receipt number ACANDC-19465783). Filed by Samsung Electronics Corporation, Ltd., Samsung Electronics America, Inc..",
+          "source": 7,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-05-31",
+          "number": "13",
+          "kind": "听证或会议排期",
+          "text": "提出或处理听证、会议时间安排；是否批准及具体日期见依据",
+          "original": "Initial Case Management Scheduling Order with ADR Deadlines: Joint Case Management Statement due by 9/2/2024. Initial Case Management Conference set for 9/9/2024 at 1:30 PM in San Francisco - Videoconference Only. (tn, COURT STAFF) (Filed on 5/31/2024)",
+          "source": 7,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-06-07",
+          "number": "20",
+          "kind": "送达与应诉",
+          "text": "登记起诉材料送达或免除正式送达手续的记录，进入应诉阶段",
+          "original": "SUMMONS Returned Executed by Samsung Electronics Corporation, Ltd., Samsung Electronics America, Inc.. Ouraring Inc. served on 6/4/2024, answer due 6/25/2024. (Yagura, Ryan) (Filed on 6/7/2024)",
+          "source": 7,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-06-14",
+          "number": "29",
+          "kind": "重要动议申请",
+          "text": "请求“驳回请求或结束诉讼”；是否获准另见法院决定",
+          "original": "MOTION to Dismiss filed by Oura Health Oy, Ouraring Inc.. Motion to Dismiss Hearing set for 10/10/2024 02:00 PM in San Francisco, Courtroom 10, 19th Floor. Responses due by 6/28/2024. Replies due by 7/5/2024.",
+          "source": 7,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-06-28",
+          "number": "33",
+          "kind": "重要动议书面意见",
+          "text": "就“驳回请求或结束诉讼”提交答复或反对意见；不是法院决定",
+          "original": "OPPOSITION/RESPONSE (re 29 MOTION to Dismiss ) filed bySamsung Electronics America, Inc., Samsung Electronics Corporation, Ltd..",
+          "source": 7,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-07-05",
+          "number": "36",
+          "kind": "重要动议书面意见",
+          "text": "就“驳回请求或结束诉讼”提交回复意见；不是法院决定",
+          "original": "REPLY (re 29 MOTION to Dismiss ) filed byOura Health Oy, Ouraring Inc..",
+          "source": 7,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-09-10",
+          "number": "37",
+          "kind": "听证或会议排期",
+          "text": "提出或处理听证、会议时间安排；是否批准及具体日期见依据",
+          "original": "Clerk's Notice Continuing Motion Hearing. 29 Motion to Dismiss Hearing set for 11/25/2024 at 02:00 PM in San Francisco, Courtroom 10, 19th Floor before Judge Araceli Martinez-Olguin. (This is a text-only entry generated by the court. There is no document associated with this entry.)(ads, COURT STAFF) (Filed on 9/10/2024)",
+          "source": 7,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-09-26",
+          "number": "43",
+          "kind": "听证或会议排期",
+          "text": "提出或处理听证、会议时间安排；是否批准及具体日期见依据",
+          "original": "ORDER re 42 resetting initial case management conference to November 25, 2024 at 2:00 p.m. and terminating as moot 40 stipulation to allow the parties to appear remotely at the case management conference. Signed by Judge Araceli Martinez- Olguin on September 26, 2024. (This is a text-only entry generated by the court. There is no document associated with this entry.) (amolc2, COURTSTAFF) (Filed on 9/26/2024)",
+          "source": 7,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-10-04",
+          "number": "44",
+          "kind": "听证或会议排期",
+          "text": "提出或处理听证、会议时间安排；是否批准及具体日期见依据",
+          "original": "Clerk's Notice Continuing Motion Hearing. 29 Motion to Dismiss Hearing set for 1/16/2025 at 02:00 PM in San Francisco, Courtroom 10, 19th Floor before Judge Araceli Martinez-Olguin. (This is a text-only entry generated by the court. There is no document associated with this entry.)(ads, COURT STAFF) (Filed on 10/4/2024)",
+          "source": 7,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-11-01",
+          "number": "45、46",
+          "kind": "听证或会议排期",
+          "text": "提出或处理听证、会议时间安排；是否批准及具体日期见依据",
+          "original": "ADMINISTRATIVE MOTION to Continue the Case Management Conference until the Hearing on Defendants' Motion to Dismiss (Dkt. 29), Set for January 16, 2025 filed by Oura Health Oy, Ouraring Inc.. Responses due by 11/5/2024. (Carlan, Janine) (Filed on 11/1/2024)\n\nORDER DENYING 45 Motion to Continue Case Management Conference, subject to resubmission in compliance with Local Rule 7-11. Signed by Judge Araceli Martinez-Olguin on 11/1/2024. (This is a text-only entry generated by the court. There is no document associated with this entry.) (amolc2, COURTSTAFF) (Filed on 11/1/2024)",
+          "source": 7,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-11-06",
+          "number": "47",
+          "kind": "听证或会议排期",
+          "text": "提出或处理听证、会议时间安排；是否批准及具体日期见依据",
+          "original": "ADMINISTRATIVE MOTION Continuing the Case Management Conference Until the Hearing on Defendants' Motion to Dismiss (Dkt. 29), Set for January 16, 2025 filed by Oura Health Oy, Ouraring Inc.. Responses due by 11/12/2024.",
+          "source": 7,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-11-08",
+          "number": "48",
+          "kind": "听证或会议排期",
+          "text": "提出或处理听证、会议时间安排；是否批准及具体日期见依据",
+          "original": "Order by Judge Araceli Martinez-Olguin granting 47 administrative motion to continue case management conference. Initial Case Management Conference set for 1/16/2025 02:00 PM in San Francisco, Courtroom 10, 19th Floor.(amolc2, COURTSTAFF) (Filed on 11/8/2024)",
+          "source": 7,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-01-09",
+          "number": "51",
+          "kind": "撤诉或和解通知",
+          "text": "当事人提交撤诉通知或共同撤诉文件；撤诉范围和效果见原文",
+          "original": "NOTICE of Voluntary Dismissal Without Prejudice Counts III and IV by Samsung Electronics Corporation, Ltd., Samsung Electronics America, Inc. (Liang, Mark) (Filed on 1/9/2025)",
+          "source": 7,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-01-13",
+          "number": "55",
+          "kind": "听证或会议取消",
+          "text": "法院取消此前安排的听证或会议；不表示该程序已举行",
+          "original": "ORDER re: 44 : Having found Defendants' motion to dismiss 29 appropriate for determination on the papers, the Court VACATES the January 16, 2025 motion hearing and case management conference. See Civil Local Rule 7-1(b). Signed by Judge Araceli Martinez-Olguin on January 13, 2025. (This is a text-only entry generated by the court. There is no document associated with this entry.) (amolc2, COURTSTAFF) (Filed on 1/13/2…",
+          "source": 7,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-03-27",
+          "number": "57",
+          "kind": "驳回起诉并允许修改",
+          "text": "法院因缺乏管辖权驳回Samsung的起诉，允许其修改起诉书；没有判定是否侵权",
+          "original": "Order by Judge Araceli Martinez-Olguin granting 29 Motion to Dismiss. (amolc2, COURTSTAFF) (Filed on 3/27/2025)",
+          "source": 7,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。",
+          "url": "https://cases.justia.com/federal/district-courts/california/candce/3%3A2024cv03245/430276/57/0.pdf",
+          "sourceLabel": "法院裁定原文 ↗"
+        },
+        {
+          "date": "2025-04-08",
+          "number": "62",
+          "kind": "案件管理申请",
+          "text": "请求法院明确程序期限；不是请求驳回诉讼",
+          "original": "Joint ADMINISTRATIVE MOTION for Clarification of Deadline re 57 Order on Motion to Dismiss filed by Oura Health Oy, Ouraring Inc.. Responses due by 4/14/2025. (Carlan, Janine) (Filed on 4/8/2025)",
+          "source": 7,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-04-08",
+          "number": "63",
+          "kind": "案件管理安排",
+          "text": "法院调整案件管理文件或日程安排",
+          "original": "ORDER re 62 administrative joint motion for clarification of deadline. The April 10, 2025 deadline to file a joint case management statement is VACATED. The Court will set case management deadlines after the pleadings are settled. (This is a text-only entry generated by the court. There is no document associated with this entry.) (amolc2, COURTSTAFF) (Filed on 4/8/2025)",
+          "source": 7,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-04-25",
+          "number": "64",
+          "kind": "是否修改起诉书的通知",
+          "text": "提交是否修改起诉书的说明；具体选择见依据",
+          "original": "NOTICE by Samsung Electronics Corporation, Ltd., Samsung Electronics America, Inc. re 57 Order on Motion to Dismiss / Notice Regarding Amended Complaint (Liang, Mark) (Filed on 4/25/2025)",
+          "source": 7,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-05-19",
+          "number": "68",
+          "kind": "判决或陪审团裁决",
+          "text": "登记法院判决；具体处理范围见依据",
+          "original": "JUDGMENT. Signed by Judge Araceli Martinez-Olguin on May 19, 2025. (amolc2, COURTSTAFF) (Filed on 5/19/2025)",
+          "source": 7,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-06-17",
+          "number": "70、71",
+          "kind": "提起上诉",
+          "text": "提交上诉通知，请上诉法院审查原审决定",
+          "original": "NOTICE OF APPEAL to the Federal Circuit as to 68 Judgment, 57 Order on Motion to Dismiss by Samsung Electronics Corporation, Ltd., Samsung Electronics America, Inc.. Filing fee $ 605, receipt number ACANDC-20797885. Appeal Record due by 7/17/2025. (Yagura, Ryan) (Filed on 6/17/2025)\n\nNOTICE OF APPEAL to the Federal Circuit as to Order 57 and Judgment 68 by Samsung Electronics Corporation, Ltd., Samsung Electronics America, Inc.. Pay.gov Agency Tracking ID ACANDC- 20797885. Appeal Record due by 7/17/2025. (pjf, COURT STAFF) (Filed on 6/17/2025)",
+          "source": 7,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-08-15",
+          "number": "72",
+          "kind": "上诉结果返回原审",
+          "text": "收到上诉法院发回的正式通知：上诉程序已撤回或驳回，具体原因见依据",
+          "original": "MANDATE of Federal Circuit as to 70 Notice of Appeal, 71 Notice of Appeal \" The parties having so agreed, it is ordered that:(1) The proceeding is DISMISSED\" (msr, COURT STAFF) (Filed on 8/15/2025)",
+          "source": 7,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        }
+      ],
+      "courtNote": "按现有案卷展开重要步骤；排期、申请、法院决定与实际举行分别标注。未核实的程序不补写日期。"
     },
     {
       "id": "1:24-cv-01020",
@@ -511,7 +1365,64 @@
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
       ],
-      "displayStatus": "起诉方主动撤诉，案件已结束"
+      "displayStatus": "起诉方主动撤诉，案件已结束",
+      "courtMilestones": [
+        {
+          "date": "2024-09-10",
+          "number": "1",
+          "kind": "开始日期",
+          "text": "Oura向地区法院起诉RingConn",
+          "original": "COMPLAINT FOR PATENT INFRINGEMENT filed with Jury Demand against RingConn LLC (Filing fee $ 405, receipt number ADEDC-4494898) - filed by Ouraring, Inc.",
+          "source": 8,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-09-19",
+          "number": "6",
+          "kind": "送达与应诉",
+          "text": "登记起诉材料送达或免除正式送达手续的记录，进入应诉阶段",
+          "original": "AFFIDAVIT of Service for Summons & Complaint served on the Delaware Secretary of State on September 18, 2024, filed by Ouraring, Inc.. (Pascale, Karen)",
+          "source": 8,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-10-07",
+          "number": "9",
+          "kind": "重要动议申请",
+          "text": "请求“暂停审理”；是否获准另见法院决定",
+          "original": "UNOPPOSED MOTION to Stay Pending Final Resolution of ITC Investigation - filed by RingConn LLC.",
+          "source": 8,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-10-07",
+          "number": "10",
+          "kind": "重要动议书面意见",
+          "text": "就“暂停审理”提交支持意见；不是法院决定",
+          "original": "MEMORANDUM in Support re 9 UNOPPOSED MOTION to Stay Pending Final Resolution of ITC Investigation filed by RingConn LLC. Answering Brief/Response due date per Local Rules is 10/21/2024.",
+          "source": 8,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-10-08",
+          "number": "11",
+          "kind": "暂停审理决定",
+          "text": "法院批准“暂停审理”的请求",
+          "original": "ORDER GRANTING 9 UNOPPOSED Motion to Stay Pending Final Resolution of ITC Investigation. CASE STAYED. Signed by Judge Maryellen Noreika on 10/8/2024. (dlw)",
+          "source": 8,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-10-14",
+          "number": "12",
+          "kind": "撤诉或和解通知",
+          "text": "当事人提交撤诉通知或共同撤诉文件；撤诉范围和效果见原文",
+          "original": "NOTICE of Voluntary Dismissal by Ouraring, Inc. (Pascale, Karen)",
+          "source": 8,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        }
+      ],
+      "courtNote": "按现有案卷展开重要步骤；排期、申请、法院决定与实际举行分别标注。未核实的程序不补写日期。"
     },
     {
       "id": "2:24-cv-01070",
@@ -564,7 +1475,1126 @@
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
       ],
-      "displayStatus": "涉及Oura的部分已拆成单独案件"
+      "displayStatus": "涉及Oura的部分已拆成单独案件",
+      "courtMilestones": [
+        {
+          "date": "2024-12-20",
+          "number": "1",
+          "kind": "开始日期",
+          "text": "Omni MedSci向地区法院起诉Samsung、Fossil、OnePlus、Oura",
+          "original": "COMPLAINT against FOSSIL GROUP, INC., FOSSIL PARTNERS, L.P., FOSSIL STORES I, INC., ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD., OURA HEALTH OY, SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD. ( Filing fee $ 405 receipt number ATXEDC-10576595.), filed by OMNI MEDSCI, INC..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-02-13",
+          "number": "20",
+          "kind": "答辩并提出反诉",
+          "text": "回应对方诉讼主张，并提出反诉请求",
+          "original": "ANSWER to 1 Complaint,,, Affirmative Defenses and, COUNTERCLAIM against OMNI MEDSCI, INC. by FOSSIL PARTNERS, L.P., FOSSIL GROUP, INC., FOSSIL STORES I, INC..(McNabnay, Neil)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-02-19",
+          "number": "24",
+          "kind": "听证或会议排期",
+          "text": "提出或处理听证、会议时间安排；是否批准及具体日期见依据",
+          "original": "ORDER - Scheduling/Case Management Conference set for 3/26/2025 at 09:30 AM before District Judge Rodney Gilstrap. Signed by Magistrate Judge Roy S. Payne on 2/19/2025. (NKL)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-03-06",
+          "number": "25",
+          "kind": "修改起诉内容",
+          "text": "提交修改后的起诉书，调整或补充诉讼主张",
+          "original": "FIRST AMENDED COMPLAINT FOR PATENT INFRINGEMENT against All Defendants, filed by OMNI MEDSCI, INC..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-03-21",
+          "number": "30",
+          "kind": "答辩并提出反诉",
+          "text": "回应对方诉讼主张，并提出反诉请求",
+          "original": "ANSWER to 25 Amended Complaint Affirmative Defenses and, COUNTERCLAIM against OMNI MEDSCI, INC. by FOSSIL PARTNERS, L.P., FOSSIL GROUP, INC., FOSSIL STORES I, INC..(McNabnay, Neil)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-03-26",
+          "number": "33",
+          "kind": "审理排期",
+          "text": "法院发布案件审理日程；其中所列日期是安排，不代表程序已完成；该文件安排的Markman听证日期为2/13/2026，以后续变更为准",
+          "original": "DOCKET CONTROL ORDER: Pretrial Conference set for 7/13/2026 at 01:30 PM before Magistrate Judge Roy S. Payne. Jury Selection set for 8/17/2026 at 09:00AM before District Judge Rodney Gilstrap. Markman Hearing set for 2/13/2026 at 09:00 AM before Magistrate Judge Roy S. Payne. Signed by Magistrate Judge Roy S. Payne on 3/26/2025. (wea)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-03-26",
+          "number": "35",
+          "kind": "案件管理会议举行",
+          "text": "召开案件管理会议，讨论审理安排",
+          "original": "Minute Entry for proceedings held before District Judge Rodney Gilstrap: Scheduling Conference/Case Management Conference held on 3/26/2025 from 09:33 AM - 10:36 AM. Counsel for the parties appeared. Court asked whether the parties consented to trial before the U.S. Magistrate Judge and proceeded to provide counsel with Claim Construction and Jury Selection/Trial dates. (Court Reporter - Shawn McRoberts) (Text entry …",
+          "source": 9,
+          "dateBasis": "会议记录明确记载的实际举行日；案卷登记日为2025-03-26"
+        },
+        {
+          "date": "2025-03-28",
+          "number": "34",
+          "kind": "送达与应诉",
+          "text": "登记起诉材料送达或免除正式送达手续的记录，进入应诉阶段",
+          "original": "WAIVER OF SERVICE Returned Executed by OMNI MEDSCI, INC.. OURA HEALTH OY waiver sent on 3/27/2025, answer due 6/25/2025. (Davis, William)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-03-28",
+          "number": "38",
+          "kind": "提交答辩",
+          "text": "提交答辩，回应起诉或反诉主张",
+          "original": "Defendants Samsung Electronics Co., Ltd. and Samsung Electronics America, Inc.'s ANSWER to 25 Amended Complaint by SAMSUNG ELECTRONICS, CO. LTD., SAMSUNG ELECTRONICS AMERICA, INC..(Smith, Melissa)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-04-11",
+          "number": "45",
+          "kind": "提交答辩",
+          "text": "提交答辩，回应起诉或反诉主张",
+          "original": "Plaintiff Omni MedSci, Inc.'s ANSWER to 30 Answer to Amended Complaint, Counterclaim of Fossil Defendants by OMNI MEDSCI, INC..(Davis, William)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-04-30",
+          "number": "48",
+          "kind": "重要动议申请",
+          "text": "请求“确定证据保密或电子证据交换规则”；是否获准另见法院决定",
+          "original": "UNOPPOSED MOTION for Protective Order by OMNI MEDSCI, INC..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-05-01",
+          "number": "49",
+          "kind": "审理排期",
+          "text": "法院更新案件审理日程；其中所列日期是安排，不代表程序已完成",
+          "original": "FIRST AMENDED DOCKET CONTROL ORDER. Signed by Magistrate Judge Roy S. Payne on 5/1/2025. (wea)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-05-01",
+          "number": "50",
+          "kind": "证据交换安排",
+          "text": "法院规定证据披露与交换的要求；不据此推定实际开始日期",
+          "original": "DISCOVERY ORDER. Signed by Magistrate Judge Roy S. Payne on 5/1/2025. (wea)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-05-01",
+          "number": "51",
+          "kind": "证据保密安排",
+          "text": "法院规定保密证据的使用及披露方式",
+          "original": "PROTECTIVE ORDER. (Motion(s) 48 terminated). Signed by Magistrate Judge Roy S. Payne on 5/1/2025. (wea)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-05-13",
+          "number": "54",
+          "kind": "证据披露",
+          "text": "提交已完成相应证据披露或文件交换的通知；不表示全部取证结束",
+          "original": "NOTICE OF COMPLIANCE by OURA HEALTH OY regarding Initial and Additional Disclosures (Hassett, Shaun)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-05-19",
+          "number": "57",
+          "kind": "修改起诉内容",
+          "text": "提交修改后的起诉书，调整或补充诉讼主张",
+          "original": "SECOND AMENDED COMPLAINT for Patent Infringement against All Defendants, filed by OMNI MEDSCI, INC..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-06-04",
+          "number": "59、60、61",
+          "kind": "无效主张与证据交换",
+          "text": "提交完成专利无效主张披露或相关文件交换的通知",
+          "original": "NOTICE OF COMPLIANCE by OURA HEALTH OY regarding PR 3-3 and 3-4 Invalidity Contentions and Eligibility Contentions (Hassett, Shaun)\n\nNOTICE OF COMPLIANCE by SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD. regarding Invalidity and Subject Matter Eligibility Contentions (Smith, Melissa)\n\nNOTICE OF COMPLIANCE by FOSSIL GROUP, INC., FOSSIL PARTNERS, L.P., FOSSIL STORES I, INC. REGARDING PR 3-3 AND 3-4 DISCLOSURES (Talebi, Rodeen)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-06-16",
+          "number": "65",
+          "kind": "审理排期",
+          "text": "法院更新案件审理日程；其中所列日期是安排，不代表程序已完成",
+          "original": "SECOND AMENDED DOCKET CONTROL ORDER re 64 Motion to Amend/Correct the Docket Control Order. Signed by Magistrate Judge Roy S. Payne on 6/15/2025. (NKL)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-06-18",
+          "number": "66",
+          "kind": "提交答辩",
+          "text": "提交答辩，回应起诉或反诉主张",
+          "original": "ANSWER to 57 Amended Complaint AND DEFENSES by SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD..(Smith, Melissa)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-06-25",
+          "number": "68",
+          "kind": "重要动议申请",
+          "text": "请求“驳回请求或结束诉讼”；是否获准另见法院决定",
+          "original": "MOTION to Dismiss Second Amended Complaint Pursuant to Rule 12(b)(6) and for Improper Joinder by OURA HEALTH OY.",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-06-27",
+          "number": "70",
+          "kind": "送达与应诉",
+          "text": "登记起诉材料送达或免除正式送达手续的记录，进入应诉阶段",
+          "original": "WAIVER OF SERVICE Returned Executed by OMNI MEDSCI, INC.. ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD. waiver sent on 6/20/2025, answer due 9/18/2025. (Davis, William)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-07-09",
+          "number": "75",
+          "kind": "重要动议书面意见",
+          "text": "就“驳回请求或结束诉讼”提交答复或反对意见；不是法院决定",
+          "original": "RESPONSE in Opposition re 68 MOTION to Dismiss Second Amended Complaint Pursuant to Rule 12(b)(6) and for Improper Joinder filed by OMNI MEDSCI, INC..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-07-17",
+          "number": "76",
+          "kind": "重要动议书面意见",
+          "text": "就“驳回请求或结束诉讼”提交回复意见；不是法院决定",
+          "original": "REPLY to Response re 68 MOTION to Dismiss Second Amended Complaint Pursuant to Rule 12(b)(6) and for Improper Joinder filed by OURA HEALTH OY. (Fussell, James)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-07-18",
+          "number": "77",
+          "kind": "答辩并提出反诉",
+          "text": "回应对方诉讼主张，并提出反诉请求",
+          "original": "ANSWER to 57 Amended Complaint , COUNTERCLAIM against OMNI MEDSCI, INC. by FOSSIL PARTNERS, L.P., FOSSIL GROUP, INC., FOSSIL STORES I, INC..(McNabnay, Neil)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-07-24",
+          "number": "78",
+          "kind": "重要动议书面意见",
+          "text": "就“驳回请求或结束诉讼”提交再次回复；不是法院决定",
+          "original": "SUR-REPLY to Reply to Response re 68 MOTION to Dismiss Second Amended Complaint Pursuant to Rule 12(b)(6) and for Improper Joinder filed by OMNI MEDSCI, INC.. (Davis, William)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-08-01",
+          "number": "79",
+          "kind": "提交答辩",
+          "text": "提交答辩，回应起诉或反诉主张",
+          "original": "Plaintiff Omni MedSci, Inc.'s ANSWER to 77 Answer to Amended Complaint, Counterclaim OF DEFENDANTS FOSSIL GROUP, INC., FOSSIL STORES I, INC., AND FOSSIL PARTNERS, L.P.S COUNTERCLAIMS by OMNI MEDSCI, INC..(Davis, William)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-08-12",
+          "number": "80",
+          "kind": "修改起诉内容",
+          "text": "提交修改后的起诉书，调整或补充诉讼主张",
+          "original": "THIRD AMENDED COMPLAINT FOR PATENT INFRINGEMENT against All Defendants, filed by OMNI MEDSCI, INC..(Davis, William)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-08-26",
+          "number": "82",
+          "kind": "提交答辩",
+          "text": "提交答辩，回应起诉或反诉主张",
+          "original": "ANSWER to 80 Amended Complaint AND DEFENSES by SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD..(Smith, Melissa)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-08-26",
+          "number": "83",
+          "kind": "重要动议申请",
+          "text": "请求“驳回请求或结束诉讼”；是否获准另见法院决定",
+          "original": "MOTION to Dismiss 80 Third Amended Complaint by OURA HEALTH OY.",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-08-27",
+          "number": "84",
+          "kind": "答辩并提出反诉",
+          "text": "回应对方诉讼主张，并提出反诉请求",
+          "original": "ANSWER to 80 Amended Complaint , COUNTERCLAIM against OMNI MEDSCI, INC. by FOSSIL PARTNERS, L.P., FOSSIL GROUP, INC., FOSSIL STORES I, INC..(McNabnay, Neil)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-08-27",
+          "number": "85",
+          "kind": "重要动议申请",
+          "text": "请求“暂停审理”；是否获准另见法院决定",
+          "original": "MOTION to Stay PENDING INSTITUTION OF INTER PARTES REVIEW AND POST GRANT REVIEW by FOSSIL GROUP, INC., FOSSIL PARTNERS, L.P., FOSSIL STORES I, INC., OURA HEALTH OY, SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-08-29",
+          "number": "86",
+          "kind": "暂停审理决定",
+          "text": "法院拒绝“暂停审理”的请求",
+          "original": "ORDER denying 85 Motion to Stay Pending Inter Partes Review. Signed by Magistrate Judge Roy S. Payne on 8/28/2025. (NKL)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-09-09",
+          "number": "87",
+          "kind": "重要动议书面意见",
+          "text": "就“驳回请求或结束诉讼”提交答复或反对意见；不是法院决定",
+          "original": "RESPONSE in Opposition re 83 MOTION to Dismiss 80 Third Amended Complaint filed by OMNI MEDSCI, INC..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-09-10",
+          "number": "89",
+          "kind": "提交答辩",
+          "text": "提交答辩，回应起诉或反诉主张",
+          "original": "Plaintiff Omni MedSci, Inc.'s ANSWER to 84 Answer to Amended Complaint, Counterclaim by OMNI MEDSCI, INC..(Davis, William)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-09-17",
+          "number": "93",
+          "kind": "重要动议书面意见",
+          "text": "就“驳回请求或结束诉讼”提交回复意见；不是法院决定",
+          "original": "REPLY to Response re 83 MOTION to Dismiss 80 Third Amended Complaint filed by OURA HEALTH OY. (Hassett, Shaun)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-09-18",
+          "number": "100",
+          "kind": "提交答辩",
+          "text": "提交答辩，回应起诉或反诉主张",
+          "original": "ANSWER to 80 Amended Complaint by ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD..(Shaw, Jack)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-09-24",
+          "number": "103",
+          "kind": "重要动议书面意见",
+          "text": "就“驳回请求或结束诉讼”提交再次回复；不是法院决定",
+          "original": "SUR-REPLY to Reply to Response re 83 MOTION to Dismiss 80 Third Amended Complaint filed by OMNI MEDSCI, INC.. (Davis, William)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-09-30",
+          "number": "105",
+          "kind": "无效主张与证据交换",
+          "text": "提交完成专利无效主张披露或相关文件交换的通知",
+          "original": "NOTICE OF COMPLIANCE by ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD. Regarding PR 3-3 and 3-4 Disclosures (Mangrum, Brett)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-01-09",
+          "number": "113",
+          "kind": "权利要求解释书面意见",
+          "text": "提交权利要求解释意见，说明专利用语应如何理解",
+          "original": "OPENING CLAIM CONSTRUCTION BRIEF filed by OMNI MEDSCI, INC..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-01-16",
+          "number": "",
+          "kind": "听证或会议排期",
+          "text": "提出或处理听证、会议时间安排；是否批准及具体日期见依据；该文件安排的Markman听证日期为2/18/2026，以后续变更为准",
+          "original": "NOTICE of Hearing: Markman/Claim Construction Hearing RESET for 2/18/2026 at 09:00 AM before Magistrate Judge Roy S. Payne. (wea)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-01-21",
+          "number": "116",
+          "kind": "权利要求解释书面意见",
+          "text": "提交回复意见，回应对方对权利要求含义的解释",
+          "original": "RESPONSIVE CLAIM CONSTRUCTION BRIEF filed by FOSSIL GROUP, INC., FOSSIL PARTNERS, L.P., FOSSIL STORES I, INC., ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD., OURA HEALTH OY, SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-01-27",
+          "number": "121",
+          "kind": "权利要求解释书面意见",
+          "text": "提交回复意见，回应对方对权利要求含义的解释",
+          "original": "PLAINTIFF OMNI MEDSCI, INC.'S REPLY CLAIM CONSTRUCTION BRIEF",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-02-05",
+          "number": "123",
+          "kind": "重要动议申请",
+          "text": "请求“暂停审理”；是否获准另见法院决定",
+          "original": "MOTION to Stay PENDING INTER PARTES REVIEW AND EX PARTE REEXAMINATION (RENEWED) by FOSSIL GROUP, INC., FOSSIL PARTNERS, L.P., FOSSIL STORES I, INC., ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD., OURA HEALTH OY, SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-02-18",
+          "number": "133",
+          "kind": "Markman听证举行",
+          "text": "举行Markman听证，听取双方对专利权利要求含义的解释",
+          "original": "Minute Entry for proceedings held before Magistrate Judge Roy S. Payne: Markman Hearing held on 2/18/2026 from 09:00 - 11:07. Attorney Appearances: Plaintiff - See attached; Defense - See attached. No exhibits. (Court Reporter - Shawn McRoberts)",
+          "source": 9,
+          "dateBasis": "会议记录明确记载的实际举行日；案卷登记日为2026-02-18"
+        },
+        {
+          "date": "2026-02-21",
+          "number": "135",
+          "kind": "听证或会议笔录",
+          "text": "登记Markman听证笔录；登记日期不等于实际举行日期",
+          "original": "NOTICE OF FILING OF OFFICIAL TRANSCRIPT of Markman Hearing held on 02/18/2026 before Judge Roy S. Payne. Pursuant to LR CV-5.2/LR CR-49.1, this transcript is available for 90 days by viewing in a TXED courthouse lobby or by purchase from Court Reporter/Transcriber: Shawn McRoberts, Telephone number: (903) 923-8546. Thereafter, it will be remotely available via PACER unless redacted or otherwise ordered. The parties h…",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-02-26",
+          "number": "137",
+          "kind": "重要动议书面意见",
+          "text": "就“暂停审理”提交答复或反对意见；不是法院决定",
+          "original": "RESPONSE in Opposition re 123 MOTION to Stay PENDING INTER PARTES REVIEW AND EX PARTE REEXAMINATION (RENEWED) filed by OMNI MEDSCI, INC..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-03-04",
+          "number": "138",
+          "kind": "重要动议书面意见",
+          "text": "就“暂停审理”提交回复意见；不是法院决定",
+          "original": "REPLY to Response re 123 MOTION to Stay PENDING INTER PARTES REVIEW AND EX PARTE REEXAMINATION (RENEWED) filed by FOSSIL GROUP, INC., FOSSIL PARTNERS, L.P., FOSSIL STORES I, INC., ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD., OURA HEALTH OY, SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-03-11",
+          "number": "144",
+          "kind": "重要动议书面意见",
+          "text": "就“暂停审理”提交再次回复；不是法院决定",
+          "original": "SUR-REPLY to Reply to Response re 123 MOTION to Stay PENDING INTER PARTES REVIEW AND EX PARTE REEXAMINATION (RENEWED) filed by OMNI MEDSCI, INC.. (Davis, William)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-03-16",
+          "number": "146",
+          "kind": "法官处理建议",
+          "text": "治安法官提出处理建议，当事人可在规定期限内提出异议；尚不等同最终裁判",
+          "original": "REPORT AND RECOMMENDATIONS re 83 MOTION to Dismiss 80 Third Amended Complaint filed by OURA HEALTH OY, 68 MOTION to Dismiss Second Amended Complaint Pursuant to Rule 12(b)(6) and for Improper Joinder Objections due within 14 days of receipt. Signed by Magistrate Judge Roy S. Payne on 3/15/2026. (NKL) Modified on 3/25/2026 (NKL).",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-03-20",
+          "number": "151",
+          "kind": "审理排期",
+          "text": "法院更新案件审理日程；其中所列日期是安排，不代表程序已完成",
+          "original": "THIRD AMENDED DOCKET CONTROL ORDER. Signed by Magistrate Judge Roy S. Payne on 03/19/2026. (mdj)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-03-20",
+          "number": "152",
+          "kind": "重要动议申请",
+          "text": "请求“确定证据保密或电子证据交换规则”；是否获准另见法院决定",
+          "original": "UNOPPOSED MOTION for Protective Order First Amended Protective Order by OMNI MEDSCI, INC..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-03-24",
+          "number": "154",
+          "kind": "权利要求解释决定",
+          "text": "法院对专利权利要求的含义作出解释",
+          "original": "Claim Construction Order. Signed by Magistrate Judge Roy S. Payne on 3/23/2026. (NKL)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-03-26",
+          "number": "156",
+          "kind": "重要动议申请",
+          "text": "请求“将部分请求分案审理”；是否获准另见法院决定",
+          "original": "MOTION to Sever the Claims Against It by ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-03-30",
+          "number": "160、161",
+          "kind": "重要动议申请",
+          "text": "请求“要求对方提供证据或配合取证”；是否获准另见法院决定",
+          "original": "SEALED MOTION TO COMPEL DISCOVERY FROM SAMSUNG ELECTRONICS CO., LTD AND SAMSUNG ELECTRONICS AMERICA, INC. by OMNI MEDSCI, INC..\n\nSEALED MOTION TO COMPEL DISCOVERY FROM ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD. by OMNI MEDSCI, INC..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-03-31",
+          "number": "163",
+          "kind": "采纳法官建议",
+          "text": "法院采纳此前的处理建议；具体涉及哪些请求及处理结果见依据",
+          "original": "ORDER adopting Report and Recommendations for 146 Report and Recommendations, 83 Motion to Dismiss filed by OURA HEALTH OY, 68 Motion to Dismiss filed by OURA HEALTH OY. (Motion(s) 83 , 68 , 146 terminated). Signed by District Judge Rodney Gilstrap on 3/31/2026. (NKL)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-04-09",
+          "number": "173",
+          "kind": "重要动议书面意见",
+          "text": "就“将部分请求分案审理”提交答复或反对意见；不是法院决定",
+          "original": "RESPONSE in Opposition re 156 MOTION to Sever the Claims Against It filed by OMNI MEDSCI, INC..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-04-10",
+          "number": "175",
+          "kind": "重要动议申请",
+          "text": "请求“将部分请求分案审理”；是否获准另见法院决定",
+          "original": "SEALED MOTION TO SEVER FOR IMPROPER JOINDER by SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-04-13",
+          "number": "181",
+          "kind": "重要动议书面意见",
+          "text": "就“暂停审理”提交答复或反对意见；不是法院决定",
+          "original": "RESPONSE in Opposition re 176 OPPOSED MOTION to Expedite Briefing on Omni's Motion to Stay Rebuttal Expert Report Deadline filed by FOSSIL GROUP, INC., FOSSIL PARTNERS, L.P., FOSSIL STORES I, INC..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-04-14",
+          "number": "184、185",
+          "kind": "重要动议书面意见",
+          "text": "就“要求对方提供证据或配合取证”提交答复或反对意见；不是法院决定",
+          "original": "[Corrected] SEALED RESPONSE re 161 SEALED MOTION TO COMPEL DISCOVERY FROM ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD. filed by ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD.\n\nRESPONSE re 160 SEALED MOTION TO COMPEL DISCOVERY FROM SAMSUNG ELECTRONICS CO., LTD AND SAMSUNG ELECTRONICS AMERICA, INC. filed by SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-04-15",
+          "number": "189",
+          "kind": "重要动议书面意见",
+          "text": "就“将部分请求分案审理”提交答复或反对意见；不是法院决定",
+          "original": "RESPONSE in Opposition re 164 OPPOSED MOTION to Sever for Improper Joinder filed by OMNI MEDSCI, INC..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-04-15",
+          "number": "191",
+          "kind": "重要动议书面意见",
+          "text": "就“暂停审理”提交回复意见；不是法院决定",
+          "original": "REPLY to Response re 176 OPPOSED MOTION to Expedite Briefing on Omni's Motion to Stay Rebuttal Expert Report Deadline filed by OMNI MEDSCI, INC.. (Davis, William)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-04-16",
+          "number": "193",
+          "kind": "重要动议书面意见",
+          "text": "就“将部分请求分案审理”提交回复意见；不是法院决定",
+          "original": "REPLY to Response re 156 MOTION to Sever the Claims Against It filed by ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD.. (Mangrum, Brett)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-04-23",
+          "number": "201",
+          "kind": "重要动议书面意见",
+          "text": "就“将部分请求分案审理”提交回复意见；不是法院决定",
+          "original": "REPLY to Response re 164 OPPOSED MOTION to Sever filed by FOSSIL GROUP, INC., FOSSIL PARTNERS, L.P., FOSSIL STORES I, INC.. (Talebi, Rodeen)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-04-23",
+          "number": "202",
+          "kind": "重要动议书面意见",
+          "text": "就“将部分请求分案审理”提交再次回复；不是法院决定",
+          "original": "SEALED SUR-REPLY to Reply to Response re 156 MOTION to Sever the Claims Against It filed by OMNI MEDSCI, INC..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-04-24",
+          "number": "204",
+          "kind": "重要动议书面意见",
+          "text": "就“暂停审理”提交答复或反对意见；不是法院决定",
+          "original": "RESPONSE re 174 MOTION to Stay Rebuttal Expert Report Deadline as to Unauthorized Invalidity Opinions Pending Resolution of Motion for Leave to Supplement Invalidity Contentions filed by FOSSIL GROUP, INC., FOSSIL PARTNERS, L.P., FOSSIL STORES I, INC., ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD., SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-04-24",
+          "number": "205",
+          "kind": "重要动议书面意见",
+          "text": "就“将部分请求分案审理”提交答复或反对意见；不是法院决定",
+          "original": "SEALED RESPONSE re 175 SEALED MOTION TO SEVER FOR IMPROPER JOINDER filed by OMNI MEDSCI, INC..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-04-29",
+          "number": "207",
+          "kind": "撤回动议申请",
+          "text": "申请撤回此前提出的程序请求；不等同撤回整起诉讼",
+          "original": "UNOPPOSED MOTION to Withdraw 196 OPPOSED SEALED MOTION for a Protective Order by SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-04-30",
+          "number": "208",
+          "kind": "撤回动议决定",
+          "text": "法院处理撤回此前程序申请的请求；不等同撤回整起诉讼",
+          "original": "ORDER granting 207 Motion to Withdraw 196 OPPOSED SEALED MOTION for a Protective Order. Signed by Magistrate Judge Roy S. Payne on 04/30/2026. (NKL)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-05-01",
+          "number": "210",
+          "kind": "重要动议书面意见",
+          "text": "就“将部分请求分案审理”提交再次回复；不是法院决定",
+          "original": "SUR-REPLY to Reply to Response re 164 OPPOSED MOTION to Sever filed by OMNI MEDSCI, INC.. (Davis, William)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-05-01",
+          "number": "211",
+          "kind": "撤回动议申请",
+          "text": "申请撤回此前提出的程序请求；不等同撤回整起诉讼",
+          "original": "UNOPPOSED MOTION to Withdraw CERTAIN MOTIONS (DKTS 174, 176, 177 AND 178) by OMNI MEDSCI, INC..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-05-04",
+          "number": "215",
+          "kind": "重要动议书面意见",
+          "text": "就“将部分请求分案审理”提交回复意见；不是法院决定",
+          "original": "REPLY to Response re 175 SEALED MOTION TO SEVER FOR IMPROPER JOINDER filed by SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD.. (Smith, Melissa)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-05-07",
+          "number": "218",
+          "kind": "撤回动议决定",
+          "text": "法院处理撤回此前程序申请的请求；不等同撤回整起诉讼",
+          "original": "ORDER granting 211 Motion to Withdraw 174 Motion to Stay, 176 Motion to Expedite, 177 Motion for Hearing, 178 Motion to Expedite. Signed by Magistrate Judge Roy S. Payne on 5/7/2026. (wea)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-05-11",
+          "number": "219",
+          "kind": "重要动议书面意见",
+          "text": "就“将部分请求分案审理”提交再次回复；不是法院决定",
+          "original": "SEALED SUR-REPLY to Reply to Response re 175 SEALED MOTION TO SEVER FOR IMPROPER JOINDER filed by OMNI MEDSCI, INC.. (Davis, William)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-05-14",
+          "number": "222",
+          "kind": "重要动议申请",
+          "text": "请求“将境外销售排除出赔偿范围”；是否获准另见法院决定",
+          "original": "SEALED MOTION FOR SUMMARY JUDGMENT TO EXCLUDE FOREIGN SALES FROM PLAINTIFFS ASSERTED DAMAGES by SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-05-14",
+          "number": "223、226、227、228、229、230、231",
+          "kind": "重要动议申请",
+          "text": "请求“排除专家意见或报告”；是否获准另见法院决定",
+          "original": "SEALED MOTION TO STRIKE THE OPENING EXPERT REPORT OF VIJAY K. MADISETTI, Ph.D. by OMNI MEDSCI, INC..\n\nSEALED MOTION TO STRIKE THE OPINIONS OF JAMES FERIOLI by OMNI MEDSCI, INC..\n\nSEALED MOTION TO STRIKE OPINIONS OF RYAN LAMOTTA by OMNI MEDSCI, INC..\n\nSEALED MOTION TO STRIKE THE OPINIONS OF NISHA MODY by OMNI MEDSCI, INC..\n\nSEALED MOTION TO STRIKE OPINION OF GEORGE E. YANULIS by OMNI MEDSCI, INC..\n\nSEALED MOTION TO STRIKE OPINION OF DR. R. JACOB BAKER by OMNI MEDSCI, INC..\n\nSEALED MOTION TO STRIKE OPINION OF JEREMY COOPERSTOCK by OMNI MEDSCI, INC..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-05-14",
+          "number": "224、225、237、238",
+          "kind": "重要动议申请",
+          "text": "请求“不经完整庭审直接判决”；是否获准另见法院决定",
+          "original": "SEALED MOTION FOR PARTIAL SUMMARY JUDGMENT OF NO DIRECT INFRINGEMENT by SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD..\n\nSEALED MOTION FOR SUMMARY JUDGMENT OF NO PRE- SUIT INDIRECT INFRINGEMENT by SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD..\n\nSEALED MOTION FOR SUMMARY JUDGMENT REGARDING SUBJECT MATTER INELIGIBILITY by FOSSIL GROUP, INC., FOSSIL PARTNERS, L.P., FOSSIL STORES I, INC..\n\nSEALED MOTION for Summary Judgment of Noninfringement by FOSSIL GROUP, INC., FOSSIL PARTNERS, L.P., FOSSIL STORES I, INC..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-05-14",
+          "number": "232",
+          "kind": "重要动议申请",
+          "text": "请求“处理部分抗辩理由”；是否获准另见法院决定",
+          "original": "MOTION for Summary Judgment ON MISCELLANEOUS AFFIRMATIVE DEFENSES OF ALL DEFENDANTS by OMNI MEDSCI, INC..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-05-14",
+          "number": "236",
+          "kind": "重要动议申请",
+          "text": "请求“处理专利标记相关抗辩”；是否获准另见法院决定",
+          "original": "SEALED MOTION Partial Motion for Summary Judgment on Defendants' Marking Defensesg by OMNI MEDSCI, INC..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-05-15",
+          "number": "239",
+          "kind": "重要动议申请",
+          "text": "请求“将境外销售排除出赔偿范围”；是否获准另见法院决定",
+          "original": "SEALED MOTION for Partial Summary Judgment of No Reasonable Royalty Damages Based on Fossil's Foreign Sales by FOSSIL GROUP, INC., FOSSIL PARTNERS, L.P., FOSSIL STORES I, INC..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-05-19",
+          "number": "241",
+          "kind": "重要动议申请",
+          "text": "请求“不经庭审判定不侵权”；是否获准另见法院决定",
+          "original": "SEALED MOTION for Summary Judgment of Non-Infringement by ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-05-28",
+          "number": "262、263、266、267、269、270、271、275、277",
+          "kind": "重要动议书面意见",
+          "text": "就“排除专家意见或报告”提交答复或反对意见；不是法院决定",
+          "original": "SEALED RESPONSE re 226 SEALED MOTION TO STRIKE THE OPINIONS OF JAMES FERIOLI filed by ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD..\n\nSEALED RESPONSE re 229 SEALED MOTION TO STRIKE OPINION OF GEORGE E. YANULIS filed by ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD..\n\nSEALED RESPONSE re 227 SEALED MOTION TO STRIKE OPINIONS OF RYAN LAMOTTA filed by SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD..\n\nSEALED RESPONSE re 230 SEALED MOTION TO STRIKE OPINION OF DR. R. JACOB BAKER filed by SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD..\n\nSEALED RESPONSE re 223 SEALED MOTION TO STRIKE THE OPENING EXPERT REPORT OF VIJAY K. MADISETTI, Ph.D. filed by FOSSIL GROUP, INC., FOSSIL PARTNERS, L.P., FOSSIL STORES I, INC., ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD., SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD..\n\nSEALED RESPONSE re 231 SEALED MOTION TO STRIKE OPINION OF JEREMY COOPERSTOCK filed by FOSSIL GROUP, INC., FOSSIL PARTNERS, L.P., FOSSIL STORES I, INC..\n\nSEALED RESPONSE re 228 SEALED MOTION TO STRIKE THE OPINIONS OF NISHA MODY filed by FOSSIL GROUP, INC., FOSSIL PARTNERS, L.P., FOSSIL STORES I, INC..\n\nSEALED RESPONSE re 233 OPPOSED SEALED MOTION TO STRIKE EXPERT TESTIMONY OF DR. CHRISTOPHER DAFT filed by OMNI MEDSCI, INC..\n\nSEALED RESPONSE re 234 OPPOSED SEALED MOTION TO STRIKE EXPERT TESTIMONY OF MARK J. CHANDLER filed by OMNI MEDSCI, INC..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-05-28",
+          "number": "264、265",
+          "kind": "重要动议书面意见",
+          "text": "就“处理部分抗辩理由”提交答复或反对意见；不是法院决定",
+          "original": "SEALED RESPONSE re 232 MOTION for Summary Judgment ON MISCELLANEOUS AFFIRMATIVE DEFENSES OF ALL DEFENDANTS filed by ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD..\n\nSEALED RESPONSE re 232 MOTION for Summary Judgment ON MISCELLANEOUS AFFIRMATIVE DEFENSES OF ALL DEFENDANTS filed by SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-05-28",
+          "number": "268、273、274、278",
+          "kind": "重要动议书面意见",
+          "text": "就“不经完整庭审直接判决”提交答复或反对意见；不是法院决定",
+          "original": "SEALED RESPONSE re 237 SEALED MOTION FOR SUMMARY JUDGMENT REGARDING SUBJECT MATTER INELIGIBILITY filed by OMNI MEDSCI, INC..\n\nSEALED RESPONSE re 225 SEALED MOTION FOR SUMMARY JUDGMENT OF NO PRE-SUIT INDIRECT INFRINGEMENT filed by OMNI MEDSCI, INC..\n\nSEALED RESPONSE re 238 SEALED MOTION for Summary Judgment of Noninfringement filed by OMNI MEDSCI, INC..\n\nSEALED RESPONSE re 224 SEALED MOTION FOR PARTIAL SUMMARY JUDGMENT OF NO DIRECT INFRINGEMENT filed by OMNI MEDSCI, INC..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-05-28",
+          "number": "272",
+          "kind": "重要动议书面意见",
+          "text": "就“处理专利标记相关抗辩”提交答复或反对意见；不是法院决定",
+          "original": "RESPONSE re 236 SEALED MOTION Partial Motion for Summary Judgment on Defendants' Marking Defensesg filed by FOSSIL GROUP, INC., FOSSIL PARTNERS, L.P., FOSSIL STORES I, INC., ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD., SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-05-28",
+          "number": "276、279",
+          "kind": "重要动议书面意见",
+          "text": "就“将境外销售排除出赔偿范围”提交答复或反对意见；不是法院决定",
+          "original": "SEALED RESPONSE re 239 SEALED MOTION for Partial Summary Judgment of No Reasonable Royalty Damages Based on Fossil's Foreign Sales filed by OMNI MEDSCI, INC..\n\nSEALED RESPONSE re 222 SEALED MOTION FOR SUMMARY JUDGMENT TO EXCLUDE FOREIGN SALES FROM PLAINTIFFS ASSERTED DAMAGES filed by OMNI MEDSCI, INC..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-05-29",
+          "number": "280",
+          "kind": "重要动议书面意见",
+          "text": "就“不经庭审判定不侵权”提交答复或反对意见；不是法院决定",
+          "original": "SEALED RESPONSE re 241 SEALED MOTION for Summary Judgment of Non-Infringement filed by OMNI MEDSCI, INC..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-03",
+          "number": "282、284、285",
+          "kind": "证据披露",
+          "text": "提交已完成相应证据披露或文件交换的通知；不表示全部取证结束",
+          "original": "NOTICE OF COMPLIANCE by OMNI MEDSCI, INC. OF SERVICE OF PRE-TRIAL DISCLOSURES (Davis, William)\n\nNOTICE OF COMPLIANCE by SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD. regarding Pretrial Disclosures (Smith, Melissa)\n\nNOTICE OF COMPLIANCE by FOSSIL GROUP, INC., FOSSIL PARTNERS, L.P., FOSSIL STORES I, INC. regarding Pretrial Disclosures (Smith, Jared)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-04",
+          "number": "286",
+          "kind": "证据披露",
+          "text": "提交已完成相应证据披露或文件交换的通知；不表示全部取证结束",
+          "original": "NOTICE OF COMPLIANCE by ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD. regarding Pretrial Disclosures (Mangrum, Brett)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-04",
+          "number": "287",
+          "kind": "重要动议书面意见",
+          "text": "就“不经庭审判定不侵权”提交回复意见；不是法院决定",
+          "original": "SEALED REPLY to Response re 241 SEALED MOTION for Summary Judgment of Non-Infringement filed by ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD.. (Mangrum, Brett)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-04",
+          "number": "289",
+          "kind": "重要动议书面意见",
+          "text": "就“处理部分抗辩理由”提交回复意见；不是法院决定",
+          "original": "REPLY to Response re 232 MOTION for Summary Judgment ON MISCELLANEOUS AFFIRMATIVE DEFENSES OF ALL DEFENDANTS filed by OMNI MEDSCI, INC.. (Davis, William)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-04",
+          "number": "290",
+          "kind": "重要动议书面意见",
+          "text": "就“处理专利标记相关抗辩”提交回复意见；不是法院决定",
+          "original": "REPLY to Response re 236 SEALED MOTION Partial Motion for Summary Judgment on Defendants' Marking Defensesg filed by OMNI MEDSCI, INC.. (Davis, William)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-04",
+          "number": "291、292、293、294、295",
+          "kind": "重要动议书面意见",
+          "text": "就“排除专家意见或报告”提交回复意见；不是法院决定",
+          "original": "SEALED REPLY to Response re 226 SEALED MOTION TO STRIKE THE OPINIONS OF JAMES FERIOLI filed by OMNI MEDSCI, INC.. (Davis, William)\n\nSEALED REPLY to Response re 227 SEALED MOTION TO STRIKE OPINIONS OF RYAN LAMOTTA filed by OMNI MEDSCI, INC.. (Davis, William)\n\nSEALED REPLY to Response re 228 SEALED MOTION TO STRIKE THE OPINIONS OF NISHA MODY filed by OMNI MEDSCI, INC.. (Davis, William)\n\nREPLY to Response re 223 SEALED MOTION TO STRIKE THE OPENING EXPERT REPORT OF VIJAY K. MADISETTI, Ph.D. filed by OMNI MEDSCI, INC.. (Davis, William)\n\nSEALED REPLY to Response re 229 SEALED MOTION TO STRIKE OPINION OF GEORGE E. YANULIS, 230 SEALED MOTION TO STRIKE OPINION OF DR. R. JACOB BAKER, 231 SEALED MOTION TO STRIKE OPINION OF JEREMY COOPERSTOCK filed by OMNI MEDSCI, INC.. (Davis, William)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-05",
+          "number": "296、298、299、300",
+          "kind": "重要动议书面意见",
+          "text": "就“不经完整庭审直接判决”提交回复意见；不是法院决定",
+          "original": "SEALED REPLY to Response re 238 SEALED MOTION for Summary Judgment of Noninfringement filed by FOSSIL GROUP, INC., FOSSIL PARTNERS, L.P., FOSSIL STORES I, INC.. (Smith, Jared)\n\nSEALED REPLY to Response re 237 SEALED MOTION FOR SUMMARY JUDGMENT REGARDING SUBJECT MATTER INELIGIBILITY filed by FOSSIL GROUP, INC., FOSSIL PARTNERS, L.P., FOSSIL STORES I, INC., SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD.. (Talebi, Rodeen)\n\nSEALED REPLY to Response re 225 SEALED MOTION FOR SUMMARY JUDGMENT OF NO PRE-SUIT INDIRECT INFRINGEMENT filed by SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD.. (Smith, Melissa)\n\nSEALED REPLY to Response re 224 SEALED MOTION FOR PARTIAL SUMMARY JUDGMENT OF NO DIRECT INFRINGEMENT filed by SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-05",
+          "number": "297、303",
+          "kind": "重要动议书面意见",
+          "text": "就“将境外销售排除出赔偿范围”提交回复意见；不是法院决定",
+          "original": "SEALED REPLY to Response re 239 SEALED MOTION for Partial Summary Judgment of No Reasonable Royalty Damages Based on Fossil's Foreign Sales filed by FOSSIL GROUP, INC., FOSSIL PARTNERS, L.P., FOSSIL STORES I, INC.. (Smith, Jared)\n\nSEALED REPLY to Response re 222 SEALED MOTION FOR SUMMARY JUDGMENT TO EXCLUDE FOREIGN SALES FROM PLAINTIFFS ASSERTED DAMAGES filed by SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-05",
+          "number": "301、302",
+          "kind": "重要动议书面意见",
+          "text": "就“排除专家意见或报告”提交回复意见；不是法院决定",
+          "original": "SEALED REPLY to Response re 234 OPPOSED SEALED MOTION TO STRIKE EXPERT TESTIMONY OF MARK J. CHANDLER filed by FOSSIL GROUP, INC., FOSSIL PARTNERS, L.P., ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD., SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD.. (Smith, Melissa)\n\nSEALED REPLY to Response re 233 OPPOSED SEALED MOTION TO STRIKE EXPERT TESTIMONY OF DR. CHRISTOPHER DAFT filed by ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD., SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD.. (Smith, Melissa)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-09",
+          "number": "305",
+          "kind": "重要动议书面意见",
+          "text": "就“处理专利标记相关抗辩”提交再次回复；不是法院决定",
+          "original": "SUR-REPLY to Reply to Response re 236 SEALED MOTION Partial Motion for Summary Judgment on Defendants' Marking Defensesg filed by FOSSIL GROUP, INC., FOSSIL PARTNERS, L.P., FOSSIL STORES I, INC., ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD., SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD.. (Smith, Melissa)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-11",
+          "number": "307",
+          "kind": "重要动议书面意见",
+          "text": "就“不经庭审判定不侵权”提交再次回复；不是法院决定",
+          "original": "SEALED SUR-REPLY to Reply to Response re 241 SEALED MOTION for Summary Judgment of Non-Infringement filed by OMNI MEDSCI, INC.. (Davis, William)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-12",
+          "number": "",
+          "kind": "证据争议会议举行",
+          "text": "法院召开会议，处理证人询问中的取证争议",
+          "original": "Minute Entry for proceedings held before Magistrate Judge Roy S. Payne: Hotline Conference held on 6/12/2026 from 01:31 - 01:40 re a deposition discovery issue. The parties stipulated that the issue is now moot. The parties were directed to notify the Court should the deposition scheduling issue arise again. Attorney Appearances: Plaintiff - William \"Bo\" Davis, Daniel Stringfield; Defense - Rodeen Talebi, Jared Smith…",
+          "source": 9,
+          "dateBasis": "会议记录明确记载的实际举行日；案卷登记日为2026-06-12"
+        },
+        {
+          "date": "2026-06-12",
+          "number": "308",
+          "kind": "重要动议决定",
+          "text": "法院拒绝“要求对方提供证据或配合取证”的请求",
+          "original": "ORDER denying 160 Sealed Motion To Compel. Signed by Magistrate Judge Roy S. Payne on 06/12/2026. (mdj)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-12",
+          "number": "309、311、313、314、317、319、322",
+          "kind": "重要动议书面意见",
+          "text": "就“排除专家意见或报告”提交再次回复；不是法院决定",
+          "original": "SEALED SUR-REPLY to Reply to Response re 228 SEALED MOTION TO STRIKE THE OPINIONS OF NISHA MODY filed by FOSSIL GROUP, INC., FOSSIL PARTNERS, L.P., FOSSIL STORES I, INC.. (Smith, Jared)\n\nSEALED SUR-REPLY to Reply to Response re 227 SEALED MOTION TO STRIKE OPINIONS OF RYAN LAMOTTA filed by SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD.. (Smith, Melissa)\n\nSEALED SUR-REPLY to Reply to Response re 229 SEALED MOTION TO STRIKE OPINION OF GEORGE E. YANULIS, 230 SEALED MOTION TO STRIKE OPINION OF DR. R. JACOB BAKER, 231 SEALED MOTION TO STRIKE OPINION OF JEREMY COOPERSTOCK filed by FOSSIL GROUP, INC., FOSSIL PARTNERS, L.P., FOSSIL STORES I, INC., ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD., SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD.. (Smith, Melissa)\n\nSUR-REPLY to Reply to Response re 223 SEALED MOTION TO STRIKE THE OPENING EXPERT REPORT OF VIJAY K. MADISETTI, Ph.D. filed by FOSSIL GROUP, INC., FOSSIL PARTNERS, L.P., FOSSIL STORES I, INC., ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD., SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD..\n\nSEALED SUR-REPLY to Reply to Response re 226 SEALED MOTION TO STRIKE THE OPINIONS OF JAMES FERIOLI filed by ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD.. (Mangrum, Brett)\n\nSEALED SUR-REPLY to Reply to Response re 234 OPPOSED SEALED MOTION TO STRIKE EXPERT TESTIMONY OF MARK J. CHANDLER filed by OMNI MEDSCI, INC.. (Davis, William)\n\nSEALED SUR-REPLY to Reply to Response re 233 OPPOSED SEALED MOTION TO STRIKE EXPERT TESTIMONY OF DR. CHRISTOPHER DAFT filed by OMNI MEDSCI, INC..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-12",
+          "number": "310",
+          "kind": "动议无需再处理",
+          "text": "法院认为有关“将部分请求分案审理”的请求已无须处理；不据此判定实体胜败",
+          "original": "ORDER granting 156 and 164 Motion to Sever; denying as moot 175 Sealed Motion. Signed by Magistrate Judge Roy S. Payne on 6/12/2026. (wea)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-12",
+          "number": "312、316",
+          "kind": "重要动议书面意见",
+          "text": "就“处理部分抗辩理由”提交再次回复；不是法院决定",
+          "original": "SEALED SUR-REPLY to Reply to Response re 232 MOTION for Summary Judgment ON MISCELLANEOUS AFFIRMATIVE DEFENSES OF ALL DEFENDANTS filed by SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD..\n\nSEALED SUR-REPLY to Reply to Response re 232 MOTION for Summary Judgment ON MISCELLANEOUS AFFIRMATIVE DEFENSES OF ALL DEFENDANTS filed by ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD.. (Mangrum, Brett)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-12",
+          "number": "318、320、324、325",
+          "kind": "重要动议书面意见",
+          "text": "就“不经完整庭审直接判决”提交再次回复；不是法院决定",
+          "original": "SUR-REPLY to Reply to Response re 237 SEALED MOTION FOR SUMMARY JUDGMENT REGARDING SUBJECT MATTER INELIGIBILITY filed by OMNI MEDSCI, INC.. (Davis, William)\n\nSEALED SUR-REPLY to Reply to Response re 225 SEALED MOTION FOR SUMMARY JUDGMENT OF NO PRE-SUIT INDIRECT INFRINGEMENT filed by OMNI MEDSCI, INC.. (Davis, William)\n\nSEALED SUR-REPLY to Reply to Response re 238 SEALED MOTION for Summary Judgment of Noninfringement filed by OMNI MEDSCI, INC..\n\nSEALED SUR-REPLY to Reply to Response re 224 SEALED MOTION FOR PARTIAL SUMMARY JUDGMENT OF NO DIRECT INFRINGEMENT filed by OMNI MEDSCI, INC.. (Davis, William)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-12",
+          "number": "321、323",
+          "kind": "重要动议书面意见",
+          "text": "就“将境外销售排除出赔偿范围”提交再次回复；不是法院决定",
+          "original": "SEALED SUR-REPLY to Reply to Response re 222 SEALED MOTION FOR SUMMARY JUDGMENT TO EXCLUDE FOREIGN SALES FROM PLAINTIFFS ASSERTED DAMAGES filed by OMNI MEDSCI, INC.. (Davis, William)\n\nSEALED SUR-REPLY to Reply to Response re 239 SEALED MOTION for Partial Summary Judgment of No Reasonable Royalty Damages Based on Fossil's Foreign Sales filed by OMNI MEDSCI, INC.. (Davis, William)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-17",
+          "number": "",
+          "kind": "听证或会议排期",
+          "text": "提出或处理听证、会议时间安排；是否批准及具体日期见依据",
+          "original": "NOTICE of Hearing: Pretrial Conference reset for 7/13/2026 at 09:00 AM before Magistrate Judge Roy S. Payne. **TIME CHANGE ONLY**(wea)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-22",
+          "number": "348、349",
+          "kind": "重要动议申请",
+          "text": "请求“限制庭审中使用某些证据或论点”；是否获准另见法院决定",
+          "original": "SEALED MOTION IN LIMINE by SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD..\n\nSEALED MOTION IN LIMINE by OMNI MEDSCI, INC..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-07-06",
+          "number": "373、374",
+          "kind": "重要动议书面意见",
+          "text": "就“限制庭审中使用某些证据或论点”提交答复或反对意见；不是法院决定",
+          "original": "SEALED RESPONSE re 349 SEALED MOTION IN LIMINE filed by SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD..\n\nSEALED RESPONSE re 348 SEALED MOTION IN LIMINE filed by OMNI MEDSCI, INC..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-07-13",
+          "number": "",
+          "kind": "听证或会议排期",
+          "text": "提出或处理听证、会议时间安排；是否批准及具体日期见依据",
+          "original": "NOTICE of Hearing: Final Pretrial Conference set for 9/2/2026 at 09:00 AM before Magistrate Judge Roy S. Payne. (wea)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-07-13",
+          "number": "378",
+          "kind": "审前会议举行",
+          "text": "召开审前会议，处理开庭前的准备事项",
+          "original": "Minute Entry for proceedings held before Magistrate Judge Roy S. Payne: Initial Pretrial Conference held on 7/13/2026 from 09:00 - 12:07. Attorney Appearances: Plaintiff - Bo Davis, Ty Wilson, Daniel Stringfield, Karl Fink; Defense - Melissa Smith, Steven Pepe, Daniel Kim, Jolene Wang, Ryan Brunner, Patrick Lavery. No exhibits. (Court Reporter - Shelly Holmes) (wea)",
+          "source": 9,
+          "dateBasis": "会议记录明确记载的实际举行日；案卷登记日为2026-07-13"
+        },
+        {
+          "date": "2026-07-16",
+          "number": "381",
+          "kind": "重要动议决定",
+          "text": "法院批准“限制庭审中使用某些证据或论点”的请求",
+          "original": "ORDER ON MOTIONS IN LIMINE re 348 Sealed Motion; granting 349 Sealed Motion. Signed by Magistrate Judge Roy S. Payne on 07/15/2026. (mdj)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-07-18",
+          "number": "384",
+          "kind": "听证或会议笔录",
+          "text": "登记听证或会议笔录；登记日期不等于实际举行日期",
+          "original": "NOTICE OF FILING OF OFFICIAL TRANSCRIPT of Pretrial Hearing held on 7/13/26 before Judge Roy S. Payne. Pursuant to LR CV-5.2/LR CR-49.1, this transcript is available for 90 days by viewing in a TXED courthouse lobby or by purchase from Court Reporter/Transcriber: Shelly Holmes, CSR, TCRR, Telephone number: (903) 794-1018 (Shelly_Holmes@txed.uscourts.gov). Thereafter, it will be remotely available via PACER unless red…",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-08-10",
+          "number": "388",
+          "kind": "听证或会议笔录",
+          "text": "登记审前会议笔录；登记日期不等于实际举行日期",
+          "original": "UNOPPOSED MOTION to Redact 384 Transcript,,,, Partially Agreed and Partially Unopposed Motion to Redact the Transcript of Pretrial Conference by OMNI MEDSCI, INC..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-08-12",
+          "number": "389",
+          "kind": "听证或会议笔录",
+          "text": "登记听证或会议笔录；登记日期不等于实际举行日期",
+          "original": "ORDER granting 388 Motion to Redact re 384 Transcript. Signed by Magistrate Judge Roy S. Payne on 8/11/2026. (NKL)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-08-27",
+          "number": "392",
+          "kind": "听证或会议笔录",
+          "text": "登记听证或会议笔录；登记日期不等于实际举行日期",
+          "original": "NOTICE OF FILING REDACTED TRANSCRIPT of Pretrail Hearing held on 7/13/2026 before Judge Roy S. Payne. Pursuant to LR CV-5.2/LR CR-49.1, this redacted transcript is available until 90 days after the original transcript was filed by viewing in a TXED courthouse lobby or by purchase from Court Reporter/Transcriber Shelly Holmes. Thereafter, this redacted transcript will be remotely available via PACER, and the original …",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-09-01",
+          "number": "397",
+          "kind": "重要动议书面意见",
+          "text": "就“要求对方提供证据或配合取证”提交答复或反对意见；不是法院决定",
+          "original": "RESPONSE re 390 OPPOSED SEALED MOTION TO COMPEL A PRETRIAL SOURCE CODE REVIEW AND TO HAVE THE SOURCE CODE COMPUTER AVAILABLE AT TRIAL FOR REVIEW AND GENERATION OF PRINTED SOURCE CODE FOR USE AT TRIAL filed by SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-09-02",
+          "number": "400",
+          "kind": "审前会议举行",
+          "text": "召开审前会议，处理开庭前的准备事项",
+          "original": "Minute Entry for proceedings held before Magistrate Judge Roy S. Payne: Final Pretrial Conference and Motion Hearing re 390 OPPOSED SEALED MOTION TO COMPEL A PRETRIAL SOURCE CODE REVIEW AND TO HAVE THE SOURCE CODE COMPUTER AVAILABLE AT TRIAL FOR REVIEW AND GENERATION OF PRINTED SOURCE CODE FOR USE AT TRIAL held on 9/2/2026 from 09:01 - 12:12. Attorney Appearances: Plaintiff - Ty Wilson, Karl Fink; Defense - Gil Gilla…",
+          "source": 9,
+          "dateBasis": "会议记录明确记载的实际举行日；案卷登记日为2026-09-02"
+        },
+        {
+          "date": "2026-09-03",
+          "number": "",
+          "kind": "听证或会议排期",
+          "text": "提出或处理听证、会议时间安排；是否批准及具体日期见依据",
+          "original": "NOTICE of Hearing: Final Pretrial Conference set for 9/21/2026 at 09:00 AM before Magistrate Judge Roy S. Payne. (wea)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-09-08",
+          "number": "402",
+          "kind": "暂停审理决定",
+          "text": "法院拒绝“暂停审理”的请求",
+          "original": "ORDER denying 123 Motion to Stay Pending Inter Partes Review and Ex Parte Reexamination. Signed by Magistrate Judge Roy S. Payne on 9/8/2026. (NKL)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-09-18",
+          "number": "",
+          "kind": "听证或会议排期",
+          "text": "提出或处理听证、会议时间安排；是否批准及具体日期见依据",
+          "original": "NOTICE of Hearing: Final Pretrial Conference RESET for 10/2/2026 at 09:00 AM before Magistrate Judge Roy S. Payne. (wea)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-09-28",
+          "number": "408",
+          "kind": "重要动议书面意见",
+          "text": "就“要求对方提供证据或配合取证”提交答复或反对意见；不是法院决定",
+          "original": "RESPONSE in Opposition re 403 OPPOSED MOTION to Compel PLAINTIFF OMNI MEDSCI, INC. TO NARROW ITS ASSERTED CLAIM filed by OMNI MEDSCI, INC..",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-09-29",
+          "number": "409",
+          "kind": "动议无需再处理",
+          "text": "法院认为有关“处理专利标记相关抗辩”的请求已无须处理；不据此判定实体胜败",
+          "original": "ORDER finding as moot 236 Sealed Partial Motion for Summary Judgment on Defendants' Marking Defense. Signed by Magistrate Judge Roy S. Payne on 9/29/2026. (NKL)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-09-30",
+          "number": "410",
+          "kind": "重要动议书面意见",
+          "text": "就“要求对方提供证据或配合取证”提交答复或反对意见；不是法院决定",
+          "original": "RESPONSE re 403 OPPOSED MOTION to Compel PLAINTIFF OMNI MEDSCI, INC. TO NARROW ITS ASSERTED CLAIM filed by SAMSUNG ELECTRONICS AMERICA, INC., SAMSUNG ELECTRONICS, CO. LTD.. (Smith, Melissa)",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-10-02",
+          "number": "413",
+          "kind": "审前会议举行",
+          "text": "召开审前会议，处理开庭前的准备事项",
+          "original": "Minute Entry for proceedings held before Magistrate Judge Roy S. Payne: Final Pretrial Conference held on 10/2/2026 from 09:00 - 10:17. Attorney Appearances: Plaintiff - Daniel Stringfield, Karl Fink; Defense - Melissa Smith, Steven Pepe, Jolene Wang, Daniel Kim. No exhibits. (Court Reporter - Shelly Holmes) (wea)",
+          "source": 9,
+          "dateBasis": "会议记录明确记载的实际举行日；案卷登记日为2026-10-02"
+        },
+        {
+          "date": "2026-10-05",
+          "number": "417",
+          "kind": "听证或会议笔录",
+          "text": "登记听证或会议笔录；登记日期不等于实际举行日期",
+          "original": "NOTICE OF FILING OF OFFICIAL TRANSCRIPT of Pretrial Hearing held on 10/2/26 before Judge Roy S. Payne. Pursuant to LR CV-5.2/LR CR-49.1, this transcript is available for 90 days by viewing in a TXED courthouse lobby or by purchase from Court Reporter/Transcriber: Shelly Holmes, CSR, TCRR, Telephone number: (903) 794-1018 (Shelly_Holmes@txed.uscourts.gov). Thereafter, it will be remotely available via PACER unless red…",
+          "source": 9,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        }
+      ],
+      "courtNote": "按现有案卷展开重要步骤；排期、申请、法院决定与实际举行分别标注。未核实的程序不补写日期。"
     },
     {
       "id": "2:25-cv-00483",
@@ -610,7 +2640,37 @@
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
       ],
-      "displayStatus": "已撤诉，仍可能再次起诉"
+      "displayStatus": "已撤诉，仍可能再次起诉",
+      "courtMilestones": [
+        {
+          "date": "2025-05-05",
+          "number": "1",
+          "kind": "开始日期",
+          "text": "Omni MedSci向地区法院起诉Samsung、Fossil、OnePlus、Oura",
+          "original": "COMPLAINT against All Defendants ( Filing fee $ 405 receipt number ATXEDC-10822668.), filed by Omni MedSci, Inc..",
+          "source": 10,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-06-09",
+          "number": "5",
+          "kind": "重要动议申请",
+          "text": "请求“驳回请求或结束诉讼”；是否获准另见法院决定",
+          "original": "MOTION to Dismiss Without Prejudice by Omni MedSci, Inc..",
+          "source": 10,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-06-18",
+          "number": "6",
+          "kind": "撤诉或驳回决定",
+          "text": "法院结束相关诉讼请求，并保留依法重新起诉的可能；未据此判定实体胜败",
+          "original": "ORDER granting 5 Motion to DISMISS WITHOUT PREJUDICE. Signed by District Judge Rodney Gilstrap on 06/17/2025. (mdj) Modified on 6/24/2025 (mdj).",
+          "source": 10,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        }
+      ],
+      "courtNote": "按现有案卷展开重要步骤；排期、申请、法院决定与实际举行分别标注。未核实的程序不补写日期。"
     },
     {
       "id": "2:25-cv-00928",
@@ -667,7 +2727,190 @@
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
       ],
-      "displayStatus": "双方正在交换证据，获准调整争议主张"
+      "displayStatus": "双方正在交换证据，获准调整争议主张",
+      "courtMilestones": [
+        {
+          "date": "2025-09-03",
+          "number": "1",
+          "kind": "开始日期",
+          "text": "Oura向地区法院起诉Ultrahuman、SVTronics",
+          "original": "COMPLAINT for Patent Infringement against SVTronics, Inc., Ultrahuman Healthcare LLC ( Filing fee $ 405 receipt number ATXEDC-11069167.), filed by Ouraring, Inc..",
+          "source": 11,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-10-20",
+          "number": "23",
+          "kind": "听证或会议排期",
+          "text": "提出或处理听证、会议时间安排；是否批准及具体日期见依据",
+          "original": "ORDER - Scheduling/Case Management Conference set for",
+          "source": 11,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-11-10",
+          "number": "28",
+          "kind": "答辩并提出反诉",
+          "text": "回应对方诉讼主张，并提出反诉请求",
+          "original": "ANSWER to 1 Complaint,, and, COUNTERCLAIM against Ouraring, Inc. by SVTronics, Inc., Ultrahuman Healthcare LLC.",
+          "source": 11,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-11-11",
+          "number": "31",
+          "kind": "侵权主张与证据交换",
+          "text": "提交完成侵权主张披露或相关文件交换的通知",
+          "original": "NOTICE OF COMPLIANCE by Ouraring, Inc. Regarding P.R. 3-1 Disclosures and 3-2 Document Production (Culbertson, Geoffrey)",
+          "source": 11,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-11-17",
+          "number": "33",
+          "kind": "侵权主张与证据交换",
+          "text": "提交完成侵权主张披露或相关文件交换的通知",
+          "original": "NOTICE OF COMPLIANCE by Ultrahuman Healthcare LLC Regarding P.R. 3-1 Disclosures and 3-2 Document Production (Greeson, Robert)",
+          "source": 11,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-11-24",
+          "number": "38",
+          "kind": "案件管理会议举行",
+          "text": "召开案件管理会议，讨论审理安排",
+          "original": "Minute Entry for proceedings held before District Judge Rodney Gilstrap: Scheduling Conference/Case Management Conference held on 11/24/2025 from 09:39 AM - 10:49 AM. Counsel for the parties appeared. Court: (1) asked whether the parties consented to trial before the U.S. Magistrate Judge; and (2) provided Claim Construction and Jury Selection/Trial dates. (Court Reporter - Shawn McRoberts) (Text entry only; no docum…",
+          "source": 11,
+          "dateBasis": "会议记录明确记载的实际举行日；案卷登记日为2025-11-24"
+        },
+        {
+          "date": "2025-12-02",
+          "number": "39",
+          "kind": "答辩并提出反诉",
+          "text": "回应对方诉讼主张，并提出反诉请求",
+          "original": "ANSWER to 28 Answer to Complaint, Counterclaim , COUNTERCLAIM against Ultrahuman Healthcare LLC by Ouraring, Inc..(Vidwan, Jasjit)",
+          "source": 11,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-12-10",
+          "number": "41",
+          "kind": "证据交换安排",
+          "text": "法院规定证据披露与交换的要求；不据此推定实际开始日期",
+          "original": "DISCOVERY ORDER re 40 Motion for Discovery - For Entry of Agreed Discovery Order. Signed by District Judge Rodney Gilstrap on 12/10/2025. (NKL)",
+          "source": 11,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-12-10",
+          "number": "42",
+          "kind": "审理排期",
+          "text": "法院发布案件审理日程；其中所列日期是安排，不代表程序已完成；该文件安排的Markman听证日期为2/1/2027，以后续变更为准",
+          "original": "DOCKET CONTROL ORDER - Pretrial Conference set for 7/12/2027 at 09:00 AM before District Judge Rodney Gilstrap. Jury Selection set for 8/16/2027 at 09:00AM before District Judge Rodney Gilstrap. Markman/Claim Construction Hearing set for 2/1/2027 at 09:00 AM before District Judge Rodney Gilstrap.. Signed by District Judge Rodney Gilstrap on 12/10/2025. (NKL)",
+          "source": 11,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-12-15",
+          "number": "43",
+          "kind": "重要动议申请",
+          "text": "请求“确定证据保密或电子证据交换规则”；是否获准另见法院决定",
+          "original": "JOINT MOTION for Protective Order by Ouraring, Inc..",
+          "source": 11,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-12-15",
+          "number": "44",
+          "kind": "证据披露",
+          "text": "提交已完成相应证据披露或文件交换的通知；不表示全部取证结束",
+          "original": "NOTICE OF COMPLIANCE by Ouraring, Inc. Regarding Initial and Additional Disclosures (Culbertson, Geoffrey)",
+          "source": 11,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-12-16",
+          "number": "45",
+          "kind": "证据披露",
+          "text": "提交已完成相应证据披露或文件交换的通知；不表示全部取证结束",
+          "original": "NOTICE OF COMPLIANCE by Ultrahuman Healthcare LLC Regarding Initial and Additional Disclosures (Greeson, Robert)",
+          "source": 11,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-12-17",
+          "number": "46",
+          "kind": "证据保密安排",
+          "text": "法院规定保密证据的使用及披露方式",
+          "original": "PROTECTIVE ORDER (Motion(s) 43 terminated). Signed by District Judge Rodney Gilstrap on 12/16/2025. (NKL)",
+          "source": 11,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-12-19",
+          "number": "47",
+          "kind": "提交答辩",
+          "text": "提交答辩，回应起诉或反诉主张",
+          "original": "ANSWER to 39 Answer to Counterclaim, for Declaratory Relief by Ultrahuman Healthcare LLC.(Greeson, Robert)",
+          "source": 11,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-12-23",
+          "number": "50",
+          "kind": "审理排期",
+          "text": "法院更新案件审理日程；其中所列日期是安排，不代表程序已完成",
+          "original": "FIRST AMENDED DOCKET CONTROL ORDER (Motion(s) 48 terminated). Signed by District Judge Rodney Gilstrap on 12/23/2025. (KLC)",
+          "source": 11,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-08-25",
+          "number": "59",
+          "kind": "重要动议申请",
+          "text": "请求“确定证据保密或电子证据交换规则”；是否获准另见法院决定",
+          "original": "JOINT MOTION FOR ENTRY OF AGREED ESI ORDER by SVTronics, Inc., Ultrahuman Healthcare LLC.",
+          "source": 11,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-08-31",
+          "number": "61",
+          "kind": "重要动议决定",
+          "text": "法院批准“修改侵权主张”的请求",
+          "original": "ORDER granting 60 Sealed Motion for Leave to Serve Amended Infringement Contentions. Signed by District Judge Rodney Gilstrap on 8/31/2026. (NKL)",
+          "source": 11,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-08-31",
+          "number": "62",
+          "kind": "电子证据交换安排",
+          "text": "法院规定电子邮件、电子文件等证据的交换方式",
+          "original": "ORDER REGARDING E-DISCOVERY re 59 JOINT MOTION FOR ENTRY OF AGREED ESI ORDER. Signed by District Judge Rodney Gilstrap on 8/31/2026. (NKL)",
+          "source": 11,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-10-16",
+          "number": "65",
+          "kind": "重要动议申请",
+          "text": "请求“修改专利无效主张”；是否获准另见法院决定",
+          "original": "UNOPPOSED MOTION for Leave to Serve Amended Invalidity Contentions by Ultrahuman Healthcare LLC.",
+          "source": 11,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-10-23",
+          "number": "66",
+          "kind": "重要动议决定",
+          "text": "法院批准“修改专利无效主张”的请求",
+          "original": "ORDER granting 65 Motion for Leave to Serve Amended Invalidity Contentions. Signed by District Judge Rodney Gilstrap on 10/23/2026. (NKL)",
+          "source": 11,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        }
+      ],
+      "courtNote": "按现有案卷展开重要步骤；排期、申请、法院决定与实际举行分别标注。未核实的程序不补写日期。"
     },
     {
       "id": "2:25-cv-01064",
@@ -732,7 +2975,99 @@
           "note": "起诉状原件：仅据各项COUNT核对原始涉诉专利；不是侵权认定。"
         }
       ],
-      "displayStatus": "双方提出的侵权争议都已暂停审理"
+      "displayStatus": "双方提出的侵权争议都已暂停审理",
+      "courtMilestones": [
+        {
+          "date": "2025-10-23",
+          "kind": "开始日期",
+          "text": "地区法院案件开始登记；原始起诉或分案来源见案件依据",
+          "dateBasis": "案件主表所列开始日期",
+          "url": "https://dockets.justia.com/docket/texas/txedce/2%3A2025cv01064/241366",
+          "sourceLabel": "案件来源 ↗"
+        },
+        {
+          "date": "2025-10-24",
+          "number": "1",
+          "kind": "起诉书登记",
+          "text": "起诉书在案卷中登记；与主表开始日期不同，分别保留以供核对",
+          "original": "COMPLAINT against Samsung Electronics America, Inc. ( Filing fee $ 405 receipt number ATXEDC-11164550.), filed by Ouraring Inc..",
+          "source": 12,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-11-24",
+          "number": "24",
+          "kind": "修改起诉内容",
+          "text": "提交修改后的起诉书，调整或补充诉讼主张",
+          "original": "AMENDED COMPLAINT against Samsung Electronics America, Inc., Samsung Electronics Co., Ltd., filed by Ouraring Inc..",
+          "source": 12,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-12-02",
+          "number": "26",
+          "kind": "送达与应诉",
+          "text": "登记起诉材料送达或免除正式送达手续的记录，进入应诉阶段",
+          "original": "WAIVER OF SERVICE Returned Executed by Samsung Electronics Co., Ltd.. Samsung Electronics Co., Ltd. waiver sent on 11/26/2025, answer due 2/24/2026. (Smith, Melissa)",
+          "source": 12,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-12-12",
+          "number": "38",
+          "kind": "答辩并提出反诉",
+          "text": "回应对方诉讼主张，并提出反诉请求",
+          "original": "ANSWER to 24 Amended Complaint, , COUNTERCLAIM against Ouraring Inc. by Samsung Electronics Co., Ltd., Samsung Electronics America, Inc..",
+          "source": 12,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-12-18",
+          "number": "43",
+          "kind": "送达与应诉",
+          "text": "登记起诉材料送达或免除正式送达手续的记录，进入应诉阶段",
+          "original": "WAIVER OF SERVICE Returned Executed by Samsung Electronics Co., Ltd., Samsung Electronics America, Inc.. Oura Health Oy waiver sent on 12/15/2025, answer due 3/16/2026. (Smith, Melissa)",
+          "source": 12,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-01-13",
+          "number": "46",
+          "kind": "重要动议申请",
+          "text": "请求“暂停原告侵权请求的审理”；是否获准另见法院决定",
+          "original": "UNOPPOSED MOTION to Stay - Defendants' Unopposed Motion to Stay Plaintiff's Infringement Claims Pending ITC Determination by Samsung Electronics America, Inc., Samsung Electronics Co., Ltd..",
+          "source": 12,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-01-14",
+          "number": "47",
+          "kind": "暂停审理决定",
+          "text": "法院批准暂停Oura侵权请求的审理，等待相关ITC程序结果",
+          "original": "ORDER granting 46 Motion to Stay - Defendants' Unopposed Motion to Stay Plaintiff's Infringement Claims Pending ITC Determination. Signed by Magistrate Judge Roy S. Payne on 1/14/2026. (NKL)",
+          "source": 12,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-02-11",
+          "number": "48",
+          "kind": "重要动议申请",
+          "text": "请求“暂停被告侵权反诉的审理”；是否获准另见法院决定",
+          "original": "UNOPPOSED MOTION TO STAY DEFENDANTS' INFRINGEMENT CLAIMS PENDING ITC DETERMINATION by Ouraring Inc..",
+          "source": 12,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-02-12",
+          "number": "49",
+          "kind": "暂停审理决定",
+          "text": "法院批准暂停Samsung侵权反诉的审理，等待相关ITC程序结果",
+          "original": "ORDER granting 48 Motion to Stay Pending Final Disposition of a Related Proceeding Before the United States International Trade Commission. Signed by Magistrate Judge Roy S. Payne on 2/12/2026. (NKL)",
+          "source": 12,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        }
+      ],
+      "courtNote": "按现有案卷展开重要步骤；排期、申请、法院决定与实际举行分别标注。未核实的程序不补写日期。"
     },
     {
       "id": "2:25-cv-01107",
@@ -776,7 +3111,37 @@
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
       ],
-      "displayStatus": "已撤诉，仍可能再次起诉"
+      "displayStatus": "已撤诉，仍可能再次起诉",
+      "courtMilestones": [
+        {
+          "date": "2025-11-06",
+          "number": "1",
+          "kind": "开始日期",
+          "text": "Encelion向地区法院起诉Oura",
+          "original": "COMPLAINT FOR PATENT INFRINGEMENT against Oura Health Oy ( Filing fee $ 405 receipt number ATXEDC-11190461.), filed by Encelion LLC.",
+          "source": 13,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-12-02",
+          "number": "6",
+          "kind": "撤诉或和解通知",
+          "text": "当事人提交撤诉通知或共同撤诉文件；撤诉范围和效果见原文",
+          "original": "NOTICE of Voluntary Dismissal by Encelion LLC",
+          "source": 13,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-12-10",
+          "number": "7",
+          "kind": "撤诉或驳回决定",
+          "text": "法院结束相关诉讼请求，并保留依法重新起诉的可能；未据此判定实体胜败",
+          "original": "ORDER DISMISSING CASE WITHOUT PREJUDICE. Signed by District Judge Rodney Gilstrap on 12/10/2025. (mdj)",
+          "source": 13,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        }
+      ],
+      "courtNote": "按现有案卷展开重要步骤；排期、申请、法院决定与实际举行分别标注。未核实的程序不补写日期。"
     },
     {
       "id": "2:25-cv-01126",
@@ -837,7 +3202,55 @@
           "note": "起诉状原件：仅据各项COUNT核对原始涉诉专利；不是侵权认定。"
         }
       ],
-      "displayStatus": "已撤诉，仍可能再次起诉"
+      "displayStatus": "已撤诉，仍可能再次起诉",
+      "courtMilestones": [
+        {
+          "date": "2025-11-17",
+          "number": "1",
+          "kind": "开始日期",
+          "text": "Oura向地区法院起诉Zepp / Amazfit",
+          "original": "COMPLAINT against Zepp Health Corporation ( Filing fee $ 405 receipt number ATXEDC-11210107.), filed by Ouraring Inc..",
+          "source": 14,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-01-15",
+          "number": "21",
+          "kind": "重要动议申请",
+          "text": "请求“暂停审理”；是否获准另见法院决定",
+          "original": "UNOPPOSED MOTION to Stay Pending Final Resolution of ITC Investigations by Zepp Health Corporation.",
+          "source": 14,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-01-16",
+          "number": "23",
+          "kind": "暂停审理决定",
+          "text": "法院批准“暂停审理”的请求",
+          "original": "ORDER granting 21 Motion to Stay Pending Final Resolution of ITC Investigations. Signed by Magistrate Judge Roy S. Payne on 1/16/2026. (NKL)",
+          "source": 14,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-07-21",
+          "number": "24",
+          "kind": "重要动议申请",
+          "text": "请求“驳回请求或结束诉讼”；是否获准另见法院决定",
+          "original": "JOINT MOTION to Dismiss Pursuant to Rule 41(a)(2) by Ouraring Inc..",
+          "source": 14,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-07-29",
+          "number": "25",
+          "kind": "撤诉或驳回决定",
+          "text": "法院结束相关诉讼请求，并保留依法重新起诉的可能；未据此判定实体胜败",
+          "original": "ORDER DISMISSING CASE WITHOUT PREJUDICE (Motion(s) 24 terminated). Signed by District Judge Rodney Gilstrap on 7/29/2026. (NKL)",
+          "source": 14,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        }
+      ],
+      "courtNote": "按现有案卷展开重要步骤；排期、申请、法院决定与实际举行分别标注。未核实的程序不补写日期。"
     },
     {
       "id": "2:25-cv-01127",
@@ -892,7 +3305,19 @@
           "note": "起诉状原件：仅据各项COUNT核对原始涉诉专利；不是侵权认定。"
         }
       ],
-      "displayStatus": "已提起侵权诉讼，后续进展待核实"
+      "displayStatus": "已提起侵权诉讼，后续进展待核实",
+      "courtMilestones": [
+        {
+          "date": "2025-11-17",
+          "number": "1",
+          "kind": "开始日期",
+          "text": "Oura向地区法院起诉Noise / Nexxbase",
+          "original": "COMPLAINT against Nexxbase Marketing Pvt. Ltd. ( Filing fee $ 405 receipt number ATXEDC-11210251.), filed by Ouraring Inc..",
+          "source": 15,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        }
+      ],
+      "courtNote": "按现有案卷展开重要步骤；排期、申请、法院决定与实际举行分别标注。未核实的程序不补写日期。"
     },
     {
       "id": "2:25-cv-01129",
@@ -952,7 +3377,55 @@
           "note": "起诉状原件：仅据各项COUNT核对原始涉诉专利；不是侵权认定。"
         }
       ],
-      "displayStatus": "已撤诉，仍可能再次起诉"
+      "displayStatus": "已撤诉，仍可能再次起诉",
+      "courtMilestones": [
+        {
+          "date": "2025-11-17",
+          "number": "1",
+          "kind": "开始日期",
+          "text": "Oura向地区法院起诉Reebok",
+          "original": "COMPLAINT against Original Fit Factory Ltd., RILUK IPCO Limited, Reebok International Limited, Truconnect Ltd. ( Filing fee $ 405 receipt number ATXEDC-11210405.), filed by Ouraring Inc..",
+          "source": 16,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-01-13",
+          "number": "22",
+          "kind": "重要动议申请",
+          "text": "请求“暂停审理”；是否获准另见法院决定",
+          "original": "UNOPPOSED MOTION to Stay Pending Final Disposition of a Related Proceeding by All Defendants.",
+          "source": 16,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-01-21",
+          "number": "24",
+          "kind": "暂停审理决定",
+          "text": "法院批准“暂停审理”的请求",
+          "original": "ORDER granting 22 Motion to Stay Pending Final Disposition. Signed by Magistrate Judge Roy S. Payne on 01/16/2026. (mdj)",
+          "source": 16,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-07-21",
+          "number": "25",
+          "kind": "重要动议申请",
+          "text": "请求“驳回请求或结束诉讼”；是否获准另见法院决定",
+          "original": "JOINT MOTION to Dismiss Pursuant to Rule 41(a)(2) by Ouraring Inc..",
+          "source": 16,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-07-29",
+          "number": "26",
+          "kind": "撤诉或驳回决定",
+          "text": "法院结束相关诉讼请求，并保留依法重新起诉的可能；未据此判定实体胜败",
+          "original": "ORDER DISMISSING CASE WITHOUT PREJUDICE. Signed by District Judge Rodney Gilstrap on 07/29/2026. (mdj)",
+          "source": 16,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        }
+      ],
+      "courtNote": "按现有案卷展开重要步骤；排期、申请、法院决定与实际举行分别标注。未核实的程序不补写日期。"
     },
     {
       "id": "2:25-cv-01181",
@@ -1006,7 +3479,208 @@
           "note": "2025-12-01起诉状第1页列出六件专利；历史主张清单。"
         }
       ],
-      "displayStatus": "正在交换证据，法院尚未决定是否驳回部分请求"
+      "displayStatus": "正在交换证据，法院尚未决定是否驳回部分请求",
+      "courtMilestones": [
+        {
+          "date": "2025-12-01",
+          "number": "1",
+          "kind": "开始日期",
+          "text": "Samsung向地区法院起诉Oura",
+          "original": "COMPLAINT FOR PATENT INFRINGEMENT against Oura Health Oy ( Filing fee $ 405 receipt number ATXEDC-11232602.), filed by Samsung Electronics Co., Ltd., Samsung Electronics America, Inc..",
+          "source": 17,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2025-12-02",
+          "number": "6",
+          "kind": "送达与应诉",
+          "text": "登记起诉材料送达或免除正式送达手续的记录，进入应诉阶段",
+          "original": "WAIVER OF SERVICE Returned Executed by Samsung Electronics Co., Ltd., Samsung Electronics America, Inc.. Oura Health Oy waiver sent on 12/1/2025, answer due 3/2/2026. (Smith, Melissa)",
+          "source": 17,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-02-19",
+          "number": "16",
+          "kind": "听证或会议排期",
+          "text": "提出或处理听证、会议时间安排；是否批准及具体日期见依据",
+          "original": "ORDER ( Scheduling Conference set for 3/26/2026 at 09:30 AM before District Judge Rodney Gilstrap). Signed by Magistrate Judge Roy S. Payne on 02/18/2026. (mdj)",
+          "source": 17,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-02-27",
+          "number": "29、30",
+          "kind": "重要动议申请",
+          "text": "请求“驳回请求或结束诉讼”；是否获准另见法院决定",
+          "original": "MOTION to Dismiss Plaintiffs' Claims of Patent Infringement of U.S. Patent Nos. 7,662,065, 9,008,973 and 12,324,655 on Grounds of Patent Ineligibility (Partial) by Oura Health Oy.\n\nMOTION to Dismiss Plaintiffs' Claims of Direct Infringement of U.S. Patent Nos. 7,662,065; 9,008,973; and 12,324,655 (Partial) by Oura Health Oy.",
+          "source": 17,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-03-02",
+          "number": "31",
+          "kind": "答辩并提出反诉",
+          "text": "回应对方诉讼主张，并提出反诉请求",
+          "original": "ANSWER to 1 Complaint, Affirmative Defenses and, COUNTERCLAIM against Samsung Electronics America, Inc., Samsung Electronics Co., Ltd. by Oura Health Oy, Ouraring Inc..",
+          "source": 17,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-03-12",
+          "number": "45",
+          "kind": "侵权主张与证据交换",
+          "text": "提交完成侵权主张披露或相关文件交换的通知",
+          "original": "NOTICE OF COMPLIANCE by Samsung Electronics America, Inc., Samsung Electronics Co., Ltd. - Samsunng's Service of Asserted Claims and Infringement Contentions (Yagura, Ryan)",
+          "source": 17,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-03-13",
+          "number": "46",
+          "kind": "证据披露",
+          "text": "提交已完成相应证据披露或文件交换的通知；不表示全部取证结束",
+          "original": "NOTICE OF COMPLIANCE by Oura Health Oy, Ouraring Inc. Regarding Disclosure of Asserted Claims and Infrimgement Contentions (Culbertson, Geoffrey)",
+          "source": 17,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-03-13",
+          "number": "47",
+          "kind": "修改起诉内容",
+          "text": "提交修改后的起诉书，调整或补充诉讼主张",
+          "original": "FIRST AMENDED COMPLAINT FOR PATENT INFRINGEMENT against Oura Health Oy, Ouraring Inc., filed by Samsung Electronics America, Inc., Samsung Electronics Co., Ltd..",
+          "source": 17,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-03-18",
+          "number": "50",
+          "kind": "重要动议决定",
+          "text": "法院拒绝“驳回请求或结束诉讼”的请求",
+          "original": "ORDER denying 29 30 Motions to Dismiss. Signed by Magistrate Judge Roy S. Payne on 03/17/2026. (mdj)",
+          "source": 17,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-03-23",
+          "number": "51",
+          "kind": "提交答辩",
+          "text": "提交答辩，回应起诉或反诉主张",
+          "original": "ANSWER to Complaint and Affirmative Defenses to Oura Health Oy and Ouraring Inc.'s Counterclaims by Samsung Electronics America, Inc., Samsung Electronics Co., Ltd..(Yagura, Ryan)",
+          "source": 17,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-03-26",
+          "number": "54",
+          "kind": "案件管理会议举行",
+          "text": "召开案件管理会议，讨论审理安排",
+          "original": "Minute Entry for proceedings held before District Judge Rodney Gilstrap: Scheduling Conference/Case Management Conference held on 3/26/2026 from 09:32 AM - 10:24 AM. Counsel for the parties appeared. Court: (1) asked whether the parties consented to trial before the U.S. Magistrate Judge; and (2) provided Claim Construction and Jury Selection/Trial dates. (Court Reporter - Shawn McRoberts) (Text entry only; no docume…",
+          "source": 17,
+          "dateBasis": "会议记录明确记载的实际举行日；案卷登记日为2026-03-26"
+        },
+        {
+          "date": "2026-03-30",
+          "number": "52",
+          "kind": "重要动议申请",
+          "text": "请求“驳回请求或结束诉讼”；是否获准另见法院决定",
+          "original": "MOTION to Dismiss Defendants Renewed Partial Rule 12(b)(6) Motion to Dismiss Plaintiffs Claims of Infringement of U.S. Patent Nos. 7,662,065 and 9,008,973 on Grounds of Patent Ineligibility by Oura Health Oy, Ouraring Inc..",
+          "source": 17,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-03-30",
+          "number": "53",
+          "kind": "答辩并提出反诉",
+          "text": "回应对方诉讼主张，并提出反诉请求",
+          "original": "ANSWER to 47 Amended Complaint, , COUNTERCLAIM against Samsung Electronics America, Inc., Samsung Electronics Co., Ltd. by Ouraring Inc., Oura Health Oy.",
+          "source": 17,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-04-07",
+          "number": "58",
+          "kind": "审理排期",
+          "text": "法院发布案件审理日程；其中所列日期是安排，不代表程序已完成；该文件安排的Markman听证日期为6/14/2027，以后续变更为准",
+          "original": "DOCKET CONTROL ORDER (Markman/Claim Construction Hearing set for 6/14/2027 at 09:00 AM before Magistrate Judge Roy S. Payne., Jury Selection set for 12/6/2027 at 09:00AM before District Judge Rodney Gilstrap., Pretrial Conference set for 11/1/2027 at 09:00 AM before Magistrate Judge Roy S. Payne.). Signed by Magistrate Judge Roy S. Payne on 04/06/2026. (mdj)",
+          "source": 17,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-04-13",
+          "number": "60",
+          "kind": "证据交换安排",
+          "text": "法院规定证据披露与交换的要求；不据此推定实际开始日期",
+          "original": "DISCOVERY ORDER. Signed by Magistrate Judge Roy S. Payne on 04/10/2026. (mdj)",
+          "source": 17,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-04-16",
+          "number": "62",
+          "kind": "重要动议申请",
+          "text": "请求“确定证据保密或电子证据交换规则”；是否获准另见法院决定",
+          "original": "JOINT MOTION for Protective Order by Oura Health Oy, Ouraring Inc..",
+          "source": 17,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-04-16",
+          "number": "63",
+          "kind": "证据披露",
+          "text": "提交已完成相应证据披露或文件交换的通知；不表示全部取证结束",
+          "original": "NOTICE OF COMPLIANCE by Samsung Electronics America, Inc., Samsung Electronics Co., Ltd. Regarding Service of Initial and Additional Disclosures (Yagura, Ryan)",
+          "source": 17,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-04-17",
+          "number": "65",
+          "kind": "证据保密安排",
+          "text": "法院规定保密证据的使用及披露方式",
+          "original": "PROTECTIVE ORDER. Signed by Magistrate Judge Roy S. Payne on 04/16/2026. (mdj)",
+          "source": 17,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-04-17",
+          "number": "66",
+          "kind": "审理排期",
+          "text": "法院更新案件审理日程；其中所列日期是安排，不代表程序已完成",
+          "original": "FIRST AMENDED DOCKET CONTROL ORDER. Signed by Magistrate Judge Roy S. Payne on 04/16/2026. (mdj)",
+          "source": 17,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-04-27",
+          "number": "69",
+          "kind": "重要动议书面意见",
+          "text": "就“驳回请求或结束诉讼”提交答复或反对意见；不是法院决定",
+          "original": "RESPONSE in Opposition re 52 MOTION to Dismiss Defendants Renewed Partial Rule 12(b)(6) Motion to Dismiss Plaintiffs Claims of Infringement of U.S. Patent Nos. 7,662,065 and 9,008,973 on Grounds of Patent Ineligibility filed by Samsung Electronics America, Inc., Samsung Electronics Co., Ltd. .",
+          "source": 17,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-05-04",
+          "number": "70",
+          "kind": "重要动议书面意见",
+          "text": "就“驳回请求或结束诉讼”提交回复意见；不是法院决定",
+          "original": "REPLY to Response re 52 MOTION to Dismiss Defendants Renewed Partial Rule 12(b)(6) Motion to Dismiss Plaintiffs Claims of Infringement of U.S. Patent Nos. 7,662,065 and 9,008,973 on Grounds of Patent Ineligibility filed by Oura Health Oy, Ouraring Inc. . (Vidwan, Jasjit)",
+          "source": 17,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-05-11",
+          "number": "72",
+          "kind": "重要动议书面意见",
+          "text": "就“驳回请求或结束诉讼”提交再次回复；不是法院决定",
+          "original": "SUR-REPLY to Reply to Response re 52 MOTION to Dismiss Defendants Renewed Partial Rule 12(b)(6) Motion to Dismiss Plaintiffs Claims of Infringement of U.S. Patent Nos. 7,662,065 and 9,008,973 on Grounds of Patent Ineligibility filed by Samsung Electronics America, Inc., Samsung Electronics Co., Ltd. . (Yagura, Ryan)",
+          "source": 17,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        }
+      ],
+      "courtNote": "按现有案卷展开重要步骤；排期、申请、法院决定与实际举行分别标注。未核实的程序不补写日期。"
     },
     {
       "id": "2:26-cv-00289",
@@ -1058,7 +3732,477 @@
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
       ],
-      "displayStatus": "正在进行正式审判前的准备"
+      "displayStatus": "正在进行正式审判前的准备",
+      "courtMilestones": [
+        {
+          "date": "2026-04-10",
+          "kind": "开始日期",
+          "text": "地区法院案件开始登记；原始起诉或分案来源见案件依据",
+          "dateBasis": "案件主表所列开始日期",
+          "url": "https://dockets.justia.com/docket/texas/txedce/2%3A2026cv00289/244991",
+          "sourceLabel": "案件来源 ↗"
+        },
+        {
+          "date": "2026-04-10",
+          "number": "2",
+          "kind": "采纳法官建议",
+          "text": "法院采纳此前的处理建议；具体涉及哪些请求及处理结果见依据",
+          "original": "ORDER adopting the report and recommendation filed in 2:24cv1070 docket entry 163. Signed by District Judge Rodney Gilstrap on 3/31/2026. (NKL)",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-04-15",
+          "number": "3",
+          "kind": "修改起诉内容",
+          "text": "提交修改后的起诉书，调整或补充诉讼主张",
+          "original": "FOURTH AMENDED COMPLAINT FOR PATENT INFRINGEMENT against Omni MedSci, Inc., filed by Omni MedSci, Inc..",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-04-29",
+          "number": "4",
+          "kind": "答辩并提出反诉",
+          "text": "回应对方诉讼主张，并提出反诉请求",
+          "original": "Oura Health Oy's ANSWER to 3 Amended Complaint , Affirmative Defenses, and, COUNTERCLAIM against Omni MedSci, Inc. by Oura Health Oy.(Fussell, James)",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-05-14",
+          "number": "7、8、13、14",
+          "kind": "重要动议申请",
+          "text": "请求“排除专家意见或报告”；是否获准另见法院决定",
+          "original": "SEALED MOTION TO STRIKE THE OPENING REPORT OF VIJAY K. MADISETTI, Ph.D. by Omni MedSci, Inc..\n\nSEALED MOTION TO STRIKE THE OPINIONS OF AMBREEN SALTERS by Omni MedSci, Inc..\n\nSEALED MOTION to Exclude Certain Opinions of Mark J. Chandler by Oura Health Oy.\n\nSEALED MOTION TO STRIKE THE OPINIONS OF DR. MAJID SARRAFZADEH by Omni MedSci, Inc..",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-05-14",
+          "number": "9",
+          "kind": "重要动议申请",
+          "text": "请求“处理部分抗辩理由”；是否获准另见法院决定",
+          "original": "MOTION for Summary Judgment ON CERTAIN OF OURA'S AFFIRMATIVE DEFENSES by Omni MedSci, Inc..",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-05-14",
+          "number": "10",
+          "kind": "重要动议申请",
+          "text": "请求“限定侵权责任的时间范围”；是否获准另见法院决定",
+          "original": "SEALED MOTION for Summary Judgment Regarding Temporal Limits on Alleged Infringement by Oura Health Oy.",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-05-14",
+          "number": "11",
+          "kind": "重要动议申请",
+          "text": "请求“处理专利标记相关抗辩”；是否获准另见法院决定",
+          "original": "SEALED MOTION Partial Motion for Summary Judgment on Oura's Marking Defense by Omni MedSci, Inc..",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-05-14",
+          "number": "12",
+          "kind": "重要动议申请",
+          "text": "请求“将境外销售排除出赔偿范围”；是否获准另见法院决定",
+          "original": "SEALED MOTION For Summary Judgment to Exclude Foreign Sales from Plaintiff's Asserted Damages by Oura Health Oy.",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-05-14",
+          "number": "15",
+          "kind": "重要动议申请",
+          "text": "请求“不经庭审判定不侵权”；是否获准另见法院决定",
+          "original": "SEALED MOTION for Summary Judgment of Non-Infringement by Oura Health Oy.",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-05-15",
+          "number": "16",
+          "kind": "重要动议申请",
+          "text": "请求“不经完整庭审直接判决”；是否获准另见法院决定",
+          "original": "MOTION for Joinder to Fossil Defendants' Motion for Summary Judgment of Subject Matter Ineligibility (Dkt. 237) by Oura Health Oy.",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-05-28",
+          "number": "29",
+          "kind": "重要动议书面意见",
+          "text": "就“处理专利标记相关抗辩”提交答复或反对意见；不是法院决定",
+          "original": "SEALED RESPONSE re 11 SEALED MOTION Partial Motion for Summary Judgment on Oura's Marking Defense filed by Oura Health Oy.",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-05-28",
+          "number": "30",
+          "kind": "重要动议申请",
+          "text": "请求“暂停审理”；是否获准另见法院决定",
+          "original": "MOTION to Stay Pending Inter Partes Review and Ex Parte Reexamination by Oura Health Oy.",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-05-28",
+          "number": "31、32、33、35",
+          "kind": "重要动议书面意见",
+          "text": "就“排除专家意见或报告”提交答复或反对意见；不是法院决定",
+          "original": "RESPONSE in Opposition re 7 SEALED MOTION TO STRIKE THE OPENING REPORT OF VIJAY K. MADISETTI, Ph.D. filed by Oura Health Oy.\n\nSEALED RESPONSE re 8 SEALED MOTION TO STRIKE THE OPINIONS OF AMBREEN SALTERS filed by Oura Health Oy.\n\nSEALED RESPONSE re 14 SEALED MOTION TO STRIKE THE OPINIONS OF DR. MAJID SARRAFZADEH filed by Oura Health Oy.\n\nSEALED RESPONSE re 13 SEALED MOTION to Exclude Certain Opinions of Mark J. Chandler filed by Omni MedSci, Inc..",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-05-28",
+          "number": "34",
+          "kind": "重要动议书面意见",
+          "text": "就“限定侵权责任的时间范围”提交答复或反对意见；不是法院决定",
+          "original": "SEALED RESPONSE re 10 SEALED MOTION for Summary Judgment Regarding Temporal Limits on Alleged Infringement filed by Omni MedSci, Inc..",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-05-28",
+          "number": "36",
+          "kind": "重要动议书面意见",
+          "text": "就“处理部分抗辩理由”提交答复或反对意见；不是法院决定",
+          "original": "SEALED RESPONSE re 9 MOTION for Summary Judgment ON CERTAIN OF OURA'S AFFIRMATIVE DEFENSES filed by Oura Health Oy.",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-05-28",
+          "number": "37",
+          "kind": "重要动议书面意见",
+          "text": "就“不经庭审判定不侵权”提交答复或反对意见；不是法院决定",
+          "original": "SEALED RESPONSE re 15 SEALED MOTION for Summary Judgment of Non-Infringement filed by Omni MedSci, Inc..",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-05-29",
+          "number": "38",
+          "kind": "重要动议书面意见",
+          "text": "就“将境外销售排除出赔偿范围”提交答复或反对意见；不是法院决定",
+          "original": "SEALED RESPONSE re 12 SEALED MOTION For Summary Judgment to Exclude Foreign Sales from Plaintiff's Asserted Damages filed by Omni MedSci, Inc..",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-03",
+          "number": "40",
+          "kind": "证据披露",
+          "text": "提交已完成相应证据披露或文件交换的通知；不表示全部取证结束",
+          "original": "NOTICE OF COMPLIANCE by Omni MedSci, Inc. SERVICE OF PRE-TRIAL DISCLOSURES (Davis, William)",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-04",
+          "number": "42",
+          "kind": "重要动议书面意见",
+          "text": "就“排除专家意见或报告”提交回复意见；不是法院决定",
+          "original": "REPLY to Response re 7 SEALED MOTION TO STRIKE THE OPENING REPORT OF VIJAY K. MADISETTI, Ph.D. filed by Omni MedSci, Inc.. (Davis, William)",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-04",
+          "number": "43",
+          "kind": "重要动议书面意见",
+          "text": "就“处理专利标记相关抗辩”提交回复意见；不是法院决定",
+          "original": "SEALED REPLY to Response re 11 SEALED MOTION Partial Motion for Summary Judgment on Oura's Marking Defense filed by Omni MedSci, Inc..",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-05",
+          "number": "44",
+          "kind": "重要动议书面意见",
+          "text": "就“将境外销售排除出赔偿范围”提交回复意见；不是法院决定",
+          "original": "SEALED REPLY to Response re 12 SEALED MOTION For Summary Judgment to Exclude Foreign Sales from Plaintiff's Asserted Damages filed by Oura Health Oy. (Vidwan, Jasjit)",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-05",
+          "number": "45",
+          "kind": "重要动议书面意见",
+          "text": "就“限定侵权责任的时间范围”提交回复意见；不是法院决定",
+          "original": "SEALED REPLY to Response re 10 SEALED MOTION for Summary Judgment Regarding Temporal Limits on Alleged Infringement filed by Oura Health Oy.",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-05",
+          "number": "46",
+          "kind": "重要动议书面意见",
+          "text": "就“处理部分抗辩理由”提交回复意见；不是法院决定",
+          "original": "SEALED REPLY to Response re 9 MOTION for Summary Judgment ON CERTAIN OF OURA'S AFFIRMATIVE DEFENSES filed by Omni MedSci, Inc.. (Davis, William)",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-05",
+          "number": "47",
+          "kind": "重要动议书面意见",
+          "text": "就“不经庭审判定不侵权”提交回复意见；不是法院决定",
+          "original": "SEALED REPLY to Response re 15 SEALED MOTION for Summary Judgment of Non-Infringement filed by Oura Health Oy.",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-05",
+          "number": "48、49、50",
+          "kind": "重要动议书面意见",
+          "text": "就“排除专家意见或报告”提交回复意见；不是法院决定",
+          "original": "SEALED REPLY to Response re 13 SEALED MOTION to Exclude Certain Opinions of Mark J. Chandler filed by Oura Health Oy.\n\nSEALED REPLY to Response re 8 SEALED MOTION TO STRIKE THE OPINIONS OF AMBREEN SALTERS filed by Omni MedSci, Inc..\n\nSEALED REPLY to Response re 14 SEALED MOTION TO STRIKE THE OPINIONS OF DR. MAJID SARRAFZADEH filed by Omni MedSci, Inc.. (Davis, William)",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-05",
+          "number": "51",
+          "kind": "提交答辩",
+          "text": "提交答辩，回应起诉或反诉主张",
+          "original": "ANSWER to 4 Answer to Amended Complaint, Counterclaim Plaintiff Omni MedSci, Inc.'s Answer to Oura Health Oy's Counterclaims by Omni MedSci, Inc..(Davis, William)",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-12",
+          "number": "58",
+          "kind": "重要动议书面意见",
+          "text": "就“处理专利标记相关抗辩”提交再次回复；不是法院决定",
+          "original": "SEALED SUR-REPLY to Reply to Response re 11 SEALED MOTION Partial Motion for Summary Judgment on Oura's Marking Defense filed by Oura Health Oy.",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-12",
+          "number": "59",
+          "kind": "重要动议书面意见",
+          "text": "就“处理部分抗辩理由”提交再次回复；不是法院决定",
+          "original": "SEALED SUR-REPLY to Reply to Response re 9 MOTION for Summary Judgment ON CERTAIN OF OURA'S AFFIRMATIVE DEFENSES filed by Oura Health Oy. (Vidwan, Jasjit)",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-12",
+          "number": "60、61、62、63",
+          "kind": "重要动议书面意见",
+          "text": "就“排除专家意见或报告”提交再次回复；不是法院决定",
+          "original": "SEALED SUR-REPLY to Reply to Response re 14 SEALED MOTION TO STRIKE THE OPINIONS OF DR. MAJID SARRAFZADEH filed by Oura Health Oy.\n\nSUR-REPLY to Reply to Response re 7 SEALED MOTION TO STRIKE THE OPENING REPORT OF VIJAY K. MADISETTI, Ph.D. filed by Oura Health Oy.\n\nSEALED SUR-REPLY to Reply to Response re 8 SEALED MOTION TO STRIKE THE OPINIONS OF AMBREEN SALTERS filed by Oura Health Oy. (Fussell, James)\n\nSEALED SUR-REPLY to Reply to Response re 13 SEALED MOTION to Exclude Certain Opinions of Mark J. Chandler filed by Omni MedSci, Inc..",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-12",
+          "number": "64",
+          "kind": "重要动议书面意见",
+          "text": "就“将境外销售排除出赔偿范围”提交再次回复；不是法院决定",
+          "original": "SEALED SUR-REPLY to Reply to Response re 12 SEALED MOTION For Summary Judgment to Exclude Foreign Sales from Plaintiff's Asserted Damages filed by Omni MedSci, Inc.. (Davis, William)",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-12",
+          "number": "65",
+          "kind": "重要动议书面意见",
+          "text": "就“限定侵权责任的时间范围”提交再次回复；不是法院决定",
+          "original": "SEALED SUR-REPLY to Reply to Response re 10 SEALED MOTION for Summary Judgment Regarding Temporal Limits on Alleged Infringement filed by Omni MedSci, Inc.. (Davis, William)",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-12",
+          "number": "66",
+          "kind": "重要动议书面意见",
+          "text": "就“不经庭审判定不侵权”提交再次回复；不是法院决定",
+          "original": "SEALED SUR-REPLY to Reply to Response re 15 SEALED MOTION for Summary Judgment of Non-Infringement filed by Omni MedSci, Inc..",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-18",
+          "number": "67",
+          "kind": "合并审理决定",
+          "text": "法院将相关案件合并处理审前事项，各案审判仍分别进行",
+          "original": "ORDER CONSOLIDATING CASES- the Court ORDERS that the above-captioned cases are CONSOLIDATED for all pre-trial issues with the LEAD CASE, Case No. 2:26-cv-289. Individual cases remain active for trial. All future filings shall be made in this Lead Case. Signed by Magistrate Judge Roy S. Payne on 06/17/2026. (mdj)",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-24",
+          "number": "",
+          "kind": "听证或会议排期",
+          "text": "提出或处理听证、会议时间安排；是否批准及具体日期见依据",
+          "original": "Scheduling Conference set for 7/7/2026 at 09:00 AM before Magistrate Judge Roy S. Payne. (wea)",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-25",
+          "number": "81",
+          "kind": "撤回动议申请",
+          "text": "申请撤回此前提出的程序请求；不等同撤回整起诉讼",
+          "original": "UNOPPOSED MOTION to Withdraw 28 MOTION for Entry of Docket Control Order by Oura Health Oy.",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-25",
+          "number": "82",
+          "kind": "重要动议书面意见",
+          "text": "就“暂停审理”提交答复或反对意见；不是法院决定",
+          "original": "RESPONSE in Opposition re 30 MOTION to Stay Pending Inter Partes Review and Ex Parte Reexamination filed by Omni MedSci, Inc..",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-26",
+          "number": "84",
+          "kind": "撤回动议决定",
+          "text": "法院处理撤回此前程序申请的请求；不等同撤回整起诉讼",
+          "original": "ORDER granting 81 Motion to Withdraw 28 Motion for Entry of Docket Control Order. Signed by Magistrate Judge Roy S. Payne on 06/26/2026. (mdj)",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-07-02",
+          "number": "",
+          "kind": "听证或会议排期",
+          "text": "提出或处理听证、会议时间安排；是否批准及具体日期见依据",
+          "original": "Scheduling Conference RESET for 7/7/2026 at 03:00 PM before Magistrate Judge Roy S. Payne. **TIME CHANGE ONLY** (wea)",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-07-06",
+          "number": "95",
+          "kind": "加入其他当事人动议",
+          "text": "通知法院加入其他当事人已提出的程序请求；不等同法院批准",
+          "original": "NOTICE of Joinder by OnePlus Technology (Shenzen) Co. Ltd. re 30 MOTION to Stay Pending Inter Partes Review and Ex Parte Reexamination (Mangrum, Brett)",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-07-06",
+          "number": "99",
+          "kind": "重要动议书面意见",
+          "text": "就“暂停审理”提交回复意见；不是法院决定",
+          "original": "REPLY to Response re 30 MOTION to Stay Pending Inter Partes Review and Ex Parte Reexamination filed by Oura Health Oy.",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-07-07",
+          "number": "",
+          "kind": "案件管理会议举行",
+          "text": "召开案件管理会议，讨论审理安排",
+          "original": "Minute Entry for proceedings held before Magistrate Judge Roy S. Payne: Scheduling Conference held on 7/7/2026. Proposed deadlines for the docket control order were discussed. The parties were directed to meet and confer regarding any changes to the Court's proposed docket control order and to submit the proposed order by Monday, 7/13. Attorney Appearances: Plaintiff - Daniel Stringfield, William Davis; Defense - Jam…",
+          "source": 18,
+          "dateBasis": "会议记录明确记载的实际举行日；案卷登记日为2026-07-07"
+        },
+        {
+          "date": "2026-07-07",
+          "number": "100",
+          "kind": "加入其他当事人动议",
+          "text": "通知法院加入其他当事人已提出的程序请求；不等同法院批准",
+          "original": "NOTICE of Joinder by Fossil Group, Inc., Fossil Partners, L.P., Fossil Stores I, Inc. re 30 MOTION to Stay Pending Inter Partes Review and Ex Parte Reexamination (Smith, Jared)",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-07-14",
+          "number": "102",
+          "kind": "重要动议书面意见",
+          "text": "就“暂停审理”提交再次回复；不是法院决定",
+          "original": "SUR-REPLY to Reply to Response re 30 MOTION to Stay Pending Inter Partes Review and Ex Parte Reexamination filed by Omni MedSci, Inc.. (Davis, William)",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-07-15",
+          "number": "103",
+          "kind": "审理排期",
+          "text": "法院发布案件审理日程；其中所列日期是安排，不代表程序已完成",
+          "original": "DOCKET CONTROL ORDER ( Jury Selection set for 11/2/2026 at 09:00AM before District Judge Rodney Gilstrap., Pretrial Conference set for 9/29/2026 at 09:00 AM before Magistrate Judge Roy S. Payne). Signed by Magistrate Judge Roy S. Payne on 07/13/2026. (mdj)",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-09-08",
+          "number": "107、108、109、110、111",
+          "kind": "重要动议申请",
+          "text": "请求“限制庭审中使用某些证据或论点”；是否获准另见法院决定",
+          "original": "SEALED MOTION IN LIMINE TO OURA by Omni MedSci, Inc..\n\nSEALED MOTION IN LIMINE TO FOSSIL by Omni MedSci, Inc..\n\nSEALED MOTION IN LIMINE TO ONEPLUS by Omni MedSci, Inc..\n\nSEALED MOTION (Oura Health Oy's Motions in Limine) by Oura Health Oy.\n\nSEALED MOTION IN LIMINE by OnePlus Technology (Shenzen) Co. Ltd..",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-09-09",
+          "number": "112",
+          "kind": "重要动议申请",
+          "text": "请求“限制庭审中使用某些证据或论点”；是否获准另见法院决定",
+          "original": "CORRECTED SEALED MOTION Defendants' Motions in Limine by Fossil Group, Inc., Fossil Partners, L.P., Fossil Stores I, Inc..",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-09-21",
+          "number": "123、124、125、126、127、128",
+          "kind": "重要动议书面意见",
+          "text": "就“限制庭审中使用某些证据或论点”提交答复或反对意见；不是法院决定",
+          "original": "SEALED RESPONSE re 107 SEALED MOTION IN LIMINE TO OURA filed by Oura Health Oy. (Fussell, James)\n\nSEALED RESPONSE re 108 SEALED MOTION IN LIMINE TO FOSSIL filed by Fossil Group, Inc., Fossil Partners, L.P., Fossil Stores I, Inc..\n\nSEALED RESPONSE re 109 SEALED MOTION IN LIMINE TO ONEPLUS filed by OnePlus Technology (Shenzen) Co. Ltd..\n\nSEALED OBJECTIONS AND RESPONSE re 112 CORRECTED SEALED MOTION Defendants' Motions in Limine filed by Omni MedSci, Inc..\n\nSEALED OBJECTIONS AND RESPONSE re 111 SEALED MOTION IN LIMINE filed by Omni MedSci, Inc..\n\nSEALED OBJECTIONS AND RESPONSE re 110 SEALED MOTION (Oura Health Oy's Motions in Limine) filed by Omni MedSci, Inc..",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-09-29",
+          "number": "142",
+          "kind": "审前会议举行",
+          "text": "召开审前会议，处理开庭前的准备事项",
+          "original": "Minute Entry for proceedings held before Magistrate Judge Roy S. Payne: Initial Pretrial Conference held on 9/29/2026 from 09:01 - 02:34. Attorney Appearances: Plaintiff - Ty Wilson, Daniel Stringfield, Karl Fink; Defense - Shaun Hassett, Tripp Fussell, Clark Bakewell. No exhibits. (Court Reporter - Dana Hayden) (wea)",
+          "source": 18,
+          "dateBasis": "会议记录明确记载的实际举行日；案卷登记日为2026-09-29"
+        },
+        {
+          "date": "2026-09-30",
+          "number": "",
+          "kind": "听证或会议排期",
+          "text": "提出或处理听证、会议时间安排；是否批准及具体日期见依据",
+          "original": "NOTICE of Hearing: Final Pretrial Conference set for 11/17/2026 at 01:30 PM before Magistrate Judge Roy S. Payne. (wea)",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-10-05",
+          "number": "145",
+          "kind": "重要动议决定",
+          "text": "法院就“限制庭审中使用某些证据或论点”作出处理，具体范围见依据",
+          "original": "ORDER on Motions in Limine re 107 108 109 110 111 112 . Signed by Magistrate Judge Roy S. Payne on 10/04/2026. (mdj)",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-10-05",
+          "number": "146",
+          "kind": "听证或会议笔录",
+          "text": "登记审前会议笔录；登记日期不等于实际举行日期",
+          "original": "NOTICE OF FILING OF OFFICIAL TRANSCRIPT of Pretrial Conference held on 09/29/2026 before Judge Roy S. Payne. Pursuant to LR CV-5.2/LR CR-49.1, this transcript is available for 90 days by viewing in a TXED courthouse lobby or by purchase from Court Reporter/Transcriber: Dana Hayden, Telephone number: 479-301-2040. Thereafter, it will be remotely available via PACER unless redacted or otherwise ordered. The parties hav…",
+          "source": 18,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        }
+      ],
+      "courtNote": "按现有案卷展开重要步骤；排期、申请、法院决定与实际举行分别标注。未核实的程序不补写日期。"
     },
     {
       "id": "2:26-cv-00316",
@@ -1111,7 +4255,55 @@
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
       ],
-      "displayStatus": "起诉已撤回"
+      "displayStatus": "起诉已撤回",
+      "courtMilestones": [
+        {
+          "date": "2026-04-21",
+          "number": "1",
+          "kind": "开始日期",
+          "text": "Zepp / Amazfit向地区法院起诉Oura",
+          "original": "COMPLAINT FOR PATENT INFRINGEMENT against Oura Health Oy ( Filing fee $ 405 receipt number ATXEDC-11496082.), filed by Zepp Inc., Zepp North America Inc..",
+          "source": 19,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-05-04",
+          "number": "8",
+          "kind": "送达与应诉",
+          "text": "登记起诉材料送达或免除正式送达手续的记录，进入应诉阶段",
+          "original": "WAIVER OF SERVICE Returned Executed by Zepp Inc., Zepp North America Inc.. Oura Health Oy waiver sent on 4/21/2026, answer due 7/20/2026. (Davis, Keith)",
+          "source": 19,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-06-23",
+          "number": "26",
+          "kind": "听证或会议排期",
+          "text": "提出或处理听证、会议时间安排；是否批准及具体日期见依据",
+          "original": "ORDER- Scheduling Conference set for 7/20/2026 at 09:30 AM before District Judge Rodney Gilstrap. Signed by District Judge Rodney Gilstrap on 06/23/2026. (mdj)",
+          "source": 19,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-07-10",
+          "number": "27",
+          "kind": "撤诉或和解通知",
+          "text": "当事人提交撤诉通知或共同撤诉文件；撤诉范围和效果见原文",
+          "original": "NOTICE of Voluntary Dismissal by Zepp Inc., Zepp North America Inc.",
+          "source": 19,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2026-07-14",
+          "number": "28",
+          "kind": "撤诉或驳回决定",
+          "text": "法院批准驳回或结束相关请求，具体范围和能否重新起诉见依据",
+          "original": "ORDER DISMISSING CASE. Signed by District Judge Rodney Gilstrap on 07/13/2026. (KLC)",
+          "source": 19,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        }
+      ],
+      "courtNote": "按现有案卷展开重要步骤；排期、申请、法院决定与实际举行分别标注。未核实的程序不补写日期。"
     },
     {
       "id": "2:26-cv-00953",
@@ -1170,7 +4362,19 @@
           "note": "起诉状原件：仅据各项COUNT核对原始涉诉专利；不是侵权认定。"
         }
       ],
-      "displayStatus": "刚提起诉讼，尚未对争议作出裁判"
+      "displayStatus": "刚提起诉讼，尚未对争议作出裁判",
+      "courtMilestones": [
+        {
+          "date": "2026-10-22",
+          "number": "1",
+          "kind": "开始日期",
+          "text": "Oura向地区法院起诉Ultrahuman、SVTronics",
+          "original": "COMPLAINT against SVTronics, Inc., Ultrahuman Healthcare Inc., Ultrahuman Healthcare Pvt. Ltd. ( Filing fee $ 405 receipt number ATXEDC-11885478.), filed by Ouraring Inc..",
+          "source": 20,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        }
+      ],
+      "courtNote": "按现有案卷展开重要步骤；排期、申请、法院决定与实际举行分别标注。未核实的程序不补写日期。"
     },
     {
       "id": "IPR2024-00928",
@@ -6340,7 +9544,46 @@
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
       ],
-      "displayStatus": "已撤回起诉，案件已结束"
+      "displayStatus": "已撤回起诉，案件已结束",
+      "courtMilestones": [
+        {
+          "date": "2022-08-19",
+          "number": "1",
+          "kind": "开始日期",
+          "text": "Healthness向地区法院起诉Oura",
+          "original": "COMPLAINT ( Filing fee $ 402 receipt number ATXWDC- 16425312), filed by Healthness LLC.",
+          "source": 30,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2022-09-22",
+          "number": "8",
+          "kind": "送达与应诉",
+          "text": "登记起诉材料送达或免除正式送达手续的记录，进入应诉阶段",
+          "original": "SUMMONS Returned Executed by Healthness LLC. Oura Health Oy served on 9/2/2022, answer due 9/23/2022. (Wernow, Howard)",
+          "source": 30,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2022-10-24",
+          "number": "10",
+          "kind": "撤诉或和解通知",
+          "text": "当事人提交撤诉通知或共同撤诉文件；撤诉范围和效果见原文",
+          "original": "NOTICE of Voluntary Dismissal by Healthness LLC (Wernow, Howard)",
+          "source": 30,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2022-10-25",
+          "number": "12",
+          "kind": "撤诉或驳回决定",
+          "text": "法院批准驳回或结束相关请求，具体范围和能否重新起诉见依据",
+          "original": "ORDER DISMISSING CASE. Signed by Judge Kathleen Cardone. (sm3)",
+          "source": 30,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        }
+      ],
+      "courtNote": "按现有案卷展开重要步骤；排期、申请、法院决定与实际举行分别标注。未核实的程序不补写日期。"
     },
     {
       "id": "2:23-cv-00598",
@@ -6381,7 +9624,46 @@
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
       ],
-      "displayStatus": "已撤诉，仍可能再次起诉"
+      "displayStatus": "已撤诉，仍可能再次起诉",
+      "courtMilestones": [
+        {
+          "date": "2023-12-13",
+          "number": "1",
+          "kind": "开始日期",
+          "text": "Gamehancement向地区法院起诉Oura",
+          "original": "COMPLAINT FOR PATENT INFRINGEMENT against Oura Health Oy ( Filing fee $ 405 receipt number ATXEDC-9869042.), filed by Gamehancement LLC.",
+          "source": 31,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-02-28",
+          "number": "6",
+          "kind": "送达与应诉",
+          "text": "登记起诉材料送达或免除正式送达手续的记录，进入应诉阶段",
+          "original": "WAIVER OF SERVICE Returned Executed by Gamehancement LLC. Oura Health Oy waiver sent on 2/20/2024, answer due 5/20/2024. (Rabicoff, Isaac)",
+          "source": 31,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-03-04",
+          "number": "7",
+          "kind": "撤诉或和解通知",
+          "text": "当事人提交撤诉通知或共同撤诉文件；撤诉范围和效果见原文",
+          "original": "NOTICE of Voluntary Dismissal by Gamehancement LLC",
+          "source": 31,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-03-07",
+          "number": "8",
+          "kind": "撤诉或驳回决定",
+          "text": "法院结束相关诉讼请求，并保留依法重新起诉的可能；未据此判定实体胜败",
+          "original": "ORDER granting 7 Notice of Voluntary Dismissal. Court ACCEPTS AND ACKNOWLEDGES, and pursuant to Rule 41(a)(1)(A)(i), all pending claims and causes of action in the above-captioned case are DISMISSED WITHOUT PREJUDICE. Signed by District Judge Rodney Gilstrap on 3/7/2024. (ch, )",
+          "source": 31,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        }
+      ],
+      "courtNote": "按现有案卷展开重要步骤；排期、申请、法院决定与实际举行分别标注。未核实的程序不补写日期。"
     },
     {
       "id": "6:23-cv-00423",
@@ -6425,7 +9707,127 @@
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
       ],
-      "displayStatus": "双方和解并撤诉，案件已结束"
+      "displayStatus": "双方和解并撤诉，案件已结束",
+      "courtMilestones": [
+        {
+          "date": "2023-06-06",
+          "number": "1",
+          "kind": "开始日期",
+          "text": "ConnectQuest向地区法院起诉Oura",
+          "original": "COMPLAINT ( Filing fee $ 402 receipt number ATXWDC- 17523944), filed by ConnectQuest LLC.",
+          "source": 32,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2023-12-08",
+          "number": "13",
+          "kind": "重要动议申请",
+          "text": "请求“驳回请求或结束诉讼”；是否获准另见法院决定",
+          "original": "Motion to Dismiss for Failure to State a Claim by Oura Health Oy.",
+          "source": 32,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2023-12-08",
+          "number": "14",
+          "kind": "答辩并提出反诉",
+          "text": "回应对方诉讼主张，并提出反诉请求",
+          "original": "ANSWER to 1 Complaint with Jury Demand Affirmative Defenses and, COUNTERCLAIM against ConnectQuest LLC by Oura Health Oy.(Chakkalakal, Noel)",
+          "source": 32,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-01-19",
+          "number": "31",
+          "kind": "重要动议书面意见",
+          "text": "就“驳回请求或结束诉讼”提交答复或反对意见；不是法院决定",
+          "original": "RESPONSE to Motion, filed by ConnectQuest LLC, re 13 Motion to Dismiss for Failure to State a Claim filed by Counter Plaintiff Oura Health Oy (Ellis, Zachary)",
+          "source": 32,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-01-19",
+          "number": "32",
+          "kind": "提交答辩",
+          "text": "提交答辩，回应起诉或反诉主张",
+          "original": "ANSWER to 14 Answer to Complaint, Counterclaim by ConnectQuest LLC.(Ellis, Zachary)",
+          "source": 32,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-01-23",
+          "number": "",
+          "kind": "动议无需再处理",
+          "text": "法院认为有关“驳回请求或结束诉讼”的请求已无须处理；不据此判定实体胜败",
+          "original": "Text Order MOOTING 13 Motion to Dismiss for Failure to State a Claim entered by Judge Xavier Rodriguez. In light of Plaintiff's 34 First Amended Complaint, Defendant's 13 Motion to Dismiss is now MOOT. (This is a text-only entry generated by the court. There is no document associated with this entry.) (dllc)",
+          "source": 32,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-01-23",
+          "number": "34",
+          "kind": "修改起诉内容",
+          "text": "提交修改后的起诉书，调整或补充诉讼主张",
+          "original": "AMENDED COMPLAINT against Oura Health Oy amending 1 Complaint., filed by ConnectQuest LLC.",
+          "source": 32,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-02-06",
+          "number": "",
+          "kind": "听证或会议排期",
+          "text": "提出或处理听证、会议时间安排；是否批准及具体日期见依据；该文件安排的Markman听证日期为10/3/2024，以后续变更为准",
+          "original": "Reset Hearings as to judge presiding: Markman Hearing set for 10/3/2024 before Judge Xavier Rodriguez, Pretrial Conference set for 1/29/2026 10:30 AM before Judge Xavier Rodriguez, Jury Trial set for 2/9/2026 09:00 AM before Judge Xavier Rodriguez. Deadlines remain as set. (lad)",
+          "source": 32,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-02-06",
+          "number": "41",
+          "kind": "审理排期",
+          "text": "法院发布案件审理日程；其中所列日期是安排，不代表程序已完成；该文件安排的Markman听证日期为10/3/2024，以后续变更为准",
+          "original": "SCHEDULING ORDER:Amended Pleadings due by 7/19/2024, Markman Hearing set for 10/3/2024 before Judge Xavier Rodriguez, Joinder of Parties due by 11/8/2024, Dispositive Motions due by 10/25/2025,Final Pretrial Conference set for 1/29/2026 10:30 AM before Judge Xavier Rodriguez, Jury Trial set for 2/9/2026 09:00 AM before Judge Xavier Rodriguez. Signed by Judge Xavier Rodriguez.",
+          "source": 32,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-03-21",
+          "number": "53",
+          "kind": "重要动议申请",
+          "text": "请求“暂停审理”；是否获准另见法院决定",
+          "original": "Joint MOTION to Stay Case and Notice of Settlement by Oura Health Oy.",
+          "source": 32,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-04-23",
+          "number": "",
+          "kind": "撤诉或驳回决定",
+          "text": "法院批准驳回或结束相关请求，具体范围和能否重新起诉见依据",
+          "original": "Text Order GRANTING 55 Motion for Extension of Time to File entered by Judge Xavier Rodriguez. The parties' deadline to finalize their settlement negotiations and file appropriate dismissal documents with the Court is hereby extended to April 29, 2024. (This is a text-only entry generated by the court. There is no document associated with this entry.) (cb)",
+          "source": 32,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-04-29",
+          "number": "56",
+          "kind": "重要动议申请",
+          "text": "请求“驳回请求或结束诉讼”；是否获准另见法院决定",
+          "original": "Joint MOTION to Dismiss by ConnectQuest LLC.",
+          "source": 32,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        },
+        {
+          "date": "2024-04-30",
+          "number": "57",
+          "kind": "撤诉或驳回决定",
+          "text": "法院批准驳回或结束相关请求，具体范围和能否重新起诉见依据",
+          "original": "ORDER GRANTING 56 Motion to Dismiss. Signed by Judge Xavier Rodriguez. (lad)",
+          "source": 32,
+          "dateBasis": "本地案卷登记日。正文中的听证、签署或截止日期可能不同；安排不等于已发生。"
+        }
+      ],
+      "courtNote": "按现有案卷展开重要步骤；排期、申请、法院决定与实际举行分别标注。未核实的程序不补写日期。"
     },
     {
       "id": "26-2079",
