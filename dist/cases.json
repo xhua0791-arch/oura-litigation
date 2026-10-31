@@ -1242,7 +1242,74 @@
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S001, S002"
       },
-      "displayStatus": "专利审查已有最终决定，是否上诉待核实"
+      "displayStatus": "专利审查已有最终决定，是否上诉待核实",
+      "ptabMilestones": [
+        {
+          "date": "2024-05-31",
+          "kind": "开始日期",
+          "text": "Samsung提交IPR申请，请求审查所列专利权利要求",
+          "dateBasis": "工作簿《案件总表》第6行（S001, S002），记录截至2026-10-25",
+          "url": "https://www.casemine.com/judgement/us/69302ad626590b243424fd06",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2024-12-06",
+          "kind": "正式立案决定",
+          "text": "决定启动正式审理；这还不是专利有效或无效的最终结论",
+          "dateBasis": "工作簿《案件总表》第6行（S001, S002），记录截至2026-10-25",
+          "url": "https://www.casemine.com/judgement/us/69302ad626590b243424fd06",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2025-09-11",
+          "kind": "口头听证举行",
+          "text": "双方参加口头听证，向PTAB说明各自观点",
+          "url": "https://www.casemine.com/judgement/us/69302ad626590b243424fd06",
+          "sourceLabel": "来源文件 ↗",
+          "dateBasis": "最终书面决定的程序回顾明确记载的听证举行日，不是笔录上传日"
+        },
+        {
+          "date": "2025-12-02",
+          "kind": "最终书面决定",
+          "text": "PTAB作出最终书面决定：全部被挑战权利要求被认定不可专利",
+          "dateBasis": "工作簿《案件总表》第6行（S001, S002），记录截至2026-10-25",
+          "url": "https://www.casemine.com/judgement/us/69302ad626590b243424fd06",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": null,
+          "kind": "立案前初步答复",
+          "text": "专利权人提交立案前初步答复（已确认存在，提交日期待核实）",
+          "url": "https://www.casemine.com/judgement/us/69302ad626590b243424fd06",
+          "sourceLabel": "来源文件 ↗",
+          "dateBasis": "最终书面决定引言确认Paper 7；尚未取得该份文件的提交日期，不按判决日期推算"
+        },
+        {
+          "date": null,
+          "kind": "立案后正式答辩",
+          "text": "专利权人提交正式答辩（已确认存在，提交日期待核实）",
+          "url": "https://www.casemine.com/judgement/us/69302ad626590b243424fd06",
+          "sourceLabel": "来源文件 ↗",
+          "dateBasis": "最终书面决定引言确认Paper 15；尚未取得该份文件的提交日期，不按判决日期推算"
+        },
+        {
+          "date": null,
+          "kind": "申请人回复",
+          "text": "申请人提交回复意见（已确认存在，提交日期待核实）",
+          "url": "https://www.casemine.com/judgement/us/69302ad626590b243424fd06",
+          "sourceLabel": "来源文件 ↗",
+          "dateBasis": "最终书面决定引言确认Paper 19；尚未取得该份文件的提交日期，不按判决日期推算"
+        },
+        {
+          "date": null,
+          "kind": "专利权人再次回复",
+          "text": "专利权人再次回复（已确认存在，提交日期待核实）",
+          "url": "https://www.casemine.com/judgement/us/69302ad626590b243424fd06",
+          "sourceLabel": "来源文件 ↗",
+          "dateBasis": "最终书面决定引言确认Paper 23；尚未取得该份文件的提交日期，不按判决日期推算"
+        }
+      ],
+      "ptabNote": "本案尚未取得完整案卷，先列出有日期依据的节点。仅有排期不视为已完成；未核实的答辩、听证、修改动议或复审不补写日期。"
     },
     {
       "id": "IPR2024-00929",
@@ -1322,7 +1389,34 @@
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S003, S004, S005"
       },
-      "displayStatus": "未进入正式审理，未对专利有效性作出裁决"
+      "displayStatus": "未进入正式审理，未对专利有效性作出裁决",
+      "ptabMilestones": [
+        {
+          "date": "2024-05-31",
+          "kind": "开始日期",
+          "text": "Samsung提交IPR申请，请求审查所列专利权利要求",
+          "dateBasis": "工作簿《案件总表》第7行（S003, S004, S005），记录截至2026-10-25",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556085/download-documents?artifactId=pC2O-N1wt4Ia-i-rQBW3U6DsLPBC6gpHr_8q5bOwWvxfANCNJocoN34",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2024-09-12",
+          "kind": "法定放弃权利要求",
+          "text": "专利权人提交文件，整项放弃权利要求1–12",
+          "url": "https://www.uspto.gov/web/offices/com/sol/og/2024/week50/TOC.htm",
+          "sourceLabel": "来源文件 ↗",
+          "dateBasis": "现有权利要求核验记录所引USPTO公报提交日"
+        },
+        {
+          "date": "2024-12-09",
+          "kind": "不予立案决定",
+          "text": "因专利权人已放弃全部被挑战权利要求，PTAB不予立案；未作实体有效性判决",
+          "dateBasis": "工作簿《案件总表》第7行（S003, S004, S005），记录截至2026-10-25",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556085/download-documents?artifactId=pC2O-N1wt4Ia-i-rQBW3U6DsLPBC6gpHr_8q5bOwWvxfANCNJocoN34",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        }
+      ],
+      "ptabNote": "本案尚未取得完整案卷，先列出有日期依据的节点。仅有排期不视为已完成；未核实的答辩、听证、修改动议或复审不补写日期。"
     },
     {
       "id": "IPR2024-00930",
@@ -1390,7 +1484,34 @@
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S006, S007"
       },
-      "displayStatus": "未进入正式审理，未对专利有效性作出裁决"
+      "displayStatus": "未进入正式审理，未对专利有效性作出裁决",
+      "ptabMilestones": [
+        {
+          "date": "2024-05-31",
+          "kind": "开始日期",
+          "text": "Samsung提交IPR申请，请求审查所列专利权利要求",
+          "dateBasis": "工作簿《案件总表》第8行（S006, S007），记录截至2026-10-25",
+          "url": "https://ipverse.greyb.com/ptab-web/cases/case-details/IPR2024-00930",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2024-12-09",
+          "kind": "不予立案决定",
+          "text": "因专利权人已放弃全部被挑战权利要求，PTAB不予立案；未作实体有效性判决",
+          "dateBasis": "工作簿《案件总表》第8行（S006, S007），记录截至2026-10-25",
+          "url": "https://ipverse.greyb.com/ptab-web/cases/case-details/IPR2024-00930",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": null,
+          "kind": "法定放弃权利要求",
+          "text": "专利权人已整项放弃被挑战权利要求，后续因此不予立案（准确提交日待核实）",
+          "url": "https://ipverse.greyb.com/ptab-web/cases/case-details/IPR2024-00930",
+          "dateBasis": "已法定放弃：整项放弃1–22，非缩窄文字或新增替代权项；不宜写成整件专利全部权项放弃。2024-12-09拒绝立案；放弃提交日未取得原件核实。依据：A003、S006。",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        }
+      ],
+      "ptabNote": "本案尚未取得完整案卷，先列出有日期依据的节点。仅有排期不视为已完成；未核实的答辩、听证、修改动议或复审不补写日期。"
     },
     {
       "id": "PGR2024-00030",
@@ -1484,7 +1605,270 @@
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S008, S009, S010"
       },
-      "displayStatus": "专利审查已有最终决定，已上诉；上诉结果待核实"
+      "displayStatus": "专利审查已有最终决定，已上诉；上诉结果待核实",
+      "ptabMilestones": [
+        {
+          "date": "2024-05-31",
+          "kind": "开始日期",
+          "text": "Samsung提交PGR申请，请求审查所列专利权利要求",
+          "dateBasis": "工作簿《案件总表》第9行（S008, S009, S010），记录截至2026-10-25",
+          "url": "https://www.casemine.com/judgement/us/69263572d1246a53d608c311",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2024-09-10",
+          "kind": "立案前初步答复",
+          "text": "专利权人提交初步答复，说明为什么不应启动正式审理",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 21,
+          "number": "504",
+          "original": "Patent Owner's Preliminary Response"
+        },
+        {
+          "date": "2024-09-10",
+          "kind": "法定放弃权利要求",
+          "text": "专利权人随初步答复放弃第11项权利要求，后续继续审理其他被挑战权利要求",
+          "url": "https://www.casemine.com/judgement/us/69263572d1246a53d608c311",
+          "sourceLabel": "来源文件 ↗",
+          "dateBasis": "最终书面决定引言与本地初步答复记录、现有核验记录A004交叉对应"
+        },
+        {
+          "date": "2024-12-06",
+          "kind": "审理排期",
+          "text": "PTAB发布审理日程，安排书面意见、证据及听证等期限",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 21,
+          "number": "501",
+          "original": "Order: SCHEDULING ORDER"
+        },
+        {
+          "date": "2024-12-06",
+          "kind": "正式立案决定",
+          "text": "决定启动正式审理；这还不是专利有效或无效的最终结论",
+          "dateBasis": "工作簿《案件总表》第9行（S008, S009, S010），记录截至2026-10-25",
+          "url": "https://www.casemine.com/judgement/us/69263572d1246a53d608c311",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2025-01-23",
+          "kind": "审理期限调整",
+          "text": "双方提交调整审理期限的协议；不表示相关材料已经提交",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 21,
+          "number": "500",
+          "original": "Notice of Joint Stipulation to Move Due Dates 1, 2, and 3 in Part"
+        },
+        {
+          "date": "2025-01-24",
+          "kind": "证人询问安排",
+          "text": "提交证人或专家询问通知；通知登记日不等于实际询问日",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 21,
+          "number": "499",
+          "original": "Patent Owner's Notice of Deposition of Dr. Brian W. Anthony"
+        },
+        {
+          "date": "2025-03-05",
+          "kind": "审理期限调整",
+          "text": "双方提交调整审理期限的协议；不表示相关材料已经提交",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 21,
+          "number": "497",
+          "original": "Second Notice of Joint Stipulation to Modify Schedule"
+        },
+        {
+          "date": "2025-04-04",
+          "kind": "审理期限调整",
+          "text": "双方提交调整审理期限的协议；不表示相关材料已经提交",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 21,
+          "number": "496",
+          "original": "Notice of Joint Stipulation to Move Due Dates 1, 2, and 3 in Part"
+        },
+        {
+          "date": "2025-04-14",
+          "kind": "证据保密安排",
+          "text": "PTAB批准证据保密安排，规定保密材料的使用方式",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 21,
+          "number": "494",
+          "original": "Order: Granting Motion for Entry of Protective Order"
+        },
+        {
+          "date": "2025-04-16",
+          "kind": "立案后正式答辩",
+          "text": "专利权人提交正式答辩，回应对专利权利要求的挑战",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 21,
+          "number": "491、492",
+          "original": "Patent Owner's Response (SEALED)"
+        },
+        {
+          "date": "2025-06-09",
+          "kind": "证人询问安排",
+          "text": "提交证人或专家询问通知；通知登记日不等于实际询问日",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 21,
+          "number": "485、486",
+          "original": "Petitioner's Notice of Deposition of Patrick P. Mercier, Ph.D."
+        },
+        {
+          "date": "2025-06-13",
+          "kind": "证人询问安排",
+          "text": "提交证人或专家询问通知的修订版本；通知登记日不等于实际询问日",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 21,
+          "number": "484",
+          "original": "Petitioner's Amended Notice of Deposition of Patrick P. Mercier, Ph.D."
+        },
+        {
+          "date": "2025-07-23",
+          "kind": "申请人回复",
+          "text": "申请人提交回复，反驳专利权人的正式答辩",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 21,
+          "number": "480、481",
+          "original": "Reply In Support of Petition for Post-Grant Review of U.S. Patent No. 11,868,178 (REDACTED)"
+        },
+        {
+          "date": "2025-07-31",
+          "kind": "口头听证申请",
+          "text": "申请人请求举行口头听证，尚不表示已经举行",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 21,
+          "number": "478",
+          "original": "Petitioner's Request for Oral Argument"
+        },
+        {
+          "date": "2025-08-07",
+          "kind": "证人询问安排",
+          "text": "提交证人或专家询问通知；通知登记日不等于实际询问日",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 21,
+          "number": "477",
+          "original": "Patent Owner's Notice Of Deposition"
+        },
+        {
+          "date": "2025-08-08",
+          "kind": "口头听证安排",
+          "text": "PTAB发布口头听证安排；此日期为安排文件登记日",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 21,
+          "number": "476",
+          "original": "ORDER Setting Oral Argument 37 C.F.R. ?? 42.70"
+        },
+        {
+          "date": "2025-08-26",
+          "kind": "专利权人再次回复",
+          "text": "专利权人再次回复，回应申请人的反驳",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 21,
+          "number": "472、473",
+          "original": "Patent Owner's Sur-Reply (SEALED)"
+        },
+        {
+          "date": "2025-09-11",
+          "kind": "口头听证举行",
+          "text": "双方参加口头听证，向PTAB说明各自观点",
+          "url": "https://www.casemine.com/judgement/us/69263572d1246a53d608c311",
+          "sourceLabel": "来源文件 ↗",
+          "dateBasis": "最终书面决定的程序回顾明确记载的听证举行日，不是笔录上传日"
+        },
+        {
+          "date": "2025-10-01",
+          "kind": "补充材料获准",
+          "text": "PTAB允许双方补交关联程序材料并发表意见",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 21,
+          "number": "461",
+          "original": "ORDER Granting Joint Request for Leave to File Relevant Materials from Related Proceeding and Briefing Regarding Same 37 C.F.R. ?? 42.5(a)"
+        },
+        {
+          "date": "2025-10-08",
+          "kind": "补充书面意见",
+          "text": "专利权人补充说明相关ITC裁判及其对本案的影响",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 21,
+          "number": "460",
+          "original": "Patent Owner's Supplemental Brief on U.S. International Trade Commission's Adjudication of the Same Claims Based on the Same or Substantially Same Evidence and Arguments"
+        },
+        {
+          "date": "2025-10-16",
+          "kind": "听证笔录登记",
+          "text": "听证笔录登记入卷；此日期不是听证实际举行日",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 21,
+          "number": "458、459",
+          "original": "Other: Hearing transcript - Public Version"
+        },
+        {
+          "date": "2025-10-24",
+          "kind": "补充书面意见",
+          "text": "申请人提交补充书面意见",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 21,
+          "number": "457",
+          "original": "Petitioner's Supplemental Brief"
+        },
+        {
+          "date": "2025-11-25",
+          "kind": "最终书面决定",
+          "text": "PTAB作出最终书面决定：17、18不可专利；1–10、12–16未被证明不可专利；11事先放弃",
+          "dateBasis": "工作簿《案件总表》第9行（S008, S009, S010），记录截至2026-10-25",
+          "url": "https://www.casemine.com/judgement/us/69263572d1246a53d608c311",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2025-12-11",
+          "kind": "提起上诉",
+          "text": "申请人提交上诉通知，请上诉法院审查PTAB决定",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 21,
+          "number": "453",
+          "original": "Petitioner???s Notice of Appeal"
+        },
+        {
+          "date": "2026-01-05",
+          "kind": "上诉期间保留案卷申请",
+          "text": "双方申请在上诉期间保留案卷并延长期限，尚不表示已批准",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 21,
+          "number": "452",
+          "original": "Joint Motion to Preserve the Record Pending Appeal and Extend the Time to File Motion to Expunge"
+        },
+        {
+          "date": "2026-01-09",
+          "kind": "上诉期间保留案卷",
+          "text": "PTAB批准在上诉期间保留案卷，并延长申请清除材料的期限",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 21,
+          "number": "451",
+          "original": "ORDER Granting Joint Motions to Preserve the Record Pending Appeal and Extend the Time to File Motion to Expunge 37 C.F.R. ?? 42.5"
+        }
+      ],
+      "ptabNote": "已展开本地案卷中的重要程序。仅有排期不视为已完成；未核实的答辩、听证、修改动议或复审不补写日期。"
     },
     {
       "id": "PGR2024-00031",
@@ -1556,7 +1940,34 @@
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S011, S012, S013"
       },
-      "displayStatus": "未进入正式审理，未对专利有效性作出裁决"
+      "displayStatus": "未进入正式审理，未对专利有效性作出裁决",
+      "ptabMilestones": [
+        {
+          "date": "2024-05-31",
+          "kind": "开始日期",
+          "text": "Samsung提交PGR申请，请求审查所列专利权利要求",
+          "dateBasis": "工作簿《案件总表》第10行（S011, S012, S013），记录截至2026-10-25",
+          "url": "https://ipverse.greyb.com/ptab-web/cases/case-details/PGR2024-00031",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2024-12-10",
+          "kind": "不予立案决定",
+          "text": "因专利权人已放弃全部被挑战权利要求，PTAB不予立案；未作实体有效性判决",
+          "dateBasis": "工作簿《案件总表》第10行（S011, S012, S013），记录截至2026-10-25",
+          "url": "https://ipverse.greyb.com/ptab-web/cases/case-details/PGR2024-00031",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": null,
+          "kind": "法定放弃权利要求",
+          "text": "专利权人已整项放弃被挑战权利要求，后续因此不予立案（准确提交日待核实）",
+          "url": "https://ipverse.greyb.com/ptab-web/cases/case-details/PGR2024-00031",
+          "dateBasis": "已法定放弃：整项放弃1–16，无新增替代权项；2024-12-10因此拒绝立案。原表所列2024-10-31提交日，本次未取得放弃原件复核。依据：A003、S011–S013。",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        }
+      ],
+      "ptabNote": "本案尚未取得完整案卷，先列出有日期依据的节点。仅有排期不视为已完成；未核实的答辩、听证、修改动议或复审不补写日期。"
     },
     {
       "id": "IPR2024-01077",
@@ -1632,7 +2043,82 @@
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S014, S015, S016"
       },
-      "displayStatus": "专利审查已有最终决定，相关上诉案号待核对"
+      "displayStatus": "专利审查已有最终决定，相关上诉案号待核对",
+      "ptabMilestones": [
+        {
+          "date": "2024-06-28",
+          "kind": "开始日期",
+          "text": "Samsung提交IPR申请，请求审查所列专利权利要求",
+          "dateBasis": "工作簿《案件总表》第11行（S014, S015, S016），记录截至2026-10-25",
+          "url": "https://www.casemine.com/judgement/us/6943f2b2c92f54bb3c631fce",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2025-01-28",
+          "kind": "正式立案决定",
+          "text": "决定启动正式审理；这还不是专利有效或无效的最终结论",
+          "dateBasis": "工作簿《案件总表》第11行（S014, S015, S016），记录截至2026-10-25",
+          "url": "https://www.casemine.com/judgement/us/6943f2b2c92f54bb3c631fce",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2025-01-28",
+          "kind": "审理排期",
+          "text": "PTAB发布共同排期令，安排书面意见、证据及听证期限；两案仍分别提交文件",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556250/download-documents?artifactId=c4uTEgcP7H1AHN_wPEffv8-l2efOtjXcRELR0GMjeVzAmgGiNU1V5Xg",
+          "sourceLabel": "来源文件 ↗",
+          "dateBasis": "Paper 10首页签发日期；排期不代表各项程序已完成"
+        },
+        {
+          "date": "2025-10-29",
+          "kind": "口头听证举行",
+          "text": "双方参加口头听证，向PTAB说明各自观点",
+          "url": "https://www.casemine.com/judgement/us/6943f2b2c92f54bb3c631fce",
+          "sourceLabel": "来源文件 ↗",
+          "dateBasis": "最终书面决定的程序回顾明确记载的听证举行日，不是笔录上传日"
+        },
+        {
+          "date": "2025-12-15",
+          "kind": "最终书面决定",
+          "text": "PTAB作出最终书面决定：全部被挑战权利要求均未被证明不可专利",
+          "dateBasis": "工作簿《案件总表》第11行（S014, S015, S016），记录截至2026-10-25",
+          "url": "https://www.casemine.com/judgement/us/6943f2b2c92f54bb3c631fce",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2025-12-17",
+          "kind": "最终决定公开版本",
+          "text": "最终书面决定的公开版本发布；与先前签发决定是同一次裁判，不重复计作新结果",
+          "url": "https://www.casemine.com/judgement/us/6943f2b2c92f54bb3c631fce",
+          "dateBasis": "工作簿《案件总表》第11行备注所列公开版日期；签发日见前一最终书面决定节点",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": null,
+          "kind": "立案后正式答辩",
+          "text": "专利权人提交正式答辩（已确认存在，提交日期待核实）",
+          "url": "https://www.casemine.com/judgement/us/6943f2b2c92f54bb3c631fce",
+          "sourceLabel": "来源文件 ↗",
+          "dateBasis": "最终书面决定引言确认Paper 18、19；尚未取得该份文件的提交日期，不按判决日期推算"
+        },
+        {
+          "date": null,
+          "kind": "申请人回复",
+          "text": "申请人提交回复意见（已确认存在，提交日期待核实）",
+          "url": "https://www.casemine.com/judgement/us/6943f2b2c92f54bb3c631fce",
+          "sourceLabel": "来源文件 ↗",
+          "dateBasis": "最终书面决定引言确认Paper 22、23；尚未取得该份文件的提交日期，不按判决日期推算"
+        },
+        {
+          "date": null,
+          "kind": "专利权人再次回复",
+          "text": "专利权人再次回复（已确认存在，提交日期待核实）",
+          "url": "https://www.casemine.com/judgement/us/6943f2b2c92f54bb3c631fce",
+          "sourceLabel": "来源文件 ↗",
+          "dateBasis": "最终书面决定引言确认Paper 36、37；尚未取得该份文件的提交日期，不按判决日期推算"
+        }
+      ],
+      "ptabNote": "本案尚未取得完整案卷，先列出有日期依据的节点。仅有排期不视为已完成；未核实的答辩、听证、修改动议或复审不补写日期。"
     },
     {
       "id": "IPR2024-01078",
@@ -1720,7 +2206,58 @@
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S017, S018, S019"
       },
-      "displayStatus": "专利审查已有最终决定，已上诉；上诉结果待核实"
+      "displayStatus": "专利审查已有最终决定，已上诉；上诉结果待核实",
+      "ptabMilestones": [
+        {
+          "date": "2024-06-28",
+          "kind": "开始日期",
+          "text": "Samsung提交IPR申请，请求审查所列专利权利要求",
+          "dateBasis": "工作簿《案件总表》第12行（S017, S018, S019），记录截至2026-10-25",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556250/download-documents?artifactId=kUcyRBwST9SxxYudNMj7Zt90hD7yHsPlq2S2uVJn7ndoe78N17H8Ysk",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2025-01-28",
+          "kind": "正式立案决定",
+          "text": "决定启动正式审理；这还不是专利有效或无效的最终结论",
+          "dateBasis": "工作簿《案件总表》第12行（S017, S018, S019），记录截至2026-10-25",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556250/download-documents?artifactId=kUcyRBwST9SxxYudNMj7Zt90hD7yHsPlq2S2uVJn7ndoe78N17H8Ysk",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2025-01-28",
+          "kind": "审理排期",
+          "text": "PTAB发布共同排期令，安排书面意见、证据及听证期限；两案仍分别提交文件",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556250/download-documents?artifactId=c4uTEgcP7H1AHN_wPEffv8-l2efOtjXcRELR0GMjeVzAmgGiNU1V5Xg",
+          "sourceLabel": "来源文件 ↗",
+          "dateBasis": "Paper 10首页签发日期；排期不代表各项程序已完成"
+        },
+        {
+          "date": "2026-01-27",
+          "kind": "最终书面决定",
+          "text": "PTAB作出最终书面决定：全部被挑战权利要求均未被证明不可专利",
+          "dateBasis": "工作簿《案件总表》第12行（S017, S018, S019），记录截至2026-10-25",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556250/download-documents?artifactId=kUcyRBwST9SxxYudNMj7Zt90hD7yHsPlq2S2uVJn7ndoe78N17H8Ysk",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2026-01-30",
+          "kind": "最终决定公开版本",
+          "text": "最终书面决定的公开版本发布；与先前签发决定是同一次裁判，不重复计作新结果",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556250/download-documents?artifactId=c4uTEgcP7H1AHN_wPEffv8-l2efOtjXcRELR0GMjeVzAmgGiNU1V5Xg",
+          "dateBasis": "工作簿《案件总表》第12行备注所列公开版日期；签发日见前一最终书面决定节点",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2026-02-05",
+          "kind": "上诉法院登记",
+          "text": "相关上诉在联邦巡回上诉法院登记为26-1411，后并入26-1410",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1411",
+          "dateBasis": "上诉法院登记日，不等同向PTAB提交上诉通知日；对应关系见工作簿",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        }
+      ],
+      "ptabNote": "本案尚未取得完整案卷，先列出有日期依据的节点。仅有排期不视为已完成；未核实的答辩、听证、修改动议或复审不补写日期。"
     },
     {
       "id": "IPR2024-01079",
@@ -1792,7 +2329,34 @@
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S020, S021, S022"
       },
-      "displayStatus": "未进入正式审理，未对专利有效性作出裁决"
+      "displayStatus": "未进入正式审理，未对专利有效性作出裁决",
+      "ptabMilestones": [
+        {
+          "date": "2024-06-28",
+          "kind": "开始日期",
+          "text": "Samsung提交IPR申请，请求审查所列专利权利要求",
+          "dateBasis": "工作簿《案件总表》第13行（S020, S021, S022），记录截至2026-10-25",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556908/download-documents?artifactId=nm4eAwV5xyxFE7rci4cGosJLZcNL0HmailCMGyCxi4NYK_wohvW2IYg",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2025-01-07",
+          "kind": "不予立案决定",
+          "text": "因专利权人已放弃全部被挑战权利要求，PTAB不予立案；未作实体有效性判决",
+          "dateBasis": "工作簿《案件总表》第13行（S020, S021, S022），记录截至2026-10-25",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556908/download-documents?artifactId=nm4eAwV5xyxFE7rci4cGosJLZcNL0HmailCMGyCxi4NYK_wohvW2IYg",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": null,
+          "kind": "法定放弃权利要求",
+          "text": "专利权人已整项放弃被挑战权利要求，后续因此不予立案（准确提交日待核实）",
+          "url": "https://www.casemine.com/judgement/us/69302ad626590b243424fd06",
+          "dateBasis": "已法定放弃：整项放弃16–18、20–21、23–24、30–35、37，无新增替代权项；2025-01-07拒绝立案。公报记载提交日2024-10-31，与原表备注10-30有差异，待放弃收据复核。依据：A001、A003。",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        }
+      ],
+      "ptabNote": "本案尚未取得完整案卷，先列出有日期依据的节点。仅有排期不视为已完成；未核实的答辩、听证、修改动议或复审不补写日期。"
     },
     {
       "id": "IPR2024-01080",
@@ -1875,7 +2439,44 @@
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S023, S024, S025"
       },
-      "displayStatus": "未进入正式审理，未对专利有效性作出裁决"
+      "displayStatus": "未进入正式审理，未对专利有效性作出裁决",
+      "ptabMilestones": [
+        {
+          "date": "2024-06-28",
+          "kind": "开始日期",
+          "text": "Samsung提交IPR申请，请求审查所列专利权利要求",
+          "dateBasis": "工作簿《案件总表》第14行（S023, S024, S025），记录截至2026-10-25",
+          "url": "https://ipverse.greyb.com/ptab-web/cases/case-details/IPR2024-01080",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2024-10-30",
+          "kind": "法定放弃权利要求",
+          "text": "专利权人整项放弃权利要求1–6；不是修改为范围更窄的新权利要求",
+          "url": "https://ai-lab.exparte.com/documents/ptab/ptacts-uspto/1556252/Z_lvhhSwaX5tzCQSVX-S6gvLFuroEZVYzsDM2-hHeiFXi7BoPPNDeEA/2222473708/IPR2024-01080_doc_8_exparte.pdf",
+          "sourceLabel": "来源文件 ↗",
+          "dateBasis": "已有权利要求核验记录A005：放弃文件日期"
+        },
+        {
+          "date": "2024-10-31",
+          "kind": "立案前初步答复",
+          "text": "专利权人提交初步答复，说明为什么不应启动正式审理",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 22,
+          "number": "25",
+          "original": "Patent Owner's Preliminary Response"
+        },
+        {
+          "date": "2025-01-03",
+          "kind": "不予立案决定",
+          "text": "因专利权人已放弃全部被挑战权利要求，PTAB不予立案；未作实体有效性判决",
+          "dateBasis": "工作簿《案件总表》第14行（S023, S024, S025），记录截至2026-10-25",
+          "url": "https://ipverse.greyb.com/ptab-web/cases/case-details/IPR2024-01080",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        }
+      ],
+      "ptabNote": "已展开本地案卷中的重要程序。仅有排期不视为已完成；未核实的答辩、听证、修改动议或复审不补写日期。"
     },
     {
       "id": "PGR2024-00038",
@@ -1955,7 +2556,34 @@
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S026, S027, S028"
       },
-      "displayStatus": "未进入正式审理，未对专利有效性作出裁决"
+      "displayStatus": "未进入正式审理，未对专利有效性作出裁决",
+      "ptabMilestones": [
+        {
+          "date": "2024-06-28",
+          "kind": "开始日期",
+          "text": "Samsung提交PGR申请，请求审查所列专利权利要求",
+          "dateBasis": "工作簿《案件总表》第15行（S026, S027, S028），记录截至2026-10-25",
+          "url": "https://ipverse.greyb.com/ptab-web/cases/case-details/PGR2024-00038",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2025-01-03",
+          "kind": "不予立案决定",
+          "text": "因专利权人已放弃全部被挑战权利要求，PTAB不予立案；未作实体有效性判决",
+          "dateBasis": "工作簿《案件总表》第15行（S026, S027, S028），记录截至2026-10-25",
+          "url": "https://ipverse.greyb.com/ptab-web/cases/case-details/PGR2024-00038",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": null,
+          "kind": "法定放弃权利要求",
+          "text": "专利权人已整项放弃被挑战权利要求，后续因此不予立案（准确提交日待核实）",
+          "url": "https://ipverse.greyb.com/ptab-web/cases/case-details/PGR2024-00038",
+          "dateBasis": "已法定放弃：整项放弃全部1–20；2025-01-03拒绝立案，无新增替代权项。决定列被挑战权项为1–7、11、13–20，放弃范围更大。原表10-30提交日未据收据复核。依据：A006、A007。",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        }
+      ],
+      "ptabNote": "本案尚未取得完整案卷，先列出有日期依据的节点。仅有排期不视为已完成；未核实的答辩、听证、修改动议或复审不补写日期。"
     },
     {
       "id": "PGR2024-00039",
@@ -2044,7 +2672,280 @@
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S029, S030, S031"
       },
-      "displayStatus": "专利审查已有最终决定，已上诉；上诉结果待核实"
+      "displayStatus": "专利审查已有最终决定，已上诉；上诉结果待核实",
+      "ptabMilestones": [
+        {
+          "date": "2024-06-28",
+          "kind": "开始日期",
+          "text": "Samsung提交PGR申请，请求审查所列专利权利要求",
+          "dateBasis": "工作簿《案件总表》第16行（S029, S030, S031），记录截至2026-10-25",
+          "url": "https://ipverse.greyb.com/ptab-web/cases/case-details/PGR2024-00039",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2024-10-31",
+          "kind": "立案前初步答复",
+          "text": "专利权人提交初步答复，说明为什么不应启动正式审理",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 23,
+          "number": "526",
+          "original": "Patent Owner's Preliminary Response"
+        },
+        {
+          "date": "2024-12-12",
+          "kind": "审理排期",
+          "text": "PTAB发布审理日程，安排书面意见、证据及听证等期限",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 23,
+          "number": "524",
+          "original": "SCHEDULING ORDER"
+        },
+        {
+          "date": "2024-12-12",
+          "kind": "正式立案决定",
+          "text": "决定启动正式审理；这还不是专利有效或无效的最终结论",
+          "dateBasis": "工作簿《案件总表》第16行（S029, S030, S031），记录截至2026-10-25",
+          "url": "https://ipverse.greyb.com/ptab-web/cases/case-details/PGR2024-00039",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2025-01-23",
+          "kind": "审理期限调整",
+          "text": "双方提交调整审理期限的协议；不表示相关材料已经提交",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 23,
+          "number": "523",
+          "original": "Notice of Joint Stipulation to Move Due Dates 1, 2, and 3 in Part"
+        },
+        {
+          "date": "2025-01-24",
+          "kind": "证人询问安排",
+          "text": "提交证人或专家询问通知；通知登记日不等于实际询问日",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 23,
+          "number": "522",
+          "original": "Notice of Deposition of Dr. Brian W. Anthony"
+        },
+        {
+          "date": "2025-03-05",
+          "kind": "审理期限调整",
+          "text": "双方提交调整审理期限的协议；不表示相关材料已经提交",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 23,
+          "number": "520",
+          "original": "Second Notice of Joint Stipulation to Modify Schedule"
+        },
+        {
+          "date": "2025-04-04",
+          "kind": "审理期限调整",
+          "text": "双方提交调整审理期限的协议；不表示相关材料已经提交",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 23,
+          "number": "519",
+          "original": "Notice of Joint Stipulation to Move Due Dates 1, 2, and 3 in Part"
+        },
+        {
+          "date": "2025-04-14",
+          "kind": "证据保密安排",
+          "text": "PTAB批准证据保密安排，规定保密材料的使用方式",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 23,
+          "number": "517",
+          "original": "Order: Granting Motion for Entry of Protective Order"
+        },
+        {
+          "date": "2025-04-16",
+          "kind": "立案后正式答辩",
+          "text": "专利权人提交正式答辩，回应对专利权利要求的挑战",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 23,
+          "number": "514、515",
+          "original": "Patent Owner's Response (SEALED)"
+        },
+        {
+          "date": "2025-06-09",
+          "kind": "证人询问安排",
+          "text": "提交证人或专家询问通知；通知登记日不等于实际询问日",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 23,
+          "number": "510、511",
+          "original": "Petitioner's Notice of Deposition of Patrick P. Mercier, Ph.D."
+        },
+        {
+          "date": "2025-06-13",
+          "kind": "证人询问安排",
+          "text": "提交证人或专家询问通知的修订版本；通知登记日不等于实际询问日",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 23,
+          "number": "509",
+          "original": "Petitioner's Amended Notice of Deposition of Patrick P. Mercier, Ph.D."
+        },
+        {
+          "date": "2025-07-22",
+          "kind": "申请人回复",
+          "text": "申请人提交回复，反驳专利权人的正式答辩",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 23,
+          "number": "505、506",
+          "original": "Petitioner's Reply (REDACTED)"
+        },
+        {
+          "date": "2025-07-31",
+          "kind": "口头听证申请",
+          "text": "申请人请求举行口头听证，尚不表示已经举行",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 23,
+          "number": "503",
+          "original": "Petitioner's Request for Oral Argument"
+        },
+        {
+          "date": "2025-08-04",
+          "kind": "申请人回复",
+          "text": "申请人提交回复，反驳专利权人的正式答辩",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 23,
+          "number": "502",
+          "original": "Petitioner???s Revised Exhibit List for Reply"
+        },
+        {
+          "date": "2025-08-07",
+          "kind": "证人询问安排",
+          "text": "提交证人或专家询问通知；通知登记日不等于实际询问日",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 23,
+          "number": "501",
+          "original": "Patent Owner's Notice Of Deposition"
+        },
+        {
+          "date": "2025-08-08",
+          "kind": "口头听证安排",
+          "text": "PTAB发布口头听证安排；此日期为安排文件登记日",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 23,
+          "number": "500",
+          "original": "ORDER Setting Oral Argument 37 C.F.R. ?? 42.70"
+        },
+        {
+          "date": "2025-08-26",
+          "kind": "专利权人再次回复",
+          "text": "专利权人再次回复，回应申请人的反驳",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 23,
+          "number": "496、497",
+          "original": "Patent Owner's Sur-Reply (SEALED)"
+        },
+        {
+          "date": "2025-09-11",
+          "kind": "口头听证举行",
+          "text": "双方参加口头听证，向PTAB说明各自观点",
+          "url": "https://bannerwitcoff.com/wp-content/uploads/2025/12/PGR2024-00039.pdf",
+          "sourceLabel": "来源文件 ↗",
+          "dateBasis": "最终书面决定的程序回顾明确记载的听证举行日，不是笔录上传日"
+        },
+        {
+          "date": "2025-10-01",
+          "kind": "补充材料获准",
+          "text": "PTAB允许双方补交关联程序材料并发表意见",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 23,
+          "number": "485",
+          "original": "ORDER Granting Joint Request for Leave to File Relevant Materials from Related Proceeding and Briefing Regarding Same 37 C.F.R. ?? 42.5(a)"
+        },
+        {
+          "date": "2025-10-08",
+          "kind": "补充书面意见",
+          "text": "专利权人补充说明相关ITC裁判及其对本案的影响",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 23,
+          "number": "484",
+          "original": "Patent Owner's Supplemental Brief on U.S. International Trade Commission's Adjudication of the Same or Substantially Same Claims"
+        },
+        {
+          "date": "2025-10-16",
+          "kind": "听证笔录登记",
+          "text": "听证笔录登记入卷；此日期不是听证实际举行日",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 23,
+          "number": "482、483",
+          "original": "Other: Hearing transcript - Public Version"
+        },
+        {
+          "date": "2025-10-24",
+          "kind": "补充书面意见",
+          "text": "申请人提交补充书面意见",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 23,
+          "number": "481",
+          "original": "Petitioner's Supplemental Brief"
+        },
+        {
+          "date": "2025-12-05",
+          "kind": "最终书面决定",
+          "text": "PTAB作出最终书面决定：1–17均未被证明不可专利",
+          "dateBasis": "工作簿《案件总表》第16行（S029, S030, S031），记录截至2026-10-25",
+          "url": "https://ipverse.greyb.com/ptab-web/cases/case-details/PGR2024-00039",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2025-12-10",
+          "kind": "最终决定公开版本",
+          "text": "最终书面决定的公开版本发布；与先前签发决定是同一次裁判，不重复计作新结果",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556908/download-documents?artifactId=NG_2u6-1BrWAo_P2G5IA9mBAtVmvDn6LhqxtIZyLJhqrrCj7H6dTMTg",
+          "dateBasis": "工作簿《案件总表》第16行备注所列公开版日期；签发日见前一最终书面决定节点",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2026-01-05",
+          "kind": "上诉期间保留案卷申请",
+          "text": "双方申请在上诉期间保留案卷并延长期限，尚不表示已批准",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 23,
+          "number": "474",
+          "original": "Joint Motion to Preserve the Record Pending Appeal and Extend the Time to File Motion to Expunge"
+        },
+        {
+          "date": "2026-01-09",
+          "kind": "上诉期间保留案卷",
+          "text": "PTAB批准在上诉期间保留案卷，并延长申请清除材料的期限",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 23,
+          "number": "473",
+          "original": "ORDER Granting Joint Motions to Preserve the Record Pending Appeal and Extend the Time to File Motion to Expunge 37 C.F.R. ?? 42.5"
+        },
+        {
+          "date": "2026-01-30",
+          "kind": "提起上诉",
+          "text": "申请人提交上诉通知，请上诉法院审查PTAB决定",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 23,
+          "number": "472",
+          "original": "Petitioner???s Notice of Appeal"
+        }
+      ],
+      "ptabNote": "已展开本地案卷中的重要程序。仅有排期不视为已完成；未核实的答辩、听证、修改动议或复审不补写日期。"
     },
     {
       "id": "IPR2025-00147",
@@ -2138,7 +3039,192 @@
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S032, S033, S034, S035"
       },
-      "displayStatus": "专利审查已有最终决定，已上诉；上诉结果待核实"
+      "displayStatus": "专利审查已有最终决定，已上诉；上诉结果待核实",
+      "ptabMilestones": [
+        {
+          "date": "2025-01-23",
+          "kind": "开始日期",
+          "text": "Samsung提交IPR申请，请求审查所列专利权利要求",
+          "dateBasis": "工作簿《案件总表》第17行（S032, S033, S034, S035），记录截至2026-10-25",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556908/download-documents?artifactId=--ERAXYLxcJ-LS3OLEaSeFKXaNYenDmQotz8q307J0nKLxI_SFqdnkY",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2025-02-27",
+          "kind": "申请受理通知",
+          "text": "PTAB确认申请日并通知初步答复期限；这还不是正式立案决定",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 24,
+          "number": "546",
+          "original": "Notice: NOTICE OF FILING DATE ACCORDED TO PETITION AND TIME FOR FILING PATENT OWNER PRELIMINARY RESPONSE"
+        },
+        {
+          "date": "2025-05-27",
+          "kind": "立案前初步答复",
+          "text": "专利权人提交初步答复，说明为什么不应启动正式审理",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 24,
+          "number": "542",
+          "original": "OuraRing Inc. PO Preliminary Response"
+        },
+        {
+          "date": "2025-08-13",
+          "kind": "审理排期",
+          "text": "PTAB发布审理日程，安排书面意见、证据及听证等期限",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 24,
+          "number": "540",
+          "original": "Order: SCHEDULING ORDER"
+        },
+        {
+          "date": "2025-08-13",
+          "kind": "正式立案决定",
+          "text": "决定启动正式审理；这还不是专利有效或无效的最终结论",
+          "dateBasis": "工作簿《案件总表》第17行（S032, S033, S034, S035），记录截至2026-10-25",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556908/download-documents?artifactId=--ERAXYLxcJ-LS3OLEaSeFKXaNYenDmQotz8q307J0nKLxI_SFqdnkY",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2025-11-12",
+          "kind": "证人询问安排",
+          "text": "提交证人或专家询问通知；通知登记日不等于实际询问日",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 24,
+          "number": "537",
+          "original": "Patent Owner???s Notice of Deposition of Dr. Brian W. Anthony"
+        },
+        {
+          "date": "2025-12-09",
+          "kind": "证据保密安排",
+          "text": "PTAB批准证据保密安排，规定保密材料的使用方式",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 24,
+          "number": "534",
+          "original": "ORDER Granting Patent Owner???s Motion for Entry of Stipulated Protective Order 37 C.F.R. ?? 42.5"
+        },
+        {
+          "date": "2025-12-17",
+          "kind": "立案后正式答辩",
+          "text": "专利权人提交正式答辩，回应对专利权利要求的挑战",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 24,
+          "number": "531、532",
+          "original": "Patent Owner's Response (Redacted)"
+        },
+        {
+          "date": "2026-02-09",
+          "kind": "证人询问安排",
+          "text": "提交证人或专家询问通知；通知登记日不等于实际询问日",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 24,
+          "number": "529",
+          "original": "Petitioner's Notice of Deposition"
+        },
+        {
+          "date": "2026-03-11",
+          "kind": "申请人回复",
+          "text": "申请人提交回复，反驳专利权人的正式答辩",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 24,
+          "number": "527、528",
+          "original": "Petitioner???s Reply in Support of Inter Partes Review of U.S. Patent No. 11,188,124 (SEALED)"
+        },
+        {
+          "date": "2026-04-01",
+          "kind": "口头听证申请",
+          "text": "申请人请求举行口头听证，尚不表示已经举行",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 24,
+          "number": "526",
+          "original": "Petitioner's Request for Oral Argument"
+        },
+        {
+          "date": "2026-04-02",
+          "kind": "口头听证安排",
+          "text": "PTAB发布口头听证安排；此日期为安排文件登记日",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 24,
+          "number": "524",
+          "original": "Order: ORDER Setting Oral Argument 37 C.F.R. ?? 42.70"
+        },
+        {
+          "date": "2026-04-22",
+          "kind": "专利权人再次回复",
+          "text": "专利权人再次回复，回应申请人的反驳",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 24,
+          "number": "521、522",
+          "original": "Patent Owner's Sur-Reply (SEALED)"
+        },
+        {
+          "date": "2026-05-13",
+          "kind": "口头听证举行",
+          "text": "双方参加口头听证，向PTAB说明各自观点",
+          "url": "https://app.midpage.ai/document/samsung-electronics-co-ltd-et--6d93f53b-9cba-4b00-89fc-9d9a338b0ce9",
+          "sourceLabel": "来源文件 ↗",
+          "dateBasis": "最终书面决定的程序回顾明确记载的听证举行日，不是笔录上传日"
+        },
+        {
+          "date": "2026-06-02",
+          "kind": "听证笔录登记",
+          "text": "听证笔录登记入卷；此日期不是听证实际举行日",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 24,
+          "number": "509、511",
+          "original": "Other: Hearing transcript"
+        },
+        {
+          "date": "2026-07-10",
+          "kind": "最终书面决定",
+          "text": "PTAB作出最终书面决定：全部被挑战权利要求均未被证明不可专利",
+          "dateBasis": "工作簿《案件总表》第17行（S032, S033, S034, S035），记录截至2026-10-25",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556908/download-documents?artifactId=--ERAXYLxcJ-LS3OLEaSeFKXaNYenDmQotz8q307J0nKLxI_SFqdnkY",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2026-07-22",
+          "kind": "提起上诉",
+          "text": "申请人提交上诉通知，请上诉法院审查PTAB决定",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 24,
+          "number": "507",
+          "original": "Petitioner???s Notice of Appeal"
+        },
+        {
+          "date": "2026-07-27",
+          "kind": "上诉期间保留案卷申请",
+          "text": "双方申请在上诉期间保留案卷并延长期限，尚不表示已批准",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 24,
+          "number": "506",
+          "original": "Joint Motion to Preserve the Record Pending Appeal and Extend the Time to File Motion to Expunge"
+        },
+        {
+          "date": "2026-07-29",
+          "kind": "上诉期间保留案卷",
+          "text": "PTAB批准在上诉期间保留案卷，并延长申请清除材料的期限",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 24,
+          "number": "505",
+          "original": "Order Granting Joint Motion to Preserve the Record Pending Appeal and Extend the Time to File Motion to Expunge"
+        }
+      ],
+      "ptabNote": "已展开本地案卷中的重要程序。仅有排期不视为已完成；未核实的答辩、听证、修改动议或复审不补写日期。"
     },
     {
       "id": "IPR2025-00411",
@@ -2224,7 +3310,76 @@
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S036, S037, S038"
       },
-      "displayStatus": "未进入正式审理，未对专利有效性作出裁决"
+      "displayStatus": "未进入正式审理，未对专利有效性作出裁决",
+      "ptabMilestones": [
+        {
+          "date": "2025-01-06",
+          "kind": "加入或合并审理申请",
+          "text": "申请加入其他程序或合并审理，尚不表示已获准",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 25,
+          "number": "90",
+          "original": "Petitioners' Motion to Join or Consolidate"
+        },
+        {
+          "date": "2025-01-06",
+          "kind": "开始日期",
+          "text": "Ultrahuman提交IPR申请，请求审查所列专利权利要求",
+          "dateBasis": "工作簿《案件总表》第18行（S036, S037, S038），记录截至2026-10-25",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556908/download-documents?artifactId=--ERAXYLxcJ-LS3OLEaSeFKXaNYenDmQotz8q307J0nKLxI_SFqdnkY",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2025-01-29",
+          "kind": "申请受理通知",
+          "text": "PTAB确认申请日并通知初步答复期限；这还不是正式立案决定",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 25,
+          "number": "87",
+          "original": "Notice filing date accorded to petition"
+        },
+        {
+          "date": "2025-03-28",
+          "kind": "立案前意见期限调整",
+          "text": "PTAB延长双方就是否应裁量拒绝立案提交意见的期限",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 25,
+          "number": "86",
+          "original": "Notice: Extending Deadline for Discretion Briefing"
+        },
+        {
+          "date": "2025-04-28",
+          "kind": "请求不予立案",
+          "text": "专利权人请求基于裁量理由拒绝立案",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 25,
+          "number": "85",
+          "original": "Patent Owner's Brief in Support of Request for Discretionary Denial"
+        },
+        {
+          "date": "2025-05-28",
+          "kind": "反对不予立案",
+          "text": "申请人提交反对意见，要求不要基于裁量理由拒绝立案",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 25,
+          "number": "82",
+          "original": "Petitioners' Opposition to Discretionary Denial.pdf"
+        },
+        {
+          "date": "2025-06-25",
+          "kind": "不予立案决定",
+          "text": "基于裁量理由不予立案；未判定被挑战权利要求是否应被撤销",
+          "dateBasis": "工作簿《案件总表》第18行（S036, S037, S038），记录截至2026-10-25",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556908/download-documents?artifactId=--ERAXYLxcJ-LS3OLEaSeFKXaNYenDmQotz8q307J0nKLxI_SFqdnkY",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        }
+      ],
+      "ptabNote": "已展开本地案卷中的重要程序。仅有排期不视为已完成；未核实的答辩、听证、修改动议或复审不补写日期。"
     },
     {
       "id": "IPR2025-00412",
@@ -2310,7 +3465,66 @@
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S039, S040, S041"
       },
-      "displayStatus": "未进入正式审理，未对专利有效性作出裁决"
+      "displayStatus": "未进入正式审理，未对专利有效性作出裁决",
+      "ptabMilestones": [
+        {
+          "date": "2025-01-06",
+          "kind": "加入或合并审理申请",
+          "text": "申请加入其他程序或合并审理，尚不表示已获准",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 26,
+          "number": "84",
+          "original": "Motion: Joinder or Consolidation"
+        },
+        {
+          "date": "2025-01-06",
+          "kind": "开始日期",
+          "text": "RingConn提交IPR申请，请求审查所列专利权利要求",
+          "dateBasis": "工作簿《案件总表》第19行（S039, S040, S041），记录截至2026-10-25",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556908/download-documents?artifactId=--ERAXYLxcJ-LS3OLEaSeFKXaNYenDmQotz8q307J0nKLxI_SFqdnkY",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2025-01-29",
+          "kind": "申请受理通知",
+          "text": "PTAB确认申请日并通知初步答复期限；这还不是正式立案决定",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 26,
+          "number": "80",
+          "original": "Notice filing date accorded to petition"
+        },
+        {
+          "date": "2025-03-28",
+          "kind": "立案前意见期限调整",
+          "text": "PTAB延长双方就是否应裁量拒绝立案提交意见的期限",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 26,
+          "number": "79",
+          "original": "Notice: Extending Deadline for Discretion Briefing"
+        },
+        {
+          "date": "2025-04-28",
+          "kind": "请求不予立案",
+          "text": "专利权人请求基于裁量理由拒绝立案",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 26,
+          "number": "78",
+          "original": "Patent Owner's Brief in Support of Request for Discretionary Denial"
+        },
+        {
+          "date": "2025-06-25",
+          "kind": "不予立案决定",
+          "text": "基于裁量理由不予立案；未判定被挑战权利要求是否应被撤销",
+          "dateBasis": "工作簿《案件总表》第19行（S039, S040, S041），记录截至2026-10-25",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556908/download-documents?artifactId=--ERAXYLxcJ-LS3OLEaSeFKXaNYenDmQotz8q307J0nKLxI_SFqdnkY",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        }
+      ],
+      "ptabNote": "已展开本地案卷中的重要程序。仅有排期不视为已完成；未核实的答辩、听证、修改动议或复审不补写日期。"
     },
     {
       "id": "PGR2025-00018",
@@ -2396,7 +3610,66 @@
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S042, S043, S044"
       },
-      "displayStatus": "未进入正式审理，未对专利有效性作出裁决"
+      "displayStatus": "未进入正式审理，未对专利有效性作出裁决",
+      "ptabMilestones": [
+        {
+          "date": "2025-01-03",
+          "kind": "加入或合并审理申请",
+          "text": "申请加入其他程序或合并审理，尚不表示已获准",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 27,
+          "number": "86",
+          "original": "Motion: Joinder"
+        },
+        {
+          "date": "2025-01-03",
+          "kind": "开始日期",
+          "text": "RingConn提交PGR申请，请求审查所列专利权利要求",
+          "dateBasis": "工作簿《案件总表》第20行（S042, S043, S044），记录截至2026-10-25",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556908/download-documents?artifactId=--ERAXYLxcJ-LS3OLEaSeFKXaNYenDmQotz8q307J0nKLxI_SFqdnkY",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2025-01-29",
+          "kind": "申请受理通知",
+          "text": "PTAB确认申请日并通知初步答复期限；这还不是正式立案决定",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 27,
+          "number": "81",
+          "original": "Notice filing date accorded to petition"
+        },
+        {
+          "date": "2025-03-28",
+          "kind": "立案前意见期限调整",
+          "text": "PTAB延长双方就是否应裁量拒绝立案提交意见的期限",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 27,
+          "number": "80",
+          "original": "Notice Extending Deadline for Discretion Briefing"
+        },
+        {
+          "date": "2025-04-28",
+          "kind": "请求不予立案",
+          "text": "专利权人请求基于裁量理由拒绝立案",
+          "dateBasis": "本地案卷登记日；不自动等同听证、询问实际日期或材料截止日期",
+          "sourceLabel": "来源文件 / 案卷索引 ↗",
+          "source": 27,
+          "number": "79",
+          "original": "Patent Owner's Brief in Support of Request for Discretional Denial"
+        },
+        {
+          "date": "2025-06-25",
+          "kind": "不予立案决定",
+          "text": "基于裁量理由不予立案；未判定被挑战权利要求是否应被撤销",
+          "dateBasis": "工作簿《案件总表》第20行（S042, S043, S044），记录截至2026-10-25",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1556908/download-documents?artifactId=--ERAXYLxcJ-LS3OLEaSeFKXaNYenDmQotz8q307J0nKLxI_SFqdnkY",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        }
+      ],
+      "ptabNote": "已展开本地案卷中的重要程序。仅有排期不视为已完成；未核实的答辩、听证、修改动议或复审不补写日期。"
     },
     {
       "id": "IPR2025-01249",
@@ -2478,7 +3751,34 @@
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S045, S046, S047, S048"
       },
-      "displayStatus": "未进入正式审理，未对专利有效性作出裁决"
+      "displayStatus": "未进入正式审理，未对专利有效性作出裁决",
+      "ptabMilestones": [
+        {
+          "date": "2025-08-05",
+          "kind": "开始日期",
+          "text": "Samsung、Fossil、Oura、OnePlus提交IPR申请，请求审查所列专利权利要求",
+          "dateBasis": "工作簿《案件总表》第21行（S045, S046, S047, S048），记录截至2026-10-25",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1558163/download-documents?artifactId=iQG7Zxa1VzBYx5M8uNbHS_D8Jll5ltQzhm35KX4g5NBWbaio6uKhPEQ",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2025-11-07",
+          "kind": "反对不予立案",
+          "text": "共同申请人提交反对裁量拒绝立案的意见；随后因版式问题被要求提交修正版",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1558163/download-documents?artifactId=A9-c73dsApEkb-memdsE5gQSvpm20Ppq32f5u6wYCOt5Uh80AOIb2Yw",
+          "dateBasis": "USPTO公开邮件回顾Paper 13于11月7日提交，11月14日允许修正格式；未将修正许可写为已完成提交",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2025-12-01",
+          "kind": "不予立案决定",
+          "text": "基于裁量理由不予立案；未判定被挑战权利要求是否应被撤销",
+          "dateBasis": "工作簿《案件总表》第21行（S045, S046, S047, S048），记录截至2026-10-25",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1558163/download-documents?artifactId=iQG7Zxa1VzBYx5M8uNbHS_D8Jll5ltQzhm35KX4g5NBWbaio6uKhPEQ",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        }
+      ],
+      "ptabNote": "本案尚未取得完整案卷，先列出有日期依据的节点。仅有排期不视为已完成；未核实的答辩、听证、修改动议或复审不补写日期。"
     },
     {
       "id": "IPR2025-01250",
@@ -2560,7 +3860,42 @@
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S049, S050, S051, S052"
       },
-      "displayStatus": "已进入正式审理，最终决定待核实"
+      "displayStatus": "已进入正式审理，最终决定待核实",
+      "ptabMilestones": [
+        {
+          "date": "2025-08-05",
+          "kind": "开始日期",
+          "text": "Samsung、Fossil、Oura、OnePlus提交IPR申请，请求审查所列专利权利要求",
+          "dateBasis": "工作簿《案件总表》第22行（S049, S050, S051, S052），记录截至2026-10-25",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1558164/download-documents?artifactId=SNUb0isDNa33Zy997a9SD791-08ysYtSRiBA1S9csCKjaOr9UMW9Hu4",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2025-11-07",
+          "kind": "立案前初步答复",
+          "text": "Omni MedSci向对方送达初步答复，反对启动正式审理",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1558164/download-documents?artifactId=Avi52Oworb-LebmtPzb3v_Xsnh7s5E1a0hEtYEN6GdrKxPjKeGuWdoc",
+          "sourceLabel": "来源文件 ↗",
+          "dateBasis": "初步答复第41、43页：签署及送达日，不等同案卷登记时间"
+        },
+        {
+          "date": "2025-11-07",
+          "kind": "反对不予立案",
+          "text": "共同申请人提交反对裁量拒绝立案的意见；随后因版式问题被要求提交修正版",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1558163/download-documents?artifactId=A9-c73dsApEkb-memdsE5gQSvpm20Ppq32f5u6wYCOt5Uh80AOIb2Yw",
+          "dateBasis": "USPTO公开邮件回顾Paper 13于11月7日提交，11月14日允许修正格式；未将修正许可写为已完成提交",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2026-02-03",
+          "kind": "正式立案决定",
+          "text": "决定启动正式审理；这还不是专利有效或无效的最终结论",
+          "dateBasis": "工作簿《案件总表》第22行（S049, S050, S051, S052），记录截至2026-10-25",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1558164/download-documents?artifactId=SNUb0isDNa33Zy997a9SD791-08ysYtSRiBA1S9csCKjaOr9UMW9Hu4",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        }
+      ],
+      "ptabNote": "本案尚未取得完整案卷，先列出有日期依据的节点。仅有排期不视为已完成；未核实的答辩、听证、修改动议或复审不补写日期。"
     },
     {
       "id": "IPR2025-01251",
@@ -2642,7 +3977,26 @@
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S053, S054, S055, S056"
       },
-      "displayStatus": "已进入正式审理，最终决定待核实"
+      "displayStatus": "已进入正式审理，最终决定待核实",
+      "ptabMilestones": [
+        {
+          "date": "2025-08-05",
+          "kind": "开始日期",
+          "text": "Samsung、Fossil、Oura、OnePlus提交IPR申请，请求审查所列专利权利要求",
+          "dateBasis": "工作簿《案件总表》第23行（S053, S054, S055, S056），记录截至2026-10-25",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1558165/download-documents?artifactId=r0frhh2-CkcGQ2GD_fiSFPUonMH3HA1f59w6Pis_7SCWVgf-MncQZGA",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2026-02-03",
+          "kind": "正式立案决定",
+          "text": "决定启动正式审理；这还不是专利有效或无效的最终结论",
+          "dateBasis": "工作簿《案件总表》第23行（S053, S054, S055, S056），记录截至2026-10-25",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1558165/download-documents?artifactId=r0frhh2-CkcGQ2GD_fiSFPUonMH3HA1f59w6Pis_7SCWVgf-MncQZGA",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        }
+      ],
+      "ptabNote": "本案尚未取得完整案卷，先列出有日期依据的节点。仅有排期不视为已完成；未核实的答辩、听证、修改动议或复审不补写日期。"
     },
     {
       "id": "IPR2025-01252",
@@ -2724,7 +4078,34 @@
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S057, S058, S059, S060"
       },
-      "displayStatus": "已进入正式审理，最终决定待核实"
+      "displayStatus": "已进入正式审理，最终决定待核实",
+      "ptabMilestones": [
+        {
+          "date": "2025-08-05",
+          "kind": "开始日期",
+          "text": "Samsung、Fossil、Oura、OnePlus提交IPR申请，请求审查所列专利权利要求",
+          "dateBasis": "工作簿《案件总表》第24行（S057, S058, S059, S060），记录截至2026-10-25",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1558166/download-documents?artifactId=tJ9_458EYJRrTRaDX0qeD_ZUVSBrD2VfUKCM3qx9bvKWaP9CbDQxtZk",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2025-11-12",
+          "kind": "立案前初步答复",
+          "text": "Omni MedSci向对方送达初步答复，反对启动正式审理",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1558166/download-documents?artifactId=ekIgqAsGMc0VPX4GaN-1fsiTrl1TipdtiRG3_1UPhvIrKgJw9tMLSpA",
+          "sourceLabel": "来源文件 ↗",
+          "dateBasis": "初步答复第66页送达证明所列日期"
+        },
+        {
+          "date": "2026-02-03",
+          "kind": "正式立案决定",
+          "text": "决定启动正式审理；这还不是专利有效或无效的最终结论",
+          "dateBasis": "工作簿《案件总表》第24行（S057, S058, S059, S060），记录截至2026-10-25",
+          "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1558166/download-documents?artifactId=tJ9_458EYJRrTRaDX0qeD_ZUVSBrD2VfUKCM3qx9bvKWaP9CbDQxtZk",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        }
+      ],
+      "ptabNote": "本案尚未取得完整案卷，先列出有日期依据的节点。仅有排期不视为已完成；未核实的答辩、听证、修改动议或复审不补写日期。"
     },
     {
       "id": "IPR2025-01254",
@@ -2802,7 +4183,26 @@
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S065, S066, S067"
       },
-      "displayStatus": "已进入正式审理，最终决定待核实"
+      "displayStatus": "已进入正式审理，最终决定待核实",
+      "ptabMilestones": [
+        {
+          "date": "2025-08-05",
+          "kind": "开始日期",
+          "text": "Samsung、Fossil、Oura、OnePlus提交IPR申请，请求审查所列专利权利要求",
+          "dateBasis": "工作簿《案件总表》第26行（S065, S066, S067），记录截至2026-10-25",
+          "url": "https://cases.justia.com/federal/district-courts/delaware/dedce/1:2025cv00140/88127/101/0.pdf",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2026-02-03",
+          "kind": "正式立案决定",
+          "text": "决定启动正式审理；这还不是专利有效或无效的最终结论",
+          "dateBasis": "工作簿《案件总表》第26行（S065, S066, S067），记录截至2026-10-25",
+          "url": "https://cases.justia.com/federal/district-courts/delaware/dedce/1:2025cv00140/88127/101/0.pdf",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        }
+      ],
+      "ptabNote": "本案尚未取得完整案卷，先列出有日期依据的节点。仅有排期不视为已完成；未核实的答辩、听证、修改动议或复审不补写日期。"
     },
     {
       "id": "PGR2025-00063",
@@ -2880,7 +4280,26 @@
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S068, S069, S070"
       },
-      "displayStatus": "未进入正式审理，未对专利有效性作出裁决"
+      "displayStatus": "未进入正式审理，未对专利有效性作出裁决",
+      "ptabMilestones": [
+        {
+          "date": "2025-08-05",
+          "kind": "开始日期",
+          "text": "Samsung、Fossil、Oura、OnePlus提交PGR申请，请求审查所列专利权利要求",
+          "dateBasis": "工作簿《案件总表》第27行（S068, S069, S070），记录截至2026-10-25",
+          "url": "https://cases.justia.com/federal/district-courts/delaware/dedce/1:2025cv00140/88127/101/0.pdf",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2025-12-01",
+          "kind": "不予立案决定",
+          "text": "基于裁量理由不予立案；未判定被挑战权利要求是否应被撤销",
+          "dateBasis": "工作簿《案件总表》第27行（S068, S069, S070），记录截至2026-10-25",
+          "url": "https://cases.justia.com/federal/district-courts/delaware/dedce/1:2025cv00140/88127/101/0.pdf",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        }
+      ],
+      "ptabNote": "本案尚未取得完整案卷，先列出有日期依据的节点。仅有排期不视为已完成；未核实的答辩、听证、修改动议或复审不补写日期。"
     },
     {
       "id": "IPR2025-01253",
@@ -2958,7 +4377,42 @@
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S061, S062, S063, S064"
       },
-      "displayStatus": "原先同意审理的决定被撤销，不再进入正式审理"
+      "displayStatus": "原先同意审理的决定被撤销，不再进入正式审理",
+      "ptabMilestones": [
+        {
+          "date": "2025-08-05",
+          "kind": "开始日期",
+          "text": "Samsung、Fossil、Oura、OnePlus提交IPR申请，请求审查所列专利权利要求",
+          "dateBasis": "工作簿《案件总表》第25行（S061, S062, S063, S064），记录截至2026-10-25",
+          "url": "https://cases.justia.com/federal/district-courts/delaware/dedce/1:2025cv00140/88127/101/0.pdf",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2026-02-03",
+          "kind": "正式立案决定",
+          "text": "决定启动正式审理；这还不是专利有效或无效的最终结论",
+          "dateBasis": "工作簿《案件总表》第25行（S061, S062, S063, S064），记录截至2026-10-25",
+          "url": "https://cases.justia.com/federal/district-courts/delaware/dedce/1:2025cv00140/88127/101/0.pdf",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2026-05-06",
+          "kind": "局长复审启动",
+          "text": "局长主动启动复审，重新检查本专利是否适用IPR程序",
+          "url": "https://www.uspto.gov/sites/default/files/documents/IPR2025-01253_Samsung_v_Omni_MedSci_DR_Decision.pdf",
+          "sourceLabel": "来源文件 ↗",
+          "dateBasis": "2026-05-14局长决定第2页回顾；5月6日是启动复审，5月14日才是撤销立案"
+        },
+        {
+          "date": "2026-05-14",
+          "kind": "撤销立案决定",
+          "text": "局长撤销此前的IPR立案并拒绝申请，理由涉及应适用的审查程序；未作专利有效性实体判断",
+          "dateBasis": "工作簿《案件总表》第25行（S061, S062, S063, S064），记录截至2026-10-25",
+          "url": "https://cases.justia.com/federal/district-courts/delaware/dedce/1:2025cv00140/88127/101/0.pdf",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        }
+      ],
+      "ptabNote": "本案尚未取得完整案卷，先列出有日期依据的节点。仅有排期不视为已完成；未核实的答辩、听证、修改动议或复审不补写日期。"
     },
     {
       "id": "PGR2025-00064",
@@ -3035,7 +4489,26 @@
         "verification": "已确认案号；字段按所列来源核验",
         "sourceIds": "S071, S072, S073"
       },
-      "displayStatus": "未进入正式审理，未对专利有效性作出裁决"
+      "displayStatus": "未进入正式审理，未对专利有效性作出裁决",
+      "ptabMilestones": [
+        {
+          "date": "2025-08-05",
+          "kind": "开始日期",
+          "text": "Samsung、Fossil、Oura、OnePlus提交PGR申请，请求审查所列专利权利要求",
+          "dateBasis": "工作簿《案件总表》第28行（S071, S072, S073），记录截至2026-10-25",
+          "url": "https://cases.justia.com/federal/district-courts/delaware/dedce/1:2025cv00140/88127/101/0.pdf",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        },
+        {
+          "date": "2025-12-01",
+          "kind": "不予立案决定",
+          "text": "基于裁量理由不予立案；未判定被挑战权利要求是否应被撤销",
+          "dateBasis": "工作簿《案件总表》第28行（S071, S072, S073），记录截至2026-10-25",
+          "url": "https://cases.justia.com/federal/district-courts/delaware/dedce/1:2025cv00140/88127/101/0.pdf",
+          "sourceLabel": "来源文件 / 案卷索引 ↗"
+        }
+      ],
+      "ptabNote": "本案尚未取得完整案卷，先列出有日期依据的节点。仅有排期不视为已完成；未核实的答辩、听证、修改动议或复审不补写日期。"
     },
     {
       "id": "25-1871",
