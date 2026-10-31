@@ -3080,7 +3080,61 @@
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
       ],
-      "displayStatus": "上诉方主动撤回上诉"
+      "displayStatus": "上诉方主动撤回上诉",
+      "appealMilestones": [
+        {
+          "date": "2025-06-17",
+          "kind": "提出上诉",
+          "text": "Samsung向原审法院提交上诉通知",
+          "source": 28,
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/25-1871",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "本地案卷第4页：Date NOA Filed（向原审法院提交上诉通知日期）"
+        },
+        {
+          "date": "2025-06-18",
+          "kind": "开始日期",
+          "text": "联邦巡回上诉法院登记立案，要求8月18日前提交上诉理由书",
+          "number": "1",
+          "source": 28,
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/25-1871",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2025-07-02",
+          "kind": "上诉事项说明",
+          "text": "双方提交案件说明，交代本次上诉的基本情况",
+          "number": "5、8",
+          "source": 28,
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/25-1871",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2025-08-15",
+          "kind": "撤回上诉申请",
+          "text": "Samsung主动申请撤回上诉，等待法院批准",
+          "number": "9",
+          "source": 28,
+          "original": "MOTION of Appellants Samsung Electronics Corporation, Ltd. and Samsung Electronics America, Inc. to voluntarily dismiss appeal pursuant to FRAP 42(b). Service: 08/15/2025 by email. [1108511] [25-1871] [Ryan Yagura]",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/25-1871",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2025-08-15",
+          "kind": "上诉结束",
+          "text": "法院批准撤回，并发出结束本次上诉的正式通知；没有判定实体胜败",
+          "number": "10",
+          "source": 28,
+          "original": "ORDER granting motion to dismiss appeal pursuant to FRAP 42(b) [9] filed by Appellants Samsung Electronics America, Inc. and Samsung Electronics Corporation, Ltd.; issuing mandate. Service as of this date by the Clerk of Court. [1108581] [IMH]",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/25-1871",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        }
+      ],
+      "appealNote": "本次上诉已撤回，未作实体胜败裁决。"
     },
     {
       "id": "26-1258",
@@ -3114,7 +3168,73 @@
         "26-1413"
       ],
       "events": [],
-      "displayStatus": "正在审阅双方书面材料，后续进展待核实"
+      "displayStatus": "正在审阅双方书面材料，后续进展待核实",
+      "appealMilestones": [
+        {
+          "date": "2025-12-17",
+          "kind": "开始日期",
+          "text": "上诉法院登记立案（材料于12月11日收到）",
+          "number": "1",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1258",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2025-12-31",
+          "kind": "上诉事项说明",
+          "text": "Samsung提交案件说明，交代本次上诉的基本情况",
+          "number": "8",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1258",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2026-01-27",
+          "kind": "原审材料移交",
+          "text": "法院收到经认证的原审材料清单，供上诉审理使用；送达日为1月26日",
+          "number": "9",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1258",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2026-02-27",
+          "kind": "合并审理",
+          "text": "26-1413并入本案，后续文件统一提交到26-1258",
+          "number": "10、11",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1258",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2026-02-27",
+          "kind": "关联案件分配",
+          "text": "本组上诉与26-1410、26-1411交给同一组法官审理",
+          "number": "12",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1258",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2026-03-11",
+          "kind": "关联案件分配",
+          "text": "再将26-1083交给同一组法官审理，各案书面材料期限不变",
+          "number": "13",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1258",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2026-05-18",
+          "kind": "上诉理由书",
+          "text": "Samsung提交上诉理由书，说明要求改变原决定的理由",
+          "number": "14",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1258",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        }
+      ],
+      "appealNote": "现有材料尚未核实口头辩论、上诉实体裁决、再审申请或结束上诉的正式通知；不表示这些程序一定没有发生。"
     },
     {
       "id": "26-1410",
@@ -3148,7 +3268,109 @@
         "26-1083"
       ],
       "events": [],
-      "displayStatus": "相关上诉合在一起审理，后续进展待核实"
+      "displayStatus": "相关上诉合在一起审理，后续进展待核实",
+      "appealMilestones": [
+        {
+          "date": "2026-02-05",
+          "kind": "开始日期",
+          "text": "上诉法院登记立案（材料于1月30日收到）",
+          "number": "1",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1410",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2026-02-19",
+          "kind": "上诉事项说明",
+          "text": "Samsung提交案件说明，交代本次上诉的基本情况",
+          "number": "5",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1410",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2026-02-26",
+          "kind": "合并审理",
+          "text": "26-1411并入本案，后续文件统一提交到26-1410",
+          "number": "10、11",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1410",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2026-02-27",
+          "kind": "关联案件分配",
+          "text": "本组上诉与26-1258、26-1413交给同一组法官审理",
+          "number": "12",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1410",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2026-03-11",
+          "kind": "关联案件分配",
+          "text": "再将26-1083交给同一组法官审理，各案提交期限不变",
+          "number": "13",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1410",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2026-03-18",
+          "kind": "原审材料移交",
+          "text": "法院收到经认证的原审材料清单；送达日为3月17日",
+          "number": "14",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1410",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2026-05-11",
+          "kind": "提交期限调整",
+          "text": "法院批准延期：Samsung上诉理由书改为6月1日前提交",
+          "number": "16",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1410",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2026-06-01",
+          "kind": "上诉理由书",
+          "text": "Samsung提交上诉理由书，说明要求改变原决定的理由",
+          "number": "17",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1410",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2026-06-17",
+          "kind": "提交期限调整",
+          "text": "法院批准延期：Oura答辩书改为8月27日前提交；此处仅记录期限",
+          "number": "19",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1410",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2026-06-30",
+          "kind": "第三方介入申请",
+          "text": "美国专利商标局局长申请加入上诉程序",
+          "number": "21",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1410",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2026-07-16",
+          "kind": "第三方获准介入",
+          "text": "法院批准专利商标局局长参加本案，要求8月27日前提交意见；是否已提交待核实",
+          "number": "22",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1410",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        }
+      ],
+      "appealNote": "现有材料尚未核实口头辩论、上诉实体裁决、再审申请或结束上诉的正式通知；不表示这些程序一定没有发生。"
     },
     {
       "id": "26-1411",
@@ -3181,7 +3403,59 @@
         "26-1410"
       ],
       "events": [],
-      "displayStatus": "与上诉案26-1410合并审理"
+      "displayStatus": "与上诉案26-1410合并审理",
+      "appealMilestones": [
+        {
+          "date": "2026-02-05",
+          "kind": "开始日期",
+          "text": "上诉法院登记立案",
+          "number": "1",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1411",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2026-02-19",
+          "kind": "上诉事项说明",
+          "text": "Samsung提交案件说明，交代本次上诉的基本情况",
+          "number": "8",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1411",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2026-02-26",
+          "kind": "合并审理",
+          "text": "本案并入26-1410，后续文件统一提交到主案",
+          "number": "9、10",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1411",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2026-02-27",
+          "kind": "关联案件分配",
+          "text": "合并后的本组上诉与26-1258、26-1413交给同一组法官审理",
+          "number": "11",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1411",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2026-03-18",
+          "kind": "原审材料移交",
+          "text": "法院收到经认证的原审材料清单；送达日为3月17日",
+          "number": "12",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1411",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        }
+      ],
+      "appealNote": "现有材料尚未核实口头辩论、上诉实体裁决、再审申请或结束上诉的正式通知；不表示这些程序一定没有发生。",
+      "appealLead": {
+        "id": "26-1410",
+        "since": "2026-02-26"
+      }
     },
     {
       "id": "26-1413",
@@ -3215,7 +3489,59 @@
         "PGR2024-00039"
       ],
       "events": [],
-      "displayStatus": "与上诉案26-1258合并审理"
+      "displayStatus": "与上诉案26-1258合并审理",
+      "appealMilestones": [
+        {
+          "date": "2026-02-05",
+          "kind": "开始日期",
+          "text": "上诉法院登记立案",
+          "number": "1",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1413",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2026-02-19",
+          "kind": "上诉事项说明",
+          "text": "Samsung提交案件说明，交代本次上诉的基本情况",
+          "number": "8",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1413",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2026-02-27",
+          "kind": "合并审理",
+          "text": "本案并入26-1258，后续文件统一提交到主案",
+          "number": "9、10",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1413",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2026-02-27",
+          "kind": "关联案件分配",
+          "text": "合并后的本组上诉与26-1410、26-1411交给同一组法官审理",
+          "number": "11",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1413",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2026-03-17",
+          "kind": "原审材料移交",
+          "text": "法院收到经认证的原审材料清单，供上诉审理使用",
+          "number": "12",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1413",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        }
+      ],
+      "appealNote": "现有材料尚未核实口头辩论、上诉实体裁决、再审申请或结束上诉的正式通知；不表示这些程序一定没有发生。",
+      "appealLead": {
+        "id": "26-1258",
+        "since": "2026-02-27"
+      }
     },
     {
       "id": "26-1083",
@@ -3233,9 +3559,9 @@
         "11868178"
       ],
       "filed": "2025-10-22",
-      "status": "上诉 / 暂缓申请被拒",
-      "asOf": "2026-03-31",
-      "conclusion": "挑战1398终裁；Oura是介入人。与26-1258、26-1410交由同一合议庭处理。",
+      "status": "书面意见已提交 / 口头辩论排期准备",
+      "asOf": "2026-10-22",
+      "conclusion": "暂停执行申请于2025年12月12日被拒；2026年10月22日法院要求申报排期冲突。尚未核实上诉实体裁决。",
       "sources": [
         {
           "label": "Justia 案卷索引（非实时）",
@@ -3270,7 +3596,239 @@
           "note": "用户提供的CourtLink案卷导出；未上传原始文件。"
         }
       ],
-      "displayStatus": "已提出上诉，暂停执行原决定的请求被拒绝"
+      "displayStatus": "双方书面意见已提交，正在准备口头辩论排期",
+      "appealMilestones": [
+        {
+          "date": "2025-10-22",
+          "kind": "开始日期",
+          "text": "Ultrahuman就337-TA-1398终裁提出上诉，上诉法院登记立案",
+          "source": 29,
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1083",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2025-10-22",
+          "kind": "暂停执行申请",
+          "text": "Ultrahuman请求在上诉期间紧急暂停执行原决定",
+          "number": "3",
+          "source": 29,
+          "original": "MOTION of Appellants Ultrahuman Healthcare Ltd., Ultrahuman Healthcare Pvt. Ltd. and Ultrahuman Healthcare SP LLC for an emergency stay pending appeal under Rule 8/18. Service: 10/22/2025 by email. [1122878] [26-1083] [Neal Katyal]",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1083",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2025-10-23",
+          "kind": "动议答复安排",
+          "text": "法院要求ITC在20天内答复暂停执行申请，并安排介入及回复程序",
+          "number": "4",
+          "source": 29,
+          "original": "ORDER The International Trade Commission is directed to respond to the motion [3] no later than twenty days from the date of entry of this order. To the extent a party seeks to intervene in this appeal and respond to the motion, it shall file a motion to intervene and its response within that time. Any reply in support of the motion is due no later than three days thereafter. (Per Curiam). Service as of this date by …",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1083",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2025-10-24",
+          "kind": "第三方介入申请",
+          "text": "Oura申请参加上诉程序，维护自身利益",
+          "number": "9",
+          "source": 29,
+          "original": "MOTION of Ouraring, Inc. and Oura Health Oy for leave to intervene. Service:",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1083",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2025-10-27",
+          "kind": "第三方获准介入",
+          "text": "法院同意Oura参加上诉，要求其11月12日前答复暂停执行申请",
+          "number": "10",
+          "source": 29,
+          "original": "ORDER granting motion for leave to intervene [9]. The official caption is revised as reflected in the order. Intervenors' response to the appellants' motion to stay [3] is due November 12, 2025. Service as of this date by the Clerk of Court. [1123615] [NL]",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1083",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2025-11-12",
+          "kind": "暂停执行申请答复",
+          "text": "ITC提交对暂停执行申请的答复",
+          "number": "12",
+          "source": 29,
+          "original": "RESPONSE of Appellee ITC to Doc No. [3]. Service: 11/12/2025 by email. [1127407] [26- 1083] [Joelle Justus]",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1083",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2025-11-12",
+          "kind": "暂停执行申请答复",
+          "text": "Oura提交对暂停执行申请的答复",
+          "number": "13",
+          "source": 29,
+          "original": "RESPONSE of Intervenors Oura Health Oy and Ouraring Inc. to Doc No. [3]. Service:",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1083",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2025-11-17",
+          "kind": "暂停执行申请回复",
+          "text": "Ultrahuman回复ITC和Oura的意见",
+          "number": "17",
+          "source": 29,
+          "original": "REPLY of Appellants Ultrahuman Healthcare Ltd., Ultrahuman Healthcare Pvt. Ltd. and Ultrahuman Healthcare SP LLC to response [13], response [12]. Service: 11/17/2025 by email. [1128637] [26-1083] [Neal Katyal]",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1083",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2025-12-02",
+          "kind": "原审材料移交",
+          "text": "法院收到经认证的ITC材料清单；送达日为12月1日",
+          "number": "21",
+          "source": 29,
+          "original": "Certified list received. Service: 12/01/2025 by email. Refer to Fed. Cir. R. 31 for calculating brief deadlines from service of the certified list. [1131835] [GWK]",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1083",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2025-12-10",
+          "kind": "动议口头辩论申请",
+          "text": "Ultrahuman请求就动议安排口头辩论，尚不代表已开庭",
+          "number": "22",
+          "source": 29,
+          "original": "MOTION of Appellants Ultrahuman Healthcare Ltd., Ultrahuman Healthcare Pvt. Ltd. and Ultrahuman Healthcare SP LLC to schedule oral argument. Service: 12/10/2025 by email, US mail. [1134028] [26-1083] [Neal Katyal]",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1083",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2025-12-12",
+          "kind": "暂停执行决定",
+          "text": "法院拒绝暂停执行，并拒绝本次动议的口头辩论请求；这不是上诉实体裁决",
+          "number": "26",
+          "source": 29,
+          "original": "ORDER filed denying [3] motion for stay pending appeal under Rule 8/18 filed by Ultrahuman Healthcare Pvt. Ltd., Ultrahuman Healthcare SP LLC and Ultrahuman Healthcare Ltd.; denying [22] motion to schedule oral argument filed by Ultrahuman Healthcare Pvt. Ltd., Ultrahuman Healthcare SP LLC and Ultrahuman Healthcare Ltd. (Per Curiam). Service as of this date by the Clerk of Court. [1134421] [NL]",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1083",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2026-01-30",
+          "kind": "上诉理由书",
+          "text": "Ultrahuman首次提交上诉理由书，随后因格式问题需要修正",
+          "number": "29",
+          "source": 29,
+          "original": "OPENING BRIEF FILED by Appellants Ultrahuman Healthcare Ltd., Ultrahuman Healthcare Pvt. Ltd. and Ultrahuman Healthcare SP LLC. Service: 01/30/2026 by email. [1144225] [26-1083] This document is non-compliant. See Doc No. [30] [Neal Katyal]",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1083",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2026-02-26",
+          "kind": "提交期限调整",
+          "text": "法院批准延期：ITC答辩书和Oura介入意见改为5月1日前提交",
+          "number": "46",
+          "source": 29,
+          "original": "**TEXT ONLY** ORDER granting motion to extend time to file brief [45] filed by Appellee ITC. The response brief is due 05/01/2026. The intervenor brief is due 05/01/2026. Service as of this date by the Clerk of Court. This order has been issued without an attached document and is official and binding. [1149714] [GWK]",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1083",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2026-03-11",
+          "kind": "关联案件分配",
+          "text": "本案与26-1258、26-1410交给同一组法官审理，并未合并成一个案号",
+          "number": "49",
+          "source": 29,
+          "original": "ORDER filed treating as companion cases. The captioned appeals shall be treated as companion cases and assigned to the same merits panel. The respective due dates for briefing are unchanged. The Clerk of Court shall transmit a copy of this order to the merits panel assigned to these cases. Service as of this date by the Clerk of Court. [1152603] [26-1083, 26-1258, 26-1410] [NL]",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1083",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2026-03-31",
+          "kind": "上诉理由书修正",
+          "text": "Ultrahuman提交修正后的上诉理由书；此前2月曾多次修正格式",
+          "number": "51",
+          "source": 29,
+          "original": "MODIFIED ENTRY: CORRECTED OPENING BRIEF FILED by Appellants Ultrahuman Healthcare Ltd., Ultrahuman Healthcare Pvt. Ltd. and Ultrahuman Healthcare SP LLC. Service: 03/31/2026 by US mail, email. [1156753]--[Edited",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1083",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2026-05-01",
+          "kind": "被上诉方答辩",
+          "text": "ITC提交答辩书，回应Ultrahuman的上诉理由",
+          "number": "54",
+          "source": 29,
+          "original": "MODIFIED ENTRY: RESPONSE BRIEF FILED by Appellee ITC. Service: 05/01/2026 by email. Unless ordered otherwise, any responsive deadline runs from the date of service of this brief. See Fed. Cir. R. 31. [1164109] --[Edited 05/07/2026 by GWK - Reason: compliance review complete] [Joelle Justus]",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1083",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2026-05-01",
+          "kind": "介入方意见",
+          "text": "Oura提交介入方意见书",
+          "number": "53",
+          "source": 29,
+          "original": "MODIFIED ENTRY: INTERVENOR BRIEF FILED by Intervenors Oura Health Oy and Ouraring Inc.. Service: 05/01/2026 by US mail, email. [1164077] --[Edited 05/07/2026 by GWK - Reason: compliance review complete] [Nicole Saharsky]",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1083",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2026-05-21",
+          "kind": "上诉方再次回复",
+          "text": "Ultrahuman提交回复书，回应对方的书面意见",
+          "number": "55",
+          "source": 29,
+          "original": "MODIFIED ENTRY: REPLY BRIEF FILED by Appellants Ultrahuman Healthcare Ltd., Ultrahuman Healthcare Pvt. Ltd. and Ultrahuman Healthcare SP LLC. Service:",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1083",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2026-06-16",
+          "kind": "案卷附件补正",
+          "text": "法院指出保密附件不符合要求，要求6月24日前补正；是否完成待核实",
+          "number": "61",
+          "source": 29,
+          "original": "NOTICE OF NON-COMPLIANCE: The submission of Appellants Ultrahuman Healthcare Ltd., Ultrahuman Healthcare Pvt. Ltd. and Ultrahuman Healthcare SP LLC, Confidential Appendix [60], is not in compliance with the rules of this court (see attached). Compliant document due on 06/24/2026. Service as of this date by the Clerk of Court. [1174093] [GWK]",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1083",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2026-10-22",
+          "kind": "纸质材料补交",
+          "text": "法院要求5个工作日内补交尚缺的纸质意见书及附件",
+          "number": "63",
+          "source": 29,
+          "original": "Outstanding paper copies of all briefs and appendices must be submitted within five business days from the date of issuance of this notice. See Fed. Cir. R. 25(c)(3)(A). [1201913] [IMH]",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1083",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2026-10-22",
+          "kind": "口头辩论排期准备",
+          "text": "法院要求律师申报时间冲突，为口头辩论排期作准备；尚未确认开庭日期",
+          "number": "64",
+          "source": 29,
+          "original": "Notice to Advise of Scheduling Conflicts. Arguing counsel must advise of, and show good cause for, any scheduling conflicts during the upcoming court session months listed in the attached notice. The Response to Notice to Advise of Scheduling Conflicts can be found here. The Oral Argument Guide can be found here. [1201916] [IMH]",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-1083",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        }
+      ],
+      "appealNote": "材料截至2026年10月22日：已进入口头辩论排期准备，未核实开庭日期、实体裁决或再审结果。"
     },
     {
       "id": "90/016,588",
@@ -4429,7 +4987,37 @@
         "IPR2025-00147"
       ],
       "events": [],
-      "displayStatus": "上诉中，正在提交和审阅书面材料"
+      "displayStatus": "上诉中，正在提交和审阅书面材料",
+      "appealMilestones": [
+        {
+          "date": "2026-07-27",
+          "kind": "开始日期",
+          "text": "上诉法院登记立案",
+          "number": "1",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-2079",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2026-08-10",
+          "kind": "上诉事项说明",
+          "text": "Samsung提交案件说明，交代本次上诉的基本情况",
+          "number": "6",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-2079",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        },
+        {
+          "date": "2026-09-08",
+          "kind": "原审材料移交",
+          "text": "法院收到经认证的原审材料清单；上诉理由书实际提交情况待核实",
+          "number": "12",
+          "url": "https://dockets.justia.com/docket/circuit-courts/cafc/26-2079",
+          "sourceLabel": "公开案卷索引 ↗",
+          "dateBasis": "案卷登记日；文字中的截止日仅表示法院要求，不代表已完成。"
+        }
+      ],
+      "appealNote": "现有材料尚未核实口头辩论、上诉实体裁决、再审申请或结束上诉的正式通知；不表示这些程序一定没有发生。"
     },
     {
       "id": "337-TA-3731",

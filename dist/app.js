@@ -80,11 +80,18 @@ function caseEvents(c){
  const institution=w?.institutionDate&&/^\d{4}-\d{2}-\d{2}$/.test(w.institutionDate)&&!curated.some(e=>e.date===w.institutionDate)?[{date:w.institutionDate,text:plainEvent(c,w.institutionDate,'工作簿所列'),kind:'立案 / 是否受理',key:true,dateBasis:'工作簿 '+w.sheet+' 第'+w.row+'行'}]:[];
  return [...start,...curated,...institution,...verified.map(e=>({...e,key:true})),...(detail.cases[c.id]||[]).map(e=>({...e,dateBasis:'案卷登记日，可能不同于听证或裁判实际日期'}))].filter(e=>e.date&&e.date<=data.asOf).map(e=>({...e,c})).sort((a,b)=>b.date.localeCompare(a.date)||Number(b.number||0)-Number(a.number||0));
 }
+function appealEvents(c){
+ const own=(c.appealMilestones||[]).map(e=>({...e,c,key:true}));
+ const lead=c.appealLead&&data.cases.find(x=>x.id===c.appealLead.id);
+ const shared=lead?(lead.appealMilestones||[]).filter(e=>e.date>c.appealLead.since&&!own.some(o=>o.date===e.date&&o.kind===e.kind)).map(e=>({...e,c,key:true,text:'【主案'+lead.id+'】'+e.text,dateBasis:'合并审理后的共同进展，来源案号：'+lead.id+'。'+e.dateBasis})):[];
+ return [...own,...shared].filter(e=>e.date<=data.asOf).sort((a,b)=>a.date.localeCompare(b.date));
+}
 function keyEvents(c){
+ if(c.type==='CAFC'&&c.appealMilestones)return appealEvents(c);
  return caseEvents(c).filter(e=>!(e.key&&e.kind==='撤诉 / 结束'&&(window.RINGWATCH_TIMELINE?.cases[c.id]||[]).some(d=>d.date===e.date&&/^ORDER DISMISSING CASE WITHOUT PREJUDICE/i.test(d.original||'')))).filter(e=>e.key||/^(?:Notice of )?(?:Final )?Initial Determination on Violation|^(?:Markman Hearing|Claim Construction Hearing|Evidentiary Hearing|Pre-Trial Conference)|^(?:Final Judgment|Judgment|Final Written Decision|Scheduling Order|Docket Control Order|Case Management Order|Order of Dismissal|Order Dismissing|Stipulation of Dismissal|Notice of Voluntary Dismissal)|^(?:Order.*(?:Scheduling|Case Management|Docket Control|Motion to Stay))|^(?:F\.?\s*R\.?\s*Notice of )?Institution of Investigation/i.test(e.original||'')).filter(e=>!(c.verifiedMilestones||[]).some(v=>!e.key&&v.kind===e.kind&&['337实体初裁','立案 / 是否受理'].includes(e.kind))).sort((a,b)=>a.date.localeCompare(b.date));
 }
-function eventSource(e){const file=window.RINGWATCH_TIMELINE?.sources[e.source]?.file;return '<details class="event-source"><summary>查看依据与日期说明</summary>'+(e.original?'<p>'+esc(e.original)+'</p>':'')+(file?'<p>'+esc(file)+(e.number?' · 案卷第'+esc(e.number)+'项':'')+'</p>':'')+'<p>'+esc(e.dateBasis||'案卷登记日期')+'</p>'+(e.url?'<a class="source-link" target="_blank" rel="noopener noreferrer" href="'+esc(e.url)+'">官方来源 ↗</a>':!file?(e.c.sources||[]).map(s=>'<a class="source-link" target="_blank" rel="noopener noreferrer" href="'+esc(s.url)+'">'+esc(s.label)+' ↗</a>').join(''):'')+'</details>';}
-function keyTimeline(c){const es=keyEvents(c);return '<section class="key-timeline"><h3>'+esc(c.id)+' · 关键程序</h3><p class="subtle">按发生顺序查看；案卷登记日与实际程序日期分别注明。仅展示重要节点，展开每条可查看原始依据。</p>'+es.map(e=>'<article class="event"><time>'+fmt(e.date)+'</time><h4>'+esc(e.text)+'</h4><p>'+esc(e.kind)+'</p>'+eventSource(e)+'</article>').join('')+(!es.length?'<p>尚未取得可核实的关键节点。</p>':'')+'</section>';}
+function eventSource(e){const file=window.RINGWATCH_TIMELINE?.sources[e.source]?.file;return '<details class="event-source"><summary>查看依据与日期说明</summary>'+(e.original?'<p>'+esc(e.original)+'</p>':'')+(file?'<p>'+esc(file)+(e.number?' · 案卷第'+esc(e.number)+'项':'')+'</p>':'')+'<p>'+esc(e.dateBasis||'案卷登记日期')+'</p>'+(e.url?'<a class="source-link" target="_blank" rel="noopener noreferrer" href="'+esc(e.url)+'">'+esc(e.sourceLabel||'官方来源 ↗')+'</a>':!file?(e.c.sources||[]).map(s=>'<a class="source-link" target="_blank" rel="noopener noreferrer" href="'+esc(s.url)+'">'+esc(s.label)+' ↗</a>').join(''):'')+'</details>';}
+function keyTimeline(c){const es=keyEvents(c);return (c.appealNote?'<p class="subtle">'+esc(c.appealNote)+'</p>':'')+'<section class="key-timeline"><h3>'+esc(c.id)+' · 关键程序</h3><p class="subtle">按发生顺序查看；案卷登记日与实际程序日期分别注明。仅展示重要节点，展开每条可查看原始依据。</p>'+es.map(e=>'<article class="event"><time>'+fmt(e.date)+'</time><h4>'+esc(e.text)+'</h4><p>'+esc(e.kind)+'</p>'+eventSource(e)+'</article>').join('')+(!es.length?'<p>尚未取得可核实的关键节点。</p>':'')+'</section>';}
 function fullCaseTimeline(c){return keyTimeline(c);}
 
 let timelineCase='',timelineKind='',timelineView='key',timelineLimit=12;
@@ -100,12 +107,12 @@ function renderTimeline(rows){
 
  const selected=timelineCase?rows.filter(c=>c.id===timelineCase):rows;
  const events=selected.flatMap(keyEvents),all=events;
- const required=['开始日期','立案 / 是否受理','证据交换 / Discovery','权利要求解释 / Markman','案件管理 / 排期','终局判决 / 最终决定',...(selected.some(c=>c.type==='ITC')?['337实体初裁','337程序性初裁及相关材料','337终裁 / 委员会复审']:[])];
+ const required=selected.every(c=>c.type==='CAFC')?[]:['开始日期','立案 / 是否受理','证据交换 / Discovery','权利要求解释 / Markman','案件管理 / 排期','终局判决 / 最终决定',...(selected.some(c=>c.type==='ITC')?['337实体初裁','337程序性初裁及相关材料','337终裁 / 委员会复审']:[])];
  const kinds=[...new Set([...required,...all.map(e=>e.kind)])];if(!kinds.includes(timelineKind))timelineKind='';
  // A stage selection always searches all records, including submissions outside the key overview.
  const pool=timelineKind?all:events;
  setTimelineOptions($('#timeline-kind'),[['','全部重要节点'],...kinds.map(k=>[k,k+'（'+all.filter(e=>e.kind===k).length+'）'])],timelineKind);
- $('#timeline-stages').textContent='仅展示起诉、重要排期、听证、暂停审理、裁判及结案等重要节点，按时间先后排列。';
+ $('#timeline-stages').textContent=selected.every(c=>c.type==='CAFC')?'按上诉登记、材料移交、双方书面意见、重要动议、口头辩论及结案分别展示。主案共同进展注明来源案号。'+(selected.length===1?' '+selected[0].appealNote:' 未核实的程序不填入时间轴。'):'仅展示起诉、重要排期、听证、暂停审理、裁判及结案等重要节点，按时间先后排列。';
  const chosen=pool.filter(e=>!timelineKind||e.kind===timelineKind).sort((a,b)=>a.date.localeCompare(b.date));
  const visible=timelineCase?chosen:chosen.slice(0,timelineLimit);
  $('#timeline-summary').textContent=(timelineCase||'全部匹配案件')+' · '+(timelineKind|| (timelineView==='key'?'关键程序':'全部记录'))+' · '+chosen.length+'条'+(visible.length<chosen.length?' · 已显示'+visible.length+'条':'');
